@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698919120220,
+  "lastUpdate": 1698920008594,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34,6 +34,40 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002992425361321056",
             "extra": "mean: 428.90888140002517 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cocotb",
+            "username": "cocotb"
+          },
+          "committer": {
+            "name": "cocotb",
+            "username": "cocotb"
+          },
+          "id": "5c2acf96ebc44b4b71975938528e634d7e038d87",
+          "message": "CI: Use elevated permissions to push benchmark results",
+          "timestamp": "2023-11-02T02:23:26Z",
+          "url": "https://github.com/cocotb/cocotb/pull/3476/commits/5c2acf96ebc44b4b71975938528e634d7e038d87"
+        },
+        "date": 1698920008134,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07946932032709786,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07951111060773151",
+            "extra": "mean: 12.583472412799972 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 1.5359861469679563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004729592444382627",
+            "extra": "mean: 651.0475384000074 msec\nrounds: 5"
           }
         ]
       }
