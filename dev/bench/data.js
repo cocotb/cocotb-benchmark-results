@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698920008594,
+  "lastUpdate": 1699016045199,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -68,6 +68,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004729592444382627",
             "extra": "mean: 651.0475384000074 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "63ac9586640965780707863a272c42b2c724147d",
+          "message": "CI: Use a stable GHDL version for performance benchmarks\n\nUse the latest stable version of GHDL for our performance benchmarks to\nget predictable outputs.",
+          "timestamp": "2023-11-03T13:50:11+01:00",
+          "tree_id": "11cd2e73122aca648bdf5cd7da7b81921079d74e",
+          "url": "https://github.com/cocotb/cocotb/commit/63ac9586640965780707863a272c42b2c724147d"
+        },
+        "date": 1699016044695,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14084740500993126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011266289058841018",
+            "extra": "mean: 7.0998823154000545 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 2.4085062660906917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000792584676152146",
+            "extra": "mean: 415.19509999993716 msec\nrounds: 5"
           }
         ]
       }
