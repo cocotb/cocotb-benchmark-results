@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699016045199,
+  "lastUpdate": 1699039142483,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -106,6 +106,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000792584676152146",
             "extra": "mean: 415.19509999993716 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "f13b124e86006c40b7f66ac29d9fc64ddbf57667",
+          "message": "Fallback to type().__name__ when wrapped coroutine object has no __name__ attribute (such as a class derived from collections.abc.Coroutine)",
+          "timestamp": "2023-11-03T12:16:03-07:00",
+          "tree_id": "450222855cb048b28519b9eefe62a11cb6b02587",
+          "url": "https://github.com/cocotb/cocotb/commit/f13b124e86006c40b7f66ac29d9fc64ddbf57667"
+        },
+        "date": 1699039142248,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18162893047628711,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023689923595402222",
+            "extra": "mean: 5.505730818200004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.0919631754481998,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013498203309612563",
+            "extra": "mean: 323.4191170000088 msec\nrounds: 5"
           }
         ]
       }
