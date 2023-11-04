@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699039142483,
+  "lastUpdate": 1699112335651,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -144,6 +144,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0013498203309612563",
             "extra": "mean: 323.4191170000088 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0034d685d8378b59ff1e1f3d504b50b8da268efd",
+          "message": "Make Trigger.prime and Trigger.unprime private methods",
+          "timestamp": "2023-11-04T10:35:02-05:00",
+          "tree_id": "d8329cb5931c582b8b4ffce9eba89fc22276fbc0",
+          "url": "https://github.com/cocotb/cocotb/commit/0034d685d8378b59ff1e1f3d504b50b8da268efd"
+        },
+        "date": 1699112335443,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1356556926677954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04750975131391103",
+            "extra": "mean: 7.371603655799987 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 2.3717809806080163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0021173060131959675",
+            "extra": "mean: 421.6240910000238 msec\nrounds: 5"
           }
         ]
       }
