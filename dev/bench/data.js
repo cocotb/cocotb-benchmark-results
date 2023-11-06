@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699180524180,
+  "lastUpdate": 1699239425915,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -220,6 +220,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003946838160965137",
             "extra": "mean: 428.9326399999936 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "38434295fc9aeacbeb976a831514e5170ad32c18",
+          "message": "Fix typing on cocotb.test",
+          "timestamp": "2023-11-05T20:46:39-06:00",
+          "tree_id": "d6f44309033d927f452aaa06e9cf501db26b7c6d",
+          "url": "https://github.com/cocotb/cocotb/commit/38434295fc9aeacbeb976a831514e5170ad32c18"
+        },
+        "date": 1699239425379,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.11451758776460515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08524866935281233",
+            "extra": "mean: 8.732283132400017 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 1.8351594387070616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021404071163333312",
+            "extra": "mean: 544.9117820000083 msec\nrounds: 5"
           }
         ]
       }
