@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699280670709,
+  "lastUpdate": 1699293478026,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -372,6 +372,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0018121469408723667",
             "extra": "mean: 320.5532170000083 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d47ee4fd76ed004086144138615fe3485e5960e",
+          "message": "Rename documentation/ to the more common docs/ (#3486)",
+          "timestamp": "2023-11-06T18:54:43+01:00",
+          "tree_id": "d114eeb99bba865a086225a39c3f74594bcf4aa8",
+          "url": "https://github.com/cocotb/cocotb/commit/1d47ee4fd76ed004086144138615fe3485e5960e"
+        },
+        "date": 1699293473483,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1765411052889215,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09136616855893866",
+            "extra": "mean: 5.664403190199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 2.956770958926801,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023354992256600753",
+            "extra": "mean: 338.20678499999985 msec\nrounds: 5"
           }
         ]
       }
