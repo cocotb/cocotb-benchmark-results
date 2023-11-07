@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699293478026,
+  "lastUpdate": 1699349416687,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -410,6 +410,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0023354992256600753",
             "extra": "mean: 338.20678499999985 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e46334519276a87f1b61704f985a97632830e5b1",
+          "message": "Use a consistent seed in tests/benchmark.py (#3489)",
+          "timestamp": "2023-11-07T10:27:17+01:00",
+          "tree_id": "5802a9b719d436dac723ca2e56f1c19f085d72be",
+          "url": "https://github.com/cocotb/cocotb/commit/e46334519276a87f1b61704f985a97632830e5b1"
+        },
+        "date": 1699349416425,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17924472922232343,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05101358419336057",
+            "extra": "mean: 5.578964605199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.06901189327067,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0026887425716175294",
+            "extra": "mean: 325.8377727999914 msec\nrounds: 5"
           }
         ]
       }
