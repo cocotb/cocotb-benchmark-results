@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699390462545,
+  "lastUpdate": 1699391760877,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -562,6 +562,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0028173037803238808",
             "extra": "mean: 329.0157505999787 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "8015f1d5dda6b2f11d189e986805e9de2825a950",
+          "message": "CI: Use the latest icarus release\n\nv12 of Icarus Verilog went out in June. Update to this version, which is\nalso newer than the git commit we used in some places.",
+          "timestamp": "2023-11-07T22:12:57+01:00",
+          "tree_id": "bdae4f02840e3819ba87db0c00b010980dfcf897",
+          "url": "https://github.com/cocotb/cocotb/commit/8015f1d5dda6b2f11d189e986805e9de2825a950"
+        },
+        "date": 1699391760420,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18824869411503428,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06454867784974207",
+            "extra": "mean: 5.312121843400007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.0655963210684947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005626108326412268",
+            "extra": "mean: 326.20080900001085 msec\nrounds: 5"
           }
         ]
       }
