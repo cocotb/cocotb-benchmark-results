@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699382054453,
+  "lastUpdate": 1699390462545,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -524,6 +524,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009562837242777901",
             "extra": "mean: 336.53476799999 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "a26bb7b3d2ede1ddca9521808e97cc5d52b44191",
+          "message": "nox: Remove editable install of cocotb from create_env_for_docs_build()\n\nInstead, for each session, install normally from source unless\nan editable install is required.",
+          "timestamp": "2023-11-07T12:51:19-08:00",
+          "tree_id": "b34a6b9b259cc4e59a0e084cca9048bd261aa31a",
+          "url": "https://github.com/cocotb/cocotb/commit/a26bb7b3d2ede1ddca9521808e97cc5d52b44191"
+        },
+        "date": 1699390462269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17884012663226603,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04723057553615248",
+            "extra": "mean: 5.591586288999986 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.039368170601085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0028173037803238808",
+            "extra": "mean: 329.0157505999787 msec\nrounds: 5"
           }
         ]
       }
