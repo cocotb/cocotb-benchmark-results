@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699349416687,
+  "lastUpdate": 1699379577085,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -448,6 +448,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0026887425716175294",
             "extra": "mean: 325.8377727999914 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "2294011c94bb19b48aabc74f229eee977c5e554e",
+          "message": "Update scheduler to use f-strings",
+          "timestamp": "2023-11-07T09:49:57-08:00",
+          "tree_id": "a6eb305c800dd5bae189b0b50e1320fe04d2cb62",
+          "url": "https://github.com/cocotb/cocotb/commit/2294011c94bb19b48aabc74f229eee977c5e554e"
+        },
+        "date": 1699379576832,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18364294825056834,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04804460724635621",
+            "extra": "mean: 5.445349301600015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.143706549193259,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013548058080076297",
+            "extra": "mean: 318.0958477999866 msec\nrounds: 5"
           }
         ]
       }
