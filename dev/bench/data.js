@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699391760877,
+  "lastUpdate": 1699399033909,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -600,6 +600,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005626108326412268",
             "extra": "mean: 326.20080900001085 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ea2ba58325231218614a0c4ed95af5bd5cf96b45",
+          "message": "Remove task.__iter__ as we don't support yield statements in coroutines anymore",
+          "timestamp": "2023-11-07T17:14:12-06:00",
+          "tree_id": "6eb23870f9107d7bc27037b556d4ac5c81e1db37",
+          "url": "https://github.com/cocotb/cocotb/commit/ea2ba58325231218614a0c4ed95af5bd5cf96b45"
+        },
+        "date": 1699399033677,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18053186894039377,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05510189683964468",
+            "extra": "mean: 5.539188210199995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.1198224888391515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00243840972749789",
+            "extra": "mean: 320.53105700000515 msec\nrounds: 5"
           }
         ]
       }
