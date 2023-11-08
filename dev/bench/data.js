@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699399033909,
+  "lastUpdate": 1699429364678,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -638,6 +638,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00243840972749789",
             "extra": "mean: 320.53105700000515 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "667be403f11043eacc032df4f3cc3ad89a82c2fe",
+          "message": "Riviera-PRO: Always exit the compilation step\n\nRiviera (\"vsimsa\") automatically switches to \"batch\" mode when output is\nredirected, and stays in interactive mode otherwise. In our Makefiles,\nwe always redirect the output and hence produce predictable behavior. In\nour runner, we don't redirect output. Depending on how tests get run,\nthe output then gets redirected, or not: in CI, output always gets\nredirected, hence the alog/acom commands terminate. In manual testing in\nan interactive terminal, that's not the case and the tests are stuck.\n\nProvide predictable behavior by always exiting at the end.",
+          "timestamp": "2023-11-08T08:39:37+01:00",
+          "tree_id": "65ade3a9576c51bbaad82d059d20b4041bc30459",
+          "url": "https://github.com/cocotb/cocotb/commit/667be403f11043eacc032df4f3cc3ad89a82c2fe"
+        },
+        "date": 1699429364493,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17973322674884593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03820738592728261",
+            "extra": "mean: 5.563801518999997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 2.9718569409337676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0051381611850452175",
+            "extra": "mean: 336.48995219998596 msec\nrounds: 5"
           }
         ]
       }
