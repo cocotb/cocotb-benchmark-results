@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699429364678,
+  "lastUpdate": 1699459605565,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -676,6 +676,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0051381611850452175",
             "extra": "mean: 336.48995219998596 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "52171eed34f6508bab0ad422b2f676ddcd0716f0",
+          "message": "Scheduler: remove context manager tracking _current_task\n\nWith fork() removed, the scheduler is no longer re-entrant,\nand no task should be scheduled while another is already running.\n\nThere is an added benefit of performance increase.\nIn testing, runtime reduction ranged from ~2% for matrix_multiplier,\nto ~15% on some workloads involving a very high number of task switches.",
+          "timestamp": "2023-11-08T08:01:00-08:00",
+          "tree_id": "ceb2b3dd6cc225807f0c9248c6564fb74d103ca1",
+          "url": "https://github.com/cocotb/cocotb/commit/52171eed34f6508bab0ad422b2f676ddcd0716f0"
+        },
+        "date": 1699459605010,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09535068890584378,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2564275597418212",
+            "extra": "mean: 10.487601206400019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 1.5982872247761515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01953752987999734",
+            "extra": "mean: 625.6697698000153 msec\nrounds: 5"
           }
         ]
       }
