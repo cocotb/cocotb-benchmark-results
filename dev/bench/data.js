@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699459605565,
+  "lastUpdate": 1699556284657,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -714,6 +714,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01953752987999734",
             "extra": "mean: 625.6697698000153 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "801a07c1b6c200f0f8612ef66fe18d05031cd3e6",
+          "message": "Replace flake8, black and isort with ruff and ruff-format (#3499)\n\nReplace flake8, black and isort with ruff and ruff-format\r\n\r\nRun ruff-format on the cocotb code",
+          "timestamp": "2023-11-09T19:55:06+01:00",
+          "tree_id": "ec1e0509a2702400b8ac13c2ca58b32a0840b509",
+          "url": "https://github.com/cocotb/cocotb/commit/801a07c1b6c200f0f8612ef66fe18d05031cd3e6"
+        },
+        "date": 1699556284401,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18933746745745877,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046624162435926694",
+            "extra": "mean: 5.28157481679998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.066290820116428,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015428215366051776",
+            "extra": "mean: 326.12692620004964 msec\nrounds: 5"
           }
         ]
       }
