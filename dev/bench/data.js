@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699643917626,
+  "lastUpdate": 1700001390109,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -790,6 +790,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0020622558159149955",
             "extra": "mean: 323.2274817999951 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32b8581c8434fbadf2ea6ce35cd97e44b9fc9a45",
+          "message": "Fix watching code changes for doc live preview (#3511)\n\nRequired since we now use the src/ layout.",
+          "timestamp": "2023-11-14T23:33:30+01:00",
+          "tree_id": "95c64f83408cd5204f20672bb05a708c38dcf520",
+          "url": "https://github.com/cocotb/cocotb/commit/32b8581c8434fbadf2ea6ce35cd97e44b9fc9a45"
+        },
+        "date": 1700001389858,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18836020316626784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030901393112237704",
+            "extra": "mean: 5.308977072600032 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.070172176403713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002964539008072236",
+            "extra": "mean: 325.71463180001956 msec\nrounds: 5"
           }
         ]
       }
