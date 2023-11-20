@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700451672751,
+  "lastUpdate": 1700497775395,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -866,6 +866,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008995568198798116",
             "extra": "mean: 320.1783177999914 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nick@nickg.me.uk",
+            "name": "Nick Gasson",
+            "username": "nickg"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "15458a612ffc746debff838add761bc5675ae49f",
+          "message": "Add NVC support to runner.py",
+          "timestamp": "2023-11-20T10:26:28-06:00",
+          "tree_id": "bc5eb03c3154e7446f64d34cc0b6440e7e39fbcd",
+          "url": "https://github.com/cocotb/cocotb/commit/15458a612ffc746debff838add761bc5675ae49f"
+        },
+        "date": 1700497774882,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18595316303627496,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039698402826970965",
+            "extra": "mean: 5.377698253 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 2.949684491953821,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001927758762722808",
+            "extra": "mean: 339.0193095999962 msec\nrounds: 5"
           }
         ]
       }
