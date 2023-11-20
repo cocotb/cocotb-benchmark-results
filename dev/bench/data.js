@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700497775395,
+  "lastUpdate": 1700498329466,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -904,6 +904,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.001927758762722808",
             "extra": "mean: 339.0193095999962 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3519c83d86ff9c12bffb16db16a6c1c55c8b791b",
+          "message": "Fix RuntimeWarning of unwatched task in test_scheduler",
+          "timestamp": "2023-11-20T10:35:54-06:00",
+          "tree_id": "a7ebd10732cf54bfac899b7e4311c92b12b2ed6a",
+          "url": "https://github.com/cocotb/cocotb/commit/3519c83d86ff9c12bffb16db16a6c1c55c8b791b"
+        },
+        "date": 1700498329183,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1907890201679155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032297030187647666",
+            "extra": "mean: 5.241391769399985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.138852207965563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009928133005987516",
+            "extra": "mean: 318.5877937999976 msec\nrounds: 5"
           }
         ]
       }
