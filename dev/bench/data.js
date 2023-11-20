@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700001390109,
+  "lastUpdate": 1700451672751,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -828,6 +828,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002964539008072236",
             "extra": "mean: 325.71463180001956 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nick@nickg.me.uk",
+            "name": "Nick Gasson",
+            "username": "nickg"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3308a868ab2a4e73ce1dc4da72317c30e890e154",
+          "message": "Fix passing generics from NVC makefile\n\nThis was reported in nickg/nvc#797. The -g option should be passed when\nelaborating rather than when running the simulation.\n\nTo avoid adding another argument variable I just split SIM_ARGS into\nthose that need to be passed to -e and those that need to be passed to\n-r.",
+          "timestamp": "2023-11-19T21:38:04-06:00",
+          "tree_id": "1da8453c9b8e298d89de715e7e2da1708e54f8c7",
+          "url": "https://github.com/cocotb/cocotb/commit/3308a868ab2a4e73ce1dc4da72317c30e890e154"
+        },
+        "date": 1700451672241,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18997186662553658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04927823307675141",
+            "extra": "mean: 5.263937328000003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.123259585068714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008995568198798116",
+            "extra": "mean: 320.1783177999914 msec\nrounds: 5"
           }
         ]
       }
