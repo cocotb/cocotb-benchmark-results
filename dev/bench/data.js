@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700498329466,
+  "lastUpdate": 1700498628689,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -942,6 +942,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0009928133005987516",
             "extra": "mean: 318.5877937999976 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b26f135b4b484f7d792e6799358be89e0b8c4141",
+          "message": "Refactor coverage stop and save for cocotb internals",
+          "timestamp": "2023-11-20T10:39:28-06:00",
+          "tree_id": "8e8b11989f204420794b7af6b8ff2a8a0497b75d",
+          "url": "https://github.com/cocotb/cocotb/commit/b26f135b4b484f7d792e6799358be89e0b8c4141"
+        },
+        "date": 1700498628225,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.20197497898186562,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01593409391443916",
+            "extra": "mean: 4.951108325600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.4137969950591374,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003504971794216354",
+            "extra": "mean: 292.9289589999996 msec\nrounds: 5"
           }
         ]
       }
