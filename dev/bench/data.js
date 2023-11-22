@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700692369749,
+  "lastUpdate": 1700695202920,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1018,6 +1018,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0019380714545982976",
             "extra": "mean: 332.00067059999583 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1b9ba0146dde44131cf8c59845fb23b010f5eb4",
+          "message": "Fix docs (#3521)",
+          "timestamp": "2023-11-22T17:16:42-06:00",
+          "tree_id": "054e11f44fb52ac38c4e500049448e3022f4215e",
+          "url": "https://github.com/cocotb/cocotb/commit/d1b9ba0146dde44131cf8c59845fb23b010f5eb4"
+        },
+        "date": 1700695202499,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18869494602695308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07263411266717139",
+            "extra": "mean: 5.299559002800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.094920916247303,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00228843286533503",
+            "extra": "mean: 323.1100331999869 msec\nrounds: 5"
           }
         ]
       }
