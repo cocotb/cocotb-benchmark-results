@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700498628689,
+  "lastUpdate": 1700692369749,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -980,6 +980,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003504971794216354",
             "extra": "mean: 292.9289589999996 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "642d31237694e6112058ba053e25ae25b295e12a",
+          "message": "add cocotb.parameterize() similar to nox.parameterize() (#3513)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>\r\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>\r\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>",
+          "timestamp": "2023-11-22T16:29:43-06:00",
+          "tree_id": "7fdea9614f05d9dd45b57281e10c049f7030a5d8",
+          "url": "https://github.com/cocotb/cocotb/commit/642d31237694e6112058ba053e25ae25b295e12a"
+        },
+        "date": 1700692369260,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18477373859979487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051200564649915334",
+            "extra": "mean: 5.412024498599988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_ghdl",
+            "value": 3.012042108808959,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019380714545982976",
+            "extra": "mean: 332.00067059999583 msec\nrounds: 5"
           }
         ]
       }
