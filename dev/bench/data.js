@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700845837183,
+  "lastUpdate": 1700846344549,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1094,6 +1094,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012337952095967133",
             "extra": "mean: 3.6810263914000076 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "18723d6660e04626094f4c4b6886591f69043ecf",
+          "message": "Move pytest and coverage config to pyproject.toml (#3530)",
+          "timestamp": "2023-11-24T11:16:11-06:00",
+          "tree_id": "b6173d963c9f185d60f448873f2890716891819b",
+          "url": "https://github.com/cocotb/cocotb/commit/18723d6660e04626094f4c4b6886591f69043ecf"
+        },
+        "date": 1700846344334,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1867787413946072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05336822243636688",
+            "extra": "mean: 5.353928356799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25020140855600753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03281335552503604",
+            "extra": "mean: 3.9967800571999987 sec\nrounds: 5"
           }
         ]
       }
