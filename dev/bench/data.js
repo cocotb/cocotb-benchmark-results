@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700695202920,
+  "lastUpdate": 1700845837183,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1056,6 +1056,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00228843286533503",
             "extra": "mean: 323.1100331999869 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43395876733905367a28a2aa7e0db1fab2f136ad",
+          "message": "Use NVC in benchmark instead of GHDL (#3528)\n\nGHDL can't run the matrix_multiplier, so there never was any sense in\r\nusing it in the benchmark.",
+          "timestamp": "2023-11-24T11:07:05-06:00",
+          "tree_id": "25dada088a683e7b90d1bdb3b04caaf14bae29d9",
+          "url": "https://github.com/cocotb/cocotb/commit/43395876733905367a28a2aa7e0db1fab2f136ad"
+        },
+        "date": 1700845836672,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19688917948161902,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015398579376937461",
+            "extra": "mean: 5.078999275800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2716633606149369,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012337952095967133",
+            "extra": "mean: 3.6810263914000076 sec\nrounds: 5"
           }
         ]
       }
