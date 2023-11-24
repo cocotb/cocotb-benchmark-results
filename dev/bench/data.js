@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700846344549,
+  "lastUpdate": 1700846563842,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1132,6 +1132,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03281335552503604",
             "extra": "mean: 3.9967800571999987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c35b608bb94d0589fc7267303f89a5d8aa65cad3",
+          "message": "Improvements to test_discovery (#3527)\n\nMove everything into one file and make iteration test useful.",
+          "timestamp": "2023-11-24T11:17:18-06:00",
+          "tree_id": "6becc9c807ff4c0411d59433a773d9af0fd46fb8",
+          "url": "https://github.com/cocotb/cocotb/commit/c35b608bb94d0589fc7267303f89a5d8aa65cad3"
+        },
+        "date": 1700846563382,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18642842367317913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.055466481195223113",
+            "extra": "mean: 5.363988925600012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25904168218725737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01983393120197066",
+            "extra": "mean: 3.8603825899999946 sec\nrounds: 5"
           }
         ]
       }
