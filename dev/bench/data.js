@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700846563842,
+  "lastUpdate": 1701113418711,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1170,6 +1170,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01983393120197066",
             "extra": "mean: 3.8603825899999946 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wim.appermans@gmail.com",
+            "name": "wimiko",
+            "username": "wimiko"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a983f99ea883310216711d58a9a426157f4381cc",
+          "message": "Close -makelib with -endlib (#3537)",
+          "timestamp": "2023-11-27T13:27:22-06:00",
+          "tree_id": "a3f492bb54fdae1f5f6d529cf356965b280bc9f1",
+          "url": "https://github.com/cocotb/cocotb/commit/a983f99ea883310216711d58a9a426157f4381cc"
+        },
+        "date": 1701113418156,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1893571244885518,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022428609260526408",
+            "extra": "mean: 5.281026540200014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2512741580607863,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04702688887095782",
+            "extra": "mean: 3.979716846800011 sec\nrounds: 5"
           }
         ]
       }
