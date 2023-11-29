@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701268097135,
+  "lastUpdate": 1701268775988,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1246,6 +1246,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05257113771219861",
             "extra": "mean: 4.058654368800006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "david.stanford@gmail.com",
+            "name": "DLS",
+            "username": "forensicgarlic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b320625d14c17b67e46dcc943f5d154ee6c1ecec",
+          "message": "Add  to GHDL makefile to simulate different VHDL architectures from the top level (#3541)\n\n\r\nCo-authored-by: David Stanford <david.stanford@twosigma.com>",
+          "timestamp": "2023-11-29T08:36:43-06:00",
+          "tree_id": "7d60e4613c73b6569209d27273833d5556c36b29",
+          "url": "https://github.com/cocotb/cocotb/commit/b320625d14c17b67e46dcc943f5d154ee6c1ecec"
+        },
+        "date": 1701268775673,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18719870720944204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036294753428403194",
+            "extra": "mean: 5.3419172328 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2493842194130734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01347210366333588",
+            "extra": "mean: 4.009876817199995 sec\nrounds: 5"
           }
         ]
       }
