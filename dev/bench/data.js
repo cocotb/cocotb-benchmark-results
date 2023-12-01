@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701356848029,
+  "lastUpdate": 1701450744070,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1398,6 +1398,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07301339339235732",
             "extra": "mean: 4.061748831199997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f201c2a71abd3cf3e81c100cd637fe623745d33b",
+          "message": "Replace lazy_property with cached_property (#3547)\n\nWe don't use lazy_property's implementation before Python 3.8 because\r\nsphinx doesn't detect them as valid properties and generate\r\ndocumentation for them.",
+          "timestamp": "2023-12-01T11:09:24-06:00",
+          "tree_id": "130a8291e8807760538bf8208afafb34b2c794ea",
+          "url": "https://github.com/cocotb/cocotb/commit/f201c2a71abd3cf3e81c100cd637fe623745d33b"
+        },
+        "date": 1701450743554,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18557833775311808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02263379975576003",
+            "extra": "mean: 5.388559958600007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2507051663185177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03476174698841971",
+            "extra": "mean: 3.988749073999986 sec\nrounds: 5"
           }
         ]
       }
