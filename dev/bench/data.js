@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701702280443,
+  "lastUpdate": 1701718301122,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1550,6 +1550,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.058015612334281895",
             "extra": "mean: 4.029097811799988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nick@nickg.me.uk",
+            "name": "Nick Gasson",
+            "username": "nickg"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "99955631f3c9990f070b032df20f4c52e98f655d",
+          "message": "Update NVC expected results for test_discovery",
+          "timestamp": "2023-12-04T11:28:47-08:00",
+          "tree_id": "91ae3e4b16ecb8a519e46d3a946077ad6f0310d6",
+          "url": "https://github.com/cocotb/cocotb/commit/99955631f3c9990f070b032df20f4c52e98f655d"
+        },
+        "date": 1701718300557,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19236989498745605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01740497145382164",
+            "extra": "mean: 5.198318583400004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25643694285605523,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03324222747691729",
+            "extra": "mean: 3.8995941414000015 sec\nrounds: 5"
           }
         ]
       }
