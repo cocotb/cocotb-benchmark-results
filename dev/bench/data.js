@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701718301122,
+  "lastUpdate": 1701880356798,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1588,6 +1588,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03324222747691729",
             "extra": "mean: 3.8995941414000015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d379318ea2a8fcce140c07c80739e6af5b6bb66c",
+          "message": "Verilog package access (#3536)\n\nAdd `cocotb.packages` to provide access to SystemVerilog packages in the design.",
+          "timestamp": "2023-12-06T08:29:41-08:00",
+          "tree_id": "a616dfab6082b2c87dda00dca48888fcae50fc95",
+          "url": "https://github.com/cocotb/cocotb/commit/d379318ea2a8fcce140c07c80739e6af5b6bb66c"
+        },
+        "date": 1701880356434,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19075376879133898,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05035330133039925",
+            "extra": "mean: 5.242360380800005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25106017504935263,
+            "unit": "iter/sec",
+            "range": "stddev: 0.047544317045649764",
+            "extra": "mean: 3.9831088296000075 sec\nrounds: 5"
           }
         ]
       }
