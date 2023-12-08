@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702008015349,
+  "lastUpdate": 1702008194969,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1664,6 +1664,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03312413419324278",
             "extra": "mean: 3.975919439200004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "428be3647f854f9b7e9082cccd4194ec5e3396e5",
+          "message": "Fix test_parallel_cocotb for NVC (#3559)",
+          "timestamp": "2023-12-07T21:58:02-06:00",
+          "tree_id": "5f55063c7c1471338ef2f3f582c25665e1fe6952",
+          "url": "https://github.com/cocotb/cocotb/commit/428be3647f854f9b7e9082cccd4194ec5e3396e5"
+        },
+        "date": 1702008194451,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1531414799278416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07126475389153461",
+            "extra": "mean: 6.529909469800003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21029854379203536,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023204954035458244",
+            "extra": "mean: 4.75514467180002 sec\nrounds: 5"
           }
         ]
       }
