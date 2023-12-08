@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701880356798,
+  "lastUpdate": 1702008015349,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1626,6 +1626,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.047544317045649764",
             "extra": "mean: 3.9831088296000075 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f0525b957d5e01fc9eb8d58a5ca3f71ac3251e2",
+          "message": "Fix defaultless parameters for Xcelium (#3558)",
+          "timestamp": "2023-12-07T21:57:23-06:00",
+          "tree_id": "8d9992d0a7e7d9adbf71b3ffc422538e6da60951",
+          "url": "https://github.com/cocotb/cocotb/commit/0f0525b957d5e01fc9eb8d58a5ca3f71ac3251e2"
+        },
+        "date": 1702008015029,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18840514275291334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03665588006842833",
+            "extra": "mean: 5.307710741799997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2515141504479805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03312413419324278",
+            "extra": "mean: 3.975919439200004 sec\nrounds: 5"
           }
         ]
       }
