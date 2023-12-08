@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702046143051,
+  "lastUpdate": 1702053841166,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1816,6 +1816,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.047596760347099115",
             "extra": "mean: 3.947840544199971 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae389417ac089fa4f54eb3d9a7e8efe1bd48d0d7",
+          "message": "Support customizing simulator output redirection (#3561)",
+          "timestamp": "2023-12-08T10:41:02-06:00",
+          "tree_id": "d02a1ce5cdd10fdb7b67c684cf1673ba1460b404",
+          "url": "https://github.com/cocotb/cocotb/commit/ae389417ac089fa4f54eb3d9a7e8efe1bd48d0d7"
+        },
+        "date": 1702053840951,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19043005877631594,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013453012444860179",
+            "extra": "mean: 5.251271812999994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25571713796658413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04226496250582977",
+            "extra": "mean: 3.910570906400005 sec\nrounds: 5"
           }
         ]
       }
