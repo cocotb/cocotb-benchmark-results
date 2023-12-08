@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702053841166,
+  "lastUpdate": 1702074265740,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1854,6 +1854,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04226496250582977",
             "extra": "mean: 3.910570906400005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aacf08bedff1dc59c2a5cc501b1744c7f9cb4587",
+          "message": "Prevent Edge triggers from being applied to invalid handle types (#3563)",
+          "timestamp": "2023-12-08T16:21:29-06:00",
+          "tree_id": "820253bcac76dd54aecd45acf509be0b89b8a24a",
+          "url": "https://github.com/cocotb/cocotb/commit/aacf08bedff1dc59c2a5cc501b1744c7f9cb4587"
+        },
+        "date": 1702074265458,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1907175305495742,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044865852301388516",
+            "extra": "mean: 5.243356481800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.252686052957723,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03292874183040091",
+            "extra": "mean: 3.9574799966000116 sec\nrounds: 5"
           }
         ]
       }
