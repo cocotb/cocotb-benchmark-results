@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702040848967,
+  "lastUpdate": 1702046143051,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1778,6 +1778,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03104530627449667",
             "extra": "mean: 3.9429669680000075 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "57e8d0df1af9e08a95c5c9e0c1cb8ad786931cd2",
+          "message": "NVC: Fix remaining CI issues with Python runner",
+          "timestamp": "2023-12-08T08:32:31-06:00",
+          "tree_id": "215c45763fab48334614552b82d87f19bf05019c",
+          "url": "https://github.com/cocotb/cocotb/commit/57e8d0df1af9e08a95c5c9e0c1cb8ad786931cd2"
+        },
+        "date": 1702046142856,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18894443451510465,
+            "unit": "iter/sec",
+            "range": "stddev: 0.053259413752533395",
+            "extra": "mean: 5.292561289599973 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25330303714246133,
+            "unit": "iter/sec",
+            "range": "stddev: 0.047596760347099115",
+            "extra": "mean: 3.947840544199971 sec\nrounds: 5"
           }
         ]
       }
