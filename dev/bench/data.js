@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702008194969,
+  "lastUpdate": 1702016548818,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1702,6 +1702,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023204954035458244",
             "extra": "mean: 4.75514467180002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40a27c267ba42b49acd033b57aa44c3c5693e131",
+          "message": "Fix broken newsfrags (#3564)",
+          "timestamp": "2023-12-07T22:19:20-08:00",
+          "tree_id": "b0a1bb11ce9fb7e89b49f83780076f108aec8084",
+          "url": "https://github.com/cocotb/cocotb/commit/40a27c267ba42b49acd033b57aa44c3c5693e131"
+        },
+        "date": 1702016548317,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1880096365891441,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04217601752198557",
+            "extra": "mean: 5.318876298800001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25083183583704827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0381937100509257",
+            "extra": "mean: 3.9867347645999986 sec\nrounds: 5"
           }
         ]
       }
