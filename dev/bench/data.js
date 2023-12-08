@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702016548818,
+  "lastUpdate": 1702040848967,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -1740,6 +1740,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0381937100509257",
             "extra": "mean: 3.9867347645999986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c3aa512058ce50ddca2da0b165477527c3bef65",
+          "message": "Remove Bit class (#3549)\n\nPreviously Bit was supposed to be a part of a grander plan to\r\nincorporate more HDL types, but that plan was abandoned and Bit is now\r\nuseless.\r\n\r\nAdditionally, Logic was expanded to cover the whole 9-value VHDL\r\nstd_logic type because SV's 4-value type is a strict subset and why not\r\nhave more features than less?",
+          "timestamp": "2023-12-08T07:03:25-06:00",
+          "tree_id": "422b17cbe686807ebae7735ddae9b20b38daa63b",
+          "url": "https://github.com/cocotb/cocotb/commit/6c3aa512058ce50ddca2da0b165477527c3bef65"
+        },
+        "date": 1702040848396,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19082207745975088,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021653317871871046",
+            "extra": "mean: 5.2404837705999965 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25361612413081674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03104530627449667",
+            "extra": "mean: 3.9429669680000075 sec\nrounds: 5"
           }
         ]
       }
