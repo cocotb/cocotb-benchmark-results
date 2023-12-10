@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702135221581,
+  "lastUpdate": 1702233364881,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2006,6 +2006,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03720333556219658",
             "extra": "mean: 3.9586689316000045 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "todd.strader@gmail.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8728fa72440d2ed8ca542d15ffd21f6362b54b14",
+          "message": "Add git rev to local version identifier\n\nCo-authored-by: Marlon James <marlon.james@gmail.com>",
+          "timestamp": "2023-12-10T18:33:15Z",
+          "tree_id": "b9ce58e5368f411e0a0341debdf60d4e981b26de",
+          "url": "https://github.com/cocotb/cocotb/commit/8728fa72440d2ed8ca542d15ffd21f6362b54b14"
+        },
+        "date": 1702233364662,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18858140964620584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02787403502564077",
+            "extra": "mean: 5.302749628800006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25125021560817457,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031108029138662112",
+            "extra": "mean: 3.9800960869999926 sec\nrounds: 5"
           }
         ]
       }
