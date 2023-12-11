@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702257880270,
+  "lastUpdate": 1702306414009,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2082,6 +2082,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03856324739382903",
             "extra": "mean: 3.9705973497999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "6a32f7613b94e73224bec80129c1dc4e9662fc84",
+          "message": "Docs: Clean up references to removed cocotb.types.Bit and add newsfragment",
+          "timestamp": "2023-12-11T06:50:33-08:00",
+          "tree_id": "43ca3840bb1532ea885a4b45bc714eeff4fd02ad",
+          "url": "https://github.com/cocotb/cocotb/commit/6a32f7613b94e73224bec80129c1dc4e9662fc84"
+        },
+        "date": 1702306413767,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1870969409587251,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03770598265447343",
+            "extra": "mean: 5.344822822200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24898369350467062,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045558420301865944",
+            "extra": "mean: 4.016327278 sec\nrounds: 5"
           }
         ]
       }
