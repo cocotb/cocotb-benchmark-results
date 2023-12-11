@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702233364881,
+  "lastUpdate": 1702257880270,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2044,6 +2044,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031108029138662112",
             "extra": "mean: 3.9800960869999926 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a655e2e5113950cbdaf89a5333ca643ddeb11ba",
+          "message": "Move user code coverage feature out of RegressionManager (#3571)",
+          "timestamp": "2023-12-10T19:21:37-06:00",
+          "tree_id": "6304e84df168ca93f62a3b30f9b60c62b596a130",
+          "url": "https://github.com/cocotb/cocotb/commit/6a655e2e5113950cbdaf89a5333ca643ddeb11ba"
+        },
+        "date": 1702257879713,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18949970567578453,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05241866104310665",
+            "extra": "mean: 5.277053050999996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2518512737259472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03856324739382903",
+            "extra": "mean: 3.9705973497999993 sec\nrounds: 5"
           }
         ]
       }
