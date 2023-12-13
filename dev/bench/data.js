@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702497976335,
+  "lastUpdate": 1702502917964,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2196,6 +2196,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023264620963284775",
             "extra": "mean: 4.026658720200009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "4b47f6a90a6fdbc83999411fbfba447ca1060220",
+          "message": "Remove unused lgtm.yml file\n\nWe have disabled LGTM for a long time now, let's get rid of the\nassociated config file as well.",
+          "timestamp": "2023-12-13T21:24:30Z",
+          "tree_id": "28ddd4ca1481e62553121c92e1e3006bdba7d322",
+          "url": "https://github.com/cocotb/cocotb/commit/4b47f6a90a6fdbc83999411fbfba447ca1060220"
+        },
+        "date": 1702502917475,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1461893548300079,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04964913734490413",
+            "extra": "mean: 6.840443349399971 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.199538551591309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0331375069182861",
+            "extra": "mean: 5.011562888599997 sec\nrounds: 5"
           }
         ]
       }
