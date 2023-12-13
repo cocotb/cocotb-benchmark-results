@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702313560707,
+  "lastUpdate": 1702497976335,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2158,6 +2158,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04855051981093653",
             "extra": "mean: 4.034909174199993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "cc9694d4e260ece911725515aa23eb40b18b50e1",
+          "message": "Bump actions/setup-python from 4 to 5\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4 to 5.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2023-12-13T20:03:00Z",
+          "tree_id": "3b0fd034e7a2ca2725bfe9873b0910ac7770ba1d",
+          "url": "https://github.com/cocotb/cocotb/commit/cc9694d4e260ece911725515aa23eb40b18b50e1"
+        },
+        "date": 1702497976125,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18756807418198124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04637300485695858",
+            "extra": "mean: 5.3313977037999845 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24834486095964164,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023264620963284775",
+            "extra": "mean: 4.026658720200009 sec\nrounds: 5"
           }
         ]
       }
