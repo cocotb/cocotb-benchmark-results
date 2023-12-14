@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702511994598,
+  "lastUpdate": 1702573150825,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2272,6 +2272,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.053034404201337794",
             "extra": "mean: 4.0310549930000095 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "866df6fb0a0268b0cc37e44dad1d46c0299566e7",
+          "message": "CI: Include the toplevel language in the job name\n\nDepending on the toplevel language, we're running a very different set\nof tests. Include it in the name to make the tests unambiguous.\n\nWhile at it, refactor the code a bit to\n* place the generation of the human-readable job name into the Python\n  script\n* reuse the name in the Codecov upload, instead of assembling it twice\n  (we can do that now that we have the name in the matrix configuration)\n* consistently use hyphens as delimitter in matrix env keys\n* shorten the simulator version number by removing the module name\n  prefix (e.g. 'siemens/questa/2023.2' to '2023.2')\n* shorten the name by removing spaces around the pipe symbol.\n\nA shorter name helps to display more of it in the left navigation bar of\nthe GH Checks view.",
+          "timestamp": "2023-12-14T17:56:18+01:00",
+          "tree_id": "6b4e6ce64dbbc40f05588b4da13e6c575b0a55b0",
+          "url": "https://github.com/cocotb/cocotb/commit/866df6fb0a0268b0cc37e44dad1d46c0299566e7"
+        },
+        "date": 1702573150563,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1903390802019595,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041089458756124825",
+            "extra": "mean: 5.253781824199995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2508126741850975,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0385443425636514",
+            "extra": "mean: 3.987039344200002 sec\nrounds: 5"
           }
         ]
       }
