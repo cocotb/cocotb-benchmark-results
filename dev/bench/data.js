@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702573150825,
+  "lastUpdate": 1702573179945,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2310,6 +2310,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0385443425636514",
             "extra": "mean: 3.987039344200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "46f570d2fa6eb5439022a10a0860d06217908703",
+          "message": "CI: Update to Questa 2023.4_1",
+          "timestamp": "2023-12-14T17:56:37+01:00",
+          "tree_id": "a02654ca99a0752351c1a49a4f7a8874e3334e95",
+          "url": "https://github.com/cocotb/cocotb/commit/46f570d2fa6eb5439022a10a0860d06217908703"
+        },
+        "date": 1702573179390,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18681644124058464,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030934041175846222",
+            "extra": "mean: 5.352847925799995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25108009331992814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01962758221456348",
+            "extra": "mean: 3.982792848200006 sec\nrounds: 5"
           }
         ]
       }
