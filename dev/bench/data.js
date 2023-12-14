@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702573179945,
+  "lastUpdate": 1702576575953,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2348,6 +2348,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01962758221456348",
             "extra": "mean: 3.982792848200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "b44e324b9070b9ff5070ba94a1d9afdc620a5352",
+          "message": "Add test waivers for Riviera-PRO struct and unions in VPI\n\nSee https://github.com/cocotb/cocotb/issues/3587 for a detailed\ndescription of why these waivers are necessary.",
+          "timestamp": "2023-12-14T18:53:08+01:00",
+          "tree_id": "ea6bf703dba858fd4bb84b2b4beca3b23eacb41b",
+          "url": "https://github.com/cocotb/cocotb/commit/b44e324b9070b9ff5070ba94a1d9afdc620a5352"
+        },
+        "date": 1702576575726,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18207419309686393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023550449561812948",
+            "extra": "mean: 5.492266548000009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24471801975774776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04867174270199142",
+            "extra": "mean: 4.086335779399997 sec\nrounds: 5"
           }
         ]
       }
