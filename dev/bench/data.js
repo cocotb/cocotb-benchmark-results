@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702576575953,
+  "lastUpdate": 1702939999997,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2386,6 +2386,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04867174270199142",
             "extra": "mean: 4.086335779399997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86b7a17407ca4fdbb9bb1419dbd6aa7f8a9ef229",
+          "message": "Bump actions/download-artifact from 3 to 4 (#3592)\n\nBumps [actions/download-artifact](https://github.com/actions/download-artifact) from 3 to 4.\r\n- [Release notes](https://github.com/actions/download-artifact/releases)\r\n- [Commits](https://github.com/actions/download-artifact/compare/v3...v4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/download-artifact\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-12-18T17:50:17-05:00",
+          "tree_id": "fcb822b59893b93c5674114c2580c29888da5520",
+          "url": "https://github.com/cocotb/cocotb/commit/86b7a17407ca4fdbb9bb1419dbd6aa7f8a9ef229"
+        },
+        "date": 1702939999686,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18762284386652534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019794155114047172",
+            "extra": "mean: 5.3298413955999875 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2518279080431613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022715765855919997",
+            "extra": "mean: 3.9709657590000234 sec\nrounds: 5"
           }
         ]
       }
