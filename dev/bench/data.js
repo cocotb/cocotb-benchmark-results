@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702945561506,
+  "lastUpdate": 1703190779982,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2462,6 +2462,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031097607558406275",
             "extra": "mean: 3.9541422841999974 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "programming@goodcleanfun.de",
+            "name": "T. Meissner",
+            "username": "tmeissner"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc2be3cc87209b38db9de5115f8d0ac1db2ee2f7",
+          "message": "Add support for VHDL libraries in NVC Makefile (#3599)\n\nAdd support of VHDL libraries in NVC makefile",
+          "timestamp": "2023-12-21T21:29:46+01:00",
+          "tree_id": "37b6c31df535801e9acc19aaca17650622d0c5d5",
+          "url": "https://github.com/cocotb/cocotb/commit/bc2be3cc87209b38db9de5115f8d0ac1db2ee2f7"
+        },
+        "date": 1703190779764,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1906251012426591,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034648914149280424",
+            "extra": "mean: 5.2458988532000035 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25469976023108293,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0537219601868928",
+            "extra": "mean: 3.9261913677999702 sec\nrounds: 5"
           }
         ]
       }
