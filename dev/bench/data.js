@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703190779982,
+  "lastUpdate": 1703367057170,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2500,6 +2500,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0537219601868928",
             "extra": "mean: 3.9261913677999702 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42102157+jshaker000@users.noreply.github.com",
+            "name": "Joseph Shaker",
+            "username": "jshaker000"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee652a27a32c6a0f284c6054a7c07742920fe1a5",
+          "message": "Update VpiImpl.cpp (#2985)",
+          "timestamp": "2023-12-23T15:28:01-06:00",
+          "tree_id": "99ec0b911394d94c08b3cee441fe303ce7bd8d2a",
+          "url": "https://github.com/cocotb/cocotb/commit/ee652a27a32c6a0f284c6054a7c07742920fe1a5"
+        },
+        "date": 1703367056637,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18814012004254738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018183917987219255",
+            "extra": "mean: 5.31518742400001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2504643310143499,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05737693579464826",
+            "extra": "mean: 3.992584476800039 sec\nrounds: 5"
           }
         ]
       }
