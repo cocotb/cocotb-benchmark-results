@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703795839467,
+  "lastUpdate": 1704121292298,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2614,6 +2614,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026784934633891404",
             "extra": "mean: 4.037103898800024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "c05526e6ee9ce70e7d8bad20921c54d5e0cfd0d1",
+          "message": "CI: Fix artifact upload\n\nhttps://github.com/cocotb/cocotb/pull/3593 updated the version of\nactions/upload-artifact from 3 to 4, but didn't perform the migration as\ndescribed at\nhttps://github.com/actions/upload-artifact/blob/main/docs/MIGRATION.md.\nDo that to fix the broken release CI.",
+          "timestamp": "2024-01-01T15:58:34+01:00",
+          "tree_id": "cf2c98dda07ead1850ab237ea22a9ce98196a6ba",
+          "url": "https://github.com/cocotb/cocotb/commit/c05526e6ee9ce70e7d8bad20921c54d5e0cfd0d1"
+        },
+        "date": 1704121291961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18660904539027748,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041377040738572804",
+            "extra": "mean: 5.358797039599994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25228880759493294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028287673003891792",
+            "extra": "mean: 3.9637113098000327 sec\nrounds: 5"
           }
         ]
       }
