@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704121292298,
+  "lastUpdate": 1704141235840,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2652,6 +2652,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028287673003891792",
             "extra": "mean: 3.9637113098000327 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "1ba4da5eca0ba1f239e6347a0fdee9ffc3bf061b",
+          "message": "Add a missing newsfragment for #3490",
+          "timestamp": "2024-01-01T21:31:03+01:00",
+          "tree_id": "cef3a7cba24721a5cc19cccfb386fb79c6598c50",
+          "url": "https://github.com/cocotb/cocotb/commit/1ba4da5eca0ba1f239e6347a0fdee9ffc3bf061b"
+        },
+        "date": 1704141235618,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18835937067740843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05288403633365848",
+            "extra": "mean: 5.309000536600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2514060155578334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04737915969643285",
+            "extra": "mean: 3.9776295637999963 sec\nrounds: 5"
           }
         ]
       }
