@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704141235840,
+  "lastUpdate": 1704209987442,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2690,6 +2690,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04737915969643285",
             "extra": "mean: 3.9776295637999963 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "cb0bca4112474bbf28679100274c8b2bb72122ca",
+          "message": "cocotb runner uses HDL_TOPLEVEL_LANG instead of TOPLEVEL_LANG\n\nIn our noxfile, we set HDL_TOPLEVEL_LANG to match TOPLEVEL_LANG, but\nthe authoritative environment variable is apparently meant to be\nHDL_TOPLEVEL_LANG.",
+          "timestamp": "2024-01-02T16:36:43+01:00",
+          "tree_id": "6b3b58c9d0608e9bb9b4c4463716f8da0bcf607a",
+          "url": "https://github.com/cocotb/cocotb/commit/cb0bca4112474bbf28679100274c8b2bb72122ca"
+        },
+        "date": 1704209987219,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18813025130764216,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036763509688727304",
+            "extra": "mean: 5.315466242399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24881558905313306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08864720043416015",
+            "extra": "mean: 4.019040783600002 sec\nrounds: 5"
           }
         ]
       }
