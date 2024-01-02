@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704210157612,
+  "lastUpdate": 1704218454920,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2766,6 +2766,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04043516613547356",
             "extra": "mean: 3.677341208600012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "5125a297f8d1890b87e3ded374a076c0b3f5db59",
+          "message": "CI: Enable Xcelium/VHPI testing",
+          "timestamp": "2024-01-02T18:57:29+01:00",
+          "tree_id": "45d8c1daadf64c9487aa9a76bcbb284e581ab426",
+          "url": "https://github.com/cocotb/cocotb/commit/5125a297f8d1890b87e3ded374a076c0b3f5db59"
+        },
+        "date": 1704218454596,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1907171850704939,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03235072755202235",
+            "extra": "mean: 5.2433659800000445 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25525169708722384,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04130803917981687",
+            "extra": "mean: 3.9177016701999947 sec\nrounds: 5"
           }
         ]
       }
