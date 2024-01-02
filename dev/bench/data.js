@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704209987442,
+  "lastUpdate": 1704210157612,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2728,6 +2728,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08864720043416015",
             "extra": "mean: 4.019040783600002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "ca08146e413090a6770881fc4d9fed6d2b8b0f91",
+          "message": "Require explicit marker declarations in pytest\n\nPytest normally only warns about undeclared markers, a warning which is\neasily lost in the CI logs. Convert the warning into an error to avoid\nmissing undeclared markers (which makes it harder to discover them).",
+          "timestamp": "2024-01-02T16:37:00+01:00",
+          "tree_id": "38e05087af54238ba2662aa6ce0525e8fbbdee5d",
+          "url": "https://github.com/cocotb/cocotb/commit/ca08146e413090a6770881fc4d9fed6d2b8b0f91"
+        },
+        "date": 1704210157090,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.202074930426747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045158402688794036",
+            "extra": "mean: 4.948659380400005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.27193560327264454,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04043516613547356",
+            "extra": "mean: 3.677341208600012 sec\nrounds: 5"
           }
         ]
       }
