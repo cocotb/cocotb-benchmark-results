@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704270554568,
+  "lastUpdate": 1704307621368,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2880,6 +2880,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02248068225664489",
             "extra": "mean: 3.961698753599967 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "7b84015ecfed66596051751f7b07e6dfaf3c080f",
+          "message": "CI: Use distinct labels for private jobs\n\nLabels in GitHub Actions are used to determine which runner can execute\na CI job. With our setup of self-hosted and GitHub-hosted runners,\nlabels decide if a job gets to run on our own infrastructure, or on\nGitHub infrastructure.\n\nRight now, we're assinging the labels \"self-hosted\", \"ubuntu-20.04\",\n\"cocotb-private\", \"X64\" and \"Linux\" to all self-hosted runners.\n\nAll jobs that we want to run on our self-hosted runners get the labels\n\"self-hosted\", \"cocotb-private\", and \"ubuntu-20.04\" assigned.\n\nJobs that we want to run on the GitHub-provided runners only get a\nsingle label, the operating system, such as \"ubuntu-20.04\".\n\nAs it turns out, a job gets executed on a particular runner as soon as\nall labels assigned *to the job* are matching labels assigned to the\nrunner.\n\nFor us, this meant a job assigned only the label \"ubuntu-20.04\" (a job\nwhich we want to execute on GitHub-provided runners) got executed on\nour self-hosted runners, since \"ubuntu-20.04\" is one of the labels of\nour self-hosted runners as well.\n\nAvoid this situation by using label names for our self-hosted runner\nwhich are not used by GitHub runners\n(https://docs.github.com/en/actions/using-jobs/choosing-the-runner-for-a-job).\n\nSee also https://github.com/philips-labs/terraform-aws-github-runner/issues/3290\nfor a discussion and\nhttps://github.com/philips-labs/terraform-aws-github-runner/blob/6fa667fae7e4302cf643bcdb4ff3c91b1e4ed8d1/lambdas/functions/webhook/src/webhook/index.ts#L83-L86\nfor the label matching code.",
+          "timestamp": "2024-01-03T19:43:57+01:00",
+          "tree_id": "858ec9bfda99121883d37708d33abc5aa1e961ec",
+          "url": "https://github.com/cocotb/cocotb/commit/7b84015ecfed66596051751f7b07e6dfaf3c080f"
+        },
+        "date": 1704307621169,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1880822696395897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03728552721205493",
+            "extra": "mean: 5.316822271000012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2536258354379929,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035728656824667325",
+            "extra": "mean: 3.942815992199985 sec\nrounds: 5"
           }
         ]
       }
