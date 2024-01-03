@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704312584349,
+  "lastUpdate": 1704313006781,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2956,6 +2956,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.057382760807202275",
             "extra": "mean: 3.9956332215999963 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1119021f6581fd1be684694755b1b350a419b945",
+          "message": "Set author name in pre-commit-autoupdate.yml (#3628)\n\nBy default it uses the action's actor as the author, I guess because I authored the action file with the cron line in it that means it's me? Either way I'm explicitly setting it to the Github Actions bot account.",
+          "timestamp": "2024-01-03T14:13:48-06:00",
+          "tree_id": "37cce45e909789e8d5bc31d429077c506552ac67",
+          "url": "https://github.com/cocotb/cocotb/commit/1119021f6581fd1be684694755b1b350a419b945"
+        },
+        "date": 1704313006568,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18729099675832184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02966184941964045",
+            "extra": "mean: 5.339284948600005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25012357535329255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03500109972654892",
+            "extra": "mean: 3.9980237712000077 sec\nrounds: 5"
           }
         ]
       }
