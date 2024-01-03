@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704218454920,
+  "lastUpdate": 1704264926065,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2804,6 +2804,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04130803917981687",
             "extra": "mean: 3.9177016701999947 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@users.noreply.github.com",
+            "name": "ktbarrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "f2defc1a5d69c6bce810a018facab11e5bdc577b",
+          "message": "Update pre-commit hooks",
+          "timestamp": "2024-01-03T07:52:34+01:00",
+          "tree_id": "826a2f2990a0d922033453020cd379f88275f686",
+          "url": "https://github.com/cocotb/cocotb/commit/f2defc1a5d69c6bce810a018facab11e5bdc577b"
+        },
+        "date": 1704264925842,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18815138896110611,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03681702663880609",
+            "extra": "mean: 5.314869082400003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2487603155423283,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061196813260508104",
+            "extra": "mean: 4.019933797800007 sec\nrounds: 5"
           }
         ]
       }
