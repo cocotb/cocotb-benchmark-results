@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704264926065,
+  "lastUpdate": 1704270554568,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2842,6 +2842,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.061196813260508104",
             "extra": "mean: 4.019933797800007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "772eeea53f5010ac8d0ec42b78b8c02d6907a415",
+          "message": "GHDL: Support COCOTB_HDL_TIMEPRECISION if possible\n\nGHDL with the mcode backend supports some values of\nCOCOTB_HDL_TIMEPRECISION (fs, ps, ns, us, ms, s), and only if the\nmcode backend is used. Try to pass on the value of\nCOCOTB_HDL_TIMEPRECISION if possible, without checking for the backend:\nGHDL will error out in that case and users have to avoid setting\nCOCOTB_HDL_TIMEPRECISION when that happens.\n\nAlso adjust the cocotb runner implementation accordingly.\n\nSee also https://github.com/cocotb/cocotb/pull/3613#discussion_r1439710866",
+          "timestamp": "2024-01-03T09:26:17+01:00",
+          "tree_id": "3ecee88db17c302a896cd3a5a7e6c1c826779f3d",
+          "url": "https://github.com/cocotb/cocotb/commit/772eeea53f5010ac8d0ec42b78b8c02d6907a415"
+        },
+        "date": 1704270554066,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18650137055267488,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04959480447992426",
+            "extra": "mean: 5.36189089139998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2524169711519098,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02248068225664489",
+            "extra": "mean: 3.961698753599967 sec\nrounds: 5"
           }
         ]
       }
