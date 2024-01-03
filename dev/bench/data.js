@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704307621368,
+  "lastUpdate": 1704312584349,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2918,6 +2918,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035728656824667325",
             "extra": "mean: 3.942815992199985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "2ae5415e76d6584fb8741ee0e35c779111045241",
+          "message": "Remove unmaintained WaveDrom tracer\n\nThe WaveDrom tracer is a nice example of what can be done with cocotb,\nbut it's neither maintained nor tested. Remove it from the core of\ncocotb, and encourage users to either copy it into their own source\ntree, or create an extension.\n\nCloses #2066",
+          "timestamp": "2024-01-03T21:06:32+01:00",
+          "tree_id": "bff3e727e902186c93f45cbdae2adda146d8e9af",
+          "url": "https://github.com/cocotb/cocotb/commit/2ae5415e76d6584fb8741ee0e35c779111045241"
+        },
+        "date": 1704312584036,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18586169581302903,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02582327972785947",
+            "extra": "mean: 5.380344753799989 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25027322192490026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.057382760807202275",
+            "extra": "mean: 3.9956332215999963 sec\nrounds: 5"
           }
         ]
       }
