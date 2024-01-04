@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704343354855,
+  "lastUpdate": 1704386661755,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3032,6 +3032,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03547115120818488",
             "extra": "mean: 3.997907795999981 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "7216afd53d3993aa25d03e2e4ab97880c95f0e27",
+          "message": "Update test_edge_on_vector expected edge count\n\nWhen running the test_cocotb subset in tests/pytest with Verilator, the edge count was one less than expected.\nRunning test_cocotb with the makefile produced the expected result.\nThis discrepancy appears to be caused by whatever state the previous test left dut.stream_in_data in, so set the value before starting the monitor Task.",
+          "timestamp": "2024-01-04T08:41:26-08:00",
+          "tree_id": "03f630c54232dfc56579f8349629ad432b745727",
+          "url": "https://github.com/cocotb/cocotb/commit/7216afd53d3993aa25d03e2e4ab97880c95f0e27"
+        },
+        "date": 1704386661198,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19042379681571772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01752128742921212",
+            "extra": "mean: 5.251444497599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25236687769006727,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04575032579446657",
+            "extra": "mean: 3.9624851293999996 sec\nrounds: 5"
           }
         ]
       }
