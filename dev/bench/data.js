@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704392537366,
+  "lastUpdate": 1704409405280,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3146,6 +3146,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01713268545054459",
             "extra": "mean: 4.119712040800016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "54652c04ca52dbeb3b7515f37a45ec515a99e31e",
+          "message": "Improve SimHandleBase\n\n* Remove duplicate interface that conflicts with non-prefixed namespace\n  intended for sub-handles\n* Mark a couple methods as public\n* Improve typing and documentation",
+          "timestamp": "2024-01-04T17:00:34-06:00",
+          "tree_id": "e0a87697c294b3ac7555c563e341a3242067469a",
+          "url": "https://github.com/cocotb/cocotb/commit/54652c04ca52dbeb3b7515f37a45ec515a99e31e"
+        },
+        "date": 1704409404973,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18786304074237636,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032326048699568566",
+            "extra": "mean: 5.3230267968000025 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2519876258279126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02568895210811397",
+            "extra": "mean: 3.9684488343999873 sec\nrounds: 5"
           }
         ]
       }
