@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704313006781,
+  "lastUpdate": 1704343354855,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -2994,6 +2994,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03500109972654892",
             "extra": "mean: 3.9980237712000077 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b71735f1ff8f188b6a513f7c20ac9f78fc4cfbd9",
+          "message": "Add mark for cocotb.test-decorated objects",
+          "timestamp": "2024-01-03T22:39:44-06:00",
+          "tree_id": "6434e8a060d5e4e029b12dc83da62ab8ae36bb3c",
+          "url": "https://github.com/cocotb/cocotb/commit/b71735f1ff8f188b6a513f7c20ac9f78fc4cfbd9"
+        },
+        "date": 1704343354616,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18731777989085416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03618672431961605",
+            "extra": "mean: 5.3385215251999965 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2501308311813814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03547115120818488",
+            "extra": "mean: 3.997907795999981 sec\nrounds: 5"
           }
         ]
       }
