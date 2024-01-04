@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704386661755,
+  "lastUpdate": 1704390996041,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3070,6 +3070,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04575032579446657",
             "extra": "mean: 3.9624851293999996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "60c7b5b04e40eec99377bdb5cc1000610953cf26",
+          "message": "GHDL: Only pass --time-resolution if mcode is used\n\nGHDL errors out if `--time-resolution` is passed and a backend other\nthan mcode is used (other than silently ignoring this option). This\nbehavior requires us to check the GHDL backend before calling it.\nImplement this behavior in our Makefiles and in the cocotb runner.\n\nFixes #3629",
+          "timestamp": "2024-01-04T18:53:39+01:00",
+          "tree_id": "d8770d1706fd498ab932e4a5d75cd6f931b78aff",
+          "url": "https://github.com/cocotb/cocotb/commit/60c7b5b04e40eec99377bdb5cc1000610953cf26"
+        },
+        "date": 1704390995797,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18663127359541562,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046295690475999414",
+            "extra": "mean: 5.358158794799993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25127997891472703,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051647442453850965",
+            "extra": "mean: 3.979624657400001 sec\nrounds: 5"
           }
         ]
       }
