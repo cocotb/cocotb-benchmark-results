@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704390996041,
+  "lastUpdate": 1704392537366,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3108,6 +3108,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.051647442453850965",
             "extra": "mean: 3.979624657400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a39d6e32f0711ffc86627b3cfbdc257d0e0f8367",
+          "message": "Move around commandline args in Makefile.icarus (#3637)\n\nMoves default language version in iverilog commandline arg earlier to allow the user to override it later with COMPILE_ARGS.",
+          "timestamp": "2024-01-04T12:19:21-06:00",
+          "tree_id": "ca0d82089386edc30548ce3f7e28def1c7db514b",
+          "url": "https://github.com/cocotb/cocotb/commit/a39d6e32f0711ffc86627b3cfbdc257d0e0f8367"
+        },
+        "date": 1704392537129,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18020332597591068,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06591548354801346",
+            "extra": "mean: 5.549287143200002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2427354121104561,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01713268545054459",
+            "extra": "mean: 4.119712040800016 sec\nrounds: 5"
           }
         ]
       }
