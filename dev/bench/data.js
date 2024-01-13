@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705064532066,
+  "lastUpdate": 1705174011511,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3222,6 +3222,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.056626929770310766",
             "extra": "mean: 3.9903676013999982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "8a994bb94f2e2abc819ba49fac2c5bb4b858b8aa",
+          "message": "CI: When running Lint action, show git diff after running pre-commit\n\nFor PR feedback on failed lint checks, it is more useful to show the needed changes when possible rather than just Passed/Failed for each hook.",
+          "timestamp": "2024-01-13T11:23:50-08:00",
+          "tree_id": "4451fb5ec33230278d4a4e13afc676bee1572347",
+          "url": "https://github.com/cocotb/cocotb/commit/8a994bb94f2e2abc819ba49fac2c5bb4b858b8aa"
+        },
+        "date": 1705174011271,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1878834510298961,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04814969179552975",
+            "extra": "mean: 5.322448542000006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.251632511172339,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033813817268357395",
+            "extra": "mean: 3.974049280599979 sec\nrounds: 5"
           }
         ]
       }
