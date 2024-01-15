@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705223105818,
+  "lastUpdate": 1705288321245,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3298,6 +3298,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03576265882566494",
             "extra": "mean: 4.0145908079999915 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6dde70b5036c87b38eaad4aa582e1bd3673d5972",
+          "message": "Update numbers on Xcelium's mixedlang recursive_discovery",
+          "timestamp": "2024-01-14T21:09:02-06:00",
+          "tree_id": "faf5116186e66cf6aff052c4761ce1e64e0438b4",
+          "url": "https://github.com/cocotb/cocotb/commit/6dde70b5036c87b38eaad4aa582e1bd3673d5972"
+        },
+        "date": 1705288321016,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1866819623850543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04471520800303167",
+            "extra": "mean: 5.356703921599978 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2506006908583916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06336211067444605",
+            "extra": "mean: 3.990411983999979 sec\nrounds: 5"
           }
         ]
       }
