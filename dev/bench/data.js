@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705288321245,
+  "lastUpdate": 1705293225865,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3336,6 +3336,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06336211067444605",
             "extra": "mean: 3.990411983999979 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "579d0dbafc4a806da0ae4ebd9183227c3d360eb0",
+          "message": "Add test that uses MODULE value of the form \"package_name.module_name\"",
+          "timestamp": "2024-01-14T20:30:41-08:00",
+          "tree_id": "b5aacb74a2d286887b98428f14defadb3cf4a0be",
+          "url": "https://github.com/cocotb/cocotb/commit/579d0dbafc4a806da0ae4ebd9183227c3d360eb0"
+        },
+        "date": 1705293225541,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1870105128419465,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033866226192402614",
+            "extra": "mean: 5.347292966600003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25046181399068085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035798082443578724",
+            "extra": "mean: 3.992624600399995 sec\nrounds: 5"
           }
         ]
       }
