@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705293225865,
+  "lastUpdate": 1705364370481,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3374,6 +3374,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035798082443578724",
             "extra": "mean: 3.992624600399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a3220c5ed6c05a48648593479438bdfa5c91648",
+          "message": "Decouple implementation of Array and LogicArray (#3633)",
+          "timestamp": "2024-01-15T18:16:37-06:00",
+          "tree_id": "41caeb1ec0b87ac1f29a692a6fc928cf48b0a6b2",
+          "url": "https://github.com/cocotb/cocotb/commit/6a3220c5ed6c05a48648593479438bdfa5c91648"
+        },
+        "date": 1705364370238,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1864410955416997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04091969751292339",
+            "extra": "mean: 5.363624350599991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2502543612856081,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010521811291746001",
+            "extra": "mean: 3.995934356000009 sec\nrounds: 5"
           }
         ]
       }
