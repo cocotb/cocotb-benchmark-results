@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705590258466,
+  "lastUpdate": 1705726924579,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3450,6 +3450,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03227127901725983",
             "extra": "mean: 4.0336112902000085 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "77cd93a0de1a82553ebf1e9edfd3875dfb1da7e0",
+          "message": "Improve RegionObjects\n\n* Make _child_handle and _sub_handle_key abstract and move base impl to\n  HierarchyObject.\n* Add _keys, _values, and _items to iterate over discovered objects.\n* Rename RegionObject to HierarchyObjectBase\n* rename HierarchyArray.__get_sub_handle_by_name to __getitem__ to add\n  support for index syntax.\n* remove invalid sub-handle caching as it's just silly to speed up an\n  invalid path that will likely never be hit again because of the\n  resulting AttributeError.\n* deprecate _id method as index syntax does everything it does with\n  better defaults.\n* Add left, right, direction, range, and __len__ methods to\n  HierarchyArrayObject.\n* Generalize __getitem__ and move to HierarchyObjectBase\n* Improve documentation and typing.",
+          "timestamp": "2024-01-19T22:58:40-06:00",
+          "tree_id": "d15368bd3b923a98b54e7d7b7d8ff39dc990afbe",
+          "url": "https://github.com/cocotb/cocotb/commit/77cd93a0de1a82553ebf1e9edfd3875dfb1da7e0"
+        },
+        "date": 1705726924008,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1853807263407667,
+            "unit": "iter/sec",
+            "range": "stddev: 0.054276698058496546",
+            "extra": "mean: 5.394304034399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24583542486220306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.048172500642913174",
+            "extra": "mean: 4.067762002000018 sec\nrounds: 5"
           }
         ]
       }
