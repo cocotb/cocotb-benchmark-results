@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705781905826,
+  "lastUpdate": 1705875784935,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3526,6 +3526,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.042501612937852526",
             "extra": "mean: 4.012530597400018 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4caa489e44f5f4887a994fc8a7d26b15d95e5ad2",
+          "message": "Make Logic not hashable and support equality with literals",
+          "timestamp": "2024-01-21T16:18:46-06:00",
+          "tree_id": "c2363bbd2d294cefa7da0db56343ebd913449475",
+          "url": "https://github.com/cocotb/cocotb/commit/4caa489e44f5f4887a994fc8a7d26b15d95e5ad2"
+        },
+        "date": 1705875784687,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09399326899932524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08074746951844941",
+            "extra": "mean: 10.639059696999993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10624046359277722,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10827806548629212",
+            "extra": "mean: 9.412609529199994 sec\nrounds: 5"
           }
         ]
       }
