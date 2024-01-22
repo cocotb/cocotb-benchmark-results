@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705892363732,
+  "lastUpdate": 1705914392260,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3602,6 +3602,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10315611754744354",
             "extra": "mean: 9.365440064199992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "32450aab0a759c53c33e5a653ce61b80f7c8da0c",
+          "message": "Update cocotb-coverage to 1.2 in ecosyste compat tests\n\nUse the latest upstream release of cocotb-coverage to get a better\nsignal how we're doing against cocotb-coverage. Some breakage is still\nexpected as we make rapid progress towards cocotb 2.0\n\nIncludes a fix for https://github.com/mciepluc/cocotb-coverage/issues/86.",
+          "timestamp": "2024-01-22T10:02:07+01:00",
+          "tree_id": "e845547f0956ae72ebc7e0370748086ccd68ffc8",
+          "url": "https://github.com/cocotb/cocotb/commit/32450aab0a759c53c33e5a653ce61b80f7c8da0c"
+        },
+        "date": 1705914391700,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09385965152675035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11709802194659494",
+            "extra": "mean: 10.654205334599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10673110302394001,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02685699932190336",
+            "extra": "mean: 9.369340067400014 sec\nrounds: 5"
           }
         ]
       }
