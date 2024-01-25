@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706041385297,
+  "lastUpdate": 1706150536838,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3678,6 +3678,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.049386608753648274",
             "extra": "mean: 9.378479262399969 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62f1839525e56ee6fe17f558d49aa513fbc7e745",
+          "message": "Runner log redirection (#3668)",
+          "timestamp": "2024-01-24T20:38:12-06:00",
+          "tree_id": "3eef9aeeb321daac1cc568c532ddd21b5dd4212b",
+          "url": "https://github.com/cocotb/cocotb/commit/62f1839525e56ee6fe17f558d49aa513fbc7e745"
+        },
+        "date": 1706150536612,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09466621597643862,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07215341442608621",
+            "extra": "mean: 10.563430572200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10713033436662976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06057330005545922",
+            "extra": "mean: 9.334424333800007 sec\nrounds: 5"
           }
         ]
       }
