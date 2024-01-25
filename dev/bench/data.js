@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706150536838,
+  "lastUpdate": 1706150577280,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3716,6 +3716,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06057330005545922",
             "extra": "mean: 9.334424333800007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7b37ca50ccd72ba99a608f5d0acc634523bfcab",
+          "message": "Add Verilator run-time trace switch (#3667)",
+          "timestamp": "2024-01-24T20:38:46-06:00",
+          "tree_id": "7542bea6496b41f3d242495568018b0641e46999",
+          "url": "https://github.com/cocotb/cocotb/commit/f7b37ca50ccd72ba99a608f5d0acc634523bfcab"
+        },
+        "date": 1706150576911,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09383478446172619,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08502957966150008",
+            "extra": "mean: 10.657028795199983 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10665841921423884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09032282006325727",
+            "extra": "mean: 9.375724929800015 sec\nrounds: 5"
           }
         ]
       }
