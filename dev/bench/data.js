@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706150577280,
+  "lastUpdate": 1706373077365,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3754,6 +3754,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09032282006325727",
             "extra": "mean: 9.375724929800015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6b13a505d3708c5178a96f470d81231685a8a9a",
+          "message": "Fix ruff config (#3680)",
+          "timestamp": "2024-01-27T10:27:16-06:00",
+          "tree_id": "041a39f08de001ff893584b49519243c07003996",
+          "url": "https://github.com/cocotb/cocotb/commit/d6b13a505d3708c5178a96f470d81231685a8a9a"
+        },
+        "date": 1706373077058,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09746665582228987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1403689466915807",
+            "extra": "mean: 10.259919062200016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11235256288630327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09621856717198676",
+            "extra": "mean: 8.90055352820001 sec\nrounds: 5"
           }
         ]
       }
