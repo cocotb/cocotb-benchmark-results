@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706634676900,
+  "lastUpdate": 1707167820793,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3830,6 +3830,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07507518945288456",
             "extra": "mean: 9.420019337600024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "caca6d3990e3f4675067431b7b9513d9bc8755d0",
+          "message": "Bump peter-evans/create-pull-request from 5 to 6 (#3698)\n\nBumps [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) from 5 to 6.\r\n- [Release notes](https://github.com/peter-evans/create-pull-request/releases)\r\n- [Commits](https://github.com/peter-evans/create-pull-request/compare/v5...v6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: peter-evans/create-pull-request\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-02-05T15:10:06-06:00",
+          "tree_id": "d4acc8e33eb8e2e88bb4dfc5f54af03ecb7ed538",
+          "url": "https://github.com/cocotb/cocotb/commit/caca6d3990e3f4675067431b7b9513d9bc8755d0"
+        },
+        "date": 1707167820580,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09406763591563896,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09233299069832059",
+            "extra": "mean: 10.630648790799977 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10675339488966422,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03917722271359192",
+            "extra": "mean: 9.367383595000025 sec\nrounds: 5"
           }
         ]
       }
