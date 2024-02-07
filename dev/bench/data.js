@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707269833932,
+  "lastUpdate": 1707324451499,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4020,6 +4020,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026862167866934277",
             "extra": "mean: 9.440921051599991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "todd.strader@gmail.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13f8545930201250e2dc7a95ec9b165571482bfc",
+          "message": "runner trace building for Verilator (#3681)\n\n\r\n---------\r\n\r\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2024-02-07T17:43:16+01:00",
+          "tree_id": "ccf39c7881088f6e116d7746b8596ed5b6f23283",
+          "url": "https://github.com/cocotb/cocotb/commit/13f8545930201250e2dc7a95ec9b165571482bfc"
+        },
+        "date": 1707324451175,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09144692096749037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06079306975294502",
+            "extra": "mean: 10.935305305199972 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10635661384209864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05847840315394148",
+            "extra": "mean: 9.402330178400007 sec\nrounds: 5"
           }
         ]
       }
