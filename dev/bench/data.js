@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707201657373,
+  "lastUpdate": 1707269833932,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -3982,6 +3982,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05740772752278283",
             "extra": "mean: 9.508234792400003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8f56c34b5a4ce571719d4a3aa2ebfd523d07e23",
+          "message": "Return GPI_REGISTER for integer const types (#3691)",
+          "timestamp": "2024-02-06T19:32:51-06:00",
+          "tree_id": "053998c033325f6d06bd01ffed858565572b0514",
+          "url": "https://github.com/cocotb/cocotb/commit/a8f56c34b5a4ce571719d4a3aa2ebfd523d07e23"
+        },
+        "date": 1707269833753,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09086713624545176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08551959944535484",
+            "extra": "mean: 11.0050788582 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10592186869633084,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026862167866934277",
+            "extra": "mean: 9.440921051599991 sec\nrounds: 5"
           }
         ]
       }
