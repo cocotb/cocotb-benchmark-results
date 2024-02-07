@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707324451499,
+  "lastUpdate": 1707324578918,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4058,6 +4058,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05847840315394148",
             "extra": "mean: 9.402330178400007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "todd.strader@gmail.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "704ff21ac2eb5d8a6c68d8d83c28e3d151f519a7",
+          "message": "Add test_args to Python runner for Verilator (#3682)\n\n\r\n---------\r\n\r\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2024-02-07T17:45:28+01:00",
+          "tree_id": "bbe88005704f6e6f5be83fbfe0bc7261b288e37d",
+          "url": "https://github.com/cocotb/cocotb/commit/704ff21ac2eb5d8a6c68d8d83c28e3d151f519a7"
+        },
+        "date": 1707324578704,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09085518034252997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05788884735088923",
+            "extra": "mean: 11.006527049199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10666342807600376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13147452284370534",
+            "extra": "mean: 9.375284650399976 sec\nrounds: 5"
           }
         ]
       }
