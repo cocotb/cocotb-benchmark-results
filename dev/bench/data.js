@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707324578918,
+  "lastUpdate": 1707325153143,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4096,6 +4096,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.13147452284370534",
             "extra": "mean: 9.375284650399976 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdf7286a3a38b703dc4a3bb7c707bfcd2263773a",
+          "message": "Parse log level in embed (#3676)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-02-07T17:54:06+01:00",
+          "tree_id": "3a5cec2073fc0f3aa9155597f50c8052bd3db15b",
+          "url": "https://github.com/cocotb/cocotb/commit/fdf7286a3a38b703dc4a3bb7c707bfcd2263773a"
+        },
+        "date": 1707325152492,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09085746977839312,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03048106213813773",
+            "extra": "mean: 11.006249705599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10629536277590186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11372076595694747",
+            "extra": "mean: 9.407748126400008 sec\nrounds: 5"
           }
         ]
       }
