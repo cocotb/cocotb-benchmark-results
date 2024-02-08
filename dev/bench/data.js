@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707379212112,
+  "lastUpdate": 1707406486823,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4172,6 +4172,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07894755322298198",
             "extra": "mean: 9.278587408600009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tstrader@hudson-trading.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1343babbfb3886723ee3e5006a9a9b454549c76",
+          "message": "Verilator trace file name parameter (#3683)",
+          "timestamp": "2024-02-08T09:30:04-06:00",
+          "tree_id": "2509b572e83ad7d9a421b4ee56e75a4d4007cecb",
+          "url": "https://github.com/cocotb/cocotb/commit/e1343babbfb3886723ee3e5006a9a9b454549c76"
+        },
+        "date": 1707406486213,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09127870230634554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06513372173582956",
+            "extra": "mean: 10.955458115999988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.10596103033283073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040622328239833284",
+            "extra": "mean: 9.437431826199997 sec\nrounds: 5"
           }
         ]
       }
