@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707325153143,
+  "lastUpdate": 1707379212112,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4134,6 +4134,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11372076595694747",
             "extra": "mean: 9.407748126400008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "themperek@users.noreply.github.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f918a196fc051a87a528e252b606e8428d5c31b",
+          "message": "Enable widows testing in CI (#3706)",
+          "timestamp": "2024-02-08T08:55:55+01:00",
+          "tree_id": "382c6568881e22d417996ea0b1a6479863c48be6",
+          "url": "https://github.com/cocotb/cocotb/commit/0f918a196fc051a87a528e252b606e8428d5c31b"
+        },
+        "date": 1707379211748,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09071358622177055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15735737143278877",
+            "extra": "mean: 11.023707050399997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1077750260856662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07894755322298198",
+            "extra": "mean: 9.278587408600009 sec\nrounds: 5"
           }
         ]
       }
