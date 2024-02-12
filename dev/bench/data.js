@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707406486823,
+  "lastUpdate": 1707749697443,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4210,6 +4210,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.040622328239833284",
             "extra": "mean: 9.437431826199997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54800b32fb04b8e2491a120ca6a3004d5ede9087",
+          "message": "Validate the pyproject.toml file in pre-commit (#3618)\n\nThe Python tool \"validate-pyproject\" validates the pyproject.toml\r\nagainst a schema. The schemas are shipped in\r\nvalidate-pyproject-schema-store. We want to pin the version of the\r\nschema used to validate our pyproject.toml. We do that by using\r\nvalidate-pyproject-schema-store directly (which depends on\r\nvalidate-pyproject).\r\n\r\nAs a downside, the schema validation adds around 1.5 seconds to a\r\npre-commit run (or in relative numbers, a run now takes roughly 2.5x as\r\nlong on my machine).\r\n\r\nFixes #3617",
+          "timestamp": "2024-02-12T08:51:24-06:00",
+          "tree_id": "2afac0c1ccf33cafee92885e435613c965997376",
+          "url": "https://github.com/cocotb/cocotb/commit/54800b32fb04b8e2491a120ca6a3004d5ede9087"
+        },
+        "date": 1707749697143,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09011043301229696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05052798367718789",
+            "extra": "mean: 11.09749411439999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2892530876907149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034022082032106715",
+            "extra": "mean: 3.4571800356000155 sec\nrounds: 5"
           }
         ]
       }
