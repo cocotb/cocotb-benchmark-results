@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707936364415,
+  "lastUpdate": 1707953554106,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4286,6 +4286,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03241378342667456",
             "extra": "mean: 3.3961416537999867 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a4f93e95419ad1c1826938b5222891ebcfe3e4f5",
+          "message": "Add support for casting LogicArray to str and int literal reprs",
+          "timestamp": "2024-02-14T17:29:07-06:00",
+          "tree_id": "3e6e10effd658055146c70fcf02ef05b885f12d8",
+          "url": "https://github.com/cocotb/cocotb/commit/a4f93e95419ad1c1826938b5222891ebcfe3e4f5"
+        },
+        "date": 1707953553486,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10137893578162581,
+            "unit": "iter/sec",
+            "range": "stddev: 0.057423583356015606",
+            "extra": "mean: 9.86398202239999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.3047087306112769,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03815372556229728",
+            "extra": "mean: 3.2818226047999928 sec\nrounds: 5"
           }
         ]
       }
