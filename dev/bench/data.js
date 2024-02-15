@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707953554106,
+  "lastUpdate": 1707967725008,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4324,6 +4324,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03815372556229728",
             "extra": "mean: 3.2818226047999928 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ecb564e616c17f1617e07b91e2d937a4d640ac5",
+          "message": "Update pre-commit hooks (#3713)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2024-02-14T21:25:17-06:00",
+          "tree_id": "dfc6a37fbb2245d1b4a968849b5340b8f8256635",
+          "url": "https://github.com/cocotb/cocotb/commit/6ecb564e616c17f1617e07b91e2d937a4d640ac5"
+        },
+        "date": 1707967724773,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10136761844868623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05353399560928395",
+            "extra": "mean: 9.865083300799995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.305445848027305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045791338055472454",
+            "extra": "mean: 3.2739027439999973 sec\nrounds: 5"
           }
         ]
       }
