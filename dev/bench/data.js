@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707967725008,
+  "lastUpdate": 1708132839189,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4362,6 +4362,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045791338055472454",
             "extra": "mean: 3.2739027439999973 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "bb2be9cd00da651c930dc61daf7adec9dc994903",
+          "message": "Remove unused Queue._finished Event\n\nThis was used to support the proposed Queue.task_done() and Queue.join(),\nbut those were removed during review of #2404. Removing the unused _finished\nEvent was overlooked.",
+          "timestamp": "2024-02-16T17:17:09-08:00",
+          "tree_id": "ca5ea1dcfddee632c45959f673e51f934db3d7b0",
+          "url": "https://github.com/cocotb/cocotb/commit/bb2be9cd00da651c930dc61daf7adec9dc994903"
+        },
+        "date": 1708132838614,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09974613934847852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1889179116216828",
+            "extra": "mean: 10.025450674399996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2934649896911726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037151219307684225",
+            "extra": "mean: 3.4075614984000255 sec\nrounds: 5"
           }
         ]
       }
