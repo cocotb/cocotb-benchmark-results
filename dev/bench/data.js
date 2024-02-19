@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708132839189,
+  "lastUpdate": 1708369942282,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4400,6 +4400,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.037151219307684225",
             "extra": "mean: 3.4075614984000255 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f9934d679ddd41086ffddf4061f780b60ead30f",
+          "message": "Fix docstring links to SimTimeoutError (#3723)",
+          "timestamp": "2024-02-19T20:08:58+01:00",
+          "tree_id": "55c8660383786591c566c21d61c300cb962bbd57",
+          "url": "https://github.com/cocotb/cocotb/commit/0f9934d679ddd41086ffddf4061f780b60ead30f"
+        },
+        "date": 1708369942060,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10096511555005418,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04501629659890453",
+            "extra": "mean: 9.904410989400025 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.3028771318419832,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029238127197587668",
+            "extra": "mean: 3.301668877799989 sec\nrounds: 5"
           }
         ]
       }
