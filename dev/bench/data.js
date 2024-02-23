@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708369942282,
+  "lastUpdate": 1708648296031,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4438,6 +4438,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029238127197587668",
             "extra": "mean: 3.301668877799989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54447c6629b84339a752fabc7fb41f3a29f71c01",
+          "message": "Add more integer parameters to test_package (#3729)",
+          "timestamp": "2024-02-22T16:28:15-08:00",
+          "tree_id": "50aefa8abd1fab6dcbfcb1049150742db251353e",
+          "url": "https://github.com/cocotb/cocotb/commit/54447c6629b84339a752fabc7fb41f3a29f71c01"
+        },
+        "date": 1708648295680,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10157999702814781,
+            "unit": "iter/sec",
+            "range": "stddev: 0.058292849324330785",
+            "extra": "mean: 9.844457858400016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.30882880230296067,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040847793772626935",
+            "extra": "mean: 3.2380399514000033 sec\nrounds: 5"
           }
         ]
       }
