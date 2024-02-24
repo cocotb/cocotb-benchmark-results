@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708792780720,
+  "lastUpdate": 1708808428756,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4590,6 +4590,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07267528494745729",
             "extra": "mean: 8.248054476200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6238c512a7cec30a2aaab6583a4554652c4fc3fc",
+          "message": "Refactor of the RegressionManager\n\nYes! Again!\n\nfilter_tests is now add_filters which simply register filters with the\nRegressionManager. Additionally, there is a set_mode method which allows\nthe user to set the mode of the RegressionManager. Currently this is\njust used for informing the test initialization logic that we specified\nTESTCASE and want to still run skipped tests. All of this is synthesized\nin the start_regression call.\n\nThe other upshot of doing it this way is that excluded tests appear in\nthe results.xml in order of declaration rather than all pushed towards\nthe beginning.\n\nMore documentation and comments have been added throughout.\n\nThe awkward combination of _start_test, _init_test, and _next_test have\nall been combined into _execute, so it's easier to see the full logic\nbeing applied to each test.\n\nThe sim_failed logic in the callback side of the regression manager has\nbeen piped out so it can work with the new _execute to save some logic.",
+          "timestamp": "2024-02-24T14:56:25-06:00",
+          "tree_id": "d4065484cac5d91e61517de31aec74f4f6a38108",
+          "url": "https://github.com/cocotb/cocotb/commit/6238c512a7cec30a2aaab6583a4554652c4fc3fc"
+        },
+        "date": 1708808428543,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10039722149842936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03205730136789127",
+            "extra": "mean: 9.960435010800017 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1192690990241576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06440885945922144",
+            "extra": "mean: 8.384401392999985 sec\nrounds: 5"
           }
         ]
       }
