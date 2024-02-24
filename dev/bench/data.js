@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708788293881,
+  "lastUpdate": 1708792747018,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4514,6 +4514,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05012545011066427",
             "extra": "mean: 8.300537949999988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac4e0112f4aef0ebf5cf4e46fd15ee003f4496ca",
+          "message": "Improve `test_multi_dimensional_array` (#3735)\n\n* Run test_multidimensional_array with Icarus\r\n* Only run if above 10.3\r\n* Add additional tests to test_multi_dimension_array",
+          "timestamp": "2024-02-24T10:35:03-06:00",
+          "tree_id": "d87a8216e340185d26fafa5a5e732f23fc886b23",
+          "url": "https://github.com/cocotb/cocotb/commit/ac4e0112f4aef0ebf5cf4e46fd15ee003f4496ca"
+        },
+        "date": 1708792746681,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1011860230747905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029204094052808525",
+            "extra": "mean: 9.882787855599991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12015165712296841,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06182900198604481",
+            "extra": "mean: 8.322814881999978 sec\nrounds: 5"
           }
         ]
       }
