@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708808428756,
+  "lastUpdate": 1708819602594,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4628,6 +4628,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06440885945922144",
             "extra": "mean: 8.384401392999985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "393b3284b05a27b4c7e8c0d6635492347a7f03fe",
+          "message": "CI: Update pinned Verilator version to latest release (#3739)",
+          "timestamp": "2024-02-24T16:02:17-08:00",
+          "tree_id": "a51789f02c6cdf243ed96e31ffaf00142cb53020",
+          "url": "https://github.com/cocotb/cocotb/commit/393b3284b05a27b4c7e8c0d6635492347a7f03fe"
+        },
+        "date": 1708819602382,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10061633669175576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05376436266934655",
+            "extra": "mean: 9.938743874799979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12121824068211577,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06075680949860217",
+            "extra": "mean: 8.249583514600022 sec\nrounds: 5"
           }
         ]
       }
