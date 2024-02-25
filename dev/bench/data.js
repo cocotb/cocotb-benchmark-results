@@ -27,13 +27,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04582213319345109",
             "extra": "mean: 7.426325600000007 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.331497535644039,
-            "unit": "iter/sec",
-            "range": "stddev: 0.002992425361321056",
-            "extra": "mean: 428.90888140002517 msec\nrounds: 5"
           }
         ]
       },
@@ -61,13 +54,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07951111060773151",
             "extra": "mean: 12.583472412799972 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 1.5359861469679563,
-            "unit": "iter/sec",
-            "range": "stddev: 0.004729592444382627",
-            "extra": "mean: 651.0475384000074 msec\nrounds: 5"
           }
         ]
       },
@@ -99,13 +85,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011266289058841018",
             "extra": "mean: 7.0998823154000545 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.4085062660906917,
-            "unit": "iter/sec",
-            "range": "stddev: 0.000792584676152146",
-            "extra": "mean: 415.19509999993716 msec\nrounds: 5"
           }
         ]
       },
@@ -137,13 +116,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023689923595402222",
             "extra": "mean: 5.505730818200004 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.0919631754481998,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0013498203309612563",
-            "extra": "mean: 323.4191170000088 msec\nrounds: 5"
           }
         ]
       },
@@ -175,13 +147,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04750975131391103",
             "extra": "mean: 7.371603655799987 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.3717809806080163,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0021173060131959675",
-            "extra": "mean: 421.6240910000238 msec\nrounds: 5"
           }
         ]
       },
@@ -213,13 +178,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.036363386333450834",
             "extra": "mean: 7.440785422399995 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.3313683938811813,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0003946838160965137",
-            "extra": "mean: 428.9326399999936 msec\nrounds: 5"
           }
         ]
       },
@@ -251,13 +209,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08524866935281233",
             "extra": "mean: 8.732283132400017 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 1.8351594387070616,
-            "unit": "iter/sec",
-            "range": "stddev: 0.021404071163333312",
-            "extra": "mean: 544.9117820000083 msec\nrounds: 5"
           }
         ]
       },
@@ -289,13 +240,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09356396965537105",
             "extra": "mean: 7.528570852400003 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.2511833021984895,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0022322529163587915",
-            "extra": "mean: 444.2108285999666 msec\nrounds: 5"
           }
         ]
       },
@@ -327,13 +271,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12723528215733432",
             "extra": "mean: 8.498220063600012 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 1.997123392195719,
-            "unit": "iter/sec",
-            "range": "stddev: 0.006496430909044079",
-            "extra": "mean: 500.72018779999325 msec\nrounds: 5"
           }
         ]
       },
@@ -365,13 +302,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018877945163629197",
             "extra": "mean: 5.484770331599987 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.11960681399112,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0018121469408723667",
-            "extra": "mean: 320.5532170000083 msec\nrounds: 5"
           }
         ]
       },
@@ -403,13 +333,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09136616855893866",
             "extra": "mean: 5.664403190199994 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.956770958926801,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0023354992256600753",
-            "extra": "mean: 338.20678499999985 msec\nrounds: 5"
           }
         ]
       },
@@ -441,13 +364,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05101358419336057",
             "extra": "mean: 5.578964605199997 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.06901189327067,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0026887425716175294",
-            "extra": "mean: 325.8377727999914 msec\nrounds: 5"
           }
         ]
       },
@@ -479,13 +395,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04804460724635621",
             "extra": "mean: 5.445349301600015 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.143706549193259,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0013548058080076297",
-            "extra": "mean: 318.0958477999866 msec\nrounds: 5"
           }
         ]
       },
@@ -517,13 +426,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.058755885328367834",
             "extra": "mean: 5.573121144200002 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.9714611834698452,
-            "unit": "iter/sec",
-            "range": "stddev: 0.009562837242777901",
-            "extra": "mean: 336.53476799999 msec\nrounds: 5"
           }
         ]
       },
@@ -555,13 +457,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04723057553615248",
             "extra": "mean: 5.591586288999986 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.039368170601085,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0028173037803238808",
-            "extra": "mean: 329.0157505999787 msec\nrounds: 5"
           }
         ]
       },
@@ -593,13 +488,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06454867784974207",
             "extra": "mean: 5.312121843400007 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.0655963210684947,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0005626108326412268",
-            "extra": "mean: 326.20080900001085 msec\nrounds: 5"
           }
         ]
       },
@@ -631,13 +519,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05510189683964468",
             "extra": "mean: 5.539188210199995 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.1198224888391515,
-            "unit": "iter/sec",
-            "range": "stddev: 0.00243840972749789",
-            "extra": "mean: 320.53105700000515 msec\nrounds: 5"
           }
         ]
       },
@@ -669,13 +550,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03820738592728261",
             "extra": "mean: 5.563801518999997 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.9718569409337676,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0051381611850452175",
-            "extra": "mean: 336.48995219998596 msec\nrounds: 5"
           }
         ]
       },
@@ -707,13 +581,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.2564275597418212",
             "extra": "mean: 10.487601206400019 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 1.5982872247761515,
-            "unit": "iter/sec",
-            "range": "stddev: 0.01953752987999734",
-            "extra": "mean: 625.6697698000153 msec\nrounds: 5"
           }
         ]
       },
@@ -745,13 +612,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.046624162435926694",
             "extra": "mean: 5.28157481679998 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.066290820116428,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0015428215366051776",
-            "extra": "mean: 326.12692620004964 msec\nrounds: 5"
           }
         ]
       },
@@ -783,13 +643,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05073418073793825",
             "extra": "mean: 5.292037880600003 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.09379633944237,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0020622558159149955",
-            "extra": "mean: 323.2274817999951 msec\nrounds: 5"
           }
         ]
       },
@@ -821,13 +674,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030901393112237704",
             "extra": "mean: 5.308977072600032 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.070172176403713,
-            "unit": "iter/sec",
-            "range": "stddev: 0.002964539008072236",
-            "extra": "mean: 325.71463180001956 msec\nrounds: 5"
           }
         ]
       },
@@ -859,13 +705,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04927823307675141",
             "extra": "mean: 5.263937328000003 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.123259585068714,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0008995568198798116",
-            "extra": "mean: 320.1783177999914 msec\nrounds: 5"
           }
         ]
       },
@@ -897,13 +736,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039698402826970965",
             "extra": "mean: 5.377698253 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 2.949684491953821,
-            "unit": "iter/sec",
-            "range": "stddev: 0.001927758762722808",
-            "extra": "mean: 339.0193095999962 msec\nrounds: 5"
           }
         ]
       },
@@ -935,13 +767,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.032297030187647666",
             "extra": "mean: 5.241391769399985 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.138852207965563,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0009928133005987516",
-            "extra": "mean: 318.5877937999976 msec\nrounds: 5"
           }
         ]
       },
@@ -973,13 +798,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01593409391443916",
             "extra": "mean: 4.951108325600001 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.4137969950591374,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0003504971794216354",
-            "extra": "mean: 292.9289589999996 msec\nrounds: 5"
           }
         ]
       },
@@ -1011,13 +829,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.051200564649915334",
             "extra": "mean: 5.412024498599988 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.012042108808959,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0019380714545982976",
-            "extra": "mean: 332.00067059999583 msec\nrounds: 5"
           }
         ]
       },
@@ -1049,13 +860,6 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07263411266717139",
             "extra": "mean: 5.299559002800004 sec\nrounds: 5"
-          },
-          {
-            "name": "::test_matrix_multiplier_ghdl",
-            "value": 3.094920916247303,
-            "unit": "iter/sec",
-            "range": "stddev: 0.00228843286533503",
-            "extra": "mean: 323.1100331999869 msec\nrounds: 5"
           }
         ]
       },
