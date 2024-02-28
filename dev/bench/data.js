@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708819602594,
+  "lastUpdate": 1709145341397,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4470,6 +4470,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06075680949860217",
             "extra": "mean: 8.249583514600022 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "78746991+hakan-demirli@users.noreply.github.com",
+            "name": "hakan-demirli",
+            "username": "hakan-demirli"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4604cfa64a47312a2927e14399501b56f29174a",
+          "message": "Add pre_cmd runner test argument to Questa/Modelsim\n\nCo-authored-by: Vladislav Borshch <borchsh.vn@gmail.com>",
+          "timestamp": "2024-02-28T12:31:43-06:00",
+          "tree_id": "450a62a2208a053a11e83f19e56b307ea34a9a67",
+          "url": "https://github.com/cocotb/cocotb/commit/e4604cfa64a47312a2927e14399501b56f29174a"
+        },
+        "date": 1709145341025,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1005946915813558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0972183511332269",
+            "extra": "mean: 9.94088240920001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12037856349702135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06464949368462539",
+            "extra": "mean: 8.307126875 sec\nrounds: 5"
           }
         ]
       }
