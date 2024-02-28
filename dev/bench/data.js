@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709145341397,
+  "lastUpdate": 1709159687336,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4508,6 +4508,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06464949368462539",
             "extra": "mean: 8.307126875 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65d102f2fb38b1cc4327bbd0371deee09758442a",
+          "message": "Merge pull request #3737 from ktbarrett/split-vpi-cb-1\n\nSplit VpiCbHdl.cpp (with history)",
+          "timestamp": "2024-02-28T16:30:39-06:00",
+          "tree_id": "1ddc6d849133c5a43df406c0f805a7c01abeed14",
+          "url": "https://github.com/cocotb/cocotb/commit/65d102f2fb38b1cc4327bbd0371deee09758442a"
+        },
+        "date": 1709159687024,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10117603064671511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05602114221714485",
+            "extra": "mean: 9.88376390740001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12068490826584231,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08067154885256897",
+            "extra": "mean: 8.286040188200001 sec\nrounds: 5"
           }
         ]
       }
