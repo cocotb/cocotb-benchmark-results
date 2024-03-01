@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709159687336,
+  "lastUpdate": 1709330905927,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4546,6 +4546,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08067154885256897",
             "extra": "mean: 8.286040188200001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a0fbd82bb3005c6fa5063b99053e001f0a367c8",
+          "message": "Move extensions page from Reference to Howto (#3750)\n\nCloses #3641",
+          "timestamp": "2024-03-01T23:04:24+01:00",
+          "tree_id": "645a02acf0cf5ee2801c6214c535e59e1d4e0563",
+          "url": "https://github.com/cocotb/cocotb/commit/2a0fbd82bb3005c6fa5063b99053e001f0a367c8"
+        },
+        "date": 1709330905725,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10034423631524776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18222679828587857",
+            "extra": "mean: 9.96569446059998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12138862663748733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029094855886472645",
+            "extra": "mean: 8.238004067600013 sec\nrounds: 5"
           }
         ]
       }
