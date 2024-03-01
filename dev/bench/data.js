@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709331072033,
+  "lastUpdate": 1709331380309,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4622,6 +4622,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09842967739247788",
             "extra": "mean: 8.43196838 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21f1adc39db198fa5752c8d241d501104d9adf6e",
+          "message": "Add lru_cache to want_color_output() (#3753)\n\nCloses #3720",
+          "timestamp": "2024-03-01T23:07:47+01:00",
+          "tree_id": "a61cff1711567bc9fe591c47cbafe331194bf074",
+          "url": "https://github.com/cocotb/cocotb/commit/21f1adc39db198fa5752c8d241d501104d9adf6e"
+        },
+        "date": 1709331380070,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10114077912830152,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09869919180583506",
+            "extra": "mean: 9.887208785799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11987281886909049,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038987540117972855",
+            "extra": "mean: 8.342174726799993 sec\nrounds: 5"
           }
         ]
       }
