@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709331380309,
+  "lastUpdate": 1709332083973,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4660,6 +4660,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.038987540117972855",
             "extra": "mean: 8.342174726799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd1b5b4d7e797646874ca1c98c4b227ea67ce591",
+          "message": "Add missing `--trace` option to Verilator docs (#3751)\n\nCloses #3687",
+          "timestamp": "2024-03-01T23:11:09+01:00",
+          "tree_id": "db0e1225f8fa991c039f2c1bc2803371348bd9ca",
+          "url": "https://github.com/cocotb/cocotb/commit/cd1b5b4d7e797646874ca1c98c4b227ea67ce591"
+        },
+        "date": 1709332083780,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10143465899459268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06886812877596986",
+            "extra": "mean: 9.858563235799988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12023483972636692,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045555910964285",
+            "extra": "mean: 8.317056872000013 sec\nrounds: 5"
           }
         ]
       }
