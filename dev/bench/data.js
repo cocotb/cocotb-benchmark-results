@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709332083973,
+  "lastUpdate": 1709344553710,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4698,6 +4698,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045555910964285",
             "extra": "mean: 8.317056872000013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "98f19f690093ebcf9389a1bb68bb81c4f66ce938",
+          "message": "Simplify TestFactory.generate_tests now that parameterize is standalone",
+          "timestamp": "2024-03-01T19:51:42-06:00",
+          "tree_id": "6f37e4addad81440b0d95f60b00aebab198493e6",
+          "url": "https://github.com/cocotb/cocotb/commit/98f19f690093ebcf9389a1bb68bb81c4f66ce938"
+        },
+        "date": 1709344553360,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10107957780878246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035365909528094715",
+            "extra": "mean: 9.893195259399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1215668695847991,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09177856652020852",
+            "extra": "mean: 8.225925397399896 sec\nrounds: 5"
           }
         ]
       }
