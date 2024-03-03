@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709344553710,
+  "lastUpdate": 1709481381537,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4736,6 +4736,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09177856652020852",
             "extra": "mean: 8.225925397399896 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98c31e425cd7a275a992bad69e84827eb4a6b4b8",
+          "message": "Docs: Update Verilator support section for minimum supported version of 5.022 (#3740)",
+          "timestamp": "2024-03-03T07:51:53-08:00",
+          "tree_id": "4b2f4a1dabbc88a23b396803a86755102e267f22",
+          "url": "https://github.com/cocotb/cocotb/commit/98c31e425cd7a275a992bad69e84827eb4a6b4b8"
+        },
+        "date": 1709481381200,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10046690536695434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10504398322007111",
+            "extra": "mean: 9.953526450799995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12072639998862902,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1130011273576987",
+            "extra": "mean: 8.283192409399998 sec\nrounds: 5"
           }
         ]
       }
