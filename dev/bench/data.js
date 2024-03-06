@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709481381537,
+  "lastUpdate": 1709760628103,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4774,6 +4774,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1130011273576987",
             "extra": "mean: 8.283192409399998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "318ec4b2653d479bb0a7b44e3e58eac20fb68bc7",
+          "message": "Remove Makefile variables that are cocotb-config calls\n\nThis should increase startup speed. Also the documentation for these\nvariables was removed.",
+          "timestamp": "2024-03-06T14:26:17-07:00",
+          "tree_id": "9e627ed2fef93ac494747b378a8fcc504c1f6d97",
+          "url": "https://github.com/cocotb/cocotb/commit/318ec4b2653d479bb0a7b44e3e58eac20fb68bc7"
+        },
+        "date": 1709760627742,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10094668767337184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10439184724754205",
+            "extra": "mean: 9.906219045399984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12115215681259886,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04157933043947162",
+            "extra": "mean: 8.254083346999959 sec\nrounds: 5"
           }
         ]
       }
