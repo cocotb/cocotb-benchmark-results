@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709760628103,
+  "lastUpdate": 1710006189434,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4812,6 +4812,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04157933043947162",
             "extra": "mean: 8.254083346999959 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9047604b8e811aef8e81e43674f07f5823b8a081",
+          "message": "Remove remaining uses of COCOTB_SIM (#3762)",
+          "timestamp": "2024-03-09T09:39:02-08:00",
+          "tree_id": "7fa5c1f9215232d5c52a4ca09bb969b3a9ded08b",
+          "url": "https://github.com/cocotb/cocotb/commit/9047604b8e811aef8e81e43674f07f5823b8a081"
+        },
+        "date": 1710006188894,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.100665992061923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08249381393752017",
+            "extra": "mean: 9.933841404800011 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12106649992836879,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05731280576081368",
+            "extra": "mean: 8.2599232702 sec\nrounds: 5"
           }
         ]
       }
