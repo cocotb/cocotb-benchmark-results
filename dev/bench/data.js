@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710006189434,
+  "lastUpdate": 1710008514683,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4850,6 +4850,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05731280576081368",
             "extra": "mean: 8.2599232702 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2850d55af8cfdfeca2dd3a3f87f78516c8616fea",
+          "message": "Fix logic on deducing direction HierarchyArrayObject",
+          "timestamp": "2024-03-09T12:17:42-06:00",
+          "tree_id": "0107be4b387cc982796a9ce846deb7b7db181de4",
+          "url": "https://github.com/cocotb/cocotb/commit/2850d55af8cfdfeca2dd3a3f87f78516c8616fea"
+        },
+        "date": 1710008514107,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10071874097754847,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07204968605777956",
+            "extra": "mean: 9.928638804399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11932858018985047,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07238167385981402",
+            "extra": "mean: 8.38022205919999 sec\nrounds: 5"
           }
         ]
       }
