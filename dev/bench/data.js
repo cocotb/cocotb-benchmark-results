@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710008514683,
+  "lastUpdate": 1710195721940,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4888,6 +4888,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07238167385981402",
             "extra": "mean: 8.38022205919999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1f0380b3fdc8017062b637a372fb916430f407e5",
+          "message": "Remove redundant coverage configuration\n\nThe `run` section is only applied when `coverage run` is used. We are never doing this. Also, the configuration was stale.",
+          "timestamp": "2024-03-11T17:18:02-05:00",
+          "tree_id": "7becba8fc0f1aab59f2c8c21ca6e04490f8c255f",
+          "url": "https://github.com/cocotb/cocotb/commit/1f0380b3fdc8017062b637a372fb916430f407e5"
+        },
+        "date": 1710195721691,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10095196303563649,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14341353817244615",
+            "extra": "mean: 9.90570138439998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12060308477062671,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06096781910583962",
+            "extra": "mean: 8.291661875000012 sec\nrounds: 5"
           }
         ]
       }
