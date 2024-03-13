@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710369657471,
+  "lastUpdate": 1710369957705,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5002,6 +5002,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03657528179382329",
             "extra": "mean: 8.379030388 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "e1b92e9860b8eb57b3a00204f220433492da0514",
+          "message": "CI: Update the codecov GH action to v4\n\nUpdate to the latest version of the codecov GH Action and its uploader.\n\nMost notably, this action now uses nodejs 20 instead of 16, which\nGitHub prominently warns about.\n\nLess notably, this action is a significant rewrite from the previous\nversion, which uses the codecov-cli behind the covers.",
+          "timestamp": "2024-03-13T23:41:55+01:00",
+          "tree_id": "87b2989237af2a8f632d695efd140c515f23361b",
+          "url": "https://github.com/cocotb/cocotb/commit/e1b92e9860b8eb57b3a00204f220433492da0514"
+        },
+        "date": 1710369957444,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10164325877053805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04932953761859574",
+            "extra": "mean: 9.838330766800016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12160648931172141,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04377676922861514",
+            "extra": "mean: 8.223245368400024 sec\nrounds: 5"
           }
         ]
       }
