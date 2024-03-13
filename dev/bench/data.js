@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710361629944,
+  "lastUpdate": 1710369657471,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -4964,6 +4964,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09564545589829503",
             "extra": "mean: 8.335055387800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "3c767afed12aede04551f04550acd488acef621e",
+          "message": "CI: Test more Questa and Riviera-PRO versions\n\nIn the previous private CI setup, we ran a number of Questa and\nRiviera-PRO versions in extended tests. Add those same tests to our\nnew CI setup.",
+          "timestamp": "2024-03-13T23:36:45+01:00",
+          "tree_id": "553c5f4b748663aae5988e02415cd68307efbd21",
+          "url": "https://github.com/cocotb/cocotb/commit/3c767afed12aede04551f04550acd488acef621e"
+        },
+        "date": 1710369657077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10077569118632614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08270161119767008",
+            "extra": "mean: 9.923027946799994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1193455511788269,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03657528179382329",
+            "extra": "mean: 8.379030388 sec\nrounds: 5"
           }
         ]
       }
