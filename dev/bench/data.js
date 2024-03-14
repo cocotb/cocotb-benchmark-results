@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710369957705,
+  "lastUpdate": 1710375465713,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5040,6 +5040,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04377676922861514",
             "extra": "mean: 8.223245368400024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rk.ryan.king@gmail.com",
+            "name": "Ryan King",
+            "username": "rkryan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "381502c29f084f2f8f9408f856146b5d2801eba9",
+          "message": "Add failing testcase for vhdl architecture naming (#3770)\n\nWith Xcelium and a vhdl top level, a design where the top level has an\r\nentity and architecture with the same name will lead to an error:\r\n`VHPI: Not able to map type (vhpiArchBodyK) 1007 to object`. This\r\ntestcase deliberately hits this error.\r\n\r\nThis is detailed in https://github.com/cocotb/cocotb/issues/3769.",
+          "timestamp": "2024-03-13T19:09:27-05:00",
+          "tree_id": "bcf34af7d54d6a44bd00135139219dfdb766160f",
+          "url": "https://github.com/cocotb/cocotb/commit/381502c29f084f2f8f9408f856146b5d2801eba9"
+        },
+        "date": 1710375465501,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10097264843117067,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09403667570253432",
+            "extra": "mean: 9.903672088799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11987980530688805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02909030034042323",
+            "extra": "mean: 8.3416885558 sec\nrounds: 5"
           }
         ]
       }
