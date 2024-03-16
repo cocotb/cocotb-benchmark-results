@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710375465713,
+  "lastUpdate": 1710556068301,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5078,6 +5078,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02909030034042323",
             "extra": "mean: 8.3416885558 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22ce6d980c69f31e7565ae012d1ba2990ef5f1d8",
+          "message": "Small typing cleanup of Task and related functions (#3783)",
+          "timestamp": "2024-03-15T19:23:47-07:00",
+          "tree_id": "f04f13387f7989182413e09105af19f06ac20575",
+          "url": "https://github.com/cocotb/cocotb/commit/22ce6d980c69f31e7565ae012d1ba2990ef5f1d8"
+        },
+        "date": 1710556068088,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10105108210701032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050388595291326166",
+            "extra": "mean: 9.8959850716 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11997246223605393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11346859059674315",
+            "extra": "mean: 8.33524611700002 sec\nrounds: 5"
           }
         ]
       }
