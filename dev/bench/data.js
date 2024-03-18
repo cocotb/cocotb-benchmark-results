@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710701682471,
+  "lastUpdate": 1710802855082,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5154,6 +5154,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0728221216470238",
             "extra": "mean: 8.325496526400002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "961cf4b6e4c880946bfa70c7254d26930bac0b58",
+          "message": "Use pre-commit.ci (#3780)\n\nLet's give up trying to make our own pre-commit update action and\r\ninstead use pre-commit.ci.\r\n\r\nDisabling autofixing PRs because we want clean history.",
+          "timestamp": "2024-03-18T17:56:53-05:00",
+          "tree_id": "c99d1ab8b841151aec6f04e21dbc75bc9fb3e566",
+          "url": "https://github.com/cocotb/cocotb/commit/961cf4b6e4c880946bfa70c7254d26930bac0b58"
+        },
+        "date": 1710802854821,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10089271373182782,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05351082232490427",
+            "extra": "mean: 9.911518513200008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12063087981738038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06781334995745543",
+            "extra": "mean: 8.289751359800004 sec\nrounds: 5"
           }
         ]
       }
