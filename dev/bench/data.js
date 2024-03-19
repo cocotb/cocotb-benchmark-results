@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710802855082,
+  "lastUpdate": 1710806691951,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5192,6 +5192,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06781334995745543",
             "extra": "mean: 8.289751359800004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "785e0896930039023db3c2e2be47bed5375326c5",
+          "message": "[pre-commit.ci] pre-commit autoupdate (#3784)\n\n* [pre-commit.ci] pre-commit autoupdate\r\n\r\nupdates:\r\n- [github.com/astral-sh/ruff-pre-commit: v0.2.2 → v0.3.3](https://github.com/astral-sh/ruff-pre-commit/compare/v0.2.2...v0.3.3)\r\n- [github.com/pre-commit/mirrors-clang-format: v17.0.6 → v18.1.1](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.6...v18.1.1)\r\n- [github.com/henryiii/validate-pyproject-schema-store: 2024.02.13 → 2024.03.18](https://github.com/henryiii/validate-pyproject-schema-store/compare/2024.02.13...2024.03.18)\r\n\r\n* [pre-commit.ci] auto fixes from pre-commit.com hooks\r\n\r\nfor more information, see https://pre-commit.ci\r\n\r\n---------\r\n\r\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2024-03-18T19:00:06-05:00",
+          "tree_id": "63d65de57800dc31c141b78fcfe7002cd5ed181c",
+          "url": "https://github.com/cocotb/cocotb/commit/785e0896930039023db3c2e2be47bed5375326c5"
+        },
+        "date": 1710806691608,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1012063490372658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11663468257496601",
+            "extra": "mean: 9.880803027800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12098527855744891,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0540203405622448",
+            "extra": "mean: 8.2654684266 sec\nrounds: 5"
           }
         ]
       }
