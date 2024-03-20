@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710952294342,
+  "lastUpdate": 1710957373653,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5306,6 +5306,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06132511396259728",
             "extra": "mean: 8.299567890799995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "3782fb2bcd5e7d75754a017a89002e012a0f6083",
+          "message": "Update gcovr comment in noxfile",
+          "timestamp": "2024-03-20T18:52:08+01:00",
+          "tree_id": "26716ab3e6169f98e85ca9d154e3a4ff94597ac6",
+          "url": "https://github.com/cocotb/cocotb/commit/3782fb2bcd5e7d75754a017a89002e012a0f6083"
+        },
+        "date": 1710957373296,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10126832553892412,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04927539061672675",
+            "extra": "mean: 9.874755948400013 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12099043284130248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05928736191489483",
+            "extra": "mean: 8.265116311400039 sec\nrounds: 5"
           }
         ]
       }
