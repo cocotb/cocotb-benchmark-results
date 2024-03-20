@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710909398404,
+  "lastUpdate": 1710952294342,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5268,6 +5268,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.14912592474339734",
             "extra": "mean: 8.292251103200055 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "52ddbfa9dedbf06a2a66810ac761566713ba36f8",
+          "message": "Limit setting of CFLAGS to cocotb build only in noxfile",
+          "timestamp": "2024-03-20T11:27:23-05:00",
+          "tree_id": "2d6f8c9181aa3582775194ad6ba766d6ee163b75",
+          "url": "https://github.com/cocotb/cocotb/commit/52ddbfa9dedbf06a2a66810ac761566713ba36f8"
+        },
+        "date": 1710952294084,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10066725596791076,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030450761014607367",
+            "extra": "mean: 9.933716682600004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1204882004891474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06132511396259728",
+            "extra": "mean: 8.299567890799995 sec\nrounds: 5"
           }
         ]
       }
