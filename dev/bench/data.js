@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710957668506,
+  "lastUpdate": 1711000241802,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5382,6 +5382,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07927966682943259",
             "extra": "mean: 8.312638645000016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5434dc2bcd2d6168421c833c6fe77c13645620b7",
+          "message": "[Vpi] test_discovery scope tests (#3782)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-03-21T00:46:46-05:00",
+          "tree_id": "65827aefb43446bd7f457ca346963e1e8f4bd826",
+          "url": "https://github.com/cocotb/cocotb/commit/5434dc2bcd2d6168421c833c6fe77c13645620b7"
+        },
+        "date": 1711000241602,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1013375175915383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.058537035758767154",
+            "extra": "mean: 9.86801358240001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12042622869967944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.048072669033190255",
+            "extra": "mean: 8.303838879600004 sec\nrounds: 5"
           }
         ]
       }
