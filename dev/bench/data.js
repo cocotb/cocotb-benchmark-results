@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711000241802,
+  "lastUpdate": 1711046870262,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5420,6 +5420,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.048072669033190255",
             "extra": "mean: 8.303838879600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rk.ryan.king@gmail.com",
+            "name": "Ryan King",
+            "username": "rkryan"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "30b769a55652fbf6ac34f2cbd6c472b9af48aa6d",
+          "message": "Integrate combine_results into cocotb_tools\n\nThis removes the last script from the standalone bin directory,\npreferring instead to deliver this functionality as part of the\ncocotb_tools package. As all usage of this is internal to the cocotb\nrepository, no console_scripts entry is added for this.\n\n`python -m cocotb_tools.combine_results` is a drop-in replacement for\n`combine_results.py`.",
+          "timestamp": "2024-03-21T13:43:49-05:00",
+          "tree_id": "020915d7217286661628bbb93e3c03f2deb6a170",
+          "url": "https://github.com/cocotb/cocotb/commit/30b769a55652fbf6ac34f2cbd6c472b9af48aa6d"
+        },
+        "date": 1711046870017,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10123128980156369,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05510179709787954",
+            "extra": "mean: 9.87836865419997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12090435005016559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059688062923852044",
+            "extra": "mean: 8.27100099859997 sec\nrounds: 5"
           }
         ]
       }
