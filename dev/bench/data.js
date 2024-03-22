@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711046870262,
+  "lastUpdate": 1711068947626,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5458,6 +5458,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.059688062923852044",
             "extra": "mean: 8.27100099859997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ab5431bfce09f200ef0fc02080bedd36d8916e0",
+          "message": "VHPI: Improve get_root_handle() (#3774)\n\nWhen a name is passed in, it is first used as a check on the object names.\r\n\r\nFirst, vhpiRootInst is used. If its name fails the check, we attempt to get\r\nthe entity associated with the rootInst, and check the entity name.\r\n\r\nIf both of those checks fail, we search for a handle using the passed in name.\r\nIf the passed in name does not start with ':', it is added to the beginning so that\r\nthe search uses the FullName of the instantiated object, rather than the more\r\nambiguous name that may match objects in the library information model.\r\n\r\nThis change moves the lookup by name to the last fallback, so that the name acts first\r\nas a check, which matches VPI and FLI implementations.\r\n\r\nAlso modify issue_3769 test to expect it to pass on Xcelium.",
+          "timestamp": "2024-03-21T17:49:08-07:00",
+          "tree_id": "726a899e01863d9efc0651c3ffae9959c4899ffd",
+          "url": "https://github.com/cocotb/cocotb/commit/5ab5431bfce09f200ef0fc02080bedd36d8916e0"
+        },
+        "date": 1711068947412,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10133988572312891,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025410632115636916",
+            "extra": "mean: 9.867782984600002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12124275406541403,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061721901654172816",
+            "extra": "mean: 8.247915578200002 sec\nrounds: 5"
           }
         ]
       }
