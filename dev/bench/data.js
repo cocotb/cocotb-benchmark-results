@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711068947626,
+  "lastUpdate": 1711088333205,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5496,6 +5496,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.061721901654172816",
             "extra": "mean: 8.247915578200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2fb4e2a4f979a01656c175ebcfada5db36efe14",
+          "message": "Fix small doc linking problems (#3800)",
+          "timestamp": "2024-03-22T07:14:54+01:00",
+          "tree_id": "22bbddb8706778eba70b1e34ac2bb4db78bb2531",
+          "url": "https://github.com/cocotb/cocotb/commit/f2fb4e2a4f979a01656c175ebcfada5db36efe14"
+        },
+        "date": 1711088332961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10164128128904708,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037485739080440277",
+            "extra": "mean: 9.8385221764 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12096167183589243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07092735502008676",
+            "extra": "mean: 8.267081504599991 sec\nrounds: 5"
           }
         ]
       }
