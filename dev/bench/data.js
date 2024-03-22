@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711088333205,
+  "lastUpdate": 1711090741591,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5534,6 +5534,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07092735502008676",
             "extra": "mean: 8.267081504599991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0acd44cd930dc42d6dd6edf960134dd17c7d041",
+          "message": "Remove leftover trace of MEMCHECK envvar (#3799)\n\nSupport has been removed in #3543",
+          "timestamp": "2024-03-22T07:54:53+01:00",
+          "tree_id": "30be3b4aaff6a2c60e9cef142c500cf21283a248",
+          "url": "https://github.com/cocotb/cocotb/commit/a0acd44cd930dc42d6dd6edf960134dd17c7d041"
+        },
+        "date": 1711090740941,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10060085123354333,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06732073577134759",
+            "extra": "mean: 9.940273742600004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11967438132482122,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029801707823461168",
+            "extra": "mean: 8.356007266799997 sec\nrounds: 5"
           }
         ]
       }
