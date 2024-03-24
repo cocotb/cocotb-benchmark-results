@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711090741591,
+  "lastUpdate": 1711321796561,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5572,6 +5572,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029801707823461168",
             "extra": "mean: 8.356007266799997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7414f1c3e7ce35418b64f64bb596b3f065fa7df3",
+          "message": "Improve combine_results script (#3803)\n\n* Allow multiple directories to be provided to script to search for\r\n  results.xml files.\r\n* Removed --suppress-rc, just use the shell to ignore the return code if\r\n  desired.\r\n* Typing and public API cleanup.\r\n* Cleanup configuration of ArgumentParser.\r\n* Add newsfragment.\r\n* Add --input-filename option to specify the input filename.\r\n* Renamed --testsuites-name to --output-testsuites-name for clarity\r\n* Added -i and -o aliases for --input-filename and --output-file",
+          "timestamp": "2024-03-24T18:05:54-05:00",
+          "tree_id": "3554be2e41aa6309450e5c22cf15a2643b58e333",
+          "url": "https://github.com/cocotb/cocotb/commit/7414f1c3e7ce35418b64f64bb596b3f065fa7df3"
+        },
+        "date": 1711321796306,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10067752212487305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11886599747707269",
+            "extra": "mean: 9.932703734599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1202199915791709,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04829326110162401",
+            "extra": "mean: 8.318084096200005 sec\nrounds: 5"
           }
         ]
       }
