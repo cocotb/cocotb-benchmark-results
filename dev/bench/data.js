@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711325104307,
+  "lastUpdate": 1711330212599,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5647,6 +5647,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.060420070687902075",
             "extra": "mean: 8.658465427599959 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51a489f181e38e2b4b64725ce684e0dc805a6ece",
+          "message": "Improve cocotb-config script (#3804)\n\n* Make things private besides\r\n   * directories\r\n   * lib_name\r\n   * lib_name_path\r\n   * main\r\n* Reword documentation\r\n* Use mutually exclusive group for options\r\n* Remove unused -v alias for --version\r\n* Refactor to not use custom actions\r\n* Make lib_name_path return a Path instead of a as_posix string\r\n* Remove unused --prefix option\r\n\r\nThe things remaining public are used by other parts of cocotb and are\r\nnot available in any other way.\r\n\r\nThe refactor to not use custom actions leads to better generated\r\ndocumentation with sphinx_argparse_cli.",
+          "timestamp": "2024-03-24T20:25:59-05:00",
+          "tree_id": "957298fe87a1a352d2fda5891bf0a4b90c941db5",
+          "url": "https://github.com/cocotb/cocotb/commit/51a489f181e38e2b4b64725ce684e0dc805a6ece"
+        },
+        "date": 1711330212238,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10112721151018363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06085969828450944",
+            "extra": "mean: 9.888535292000006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12084659030207417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07719928472964803",
+            "extra": "mean: 8.274954200200023 sec\nrounds: 5"
           }
         ]
       }
