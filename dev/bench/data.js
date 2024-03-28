@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711472710481,
+  "lastUpdate": 1711644240440,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5761,6 +5761,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045439118854008864",
             "extra": "mean: 8.382485627200003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4be76688dd0d06e29bff9036f719f050fb7f2e05",
+          "message": "doc: Various fixes and cleanup (#3802)\n\n* Remove leftover reference to cocotb.types.concat()\r\n* Add cocotb.logging module to Global Module Index and fix newsfragment link to it\r\n* Add cocotb.log default Logger\r\n* Add missing synopses for cocotb modules\r\n* Clean up various function/method docstrings\r\n* Clean up various newsfragments and release notes",
+          "timestamp": "2024-03-28T09:39:46-07:00",
+          "tree_id": "cc9bb4333ff60544b9ca7895534660abf35c0458",
+          "url": "https://github.com/cocotb/cocotb/commit/4be76688dd0d06e29bff9036f719f050fb7f2e05"
+        },
+        "date": 1711644240169,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10134609685547423,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07000901345343735",
+            "extra": "mean: 9.867178224200007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12027963970857833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09734343894528469",
+            "extra": "mean: 8.313959057600005 sec\nrounds: 5"
           }
         ]
       }
