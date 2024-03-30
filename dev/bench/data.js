@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711644240440,
+  "lastUpdate": 1711775767140,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5799,6 +5799,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09734343894528469",
             "extra": "mean: 8.313959057600005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c01a407964643a446bacd7f1bd6162e93787cd0",
+          "message": "VPI: Use iteration fallback when looking for vpiGenScope by name (#3817)\n\nLike Icarus Verilog, Verilator does not support vpiGenScopeArray,\r\nbut vpiGenScope support has been added. Add the fallback for all simulators.\r\n\r\nWhen looking up a vpiGenScopeArray handle by name, iterate over parent handle\r\nto check if a vpiGenScope object exists with the right generate label\r\nbefore the index.\r\nIf it does, create the pseudo-region representing the vpiGenScopeArray.\r\n\r\nThis change also allows Questa to find generate scopes,\r\nso update test_discovery for the now-passing tests.",
+          "timestamp": "2024-03-29T22:12:11-07:00",
+          "tree_id": "e1b7a6d21fc9d923a9bd3b92d45c68eb0f9713f0",
+          "url": "https://github.com/cocotb/cocotb/commit/5c01a407964643a446bacd7f1bd6162e93787cd0"
+        },
+        "date": 1711775766743,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1010722309680597,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05911064888120608",
+            "extra": "mean: 9.893914385999995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12160017078687571,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035113923085964116",
+            "extra": "mean: 8.223672660399995 sec\nrounds: 5"
           }
         ]
       }
