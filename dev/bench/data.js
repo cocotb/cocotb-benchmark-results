@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711775767140,
+  "lastUpdate": 1711811115924,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5837,6 +5837,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035113923085964116",
             "extra": "mean: 8.223672660399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19d11b91a0598000bcd932897299d2337b3dac51",
+          "message": "Remove check if Questa GPI backends are built (#3818)\n\nThis is leftover from when FLI was only optionally built. It is now always built.",
+          "timestamp": "2024-03-30T09:01:07-06:00",
+          "tree_id": "44ac8d5d38c80b9fdac2ddf028e6d1882f8c1bd4",
+          "url": "https://github.com/cocotb/cocotb/commit/19d11b91a0598000bcd932897299d2337b3dac51"
+        },
+        "date": 1711811115573,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10074275157298726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11626935614276065",
+            "extra": "mean: 9.926272455200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12079252216051009,
+            "unit": "iter/sec",
+            "range": "stddev: 0.055335441820903795",
+            "extra": "mean: 8.278658166199989 sec\nrounds: 5"
           }
         ]
       }
