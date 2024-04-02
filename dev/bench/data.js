@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711811115924,
+  "lastUpdate": 1712021638664,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5875,6 +5875,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.055335441820903795",
             "extra": "mean: 8.278658166199989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53a5f5e41f3f4b22f4b5adcf14fa197faf54a19b",
+          "message": "[pre-commit.ci] pre-commit autoupdate (#3819)\n\nupdates:\r\n- [github.com/astral-sh/ruff-pre-commit: v0.3.4 → v0.3.5](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.4...v0.3.5)\r\n- [github.com/henryiii/validate-pyproject-schema-store: 2024.03.25 → 2024.04.01](https://github.com/henryiii/validate-pyproject-schema-store/compare/2024.03.25...2024.04.01)\r\n\r\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2024-04-01T19:29:43-06:00",
+          "tree_id": "bca9696407262e8f86ca2f0ba95aa3309bb6eff4",
+          "url": "https://github.com/cocotb/cocotb/commit/53a5f5e41f3f4b22f4b5adcf14fa197faf54a19b"
+        },
+        "date": 1712021638284,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10174851237787713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040476168827984584",
+            "extra": "mean: 9.82815351920002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12024122220014309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02603141998485153",
+            "extra": "mean: 8.316615397799989 sec\nrounds: 5"
           }
         ]
       }
