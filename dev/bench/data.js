@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712021638664,
+  "lastUpdate": 1712514288546,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -5913,6 +5913,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02603141998485153",
             "extra": "mean: 8.316615397799989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7e4d43b570e6627a06e696656941427308e90b1",
+          "message": "Cleanup LogicArray interface (#3792)\n\n* Deprecate LogicArray.integer, .signed_integer, and .binstr\r\n* Deprecate constructing LogicArray from ints.\r\n* Introduce LogicArray.from_unsigned, from_signed, to_signed, and\r\n  to_unsigned to replace what was deprecated.\r\n* Cleanup usage of .integer, .signed_integer, and .binstr in regression\r\n* Change exception used value doesn't fit in range",
+          "timestamp": "2024-04-07T12:20:44-06:00",
+          "tree_id": "dc77840e23e19faacc0414587d415aad23967b56",
+          "url": "https://github.com/cocotb/cocotb/commit/e7e4d43b570e6627a06e696656941427308e90b1"
+        },
+        "date": 1712514287926,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10022129440683226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020695895240624106",
+            "extra": "mean: 9.977919422399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11839789856467778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11103912173858307",
+            "extra": "mean: 8.446095852399992 sec\nrounds: 5"
           }
         ]
       }
