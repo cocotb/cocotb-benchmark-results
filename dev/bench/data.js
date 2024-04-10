@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712712713702,
+  "lastUpdate": 1712765597592,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6065,6 +6065,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11234504109523423",
             "extra": "mean: 8.483570080400023 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "39fbb9169a7588681757ecdc27230f2ff1c7aadc",
+          "message": "Deprecate cocotb.runner.Simulator.build verilog_sources and vhdl_sources (#3836)\n\nReplaced with *sources* parameter.",
+          "timestamp": "2024-04-10T10:09:07-06:00",
+          "tree_id": "31e0892447e2f30cd0f539a6eb3dd8333308f069",
+          "url": "https://github.com/cocotb/cocotb/commit/39fbb9169a7588681757ecdc27230f2ff1c7aadc"
+        },
+        "date": 1712765597218,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09973547617838008,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15427138576654437",
+            "extra": "mean: 10.026522540599979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11831676266580264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07259467787803511",
+            "extra": "mean: 8.451887775399996 sec\nrounds: 5"
           }
         ]
       }
