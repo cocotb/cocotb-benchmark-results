@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713200464582,
+  "lastUpdate": 1713235541642,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6179,6 +6179,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09713820005339366",
             "extra": "mean: 8.523332445400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "38e0c245d4850199c715941a95bfddb601578028",
+          "message": "[pre-commit.ci] pre-commit autoupdate (#3842)\n\nupdates:\r\n- [github.com/astral-sh/ruff-pre-commit: v0.3.5 → v0.3.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.5...v0.3.7)\r\n\r\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2024-04-15T22:41:30-04:00",
+          "tree_id": "32845be9a268a906cd35217071e3eec7b7e998a0",
+          "url": "https://github.com/cocotb/cocotb/commit/38e0c245d4850199c715941a95bfddb601578028"
+        },
+        "date": 1713235540961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09993176304861,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0683099555166086",
+            "extra": "mean: 10.006828354600009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11800758777276521,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08730896025779804",
+            "extra": "mean: 8.474031364200027 sec\nrounds: 5"
           }
         ]
       }
