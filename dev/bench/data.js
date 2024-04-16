@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713235541642,
+  "lastUpdate": 1713271076509,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6217,6 +6217,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08730896025779804",
             "extra": "mean: 8.474031364200027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ccbdd935ce2aa0d98052f8b8f8a21c849b5c40c6",
+          "message": "Use latest release ghdl 4.1.0 (#3843)\n\nhttps://github.com/ghdl/ghdl/releases/tag/v4.1.0",
+          "timestamp": "2024-04-16T14:33:53+02:00",
+          "tree_id": "748969a920e54804ceea0c33c68569aa03e6dbfd",
+          "url": "https://github.com/cocotb/cocotb/commit/ccbdd935ce2aa0d98052f8b8f8a21c849b5c40c6"
+        },
+        "date": 1713271076261,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09978997932117854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10519875576213081",
+            "extra": "mean: 10.021046269400006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11883414619094698,
+            "unit": "iter/sec",
+            "range": "stddev: 0.049020673777686916",
+            "extra": "mean: 8.415089703199987 sec\nrounds: 5"
           }
         ]
       }
