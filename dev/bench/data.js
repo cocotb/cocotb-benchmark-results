@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713723976218,
+  "lastUpdate": 1713726957776,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6369,6 +6369,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0165771478077648",
             "extra": "mean: 8.473716465599988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e6c6a3620b56bba4feef06b63a29cf010f56463",
+          "message": "Support interface arrays in Verilator (#3824)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-04-21T13:11:51-06:00",
+          "tree_id": "a1893640fd51ae40aab9bb2a6c9f9f8fd430f7f7",
+          "url": "https://github.com/cocotb/cocotb/commit/6e6c6a3620b56bba4feef06b63a29cf010f56463"
+        },
+        "date": 1713726957413,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10040171066606518,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07320545327702675",
+            "extra": "mean: 9.959989659200005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11897771175260899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09152824253436061",
+            "extra": "mean: 8.404935556999998 sec\nrounds: 5"
           }
         ]
       }
