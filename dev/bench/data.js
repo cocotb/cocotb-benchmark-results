@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713722075384,
+  "lastUpdate": 1713723976218,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6331,6 +6331,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04070502558624582",
             "extra": "mean: 8.424747433000016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b59e19ae38127879b073b0b1c8a73a74c5e4b3f",
+          "message": "Verilator: Use latest release in CI, add minimum supported version to extended tests (#3827)",
+          "timestamp": "2024-04-21T12:21:27-06:00",
+          "tree_id": "1022993916561f5cc5114fecdc44ed310e35e599",
+          "url": "https://github.com/cocotb/cocotb/commit/9b59e19ae38127879b073b0b1c8a73a74c5e4b3f"
+        },
+        "date": 1713723975630,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0991998483981888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11142495684029727",
+            "extra": "mean: 10.080660567 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11801197314774611,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0165771478077648",
+            "extra": "mean: 8.473716465599988 sec\nrounds: 5"
           }
         ]
       }
