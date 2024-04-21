@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713271076509,
+  "lastUpdate": 1713707224158,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6255,6 +6255,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.049020673777686916",
             "extra": "mean: 8.415089703199987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d4b8f669f73669721ff48dec0212ad5227ff3bf0",
+          "message": "Make Verilator happy",
+          "timestamp": "2024-04-21T09:42:33-04:00",
+          "tree_id": "2ea27b48a9b3099fd109846dec42d21812ebd1b2",
+          "url": "https://github.com/cocotb/cocotb/commit/d4b8f669f73669721ff48dec0212ad5227ff3bf0"
+        },
+        "date": 1713707223491,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09971866388714186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06086246221284561",
+            "extra": "mean: 10.028212984600009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11867653355699508,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05200567864607668",
+            "extra": "mean: 8.426265665400013 sec\nrounds: 5"
           }
         ]
       }
