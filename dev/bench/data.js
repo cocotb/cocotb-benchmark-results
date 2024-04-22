@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713733229911,
+  "lastUpdate": 1713785858552,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6445,6 +6445,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.13950700923337578",
             "extra": "mean: 8.555229621800027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "248b95c5ad4074539ece038fc07632b5f634708a",
+          "message": "Update version of macOS to use in CI\n\nMac OS X version 11 was deprecated November 2023 and Github is removing\nthe runners in June 2024.",
+          "timestamp": "2024-04-22T07:33:35-04:00",
+          "tree_id": "24dd7f041b6519bdb6a00cfd88d116fa2d4c5142",
+          "url": "https://github.com/cocotb/cocotb/commit/248b95c5ad4074539ece038fc07632b5f634708a"
+        },
+        "date": 1713785858300,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1007418957754999,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09121726146243611",
+            "extra": "mean: 9.926356778400002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11873984067622669,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1003976657046529",
+            "extra": "mean: 8.421773132800013 sec\nrounds: 5"
           }
         ]
       }
