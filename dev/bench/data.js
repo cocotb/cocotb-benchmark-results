@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714488304505,
+  "lastUpdate": 1714493971338,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6559,6 +6559,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07874108158410685",
             "extra": "mean: 8.42874387659997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed010083689db23a11c4d7780e6af3cdcf15665d",
+          "message": "CI: Add pre-commit hook to display git diff after running other steps (#3869)",
+          "timestamp": "2024-04-30T09:11:00-07:00",
+          "tree_id": "6f709cea5da4c174058d17aa4c028f477b7bec70",
+          "url": "https://github.com/cocotb/cocotb/commit/ed010083689db23a11c4d7780e6af3cdcf15665d"
+        },
+        "date": 1714493971095,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10031168449170358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042553066729081844",
+            "extra": "mean: 9.96892839620001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11861189587025364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06168503581608881",
+            "extra": "mean: 8.430857568399995 sec\nrounds: 5"
           }
         ]
       }
