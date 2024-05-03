@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714575500021,
+  "lastUpdate": 1714718549793,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6634,6 +6634,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0734998882654469",
             "extra": "mean: 8.448834705000014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "102625f3b45e501bb498ce46289c5f5c2c61c3ae",
+          "message": "[pre-commit.ci] pre-commit check --fix --unsafe-fixes",
+          "timestamp": "2024-05-03T00:38:27-06:00",
+          "tree_id": "7ad3ea39bb16be7be68ad50dfdef38178db6136a",
+          "url": "https://github.com/cocotb/cocotb/commit/102625f3b45e501bb498ce46289c5f5c2c61c3ae"
+        },
+        "date": 1714718549447,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10073441081004106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18341007209808285",
+            "extra": "mean: 9.927094346 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11949853899720352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03486913198492496",
+            "extra": "mean: 8.368303147400002 sec\nrounds: 5"
           }
         ]
       }
