@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714718549793,
+  "lastUpdate": 1714921482900,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6672,6 +6672,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03486913198492496",
             "extra": "mean: 8.368303147400002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "683194d22c1b4969f5ed88fe7c607009b38254a7",
+          "message": "Add libpython package to normal installation instructions (#3879)",
+          "timestamp": "2024-05-05T09:00:30-06:00",
+          "tree_id": "65295df7ef91cc2ca3dd0d84f43a838b4e5ec7ac",
+          "url": "https://github.com/cocotb/cocotb/commit/683194d22c1b4969f5ed88fe7c607009b38254a7"
+        },
+        "date": 1714921482617,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10064800130616987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06508390565026952",
+            "extra": "mean: 9.935617071599996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11791021229464106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1292806217255596",
+            "extra": "mean: 8.481029594799987 sec\nrounds: 5"
           }
         ]
       }
