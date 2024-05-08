@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715096336315,
+  "lastUpdate": 1715192967781,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6748,6 +6748,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.057362209450098144",
             "extra": "mean: 8.348679568000012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17038c0ff372423f64282146a90c8d73cf021b8d",
+          "message": "Conditional scope negative test case (#3860)",
+          "timestamp": "2024-05-08T12:24:58-06:00",
+          "tree_id": "2e4dc5b60eafd45750f12e4fde3c129095546736",
+          "url": "https://github.com/cocotb/cocotb/commit/17038c0ff372423f64282146a90c8d73cf021b8d"
+        },
+        "date": 1715192967240,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10013792796720689,
+            "unit": "iter/sec",
+            "range": "stddev: 0.056122661545505347",
+            "extra": "mean: 9.986226201200003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11829242230233925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08653420104173805",
+            "extra": "mean: 8.453626872599978 sec\nrounds: 5"
           }
         ]
       }
