@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715640875918,
+  "lastUpdate": 1715823850359,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6824,6 +6824,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11464477712286596",
             "extra": "mean: 8.41358809440003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ce15cd8b2b6fcaa93dc098fcd7c35dda47343752",
+          "message": "Improve documentation on triggers and utils.",
+          "timestamp": "2024-05-15T19:40:04-06:00",
+          "tree_id": "45047606c38d8e1194b722327d1fe8f74860a80d",
+          "url": "https://github.com/cocotb/cocotb/commit/ce15cd8b2b6fcaa93dc098fcd7c35dda47343752"
+        },
+        "date": 1715823850092,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09975827551709253,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0554950166123835",
+            "extra": "mean: 10.024231020599995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11817587770218727,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06681435564476573",
+            "extra": "mean: 8.461963807199982 sec\nrounds: 5"
           }
         ]
       }
