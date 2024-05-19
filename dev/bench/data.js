@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715823850359,
+  "lastUpdate": 1716148991355,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6862,6 +6862,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06681435564476573",
             "extra": "mean: 8.461963807199982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10feab69112011358f4e31e6c138a249e393667a",
+          "message": "Add the mixed_signal example to CI (#3900)",
+          "timestamp": "2024-05-19T21:59:05+02:00",
+          "tree_id": "5d4b708da0f0464cded240e5b748aa3d6d9dff4e",
+          "url": "https://github.com/cocotb/cocotb/commit/10feab69112011358f4e31e6c138a249e393667a"
+        },
+        "date": 1716148991108,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09900173723431065,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0705666423169973",
+            "extra": "mean: 10.10083285340001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11784596395533158,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09611793083123808",
+            "extra": "mean: 8.485653360000015 sec\nrounds: 5"
           }
         ]
       }
