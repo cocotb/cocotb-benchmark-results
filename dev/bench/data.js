@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716307216868,
+  "lastUpdate": 1716313300461,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6976,6 +6976,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0929703124263907",
             "extra": "mean: 8.560357331600006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "899021a9c4829a14c1a0442f927c78cc8a8de19a",
+          "message": "Xcelium cond scope segfault fix (#3890)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-05-21T11:37:29-06:00",
+          "tree_id": "7771739b088192abd7e44e793725477213df9474",
+          "url": "https://github.com/cocotb/cocotb/commit/899021a9c4829a14c1a0442f927c78cc8a8de19a"
+        },
+        "date": 1716313299908,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0986596831955322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13918401765435334",
+            "extra": "mean: 10.1358525348 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1168702701181124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10911670520676577",
+            "extra": "mean: 8.556496010400007 sec\nrounds: 5"
           }
         ]
       }
