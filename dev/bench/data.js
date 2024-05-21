@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716244740977,
+  "lastUpdate": 1716307216868,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -6938,6 +6938,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0518883469567707",
             "extra": "mean: 8.595463101799998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "olof.kindgren@gmail.com",
+            "name": "Olof Kindgren",
+            "username": "olofk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0dfdc6403961b3e2306c719fdf57507e8e175d96",
+          "message": "Fix instructions for extending build flow with Verilator (#3901)",
+          "timestamp": "2024-05-21T09:56:08-06:00",
+          "tree_id": "d016a0236dff6478a2cbdec0b375fd3db15c89ed",
+          "url": "https://github.com/cocotb/cocotb/commit/0dfdc6403961b3e2306c719fdf57507e8e175d96"
+        },
+        "date": 1716307216505,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09826210486725169,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09214213499463558",
+            "extra": "mean: 10.176863210399995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11681755343419657,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0929703124263907",
+            "extra": "mean: 8.560357331600006 sec\nrounds: 5"
           }
         ]
       }
