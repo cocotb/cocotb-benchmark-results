@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716313300461,
+  "lastUpdate": 1716329752837,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7014,6 +7014,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10911670520676577",
             "extra": "mean: 8.556496010400007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd94601f1faa8f6100ea62750304fd3cb4bfdba0",
+          "message": "[Verilog] Interface Array Testcase (#3704)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-05-21T16:11:48-06:00",
+          "tree_id": "3989855a245b833fd63c183eb44eb9d78d7f651e",
+          "url": "https://github.com/cocotb/cocotb/commit/dd94601f1faa8f6100ea62750304fd3cb4bfdba0"
+        },
+        "date": 1716329752423,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09877844602878855,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09203331044823362",
+            "extra": "mean: 10.123666044599997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11663762123380968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.062218045231721315",
+            "extra": "mean: 8.57356305300001 sec\nrounds: 5"
           }
         ]
       }
