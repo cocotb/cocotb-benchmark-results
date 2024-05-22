@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716329752837,
+  "lastUpdate": 1716398148470,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7052,6 +7052,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.062218045231721315",
             "extra": "mean: 8.57356305300001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36832c15fbad184c418204c60bfaa6b82d4f01be",
+          "message": "[Vpi] Allow using packed struct as a signal on sim module (#3608)\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2024-05-22T11:11:46-06:00",
+          "tree_id": "21f49429d159b0f379befb5ce1c578995f07cdae",
+          "url": "https://github.com/cocotb/cocotb/commit/36832c15fbad184c418204c60bfaa6b82d4f01be"
+        },
+        "date": 1716398148195,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09843503998235409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03518690284891195",
+            "extra": "mean: 10.15898403839999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11626883351882493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050198844627996134",
+            "extra": "mean: 8.600757139600024 sec\nrounds: 5"
           }
         ]
       }
