@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717508891712,
+  "lastUpdate": 1717509132511,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7204,6 +7204,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03121159109539557",
             "extra": "mean: 8.531627935400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teo.biton@gmail.com",
+            "name": "teobiton",
+            "username": "teobiton"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "514558f359cbdf6af4de8ea54cc7931dcc1a6be9",
+          "message": "Python runner in quickstart guide\n\nFixes #3844",
+          "timestamp": "2024-06-04T07:44:34-06:00",
+          "tree_id": "783a088c45e5cbf3bc01f84c73467ca0f16b0d8f",
+          "url": "https://github.com/cocotb/cocotb/commit/514558f359cbdf6af4de8ea54cc7931dcc1a6be9"
+        },
+        "date": 1717509132235,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09946771318646616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03922313324048736",
+            "extra": "mean: 10.053513526799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.11660367457755283,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07663052650182973",
+            "extra": "mean: 8.576059061799999 sec\nrounds: 5"
           }
         ]
       }
