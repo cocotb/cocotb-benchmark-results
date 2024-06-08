@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717795143398,
+  "lastUpdate": 1717853820440,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7356,6 +7356,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03500492608522202",
             "extra": "mean: 8.599257256199996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5567157fd77ffe5f50e636db6daae556ba73e330",
+          "message": "Introduce COCOTB_TRUST_INERTIAL_WRITES\n\nBehavior and performance optimization by trusting inertial writes in the\nVPI/VHPI/FLI rather than mimicing that behavior by applying writes in\nthe ReadWrite callback.\n\nAdd a couple tests for write scheduling behavior.",
+          "timestamp": "2024-06-08T07:32:52-06:00",
+          "tree_id": "dd0fd401f63e865c39b713f68797ddcd86bb56cd",
+          "url": "https://github.com/cocotb/cocotb/commit/5567157fd77ffe5f50e636db6daae556ba73e330"
+        },
+        "date": 1717853819824,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09878840899283761,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07411939819335378",
+            "extra": "mean: 10.122645057200003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12677538412298564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06614174217726011",
+            "extra": "mean: 7.887966634200007 sec\nrounds: 5"
           }
         ]
       }
