@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717853820440,
+  "lastUpdate": 1717952208159,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7394,6 +7394,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06614174217726011",
             "extra": "mean: 7.887966634200007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "eab2b463392ac3a1d5a0a0a9c9c1f939414832ef",
+          "message": "Make cocotb.Task not a Coroutine\n\nThere is no reason it should be a Coroutine. In fact if used as a\nCoroutine it has the opportunity to skip a lot of the state keeping that\nTask does.",
+          "timestamp": "2024-06-09T10:52:35-06:00",
+          "tree_id": "230f930cfcc769c0c4ad4ca078692cfe1f7bade7",
+          "url": "https://github.com/cocotb/cocotb/commit/eab2b463392ac3a1d5a0a0a9c9c1f939414832ef"
+        },
+        "date": 1717952207519,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09748079468130212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06522221440508091",
+            "extra": "mean: 10.258430937800005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12498662628100399,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014268337696056291",
+            "extra": "mean: 8.0008560096 sec\nrounds: 5"
           }
         ]
       }
