@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717952208159,
+  "lastUpdate": 1717979218900,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7432,6 +7432,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014268337696056291",
             "extra": "mean: 8.0008560096 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "242a909726d0adea5bbc998dfd1c5ac69c70e892",
+          "message": "Rename `SIM_OUTPUT_REDIRECT` to `SIM_CMD_SUFFIX` and add to all Makefiles (#3927)\n\n* Rename SIM_OUTPUT_REDIRECT to SIM_CMD_SUFFIX and add to all sims\r\n\r\nWe intended to add SIM_OUTPUT_REDIRECT to all simulators and make it\r\nempty by default, but the name makes this a little more generic and\r\nparallels the extant SIM_CMD_PREFIX variable.",
+          "timestamp": "2024-06-09T18:22:54-06:00",
+          "tree_id": "78dcb09162ef1b7664a5ec8d89db7b4891655664",
+          "url": "https://github.com/cocotb/cocotb/commit/242a909726d0adea5bbc998dfd1c5ac69c70e892"
+        },
+        "date": 1717979218637,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09876627245586223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04816140817527088",
+            "extra": "mean: 10.124913851000008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1272525454595425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05117065274647933",
+            "extra": "mean: 7.858388972800003 sec\nrounds: 5"
           }
         ]
       }
