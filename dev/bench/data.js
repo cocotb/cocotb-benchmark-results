@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718059372861,
+  "lastUpdate": 1718123179398,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7508,6 +7508,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06372394191867435",
             "extra": "mean: 7.8537512978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "olagrottvik@gmail.com",
+            "name": "ogre",
+            "username": "olagrottvik"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a4f9144593829286b1b7878f72b03cdf25e381a",
+          "message": "Add support for VHDL libraries in Riviera-PRO Makefile (#3922)\n\nCo-authored-by: Ola Groettvik <ola.groettvik@cern.ch>",
+          "timestamp": "2024-06-11T10:22:04-06:00",
+          "tree_id": "d638529061e5c016b0407d129cd2872cad73077f",
+          "url": "https://github.com/cocotb/cocotb/commit/4a4f9144593829286b1b7878f72b03cdf25e381a"
+        },
+        "date": 1718123179158,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09835092495394329,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0603952022743246",
+            "extra": "mean: 10.1676725508 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1259203378382101,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08558037684134162",
+            "extra": "mean: 7.941528883800004 sec\nrounds: 5"
           }
         ]
       }
