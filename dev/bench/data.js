@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718123179398,
+  "lastUpdate": 1718205729860,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7546,6 +7546,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08558037684134162",
             "extra": "mean: 7.941528883800004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teo.biton@gmail.com",
+            "name": "teobiton",
+            "username": "teobiton"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4c73e5ad32e350d1448f411536c06025d5695c55",
+          "message": "Prefix environment variables with COCOTB_\n\nThis change concerns environment variables MODULE, TESTCASE,\nTOPLEVEL, RANDOM_SEED, COVERAGE, COVERAGE_RCFILE and PLUSARGS.\nA warning is issued when these old variables are used.\nThe Makefile flow and runners are both affected.",
+          "timestamp": "2024-06-12T09:16:41-06:00",
+          "tree_id": "d085bf2dfc7b8a5b984bbfec412138fbbfc94b3f",
+          "url": "https://github.com/cocotb/cocotb/commit/4c73e5ad32e350d1448f411536c06025d5695c55"
+        },
+        "date": 1718205729571,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09871579182206676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05869564688837808",
+            "extra": "mean: 10.130091462999962 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12634135813878045,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0761519192616157",
+            "extra": "mean: 7.91506451040002 sec\nrounds: 5"
           }
         ]
       }
