@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718205729860,
+  "lastUpdate": 1718704591464,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7584,6 +7584,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0761519192616157",
             "extra": "mean: 7.91506451040002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "cdbf507cbb0bdbfdf19b65a6b6516e5a1fbb074a",
+          "message": "CI: Update Riviera-PRO to 2024.04\n\nUse the latest Riviera-PRO 2024.04 in CI, and move\nthe previously used 2023.10 version to the extended\ntests.",
+          "timestamp": "2024-06-18T10:52:31+01:00",
+          "tree_id": "05fa6156933c56b75e62861b16256f9f6e9a8f53",
+          "url": "https://github.com/cocotb/cocotb/commit/cdbf507cbb0bdbfdf19b65a6b6516e5a1fbb074a"
+        },
+        "date": 1718704591233,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09870947488976345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0665022540229824",
+            "extra": "mean: 10.130739740199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1262976177065078,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07307877146009432",
+            "extra": "mean: 7.917805720800009 sec\nrounds: 5"
           }
         ]
       }
