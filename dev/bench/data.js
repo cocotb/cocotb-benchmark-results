@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718741680397,
+  "lastUpdate": 1718803396758,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7660,6 +7660,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02449237193490594",
             "extra": "mean: 7.92233066 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teo.biton@gmail.com",
+            "name": "teobiton",
+            "username": "teobiton"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "619edb993b30098063bbc1ef48908812da4076e2",
+          "message": "Fix config_file for coverage\n\nThe configuration file is given to the coverage initializer via an\nargument instead of it being read from the environment in the\ncoverage module.",
+          "timestamp": "2024-06-19T07:19:17-06:00",
+          "tree_id": "8ec03b8e3ec6382a0fdf4797e1ce129751373ad8",
+          "url": "https://github.com/cocotb/cocotb/commit/619edb993b30098063bbc1ef48908812da4076e2"
+        },
+        "date": 1718803396516,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0985135850753872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08772929611965348",
+            "extra": "mean: 10.150884258600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1265767749484735,
+            "unit": "iter/sec",
+            "range": "stddev: 0.075490344087503",
+            "extra": "mean: 7.900343490400013 sec\nrounds: 5"
           }
         ]
       }
