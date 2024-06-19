@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718803396758,
+  "lastUpdate": 1718818714964,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7698,6 +7698,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.075490344087503",
             "extra": "mean: 7.900343490400013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49717947+NickolayTernovoy@users.noreply.github.com",
+            "name": "Nickolay",
+            "username": "NickolayTernovoy"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9659c4710ba8608c41a0bb0c38f60cde28c46e47",
+          "message": "Replacing the no longer supported option '+acc+1' with '-debug_access+r+w-memcbk -debug_region+cell'",
+          "timestamp": "2024-06-19T11:34:35-06:00",
+          "tree_id": "e74ffea8f7d71c0679ebaf28dc4f9d1b77f77106",
+          "url": "https://github.com/cocotb/cocotb/commit/9659c4710ba8608c41a0bb0c38f60cde28c46e47"
+        },
+        "date": 1718818714561,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0988376842342928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06022360241825574",
+            "extra": "mean: 10.117598441799988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12628720148415334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09795409116928502",
+            "extra": "mean: 7.918458784799986 sec\nrounds: 5"
           }
         ]
       }
