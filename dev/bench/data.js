@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718898942964,
+  "lastUpdate": 1718902094366,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7774,6 +7774,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04853188288188587",
             "extra": "mean: 7.9040006692000135 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9555e71995b87158daf9d408c35c86d555e964c1",
+          "message": "CI: Move Verilator on macos to experimental bucket\n\nWe cannot tightly control the version of Verilator being used in our\nCI testing, which led to Verilator 5.026 breaking CI on macOS due to an\nupstream issue (https://github.com/verilator/verilator/issues/5190).\n\nMove this test to the experimental bucket until it's stable again.",
+          "timestamp": "2024-06-20T10:44:04-06:00",
+          "tree_id": "29a2ac9a5a164974adea34a3ba976b0e6987cbdc",
+          "url": "https://github.com/cocotb/cocotb/commit/9555e71995b87158daf9d408c35c86d555e964c1"
+        },
+        "date": 1718902094086,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09894269359924505,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04072235581531043",
+            "extra": "mean: 10.106860482800016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12658185316598616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0644539174324315",
+            "extra": "mean: 7.90002654399999 sec\nrounds: 5"
           }
         ]
       }
