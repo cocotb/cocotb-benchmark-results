@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718818714964,
+  "lastUpdate": 1718898942964,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7736,6 +7736,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09795409116928502",
             "extra": "mean: 7.918458784799986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7591c3d46e388a4fa81fdcd6f8f4d399a957c6bc",
+          "message": "Fix isort config\n\nWe manually list out first-party and third-party packages so that isort\nkeeps cocotb and external packages in separate import sections.",
+          "timestamp": "2024-06-20T09:51:18-06:00",
+          "tree_id": "bd26b6543a987756b6cb15cffae878f267d99777",
+          "url": "https://github.com/cocotb/cocotb/commit/7591c3d46e388a4fa81fdcd6f8f4d399a957c6bc"
+        },
+        "date": 1718898942688,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09866460202262343,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08450093681867447",
+            "extra": "mean: 10.135347221800009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.126518207911692,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04853188288188587",
+            "extra": "mean: 7.9040006692000135 sec\nrounds: 5"
           }
         ]
       }
