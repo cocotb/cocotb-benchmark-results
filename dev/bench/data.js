@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718902094366,
+  "lastUpdate": 1718959404651,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7812,6 +7812,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0644539174324315",
             "extra": "mean: 7.90002654399999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "a3457fc3416a6c2d96ed5bb6a480e284194e3478",
+          "message": "Riviera-PRO: Always exit the compilation step\n\nPreviously, we always redirected the output of Riviera-PRO in Makefiles,\nwhich caused Riviera to unconditionally quit the compilation step. We\nno longer do that, so we need to be explicit.\n\nSee also https://github.com/cocotb/cocotb/pull/3495 for the equivalent\nchange in the runner.",
+          "timestamp": "2024-06-21T09:39:19+01:00",
+          "tree_id": "0fe8e48a90c7b88ee13ee333a970d4a7d41fba87",
+          "url": "https://github.com/cocotb/cocotb/commit/a3457fc3416a6c2d96ed5bb6a480e284194e3478"
+        },
+        "date": 1718959404345,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09849404669015852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0537428158307866",
+            "extra": "mean: 10.152897901999996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1258868029713278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0487047888457473",
+            "extra": "mean: 7.943644420199962 sec\nrounds: 5"
           }
         ]
       }
