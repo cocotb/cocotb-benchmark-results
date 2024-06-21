@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718982019243,
+  "lastUpdate": 1718995783204,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7926,6 +7926,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0826932559551363",
             "extra": "mean: 7.896572361399978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilbertoabram@tersatech.com",
+            "name": "gilbertoabram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "421747f3b60e9491d1ef8497b17686c142ece630",
+          "message": "Use raw docstrings in some places where backslashes are present. (#3953)\n\nCo-authored-by: Gilberto Abram <gilberto@hudson-trading.com>",
+          "timestamp": "2024-06-21T12:45:42-06:00",
+          "tree_id": "3f8e1956cecc1a1077dbbefdd5cc9e41dc247487",
+          "url": "https://github.com/cocotb/cocotb/commit/421747f3b60e9491d1ef8497b17686c142ece630"
+        },
+        "date": 1718995782960,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09907704062122906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06992002752946519",
+            "extra": "mean: 10.093155727399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12748916325156298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04964726212522982",
+            "extra": "mean: 7.843803932000003 sec\nrounds: 5"
           }
         ]
       }
