@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718959404651,
+  "lastUpdate": 1718979161000,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7850,6 +7850,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0487047888457473",
             "extra": "mean: 7.943644420199962 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "ec406b26a7dc17174a4bc9d570d50761a6b46d55",
+          "message": "CI: Run against Xcelium 2403\n\nRun against the latest version of Xcelium, 2403, in CI, and move the\n2309 version to the extended tests bucket.",
+          "timestamp": "2024-06-21T15:08:18+01:00",
+          "tree_id": "2fbb5c0aaf2668918f9b882c32659b2ba1dd48cf",
+          "url": "https://github.com/cocotb/cocotb/commit/ec406b26a7dc17174a4bc9d570d50761a6b46d55"
+        },
+        "date": 1718979160569,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0989760395524375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07063890809154116",
+            "extra": "mean: 10.103455387000002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12584314998897447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11269631304170821",
+            "extra": "mean: 7.946399943799986 sec\nrounds: 5"
           }
         ]
       }
