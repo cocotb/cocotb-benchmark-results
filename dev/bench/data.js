@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718979161000,
+  "lastUpdate": 1718982019243,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7888,6 +7888,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11269631304170821",
             "extra": "mean: 7.946399943799986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "14ae0c6e0490fff90778adbcab72080a919b1abf",
+          "message": "Build verilator from source for MacOS CI (#3961)",
+          "timestamp": "2024-06-21T08:56:17-06:00",
+          "tree_id": "1d24b113d1359eaf3ed8cf08779de6959cecb3a2",
+          "url": "https://github.com/cocotb/cocotb/commit/14ae0c6e0490fff90778adbcab72080a919b1abf"
+        },
+        "date": 1718982018981,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09843232612357382,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1093758520881981",
+            "extra": "mean: 10.159264129800011 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12663722362479696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0826932559551363",
+            "extra": "mean: 7.896572361399978 sec\nrounds: 5"
           }
         ]
       }
