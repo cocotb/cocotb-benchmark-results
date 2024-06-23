@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718995783204,
+  "lastUpdate": 1719153974114,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -7964,6 +7964,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04964726212522982",
             "extra": "mean: 7.843803932000003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teo.biton@gmail.com",
+            "name": "teobiton",
+            "username": "teobiton"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "66b5f12ab310dc7860cb2ab7c665a769413113df",
+          "message": "Document changes on cocotb environment variables\n\nCocotb environment variables are now prefixed with COCOTB_ for\nclarity. This is now reflected in the documentation.\n\nFixes #3940",
+          "timestamp": "2024-06-23T08:42:07-06:00",
+          "tree_id": "b5d77d337a92855a3c54bfcbf929309b4c49bf4c",
+          "url": "https://github.com/cocotb/cocotb/commit/66b5f12ab310dc7860cb2ab7c665a769413113df"
+        },
+        "date": 1719153973530,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09865706536190755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0519396621589288",
+            "extra": "mean: 10.136121486399997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1258686807112034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0588992474247176",
+            "extra": "mean: 7.944788126399987 sec\nrounds: 5"
           }
         ]
       }
