@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719153974114,
+  "lastUpdate": 1719154232935,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8002,6 +8002,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0588992474247176",
             "extra": "mean: 7.944788126399987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bfb730851c18883407f4a3397864fb148cc0ca9",
+          "message": "Scheduler refactor (#3942)\n\nRemoved pending_triggers and scheduling queue. Made pending_tasks *the*\r\ntask queue. Whenever triggers fires they now immediately add the tasks\r\nwaiting upon them to the scheduling queue alongside the outcome the\r\nscheduler should inject into the task.\r\n\r\nAlso cleaned up state tracking a bit by using an Enum.\r\n\r\nSeparated react method into one for GPITriggers and the other for\r\nPython Triggers.\r\n\r\nAlso improved documentation of how the scheduler works and the quirks and caveats.",
+          "timestamp": "2024-06-23T08:44:31-06:00",
+          "tree_id": "d2f4462d6c8cc994a7ded4dc4ca4fb259e9e6299",
+          "url": "https://github.com/cocotb/cocotb/commit/2bfb730851c18883407f4a3397864fb148cc0ca9"
+        },
+        "date": 1719154232541,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09850492207860927,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08444145793999974",
+            "extra": "mean: 10.151776976199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12631195564895192,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09115886988361624",
+            "extra": "mean: 7.916906953599982 sec\nrounds: 5"
           }
         ]
       }
