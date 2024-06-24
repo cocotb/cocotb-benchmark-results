@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719268959101,
+  "lastUpdate": 1719272598997,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8116,6 +8116,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07625345900685576",
             "extra": "mean: 7.949185936200001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb4ce5287c3f090bea0389e3cf2f1f1c133c8560",
+          "message": "Make awaiting `Join` trigger not return `Task` result (#3931)\n\nAwaiting the Join trigger will no longer return the task's result, the\r\nuser can use `await task` for the same effect. This allows the user to\r\nhave some way of awaiting a task to finish *without* getting the\r\nresult, which is especially useful if the outcome is anticipated to be\r\nan exception.\r\n\r\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>\r\nCo-authored-by: Marlon James <marlon.james@gmail.com>",
+          "timestamp": "2024-06-24T17:39:15-06:00",
+          "tree_id": "b595e7d966119fcdb6ca22a2d0b3fdaaaf4bcd56",
+          "url": "https://github.com/cocotb/cocotb/commit/cb4ce5287c3f090bea0389e3cf2f1f1c133c8560"
+        },
+        "date": 1719272598414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09918013218799628,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08726453479124197",
+            "extra": "mean: 10.082664520999998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1273025621757095,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07787805728009933",
+            "extra": "mean: 7.855301440199992 sec\nrounds: 5"
           }
         ]
       }
