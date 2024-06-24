@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719154232935,
+  "lastUpdate": 1719247904300,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8040,6 +8040,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09115886988361624",
             "extra": "mean: 7.916906953599982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b68d594e7cc8b160640e46354ce953a2eaf6428",
+          "message": "Remove support for `Timer(0)` (#3937)\n\nPreviously we issued a warning, but it was always an invalid operation\r\nthat only sometimes worked in simulators.\r\n\r\nIf we round to 0 steps, we fix it up after the fact to 1. This is valid\r\nsince this only occurs when using a rounding mode, and when using a\r\nrounding mode the user agrees to whatever reasonable value we \"round\"\r\nto.",
+          "timestamp": "2024-06-24T10:47:47-06:00",
+          "tree_id": "c00c4f65e007765047d6b6c6a7212c5c95713e0c",
+          "url": "https://github.com/cocotb/cocotb/commit/0b68d594e7cc8b160640e46354ce953a2eaf6428"
+        },
+        "date": 1719247904036,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10142140830495043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028698141577680334",
+            "extra": "mean: 9.859851255399985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.13086192247928172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11017093519740839",
+            "extra": "mean: 7.64164228259998 sec\nrounds: 5"
           }
         ]
       }
