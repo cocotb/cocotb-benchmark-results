@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719332829451,
+  "lastUpdate": 1719333102177,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8230,6 +8230,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04138637440730935",
             "extra": "mean: 7.953926863999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ccd3ab7bb758676eae7d9480a6d8dd3c98dfef0a",
+          "message": "Remove dead code paths from scheduler (#3976)\n\nSince removing the `yield` syntax there is no way for the scheduler to\r\never see an async generator object, Waitable, or unstarted coroutine function.\r\nPython's `await` statement calls the `__await__` function, and the\r\naforementioned objects either handle this correctly or TypeError. So not our problem anymore.",
+          "timestamp": "2024-06-25T10:25:20-06:00",
+          "tree_id": "893b4eb2e348298646e764b3c352df9547417389",
+          "url": "https://github.com/cocotb/cocotb/commit/ccd3ab7bb758676eae7d9480a6d8dd3c98dfef0a"
+        },
+        "date": 1719333101973,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09802502229924727,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07982759300089488",
+            "extra": "mean: 10.201476893799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1250457091084711,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06846009820642397",
+            "extra": "mean: 7.99707568639999 sec\nrounds: 5"
           }
         ]
       }
