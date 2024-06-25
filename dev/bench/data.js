@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719329656186,
+  "lastUpdate": 1719332829451,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8192,6 +8192,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11162037152341454",
             "extra": "mean: 7.850484820200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a8dfba18b424a67158ed46de9cadf521b2472153",
+          "message": "Increase timeout to allow slow Mac OS tests to finish",
+          "timestamp": "2024-06-25T10:23:10-06:00",
+          "tree_id": "092ed3118deaa94c56a1017a167f722395c88c58",
+          "url": "https://github.com/cocotb/cocotb/commit/a8dfba18b424a67158ed46de9cadf521b2472153"
+        },
+        "date": 1719332829201,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09896059745655351,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05486538241808193",
+            "extra": "mean: 10.105031959200005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12572406273007955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04138637440730935",
+            "extra": "mean: 7.953926863999993 sec\nrounds: 5"
           }
         ]
       }
