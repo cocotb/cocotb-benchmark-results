@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719385220815,
+  "lastUpdate": 1719427239717,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8306,6 +8306,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11699717558435511",
             "extra": "mean: 8.013693389799982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7a063c31f55e8f2a12d76113e24b2eb267c93d2e",
+          "message": "Remove handshaking between Trigger and scheduler for Outcome to resume\n\nPreviously the scheduler asked the Trigger what Outcome it should resume\nthe task with. This is not useful now since we use Trigger.__await__ to\ninstrument this.\n\nAnd now it is hardcoded in Trigger that awaiting a Trigger always\nreturns a Trigger, so the typing was corrected.",
+          "timestamp": "2024-06-26T12:31:24-06:00",
+          "tree_id": "db89b87317daaa9d8638db38cf57b4a7c1a353fa",
+          "url": "https://github.com/cocotb/cocotb/commit/7a063c31f55e8f2a12d76113e24b2eb267c93d2e"
+        },
+        "date": 1719427239460,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09856546258562034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0762624185580223",
+            "extra": "mean: 10.145541589999999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1274893825049748,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061455896700529686",
+            "extra": "mean: 7.843790442400007 sec\nrounds: 5"
           }
         ]
       }
