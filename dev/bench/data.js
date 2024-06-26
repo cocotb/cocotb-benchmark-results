@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719333102177,
+  "lastUpdate": 1719385220815,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8268,6 +8268,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06846009820642397",
             "extra": "mean: 7.99707568639999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "7e8c7c4c508aead14a270108d62e02b18d5944cf",
+          "message": "CI: Update to Questa 2024.2\n\nAs usual, use the latest release version in CI and move the previously\nused version to the extended tests.",
+          "timestamp": "2024-06-26T08:56:17+02:00",
+          "tree_id": "41e0aa0fdea2d211a404e1ef412e71dde680b1cc",
+          "url": "https://github.com/cocotb/cocotb/commit/7e8c7c4c508aead14a270108d62e02b18d5944cf"
+        },
+        "date": 1719385220414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09763016950365086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037349312184460075",
+            "extra": "mean: 10.242735468799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12478640638695056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11699717558435511",
+            "extra": "mean: 8.013693389799982 sec\nrounds: 5"
           }
         ]
       }
