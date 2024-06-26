@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719429445562,
+  "lastUpdate": 1719445192049,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8382,6 +8382,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08695719952264917",
             "extra": "mean: 7.885575881399984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "3c352783eb4446a53706de640a2f6e0ad80483d2",
+          "message": "Improve coverage for triggers",
+          "timestamp": "2024-06-26T16:35:51-07:00",
+          "tree_id": "f643f9040fb43d6a489392d71ae08646a19fd642",
+          "url": "https://github.com/cocotb/cocotb/commit/3c352783eb4446a53706de640a2f6e0ad80483d2"
+        },
+        "date": 1719445191467,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09918570162437973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027668635339267954",
+            "extra": "mean: 10.082098363199975 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12673688285683268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07539546693122236",
+            "extra": "mean: 7.890362911400007 sec\nrounds: 5"
           }
         ]
       }
