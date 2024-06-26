@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719445192049,
+  "lastUpdate": 1719445426880,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8420,6 +8420,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07539546693122236",
             "extra": "mean: 7.890362911400007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6621b069131df442c7d00065b244dd71eb6fe25f",
+          "message": "Verilator: Don't run interface array tests on versions earlier than v5.024 (#3986)",
+          "timestamp": "2024-06-26T16:38:31-07:00",
+          "tree_id": "c56f1b11890bf56615f1846dbf40d54590a3477c",
+          "url": "https://github.com/cocotb/cocotb/commit/6621b069131df442c7d00065b244dd71eb6fe25f"
+        },
+        "date": 1719445426223,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09971030812999307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11622765878014316",
+            "extra": "mean: 10.02905335219998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12879899453316374,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10358487081447107",
+            "extra": "mean: 7.764035764599976 sec\nrounds: 5"
           }
         ]
       }
