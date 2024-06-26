@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719427239717,
+  "lastUpdate": 1719429445562,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8344,6 +8344,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.061455896700529686",
             "extra": "mean: 7.843790442400007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cee63b195cfb55377401570dd10f079252aa200d",
+          "message": "Add legacy `.buff` property to `LogicArray` (#3944)\n\n\r\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>\r\nCo-authored-by: Marlon James <marlon.james@gmail.com>",
+          "timestamp": "2024-06-26T13:13:20-06:00",
+          "tree_id": "5cf0af015e7f084773c6d777ae5da6d47517f81b",
+          "url": "https://github.com/cocotb/cocotb/commit/cee63b195cfb55377401570dd10f079252aa200d"
+        },
+        "date": 1719429444998,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09893805908550034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.060425080574784046",
+            "extra": "mean: 10.10733391419999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12681381994671298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08695719952264917",
+            "extra": "mean: 7.885575881399984 sec\nrounds: 5"
           }
         ]
       }
