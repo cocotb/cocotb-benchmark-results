@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719514441769,
+  "lastUpdate": 1719530950585,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8572,6 +8572,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.055638511089502414",
             "extra": "mean: 7.849800297000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca6a97ff4d6af2ac13d0271cb4f8ed0b01e27627",
+          "message": "CI: Use case-insensitive regex match for repr strings that contain handle paths (#3992)\n\nNVC does not have full CaseName support, and so often returns normalized all uppercase names for objects. See #3985 for more details.",
+          "timestamp": "2024-06-27T16:24:48-07:00",
+          "tree_id": "e5e90a8db9fe1b6274308d97d6914278633c4434",
+          "url": "https://github.com/cocotb/cocotb/commit/ca6a97ff4d6af2ac13d0271cb4f8ed0b01e27627"
+        },
+        "date": 1719530950332,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09304430373894511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10422092016022017",
+            "extra": "mean: 10.74756819939999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12085984115044766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14067226444455075",
+            "extra": "mean: 8.274046949599983 sec\nrounds: 5"
           }
         ]
       }
