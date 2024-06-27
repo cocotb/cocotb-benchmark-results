@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719445426880,
+  "lastUpdate": 1719462154592,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8458,6 +8458,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10358487081447107",
             "extra": "mean: 7.764035764599976 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94774d30879a55efab811be91207ca5f4de97407",
+          "message": "CI: Update NVC to latest release 1.12.2 (#3988)",
+          "timestamp": "2024-06-26T21:18:33-07:00",
+          "tree_id": "871798a1f2c66953d63c123a63634a5e20d0c9f6",
+          "url": "https://github.com/cocotb/cocotb/commit/94774d30879a55efab811be91207ca5f4de97407"
+        },
+        "date": 1719462154239,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09932256160502752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051317774914952353",
+            "extra": "mean: 10.068205892399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1272669262861021,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021973791504745106",
+            "extra": "mean: 7.857500995600009 sec\nrounds: 5"
           }
         ]
       }
