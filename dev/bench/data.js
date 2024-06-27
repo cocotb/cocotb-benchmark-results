@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719462154592,
+  "lastUpdate": 1719505190248,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8496,6 +8496,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021973791504745106",
             "extra": "mean: 7.857500995600009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2efdb61a1be6481467d401d9cf90c15ce1366e7b",
+          "message": "Improve TypeError exception message for edge triggers when used on an incompatible signal handle (#3987)",
+          "timestamp": "2024-06-27T09:15:43-07:00",
+          "tree_id": "b340e15d50f6b883059ebdf88ba4115a6f0ec802",
+          "url": "https://github.com/cocotb/cocotb/commit/2efdb61a1be6481467d401d9cf90c15ce1366e7b"
+        },
+        "date": 1719505188863,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0971540568169216,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044963293960404514",
+            "extra": "mean: 10.292930967199993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12689492945889316,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07170366479932289",
+            "extra": "mean: 7.880535528600012 sec\nrounds: 5"
           }
         ]
       }
