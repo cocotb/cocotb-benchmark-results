@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719505190248,
+  "lastUpdate": 1719514441769,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8534,6 +8534,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07170366479932289",
             "extra": "mean: 7.880535528600012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c149dac08f3793771a93474710ad66273f4e2b5f",
+          "message": "docs: Add NullTrigger to Python Triggers section (#3991)",
+          "timestamp": "2024-06-27T11:49:51-07:00",
+          "tree_id": "49041fd0db2ca8b0726faa392f621cb01a88f6c7",
+          "url": "https://github.com/cocotb/cocotb/commit/c149dac08f3793771a93474710ad66273f4e2b5f"
+        },
+        "date": 1719514441371,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09880339277407196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06947245073041357",
+            "extra": "mean: 10.121109932800005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1273917758623968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.055638511089502414",
+            "extra": "mean: 7.849800297000002 sec\nrounds: 5"
           }
         ]
       }
