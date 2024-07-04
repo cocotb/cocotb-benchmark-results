@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719530950585,
+  "lastUpdate": 1720137401855,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8610,6 +8610,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.14067226444455075",
             "extra": "mean: 8.274046949599983 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c386f6aff6946605876cca0ffe4965b42fdff675",
+          "message": "Fix unfixable ruff issues",
+          "timestamp": "2024-07-04T17:52:41-06:00",
+          "tree_id": "a2310b436639db68f410f2e138476602cb346043",
+          "url": "https://github.com/cocotb/cocotb/commit/c386f6aff6946605876cca0ffe4965b42fdff675"
+        },
+        "date": 1720137401527,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09814210142844475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07300771634425046",
+            "extra": "mean: 10.189306989000011 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12729459421261508,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08342452171852667",
+            "extra": "mean: 7.8557931401999666 sec\nrounds: 5"
           }
         ]
       }
