@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720137401855,
+  "lastUpdate": 1720156600408,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8648,6 +8648,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08342452171852667",
             "extra": "mean: 7.8557931401999666 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "114fe7a98c03dbd6d768226d24931cdc148cbe73",
+          "message": "Riviera-PRO 2019.10 cannot access packages\n\nLater versions work, simply update the test expectations for this\nversion.",
+          "timestamp": "2024-07-05T07:12:24+02:00",
+          "tree_id": "1ae3a04d8eee73178200f70f1fed8572fd27cc7c",
+          "url": "https://github.com/cocotb/cocotb/commit/114fe7a98c03dbd6d768226d24931cdc148cbe73"
+        },
+        "date": 1720156600105,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09892380630077426,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1261855101337808",
+            "extra": "mean: 10.108790162800005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12793750248827562,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04933189614276873",
+            "extra": "mean: 7.816316408800003 sec\nrounds: 5"
           }
         ]
       }
