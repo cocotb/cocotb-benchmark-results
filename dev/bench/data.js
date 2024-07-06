@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720156600408,
+  "lastUpdate": 1720230203740,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8686,6 +8686,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04933189614276873",
             "extra": "mean: 7.816316408800003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "todd.strader@gmail.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f756f744fdd68eab6006791a9b0399f421f6ad87",
+          "message": "Skip mixed_signal example if Spectre is unavailable (#4008)",
+          "timestamp": "2024-07-05T19:39:18-06:00",
+          "tree_id": "56739522b73f2d966b30127ecbebcbcf3344d66d",
+          "url": "https://github.com/cocotb/cocotb/commit/f756f744fdd68eab6006791a9b0399f421f6ad87"
+        },
+        "date": 1720230203312,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09915434725644058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05999924366126099",
+            "extra": "mean: 10.085286501999992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12633367321952763,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10839361336648161",
+            "extra": "mean: 7.915545986399991 sec\nrounds: 5"
           }
         ]
       }
