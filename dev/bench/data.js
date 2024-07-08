@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720230203740,
+  "lastUpdate": 1720446393441,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8724,6 +8724,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10839361336648161",
             "extra": "mean: 7.915545986399991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "61cb17bb9be5cea7210aeac892e0a645eab7f75e",
+          "message": "Pin the version in the stable install docs\n\nWhen building documentation for a tagged release in ReadTheDocs, pin the\nversion we suggest users to install to a version matching the\ndocumentation they are reading.\n\nFor example, a ReadTheDocs build for the v1.9.0 tag would suggest users\nto run \"pip install cocotb =~ 1.9.0\", which gives them a 1.9.x version\nmatching the documentation they are reading.\n\nFor all other Sphinx build types (local builds, PR builds, \"latest\" RTD\nbuilds, etc.), the documentation stays as is: it gives instructions how\nto install the latest stable release (whatever that might be currently),\nand also shows how to install a development release.",
+          "timestamp": "2024-07-08T15:42:19+02:00",
+          "tree_id": "081ebf50e2b1825b9a44e008d0b197184e65ea92",
+          "url": "https://github.com/cocotb/cocotb/commit/61cb17bb9be5cea7210aeac892e0a645eab7f75e"
+        },
+        "date": 1720446393005,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09705645707169976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07272020376892852",
+            "extra": "mean: 10.303281514399988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1255130169130509,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0679701840555331",
+            "extra": "mean: 7.967301118199953 sec\nrounds: 5"
           }
         ]
       }
