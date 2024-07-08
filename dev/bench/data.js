@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720446393441,
+  "lastUpdate": 1720459888513,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8762,6 +8762,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0679701840555331",
             "extra": "mean: 7.967301118199953 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "8adaf89bb2e6aaf237992a469778fa5420f0e844",
+          "message": "Document the current state of Verilator support",
+          "timestamp": "2024-07-08T19:27:25+02:00",
+          "tree_id": "867c831db8a5b92db27f84b0d3de3a99be527831",
+          "url": "https://github.com/cocotb/cocotb/commit/8adaf89bb2e6aaf237992a469778fa5420f0e844"
+        },
+        "date": 1720459887912,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09922417043829272,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07186335611308463",
+            "extra": "mean: 10.078189573999992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12725633932444064,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025696512998739696",
+            "extra": "mean: 7.858154692400001 sec\nrounds: 5"
           }
         ]
       }
