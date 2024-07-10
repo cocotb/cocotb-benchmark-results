@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720554118294,
+  "lastUpdate": 1720636804782,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8838,6 +8838,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013182307816882352",
             "extra": "mean: 7.833617831999982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d8ed8bc9ef68f661e20f77c23510e1e4dcb8115e",
+          "message": "Address GHDL sim issue gh-4004",
+          "timestamp": "2024-07-10T12:34:56-06:00",
+          "tree_id": "c328e6061bdb1a5621792aa3918d43eec39c67a0",
+          "url": "https://github.com/cocotb/cocotb/commit/d8ed8bc9ef68f661e20f77c23510e1e4dcb8115e"
+        },
+        "date": 1720636804508,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09825462033463021,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0741915177137068",
+            "extra": "mean: 10.177638431600007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12658406489302032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09103956645568412",
+            "extra": "mean: 7.8998885115999995 sec\nrounds: 5"
           }
         ]
       }
