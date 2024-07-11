@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720715328304,
+  "lastUpdate": 1720727391964,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8952,6 +8952,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11963180707291055",
             "extra": "mean: 7.911681860200019 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36da975c58cd93ec96c3ddcd3ef1ad4ec5500600",
+          "message": "Remove `TriggerException` (#4024)",
+          "timestamp": "2024-07-11T13:45:45-06:00",
+          "tree_id": "694dcab64a7fe61f6a3305ba2068af7a5aeae3c6",
+          "url": "https://github.com/cocotb/cocotb/commit/36da975c58cd93ec96c3ddcd3ef1ad4ec5500600"
+        },
+        "date": 1720727391701,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09827025326769367,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10880486022093379",
+            "extra": "mean: 10.176019362399973 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12630162359206842,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04607230803790213",
+            "extra": "mean: 7.917554593200009 sec\nrounds: 5"
           }
         ]
       }
