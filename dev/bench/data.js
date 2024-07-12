@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720800963808,
+  "lastUpdate": 1720819465577,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9066,6 +9066,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.13843463999686612",
             "extra": "mean: 7.890765376399986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "25820af64cd8915e2d530892490aae13e4203d9a",
+          "message": "docs: re-order the Python Code Library Reference page",
+          "timestamp": "2024-07-12T14:20:07-07:00",
+          "tree_id": "f7850929d4865455ca0b43ace386087ad970e878",
+          "url": "https://github.com/cocotb/cocotb/commit/25820af64cd8915e2d530892490aae13e4203d9a"
+        },
+        "date": 1720819465207,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09836966888990163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011363431207297998",
+            "extra": "mean: 10.16573514260001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1261113231135775,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0687217027557363",
+            "extra": "mean: 7.9295020884 sec\nrounds: 5"
           }
         ]
       }
