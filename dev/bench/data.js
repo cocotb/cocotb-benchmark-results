@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720727391964,
+  "lastUpdate": 1720755379570,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -8990,6 +8990,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04607230803790213",
             "extra": "mean: 7.917554593200009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb58d3d56b42e4ddd1c8de2f05f159a61c5353e3",
+          "message": "Cleanup `cocotb_tools.runner` (#4025)\n\n* Add typing support to cocotb_tools\r\n* Improve typing\r\n* Rename cocotb.runner.Simulator to cocotb.runner.Runner\r\n* Document the limitations of each Runner implementation.\r\n* Remove experimental warning\r\n* Replace prints with logs or exceptions\r\n* Cleanup newsfrags\r\n* Add newsfrag about renaming base class\r\n* Remove `raise NotImplementedError` and use `@abstractmethod`",
+          "timestamp": "2024-07-11T21:31:47-06:00",
+          "tree_id": "f5bfe5e84ee0bd9387ec6a7d33f6664e804a55f6",
+          "url": "https://github.com/cocotb/cocotb/commit/bb58d3d56b42e4ddd1c8de2f05f159a61c5353e3"
+        },
+        "date": 1720755379237,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0985670333056509,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08031706427981515",
+            "extra": "mean: 10.1453799152 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12614909426946472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05942257976673661",
+            "extra": "mean: 7.927127862400016 sec\nrounds: 5"
           }
         ]
       }
