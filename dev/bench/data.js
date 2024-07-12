@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720755379570,
+  "lastUpdate": 1720800963808,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9028,6 +9028,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05942257976673661",
             "extra": "mean: 7.927127862400016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "xdch47@posteo.de",
+            "name": "Felix Neumärker",
+            "username": "xdch47"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a7f1b459c74974b5bb107ffae77d91eb75284d76",
+          "message": "Use Verilator coverage filename.\n\nSupported since verilator v5.022.\n(Since https://github.com/verilator/verilator/commit/1a9250278825f383efe8d6ef15b55c477e6723e5)",
+          "timestamp": "2024-07-12T10:11:17-06:00",
+          "tree_id": "d95fb00c10f0c53f7faf01d71411aa8bad2bcf9a",
+          "url": "https://github.com/cocotb/cocotb/commit/a7f1b459c74974b5bb107ffae77d91eb75284d76"
+        },
+        "date": 1720800963178,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09830925948279173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09066898807180292",
+            "extra": "mean: 10.171981817999983 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.12673041869814552,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13843463999686612",
+            "extra": "mean: 7.890765376399986 sec\nrounds: 5"
           }
         ]
       }
