@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721088094098,
+  "lastUpdate": 1721160977966,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9180,6 +9180,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10120833488896612",
             "extra": "mean: 7.865773654200007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e70a6804d884b3e3df1a4b045900143d2133dfb9",
+          "message": "Renable checks in test_array following upstream fixes to Xcelium",
+          "timestamp": "2024-07-16T14:12:03-06:00",
+          "tree_id": "1b8fa270e1923c8df66339ab19075dca4d259c2c",
+          "url": "https://github.com/cocotb/cocotb/commit/e70a6804d884b3e3df1a4b045900143d2133dfb9"
+        },
+        "date": 1721160977293,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.09856045063700111,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04894022434522015",
+            "extra": "mean: 10.146057506200004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.126733956503596,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08206337319492979",
+            "extra": "mean: 7.890545104000012 sec\nrounds: 5"
           }
         ]
       }
