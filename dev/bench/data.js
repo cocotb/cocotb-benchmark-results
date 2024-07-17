@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721232210159,
+  "lastUpdate": 1721241780905,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9369,6 +9369,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07690182267149102",
             "extra": "mean: 11.629633857600016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilbertoabram@tersatech.com",
+            "name": "gilbertoabram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b43a4b89fbb9dad6e6eb25d351b7c195b2051a95",
+          "message": "GpiClock: C++ clock implementation using GPI. (#3983)\n\nCo-authored-by: Gilberto Abram <gilberto@hudson-trading.com>",
+          "timestamp": "2024-07-17T12:37:46-06:00",
+          "tree_id": "384165e909c869b99086e4e6937dc664b954916c",
+          "url": "https://github.com/cocotb/cocotb/commit/b43a4b89fbb9dad6e6eb25d351b7c195b2051a95"
+        },
+        "date": 1721241780465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07157412636231746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07228038004835169",
+            "extra": "mean: 13.971529249800005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.0878669152026883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04801967390436086",
+            "extra": "mean: 11.380847929999993 sec\nrounds: 5"
           }
         ]
       }
