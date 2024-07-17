@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721230949636,
+  "lastUpdate": 1721232210159,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9332,6 +9332,43 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08655220188678425",
             "extra": "mean: 11.667424579199997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ola.groettvik@cern.ch",
+            "name": "Ola Groettvik"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "870c5f09854a94415c4068631787c36975499377",
+          "message": "Fix inconsistent use of acom_args/vcom_args",
+          "timestamp": "2024-07-17T09:58:23-06:00",
+          "tree_id": "020446a8b8a556830152efa945954011a8978817",
+          "url": "https://github.com/cocotb/cocotb/commit/870c5f09854a94415c4068631787c36975499377"
+        },
+        "date": 1721232209558,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07204276656792954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09274334744967379",
+            "extra": "mean: 13.880644062399995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08598722988570236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07690182267149102",
+            "extra": "mean: 11.629633857600016 sec\nrounds: 5"
           }
         ]
       }
