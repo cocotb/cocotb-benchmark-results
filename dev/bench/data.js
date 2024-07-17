@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721182545896,
+  "lastUpdate": 1721230949636,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9294,6 +9294,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1611570337633643",
             "extra": "mean: 11.659172021599966 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c73faab32f7c3415268785f5bbfb02b58d1771f1",
+          "message": "Add done_callback interface to cocotb.task.Task",
+          "timestamp": "2024-07-17T09:37:08-06:00",
+          "tree_id": "a710baaa60a798c428713ceb54840e5324ae94a4",
+          "url": "https://github.com/cocotb/cocotb/commit/c73faab32f7c3415268785f5bbfb02b58d1771f1"
+        },
+        "date": 1721230949328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07212975472714962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07897889108935366",
+            "extra": "mean: 13.863904068200032 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08570871773902371,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08655220188678425",
+            "extra": "mean: 11.667424579199997 sec\nrounds: 5"
           }
         ]
       }
