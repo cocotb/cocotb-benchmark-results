@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721276961262,
+  "lastUpdate": 1721329047584,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9483,6 +9483,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04067347006880514",
             "extra": "mean: 11.459279860599986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "19c7518cfd513bd80c4c95d0e5b39dfa67c38373",
+          "message": "Add color to CI",
+          "timestamp": "2024-07-18T12:52:27-06:00",
+          "tree_id": "b24331f157226528a27960989eba61bef625f9a4",
+          "url": "https://github.com/cocotb/cocotb/commit/19c7518cfd513bd80c4c95d0e5b39dfa67c38373"
+        },
+        "date": 1721329047228,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0719817946975592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11556083117337025",
+            "extra": "mean: 13.892401602400009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08724492156217536,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07080068434980615",
+            "extra": "mean: 11.461985203200015 sec\nrounds: 5"
           }
         ]
       }
