@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721272363397,
+  "lastUpdate": 1721276961262,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9445,6 +9445,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.13288980857183433",
             "extra": "mean: 11.410567345599986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0279f1bb997f5fe4173a24679fc1bd148d4e373a",
+          "message": "Call done callback immediately if registering on finished Task\n\nAlso, we make this interface private. Also remove the\nremove_done_callback since we don't use it privately.",
+          "timestamp": "2024-07-17T22:24:21-06:00",
+          "tree_id": "816599b581c78950a4b3b5f312ec48256c8c608c",
+          "url": "https://github.com/cocotb/cocotb/commit/0279f1bb997f5fe4173a24679fc1bd148d4e373a"
+        },
+        "date": 1721276960968,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07203323202332745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08701430407587771",
+            "extra": "mean: 13.882481348000004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08726551861590034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04067347006880514",
+            "extra": "mean: 11.459279860599986 sec\nrounds: 5"
           }
         ]
       }
