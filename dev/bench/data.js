@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721241780905,
+  "lastUpdate": 1721272363397,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9407,6 +9407,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04801967390436086",
             "extra": "mean: 11.380847929999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "904016301@qq.com",
+            "name": "Zhe Li",
+            "username": "AtaraxiaZ"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b7f79ebf3be59d00ce8963ea41e5dedf45ec167d",
+          "message": "Replace deprecated VCS options",
+          "timestamp": "2024-07-17T21:07:39-06:00",
+          "tree_id": "0cace078e60155970af99d12c67244f5954430c5",
+          "url": "https://github.com/cocotb/cocotb/commit/b7f79ebf3be59d00ce8963ea41e5dedf45ec167d"
+        },
+        "date": 1721272363093,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0722089674615158,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12438714224076708",
+            "extra": "mean: 13.848695462000006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08763806125605215,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13288980857183433",
+            "extra": "mean: 11.410567345599986 sec\nrounds: 5"
           }
         ]
       }
