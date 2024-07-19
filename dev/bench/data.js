@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721329895974,
+  "lastUpdate": 1721365636927,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9559,6 +9559,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07403727011068617",
             "extra": "mean: 11.436618976599982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d545d6eca22d8ca15acde60f27a234891acad80d",
+          "message": "Remove IndexableValueObjectBase\n\nSplits \"rangeable\" methods off into RangeableObjectMixin. This includes\nthings like __len__, range, left, right, direction, etc. This is used\nfor HierarchyArrayObjects, ArrayObjects, LogicObjects, and\nStringObjects.\n\nIndexableValueObjectBase was then removed, replacing the functionality\nwith the aforementioned mixin and with purpose-built methods. This\nremoves indexability as a feature from StringObject and LogicObject,\nwhich were poorly supported beforehand.",
+          "timestamp": "2024-07-18T23:02:07-06:00",
+          "tree_id": "a033b7b9388958572b36a674a2b9893c48e18b41",
+          "url": "https://github.com/cocotb/cocotb/commit/d545d6eca22d8ca15acde60f27a234891acad80d"
+        },
+        "date": 1721365636632,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07191882133848135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10351789234936454",
+            "extra": "mean: 13.904566028599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08779331908017762,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1542866071335321",
+            "extra": "mean: 11.390388362999989 sec\nrounds: 5"
           }
         ]
       }
