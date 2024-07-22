@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721365636927,
+  "lastUpdate": 1721663449120,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9597,6 +9597,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1542866071335321",
             "extra": "mean: 11.390388362999989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "eb1e9236ece3d95a3852ee2ae5b7712bd74b780f",
+          "message": "Change timeouts in CI\n\nRemove timeout on Windows testing. I haven't seen issues with that in a while. Add timeout to Windows Icarus build since those often hang indefinitely, but if it finishes, it takes less than 5 minutes. And bump timeout on Linux testing because old Riviera version in the extended CI are just *barely* not finishing in time.",
+          "timestamp": "2024-07-22T09:45:48-06:00",
+          "tree_id": "8f28d3779b35b198e9b3e535491c2b7112f598fd",
+          "url": "https://github.com/cocotb/cocotb/commit/eb1e9236ece3d95a3852ee2ae5b7712bd74b780f"
+        },
+        "date": 1721663448646,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07302267713266572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1713062548679851",
+            "extra": "mean: 13.694376038599978 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08862780716914014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0585470474798809",
+            "extra": "mean: 11.283140494400005 sec\nrounds: 5"
           }
         ]
       }
