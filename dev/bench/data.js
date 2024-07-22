@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721663449120,
+  "lastUpdate": 1721681842308,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9635,6 +9635,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0585470474798809",
             "extra": "mean: 11.283140494400005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04bb4682f723431c5858735c74c01c21308623c9",
+          "message": "Move writes flushing into `scheduler._react` method (#4055)\n\nA single step towards and proof that moving this into a\r\ntrigger-specific react method would work.\r\n\r\nThis moves the write scheduler into a global module.\r\n\r\nWrites are applied when the ReadWrite trigger calls into the scheduler's\r\n`_react`, meaning we don't have to force the old `_do_writes` task to\r\nrun first with special logic in the simulator.",
+          "timestamp": "2024-07-22T14:52:14-06:00",
+          "tree_id": "879d03ca389800f99a49cc23b30bb4cb9ef2cdb9",
+          "url": "https://github.com/cocotb/cocotb/commit/04bb4682f723431c5858735c74c01c21308623c9"
+        },
+        "date": 1721681842009,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07151253538233275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.16813224609304153",
+            "extra": "mean: 13.983562387400003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08787630194096926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12418270866520575",
+            "extra": "mean: 11.379632254800025 sec\nrounds: 5"
           }
         ]
       }
