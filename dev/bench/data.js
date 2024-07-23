@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721694237268,
+  "lastUpdate": 1721757632580,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9711,6 +9711,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07867176090885612",
             "extra": "mean: 11.179898274800006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ray@raysalemi.com",
+            "name": "Ray Salemi",
+            "username": "raysalemi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0bf26136ba4a3f22a249c49efc74c61c400b0369",
+          "message": "Add pyuvm to ecosystem test (#4062)",
+          "timestamp": "2024-07-23T11:55:16-06:00",
+          "tree_id": "5a9bfdc51719f33cf35109e3786fee37e2911e9c",
+          "url": "https://github.com/cocotb/cocotb/commit/0bf26136ba4a3f22a249c49efc74c61c400b0369"
+        },
+        "date": 1721757632298,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07217868619348469,
+            "unit": "iter/sec",
+            "range": "stddev: 0.060653418816616816",
+            "extra": "mean: 13.8545054328 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08729251322613181,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1346859759342296",
+            "extra": "mean: 11.455736157000013 sec\nrounds: 5"
           }
         ]
       }
