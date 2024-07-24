@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721757632580,
+  "lastUpdate": 1721828886178,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9749,6 +9749,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1346859759342296",
             "extra": "mean: 11.455736157000013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5672e517393c9a2fc1a91996d7610a5e36e4c5a2",
+          "message": "Rename `cocotb.external` and `cocotb.function` (#4054)\n\nRenamed to cocotb.bridge and cocotb.resume, respectively. This was done\r\nbecause the two are intended to be used in conjunction to bridge\r\ncocotb's scheduler through non-async code. cocotb.bridge is thus\r\nobvious, and cocotb.resume is \"resuming\" the cocotb context.",
+          "timestamp": "2024-07-24T07:42:59-06:00",
+          "tree_id": "7e3b60404f3bf9da477b23e7c0482700e5ef8ada",
+          "url": "https://github.com/cocotb/cocotb/commit/5672e517393c9a2fc1a91996d7610a5e36e4c5a2"
+        },
+        "date": 1721828885513,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07248664650574038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10027881444318178",
+            "extra": "mean: 13.795644414599973 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08815844852476099,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08160990247145679",
+            "extra": "mean: 11.343212326599996 sec\nrounds: 5"
           }
         ]
       }
