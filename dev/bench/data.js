@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721875227633,
+  "lastUpdate": 1721935609577,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9825,6 +9825,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.016344591101375493",
             "extra": "mean: 11.150588855199999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "markus@notsyncing.net",
+            "name": "Markus Koch",
+            "username": "m42uko"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6ba2b351f110dbb058e5506714ed58782b32797d",
+          "message": "pytest: nvc: Add build_dir to library search paths\n\nWithout this argument, NVC does not find any of the locally compiled\nlibraries.",
+          "timestamp": "2024-07-25T13:21:49-06:00",
+          "tree_id": "9d42c6da6267f728d705d0598029395561b20c6e",
+          "url": "https://github.com/cocotb/cocotb/commit/6ba2b351f110dbb058e5506714ed58782b32797d"
+        },
+        "date": 1721935609292,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07278471859947618,
+            "unit": "iter/sec",
+            "range": "stddev: 0.27262891077156076",
+            "extra": "mean: 13.739147711800001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08909066923378518,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06610312505753699",
+            "extra": "mean: 11.22452001539997 sec\nrounds: 5"
           }
         ]
       }
