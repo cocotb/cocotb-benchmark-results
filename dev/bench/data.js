@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722355850040,
+  "lastUpdate": 1722383830613,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9977,6 +9977,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03954064306828005",
             "extra": "mean: 11.165260957600003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ray@raysalemi.com",
+            "name": "Ray Salemi",
+            "username": "raysalemi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fff3818ea7a1e423b04dc80aa3010cb0d540a25",
+          "message": "Added pyuvm references to README.md (#4076)",
+          "timestamp": "2024-07-30T17:52:06-06:00",
+          "tree_id": "3052c6e583507d661d68af95430b7fa61a52a983",
+          "url": "https://github.com/cocotb/cocotb/commit/2fff3818ea7a1e423b04dc80aa3010cb0d540a25"
+        },
+        "date": 1722383830301,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0727278187084956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.20742213391952688",
+            "extra": "mean: 13.749896776199979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08946005336996661,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06906252895325062",
+            "extra": "mean: 11.178173523599957 sec\nrounds: 5"
           }
         ]
       }
