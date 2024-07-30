@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722350177933,
+  "lastUpdate": 1722355850040,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9939,6 +9939,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03607360950686562",
             "extra": "mean: 11.2296782356 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0652ade90d8d75f8d21e11d4fbb72077dcb50535",
+          "message": "Remove the `data` field from `Event` (#4079)",
+          "timestamp": "2024-07-30T10:03:57-06:00",
+          "tree_id": "9dad66431cd2d091d0096eafeb304f2373022153",
+          "url": "https://github.com/cocotb/cocotb/commit/0652ade90d8d75f8d21e11d4fbb72077dcb50535"
+        },
+        "date": 1722355849758,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07347825887311007,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07081364261189367",
+            "extra": "mean: 13.609467825399951 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08956351345458854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03954064306828005",
+            "extra": "mean: 11.165260957600003 sec\nrounds: 5"
           }
         ]
       }
