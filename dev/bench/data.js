@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722293561062,
+  "lastUpdate": 1722350177933,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -9901,6 +9901,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07391025118089471",
             "extra": "mean: 11.233824803400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "722520b1726de834e8133e57f730c76b9388bb54",
+          "message": "Use vpiInertialDelay when setting string value on sims that support it",
+          "timestamp": "2024-07-30T08:31:14-06:00",
+          "tree_id": "be081bb5d37c0c7c0a02d8af828c5a3248d96079",
+          "url": "https://github.com/cocotb/cocotb/commit/722520b1726de834e8133e57f730c76b9388bb54"
+        },
+        "date": 1722350177666,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07245501997348572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08342321672356473",
+            "extra": "mean: 13.801666197400005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.0890497464860417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03607360950686562",
+            "extra": "mean: 11.2296782356 sec\nrounds: 5"
           }
         ]
       }
