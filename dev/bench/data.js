@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722383830613,
+  "lastUpdate": 1722528819817,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10015,6 +10015,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06906252895325062",
             "extra": "mean: 11.178173523599957 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "af30a2f2bb7b9584124e736316cfba8b3a34daf5",
+          "message": "Make sphinx not generate bogus undocumented return type in autoclass",
+          "timestamp": "2024-08-01T10:08:20-06:00",
+          "tree_id": "58f736a509a946c09a0860ef871c35311c5a53a4",
+          "url": "https://github.com/cocotb/cocotb/commit/af30a2f2bb7b9584124e736316cfba8b3a34daf5"
+        },
+        "date": 1722528819333,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.0729207054552897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06314803829093599",
+            "extra": "mean: 13.713526134400002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.0886057379071462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06897764672851131",
+            "extra": "mean: 11.28595081560004 sec\nrounds: 5"
           }
         ]
       }
