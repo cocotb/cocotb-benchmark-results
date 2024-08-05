@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722528819817,
+  "lastUpdate": 1722894626191,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10053,6 +10053,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06897764672851131",
             "extra": "mean: 11.28595081560004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da13315b7ca5cc04594aee773ece83efa2c7a9da",
+          "message": "Guard VHDL-specific option in Xcelium Python runner. (#4085)\n\nGuards addition of `-NEW_VHPI_PROPAGATE_DELAY` on whether VHDL sources are present.",
+          "timestamp": "2024-08-05T15:45:21-06:00",
+          "tree_id": "c226a791e616c375ddf33d1e83a12a311710206a",
+          "url": "https://github.com/cocotb/cocotb/commit/da13315b7ca5cc04594aee773ece83efa2c7a9da"
+        },
+        "date": 1722894625512,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07280102709944113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08154039084778146",
+            "extra": "mean: 13.736069940800007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08899332698166335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.087922303599429",
+            "extra": "mean: 11.236797565800021 sec\nrounds: 5"
           }
         ]
       }
