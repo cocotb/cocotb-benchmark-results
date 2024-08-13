@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723567477290,
+  "lastUpdate": 1723575320995,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10205,6 +10205,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07104053436831223",
             "extra": "mean: 11.240632287199968 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1929837457788935c6c1f87cb3bc7c0108e442ff",
+          "message": "Update build following change to setuptools/distutils (#4095)\n\n* Set CXXFLAGS appropriately now that they are being used\r\n* Update LDCXXSHARED variable now that it is being used\r\n* Add verbose switch when compiling cocotb for testing purposes",
+          "timestamp": "2024-08-13T12:50:22-06:00",
+          "tree_id": "aacb07cdd9a6bb2a0a15ec852e68317c9ed4285b",
+          "url": "https://github.com/cocotb/cocotb/commit/1929837457788935c6c1f87cb3bc7c0108e442ff"
+        },
+        "date": 1723575320588,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07280050856487724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1530639507791111",
+            "extra": "mean: 13.736167778399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08914508519171567,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12811615082466796",
+            "extra": "mean: 11.217668341999978 sec\nrounds: 5"
           }
         ]
       }
