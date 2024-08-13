@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723519009639,
+  "lastUpdate": 1723567477290,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10167,6 +10167,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08048816472773353",
             "extra": "mean: 11.227763190799987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "579bfa682cf9ec76646654fc8c7544d812c0cfc1",
+          "message": "Deprecate Join() and task.join()\n\nThis reintroduces old behavior which was changed and silently caused error\npropagation to stop. It also deprecates the Join trigger and\ntask.join().\n\nIn asyncio, which we are trying to align with, Tasks are Futures (known\nin cocotb as Triggers). There is no separate Future object for each\nTrigger firing. So Tasks are passed directly where any Future is\nexpected. Similarly, cocotb currently supports passing Tasks directly\nwherever Triggers are expected. Removing Join from the public API forces\nusers to pass Tasks directly instead of Join triggers which should align\ntheir code with the asyncio-like model we are converging on.",
+          "timestamp": "2024-08-13T11:39:40-05:00",
+          "tree_id": "ba326671cdcac215ee5b269ac9232766c385178b",
+          "url": "https://github.com/cocotb/cocotb/commit/579bfa682cf9ec76646654fc8c7544d812c0cfc1"
+        },
+        "date": 1723567476723,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07290128343894424,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09244058061810705",
+            "extra": "mean: 13.717179627400014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08896296706891914,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07104053436831223",
+            "extra": "mean: 11.240632287199968 sec\nrounds: 5"
           }
         ]
       }
