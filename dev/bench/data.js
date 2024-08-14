@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723575320995,
+  "lastUpdate": 1723649834435,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10243,6 +10243,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12811615082466796",
             "extra": "mean: 11.217668341999978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4bd80db144b5a2a6e9e9e43f15bbf51a8f524649",
+          "message": "Support SIM_ARGS in Verilator Makefile\n\nAlso, adds --trace to SIM_ARGS if VERILATOR_TRACE is set.",
+          "timestamp": "2024-08-14T10:32:10-05:00",
+          "tree_id": "ea46fa88557ecfc4cc9ff7e95a51259b116b3174",
+          "url": "https://github.com/cocotb/cocotb/commit/4bd80db144b5a2a6e9e9e43f15bbf51a8f524649"
+        },
+        "date": 1723649833566,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.07310474253751056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09513966850548795",
+            "extra": "mean: 13.679003102799971 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.08942322244437577,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06949361277503997",
+            "extra": "mean: 11.182777500800011 sec\nrounds: 5"
           }
         ]
       }
