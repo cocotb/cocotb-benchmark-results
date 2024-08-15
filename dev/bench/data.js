@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723698924688,
+  "lastUpdate": 1723749039946,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10319,6 +10319,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12009624859115119",
             "extra": "mean: 11.1908605524 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6c3ce100aecaf70dc57bf72d9b7ae54d3fa4be7b",
+          "message": "Remove __slots__ from cocotb.types\n\n__slots__ wasn't working on Array since it's base class didn't have\n__slots__. And __slots__ in general is being discouraged as it prevents\nthings like caching and the actual performance gain is totally\nnegligible due to improvements to dictionaries and attribute access in\nrecent versions of Python.",
+          "timestamp": "2024-08-15T14:06:15-05:00",
+          "tree_id": "8042af49c0520f375c5c80e27a70b3207c0b9e4b",
+          "url": "https://github.com/cocotb/cocotb/commit/6c3ce100aecaf70dc57bf72d9b7ae54d3fa4be7b"
+        },
+        "date": 1723749039650,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10617343344135584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045732558891535185",
+            "extra": "mean: 9.418551963399988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.13939574607094588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09748291516634632",
+            "extra": "mean: 7.173820063999995 sec\nrounds: 5"
           }
         ]
       }
