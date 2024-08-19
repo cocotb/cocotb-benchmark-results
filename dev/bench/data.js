@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724013602511,
+  "lastUpdate": 1724088199215,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10433,6 +10433,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07001803352185161",
             "extra": "mean: 7.1596996948000085 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "80af976918c236a10773dc16239964525b019e68",
+          "message": "Add a GitHub workflow to automatically backport changes\n\nUse the Backport tool, and its associated GitHub action, to\nautomatically perform backports of a pull request to one or multiple\nstable branches.\n\nThe action is controlled through GitHub labels. To backport a PR, assign\nthe `backport-to:VERSION` label to a PR. Once the PR is closed, a new PR\nagainst `stable/VERSION` will be opened by the bot, assuming the git\ncherry-pick was successful. The backport PR will then go through the usual\nround of CI and reviews.\n\nThe `backport-to:VERSION` can be applied multiple times. They can also\nbe applied after a PR has already been merged.\n\nIf an automated backport fails, developers can use the `backport`\ncommand-line tool to perform the backport and potential\nconflict-resolution manually.",
+          "timestamp": "2024-08-19T19:18:52+02:00",
+          "tree_id": "ac6b51086569fc9725456b5018f3bcd08157336c",
+          "url": "https://github.com/cocotb/cocotb/commit/80af976918c236a10773dc16239964525b019e68"
+        },
+        "date": 1724088198854,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10650481240408995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03750778891124771",
+            "extra": "mean: 9.389247090599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.13992467831562683,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046085587700200825",
+            "extra": "mean: 7.146702154599984 sec\nrounds: 5"
           }
         ]
       }
