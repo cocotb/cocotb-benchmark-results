@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724092907429,
+  "lastUpdate": 1724099698568,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10509,6 +10509,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06390829191514812",
             "extra": "mean: 7.169733882599985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "479fc9aed9bf1708d289e90b12a42e5a0d842a9b",
+          "message": "Use EXTRA_ARGS correctly in Makefile.verilator\n\nEXTRA_ARGS, per the documentation, are flags that are passed to both the compilation and the simulation steps when running a test.",
+          "timestamp": "2024-08-19T22:30:55+02:00",
+          "tree_id": "ede9d307919a9c7975da5748846884001af7eb33",
+          "url": "https://github.com/cocotb/cocotb/commit/479fc9aed9bf1708d289e90b12a42e5a0d842a9b"
+        },
+        "date": 1724099698284,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10610986863722308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03616142235632343",
+            "extra": "mean: 9.424194119199978 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.13860661558450643,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06736638572914486",
+            "extra": "mean: 7.214662848400008 sec\nrounds: 5"
           }
         ]
       }
