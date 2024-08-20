@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724138956093,
+  "lastUpdate": 1724139241613,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10585,6 +10585,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01694040579673863",
             "extra": "mean: 7.209856799599993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "501bfccdfb835b267dcc1e131dd3eb81c146df22",
+          "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks\n\nfor more information, see https://pre-commit.ci",
+          "timestamp": "2024-08-20T09:27:22+02:00",
+          "tree_id": "c13665fc7774d0ff9dd2abe1ec852491a9fd09ae",
+          "url": "https://github.com/cocotb/cocotb/commit/501bfccdfb835b267dcc1e131dd3eb81c146df22"
+        },
+        "date": 1724139241185,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1058966712066684,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09732816406448946",
+            "extra": "mean: 9.443167463200007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.13637541528182315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15700197625345683",
+            "extra": "mean: 7.332699943999989 sec\nrounds: 5"
           }
         ]
       }
