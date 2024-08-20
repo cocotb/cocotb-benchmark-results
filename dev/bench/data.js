@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724099698568,
+  "lastUpdate": 1724138956093,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10547,6 +10547,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06736638572914486",
             "extra": "mean: 7.214662848400008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "7585730d24565ec9df02aa9541dc91e0ab877f89",
+          "message": "CI: Gate log dumping in backport action\n\nThe log dumping tasks weren't gated by the label check, leading to cases\nwhere no logs were available and the `cat` failed.",
+          "timestamp": "2024-08-20T09:25:09+02:00",
+          "tree_id": "d96f2492a437b0008c8b76f8c3e6c57eff2c103f",
+          "url": "https://github.com/cocotb/cocotb/commit/7585730d24565ec9df02aa9541dc91e0ab877f89"
+        },
+        "date": 1724138955287,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.10613852627794237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03916854068053795",
+            "extra": "mean: 9.421649565600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1386990099519703,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01694040579673863",
+            "extra": "mean: 7.209856799599993 sec\nrounds: 5"
           }
         ]
       }
