@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724268782808,
+  "lastUpdate": 1724275103696,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10699,6 +10699,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03549587294551191",
             "extra": "mean: 5.70512433880001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b07ceaba30aaae36c59541518116579d68a9673",
+          "message": "Add tests for moving to ReadOnly from various time phases (#4121)",
+          "timestamp": "2024-08-21T15:14:36-06:00",
+          "tree_id": "e8c18aa2e38e80df07ae702b28dd4daa727f4ee0",
+          "url": "https://github.com/cocotb/cocotb/commit/9b07ceaba30aaae36c59541518116579d68a9673"
+        },
+        "date": 1724275102927,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12428737012529632,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03522966524079339",
+            "extra": "mean: 8.045869817599987 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17708333531924836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07464417815313379",
+            "extra": "mean: 5.647058760200025 sec\nrounds: 5"
           }
         ]
       }
