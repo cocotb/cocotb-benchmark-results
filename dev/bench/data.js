@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724162422107,
+  "lastUpdate": 1724268782808,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10661,6 +10661,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05715037470166385",
             "extra": "mean: 5.744187329199997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8a0936cf9d3838e900c3667bba5cd0a08d35de27",
+          "message": "fix test_forked_exception\n\nRemoving the Warning means the test no longer fails hard.",
+          "timestamp": "2024-08-21T14:29:28-05:00",
+          "tree_id": "ef364f6b91544916f00e05b72b70f357432909b4",
+          "url": "https://github.com/cocotb/cocotb/commit/8a0936cf9d3838e900c3667bba5cd0a08d35de27"
+        },
+        "date": 1724268782488,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12373384986713301,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02103706309090331",
+            "extra": "mean: 8.081862813399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17528101766320756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03549587294551191",
+            "extra": "mean: 5.70512433880001 sec\nrounds: 5"
           }
         ]
       }
