@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724280141529,
+  "lastUpdate": 1724341271922,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10775,6 +10775,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.037345398475142025",
             "extra": "mean: 5.658101786199973 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "88d7eee2779409c03e63f372e7d3035ff2372c92",
+          "message": "Add test for assigning strings",
+          "timestamp": "2024-08-22T10:37:34-05:00",
+          "tree_id": "733815a81443164292b20ff83fad2177c6044685",
+          "url": "https://github.com/cocotb/cocotb/commit/88d7eee2779409c03e63f372e7d3035ff2372c92"
+        },
+        "date": 1724341271570,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12498748756198935,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051068024630091496",
+            "extra": "mean: 8.000800876199992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17932154279159987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03205736287144674",
+            "extra": "mean: 5.576574818799986 sec\nrounds: 5"
           }
         ]
       }
