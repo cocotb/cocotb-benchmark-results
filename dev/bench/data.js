@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724605788829,
+  "lastUpdate": 1724617644058,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10851,6 +10851,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.059153864702660056",
             "extra": "mean: 5.49493069780001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f4b355a9f113c4f999aa81883277c20813b16e8e",
+          "message": "Remove cocotb.decorators, use cocotb namespace\n\nThere was more than one fully-qualified name for the objects in\ncocotb.decorators, so the more qualified one was removed by making the\nmodule private.",
+          "timestamp": "2024-08-25T15:23:19-05:00",
+          "tree_id": "e46b7fced1bedd4e921740c1fa3a5eeed68bc476",
+          "url": "https://github.com/cocotb/cocotb/commit/f4b355a9f113c4f999aa81883277c20813b16e8e"
+        },
+        "date": 1724617643563,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12593141427255408,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08908136949064718",
+            "extra": "mean: 7.9408303779999985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18232361236166414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020272599689745523",
+            "extra": "mean: 5.484753110399993 sec\nrounds: 5"
           }
         ]
       }
