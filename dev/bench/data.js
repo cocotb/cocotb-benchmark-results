@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724341271922,
+  "lastUpdate": 1724605788829,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10813,6 +10813,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03205736287144674",
             "extra": "mean: 5.576574818799986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "42dc0cb93c173426469d2f2826f7ce62ddb09ab4",
+          "message": "Update minimum supported Verilator and update CI",
+          "timestamp": "2024-08-25T12:06:13-05:00",
+          "tree_id": "1b35e6950b0246f5121249d310fa76623c98f03a",
+          "url": "https://github.com/cocotb/cocotb/commit/42dc0cb93c173426469d2f2826f7ce62ddb09ab4"
+        },
+        "date": 1724605788162,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12627588742469012,
+            "unit": "iter/sec",
+            "range": "stddev: 0.048613387144387545",
+            "extra": "mean: 7.91916826239999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18198591665594022,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059153864702660056",
+            "extra": "mean: 5.49493069780001 sec\nrounds: 5"
           }
         ]
       }
