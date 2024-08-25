@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724617644058,
+  "lastUpdate": 1724622768564,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10889,6 +10889,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020272599689745523",
             "extra": "mean: 5.484753110399993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "111ba1863ef2024d2803ef68a01ac5a16e60db52",
+          "message": "Emit TypeError if invalid type used when constructing Logic",
+          "timestamp": "2024-08-25T16:49:15-05:00",
+          "tree_id": "579e2e44f94ab01c0f47ad83a7c2348e6f8b4742",
+          "url": "https://github.com/cocotb/cocotb/commit/111ba1863ef2024d2803ef68a01ac5a16e60db52"
+        },
+        "date": 1724622768261,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12606884574750452,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050723998637228936",
+            "extra": "mean: 7.932173837800008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18020555290123688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010343060879391804",
+            "extra": "mean: 5.549218566799982 sec\nrounds: 5"
           }
         ]
       }
