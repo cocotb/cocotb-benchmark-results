@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724746284905,
+  "lastUpdate": 1724774304557,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11003,6 +11003,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05430923619883458",
             "extra": "mean: 5.5619153059999915 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "828d127e8e865fc2ecf4979ea54767e1da80dd21",
+          "message": "Fix memory leak of Python callbacks\n\nThis leak occurs when a trigger is deregistered before it fires.\nThe callback is cleaned up if it did fire. The trigger._unprime method\nhad to be split up so that triggers that fired weren't attempted to be\nderegistered (_unprime) more than once. Fired triggers just run\n_cleanup.",
+          "timestamp": "2024-08-27T10:54:38-05:00",
+          "tree_id": "0d02d60183e41a992380cd9cd514cf0e00f4ea4f",
+          "url": "https://github.com/cocotb/cocotb/commit/828d127e8e865fc2ecf4979ea54767e1da80dd21"
+        },
+        "date": 1724774303830,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12655333456077789,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04939894144454224",
+            "extra": "mean: 7.901806803199998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18016808430529951,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0487840098947539",
+            "extra": "mean: 5.550372608199984 sec\nrounds: 5"
           }
         ]
       }
