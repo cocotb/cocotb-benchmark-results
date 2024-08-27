@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724622768564,
+  "lastUpdate": 1724727897385,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -10927,6 +10927,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010343060879391804",
             "extra": "mean: 5.549218566799982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "683fe71d76d21af76b7f36527e74f3bf1264f12b",
+          "message": "Add test to ensure writes in ReadWrite behave properly in all cases",
+          "timestamp": "2024-08-26T22:01:24-05:00",
+          "tree_id": "7a280b4794e8ecf1f64276a561abfc566325ad93",
+          "url": "https://github.com/cocotb/cocotb/commit/683fe71d76d21af76b7f36527e74f3bf1264f12b"
+        },
+        "date": 1724727897096,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12686663483827712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.073431880939943",
+            "extra": "mean: 7.882293096800015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18066336787316822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050463693530775997",
+            "extra": "mean: 5.535156417000008 sec\nrounds: 5"
           }
         ]
       }
