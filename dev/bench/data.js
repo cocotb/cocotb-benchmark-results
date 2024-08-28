@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724812330714,
+  "lastUpdate": 1724851639686,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11079,6 +11079,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.041625976642814165",
             "extra": "mean: 5.558220464200019 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b431ff884080ae1b4afddc2fbb2cebd6af155430",
+          "message": "Change Verilator expectation of ReadWrite in ReadWrite",
+          "timestamp": "2024-08-28T08:23:42-05:00",
+          "tree_id": "a3b85abeec2e883a894b8ba6c3a97100d472d085",
+          "url": "https://github.com/cocotb/cocotb/commit/b431ff884080ae1b4afddc2fbb2cebd6af155430"
+        },
+        "date": 1724851639356,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12707328274497726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0854337022622485",
+            "extra": "mean: 7.869474829000012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17911601572672156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06471269230576485",
+            "extra": "mean: 5.582973671799993 sec\nrounds: 5"
           }
         ]
       }
