@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724774304557,
+  "lastUpdate": 1724812330714,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11041,6 +11041,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0487840098947539",
             "extra": "mean: 5.550372608199984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "00e61e3f83f84abca3cae3c1e5e19a0248b922ea",
+          "message": "Fix re-entrancy issue with setimmediatevalue and Edge triggers on Icarus and Xcelium",
+          "timestamp": "2024-08-27T21:28:12-05:00",
+          "tree_id": "6759206aaefd5ee6099bfc3778f2fa8990896f59",
+          "url": "https://github.com/cocotb/cocotb/commit/00e61e3f83f84abca3cae3c1e5e19a0248b922ea"
+        },
+        "date": 1724812329994,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12753203540376676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05097451399583016",
+            "extra": "mean: 7.8411670984000015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17991369835739818,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041625976642814165",
+            "extra": "mean: 5.558220464200019 sec\nrounds: 5"
           }
         ]
       }
