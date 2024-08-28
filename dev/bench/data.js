@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724851639686,
+  "lastUpdate": 1724858083937,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11117,6 +11117,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06471269230576485",
             "extra": "mean: 5.582973671799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte@hudson-trading.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00e8b0ca7736c562caf89a1992c24bf11ea8c144",
+          "message": "Simplify VpiArrayObjHdl::initialise (#3624)",
+          "timestamp": "2024-08-28T09:10:15-06:00",
+          "tree_id": "ec2a5056a033df757fa470972da23d585533c91c",
+          "url": "https://github.com/cocotb/cocotb/commit/00e8b0ca7736c562caf89a1992c24bf11ea8c144"
+        },
+        "date": 1724858083618,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12764858982566846,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04740023293755553",
+            "extra": "mean: 7.8340074211999875 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17919755653299554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08703811795274237",
+            "extra": "mean: 5.580433234399993 sec\nrounds: 5"
           }
         ]
       }
