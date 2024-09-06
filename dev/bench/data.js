@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725412830937,
+  "lastUpdate": 1725639873492,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11269,6 +11269,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06159239438948563",
             "extra": "mean: 5.594908710399989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "815daedabf6b52d09fb337272504a8646681e5da",
+          "message": "Apply writes done in ReadWrite phase immediately\n\nPreviously this scheduled writes until the next ReadWrite, but that\ndoesn't seem particularly useful and can even put the user into a bad\nsituation where there is no other ReadWrite phase in the time step and\nthe writes are applied inadvertently on the next time step.",
+          "timestamp": "2024-09-06T11:20:57-05:00",
+          "tree_id": "b3f6355c80ac4ab86dd582e2e8587bee32643525",
+          "url": "https://github.com/cocotb/cocotb/commit/815daedabf6b52d09fb337272504a8646681e5da"
+        },
+        "date": 1725639873152,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12784570678435056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030825151907426816",
+            "extra": "mean: 7.821928676000004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18079581743906972,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040192056996714576",
+            "extra": "mean: 5.5311014058000065 sec\nrounds: 5"
           }
         ]
       }
