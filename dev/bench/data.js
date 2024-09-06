@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725644657629,
+  "lastUpdate": 1725664206341,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11345,6 +11345,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04650157132546179",
             "extra": "mean: 5.646806561199992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "da7d4237a5bc853950cad63144487719ee071176",
+          "message": "Add (deprecated) __bool__ cast for LogicArray\n\nThis was done for backwards compatibility using the same semantics as\nBinaryValue.\n\nThere are many possible reasonable implementations of value checking:\n* all values == logical 1\n* any value == logical 1\n* `or` reduction of value == logical 1\n\nWe should refuse the temptation to guess (as Verilog has done) and have\nusers *explicitly* mention the behavior they are looking for, so this\nwas deprecated.",
+          "timestamp": "2024-09-06T18:06:34-05:00",
+          "tree_id": "d01c2d213ec3571abb3812a4214eb13f2844b26c",
+          "url": "https://github.com/cocotb/cocotb/commit/da7d4237a5bc853950cad63144487719ee071176"
+        },
+        "date": 1725664205747,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1274081816006753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03737204734859088",
+            "extra": "mean: 7.848789515999965 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1808116316058968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04801418054309353",
+            "extra": "mean: 5.530617643999994 sec\nrounds: 5"
           }
         ]
       }
