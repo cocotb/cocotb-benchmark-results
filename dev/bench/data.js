@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725639873492,
+  "lastUpdate": 1725644657629,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11307,6 +11307,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.040192056996714576",
             "extra": "mean: 5.5311014058000065 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "31b46a27f9f9838ad12c73fc148f11455210ccce",
+          "message": "Touchup typing and docs in Range",
+          "timestamp": "2024-09-06T12:40:37-05:00",
+          "tree_id": "6850b71638d5a1a1875b39e5482bcb590176290b",
+          "url": "https://github.com/cocotb/cocotb/commit/31b46a27f9f9838ad12c73fc148f11455210ccce"
+        },
+        "date": 1725644657328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12629057515781972,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059008595357820014",
+            "extra": "mean: 7.918247254399978 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17709124425673473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04650157132546179",
+            "extra": "mean: 5.646806561199992 sec\nrounds: 5"
           }
         ]
       }
