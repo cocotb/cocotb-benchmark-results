@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725664206341,
+  "lastUpdate": 1725906371043,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11383,6 +11383,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04801418054309353",
             "extra": "mean: 5.530617643999994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "fdb288f72c2115ca36216218226368a9f11f685a",
+          "message": "Enable Python 3.13 builds\n\nUpdate cibuildwheel to build wheels for Python 3.13, which now had its final release\ncandidate and will not see any more changes to its ABI.\nAlso update the CI configuration to build Python 3.13 by default for all\nbuilds, not only the experimental ones.",
+          "timestamp": "2024-09-09T20:22:31+02:00",
+          "tree_id": "13974fa365fdd0bd3f16771367395ac0a3a9b304",
+          "url": "https://github.com/cocotb/cocotb/commit/fdb288f72c2115ca36216218226368a9f11f685a"
+        },
+        "date": 1725906370755,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12535932830824983,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04656304221323164",
+            "extra": "mean: 7.977068906599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1776124949054524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040136154859276775",
+            "extra": "mean: 5.630234519999988 sec\nrounds: 5"
           }
         ]
       }
