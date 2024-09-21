@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726836165724,
+  "lastUpdate": 1726898754124,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11535,6 +11535,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.060604646818872135",
             "extra": "mean: 5.601795578999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32d8eb199652d799894e4c0a4833f7b9650ef191",
+          "message": "Add documentation for 'inheriting' from the test decorator (#4163)",
+          "timestamp": "2024-09-21T08:02:11+02:00",
+          "tree_id": "9bbd25f6befac79ab4aa15c755f5f003bf5d637c",
+          "url": "https://github.com/cocotb/cocotb/commit/32d8eb199652d799894e4c0a4833f7b9650ef191"
+        },
+        "date": 1726898753412,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.126372206497314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04196499590410289",
+            "extra": "mean: 7.913132386600012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17871104362552892,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029457793874443288",
+            "extra": "mean: 5.595625092399996 sec\nrounds: 5"
           }
         ]
       }
