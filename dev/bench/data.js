@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726898754124,
+  "lastUpdate": 1727183423840,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11573,6 +11573,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029457793874443288",
             "extra": "mean: 5.595625092399996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "b9dd5ee1850a8efcf9ad3e982fc3dbd47bb21182",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.6.5 → v0.6.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.6.5...v0.6.7)\n- [github.com/henryiii/validate-pyproject-schema-store: 2024.09.16 → 2024.09.20](https://github.com/henryiii/validate-pyproject-schema-store/compare/2024.09.16...2024.09.20)",
+          "timestamp": "2024-09-24T15:06:51+02:00",
+          "tree_id": "fa815dff210c5bd33ce1bcc7cef185e4ab439a63",
+          "url": "https://github.com/cocotb/cocotb/commit/b9dd5ee1850a8efcf9ad3e982fc3dbd47bb21182"
+        },
+        "date": 1727183423496,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12643353544735567,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04636741387264025",
+            "extra": "mean: 7.909293973800009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17895015770736555,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04062081463687702",
+            "extra": "mean: 5.588148190600004 sec\nrounds: 5"
           }
         ]
       }
