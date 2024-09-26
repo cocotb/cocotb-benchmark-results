@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727183423840,
+  "lastUpdate": 1727311955819,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11611,6 +11611,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04062081463687702",
             "extra": "mean: 5.588148190600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "povilas@radix.lt",
+            "name": "Povilas Kanapickas",
+            "username": "p12tic"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a764be6266f701d9f94bc7f10c09f8b090185e21",
+          "message": "Fix attempt to remove non-existing element in Lock._unprime_lock()\n\nWhen running cocotb tests the following errors are printed:\n\nException ignored in: <function Trigger.__del__ at 0x7fffd6c50fe0>\nTraceback (most recent call last):\n  File \".../cocotb/src/cocotb/triggers.py\", line 124, in __del__\n    self._unprime()\n  File \".../cocotb/src/cocotb/triggers.py\", line 616, in _unprime\n    self._parent._unprime_lock(self)\n  File \".../cocotb/src/cocotb/triggers.py\", line 676, in _unprime_lock\n    self._pending_primed.remove(lock)\nValueError: list.remove(x): x not in list\n\nThe reason why tests do not fail is that python ignores all exceptions\nraised in __del__ method:\nhttps://docs.python.org/3/reference/datamodel.html#object.__del__.\n\nThe mechanism of the failure is as follows:\n\n - callers always call both _prime_lock() and _unprime_lock()\n- depending on _locked attribute, _prime_lock() may not populate\n_pending_primed list\n- however, _unprime_lock attempts to remove item from _unprime_lock\nunconditionally.\n\nThe fix is simply to address this mismatch of conditionality.\n\nUnfortunately it is not possible to write a unit test for this specific\nmethod of failure.",
+          "timestamp": "2024-09-25T18:48:23-06:00",
+          "tree_id": "5e4f1586b79c11c3fafb50426d5d3d67384627f0",
+          "url": "https://github.com/cocotb/cocotb/commit/a764be6266f701d9f94bc7f10c09f8b090185e21"
+        },
+        "date": 1727311955415,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12704098879488782,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08136488919307577",
+            "extra": "mean: 7.8714752576000135 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17969946801124437,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0572133179964174",
+            "extra": "mean: 5.5648467469999785 sec\nrounds: 5"
           }
         ]
       }
