@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727371734093,
+  "lastUpdate": 1727448243587,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11687,6 +11687,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.038461012078397416",
             "extra": "mean: 5.591518504399994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "279e6bc055bc01f394d519b10ac00880521edc9a",
+          "message": "Move test outcome to RegressionManager instead of overwriting Task outcome",
+          "timestamp": "2024-09-27T08:40:22-06:00",
+          "tree_id": "be74002329a0fa46dca5f9201cb525c6e9c1775a",
+          "url": "https://github.com/cocotb/cocotb/commit/279e6bc055bc01f394d519b10ac00880521edc9a"
+        },
+        "date": 1727448243206,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12772836442564445,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025482092862683135",
+            "extra": "mean: 7.8291145783999925 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1793729013713812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039857238376521394",
+            "extra": "mean: 5.574978117400008 sec\nrounds: 5"
           }
         ]
       }
