@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727744221299,
+  "lastUpdate": 1727883420703,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11763,6 +11763,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029141882567884792",
             "extra": "mean: 5.564646450600003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7bcc8065e96930fc226463e3dcb0df3cd0b524db",
+          "message": "Prevent warnings in Xcelium when getting bounds of non-indexable signals",
+          "timestamp": "2024-10-02T09:33:18-06:00",
+          "tree_id": "f5ccd9e0edd73b5c8c2e523527259e2c1da6f277",
+          "url": "https://github.com/cocotb/cocotb/commit/7bcc8065e96930fc226463e3dcb0df3cd0b524db"
+        },
+        "date": 1727883420253,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1271185017618656,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0382396855719815",
+            "extra": "mean: 7.866675473200007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1804102434769738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039714080324579744",
+            "extra": "mean: 5.542922512199993 sec\nrounds: 5"
           }
         ]
       }
