@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727883420703,
+  "lastUpdate": 1728142447071,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11801,6 +11801,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039714080324579744",
             "extra": "mean: 5.542922512199993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "dc5e894588d289b45807a5c62543379af5f4fd69",
+          "message": "Add initial support for Synopsys VCS in CI\n\nAdd VCS to the experimental CI bucket until all tests pass.",
+          "timestamp": "2024-10-05T17:30:34+02:00",
+          "tree_id": "3625f43937a5383991a132346fb538608ba570b8",
+          "url": "https://github.com/cocotb/cocotb/commit/dc5e894588d289b45807a5c62543379af5f4fd69"
+        },
+        "date": 1728142446761,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1266434636670786,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08628580874241701",
+            "extra": "mean: 7.896183277399996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18097358649377024,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04078013813152883",
+            "extra": "mean: 5.525668244600013 sec\nrounds: 5"
           }
         ]
       }
