@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728213123667,
+  "lastUpdate": 1728213359172,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11877,6 +11877,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02551094326853689",
             "extra": "mean: 5.5724059393999825 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "e8c61232559d79787c5c4b306988608d9b742211",
+          "message": "Extended CI: Only run 5 tests in parallel\n\nWe only have 5 licenses of each proprietary simulator, avoid overloading\nthe system by running more tests in parallel that then fail due to\nlicense exhaustion (we cannot control the interleaving of tests, i.e.,\nwe can't have 5 Cadence, 5 Synopsys, and 5 Aldec tests run in parallel\nreliably, hence go the safe and slow route instead).",
+          "timestamp": "2024-10-06T13:08:41+02:00",
+          "tree_id": "7a6533a64db0f646a7cc55d6fdad45104fff40d0",
+          "url": "https://github.com/cocotb/cocotb/commit/e8c61232559d79787c5c4b306988608d9b742211"
+        },
+        "date": 1728213358869,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12708755882140124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06269926914703904",
+            "extra": "mean: 7.868590830400012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.18030670070982674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10086256289992636",
+            "extra": "mean: 5.546105585999999 sec\nrounds: 5"
           }
         ]
       }
