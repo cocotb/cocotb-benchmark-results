@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728213359172,
+  "lastUpdate": 1728307258909,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11915,6 +11915,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.10086256289992636",
             "extra": "mean: 5.546105585999999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "a24ff3bc5dd3c31eda9028db462aba25b22f40e2",
+          "message": "Nox: Install all doc dependencies in one go\n\nInstalling domaintools first also triggers the installation of any\nSphinx version, which is Sphinx 8 by default these days. Later, we\ninstall our requirements through requirements.txt and downgrade to\nSphinx 7. Avoid the double-effort and let the dependency solver deal\nwith all dependencies at the same time.",
+          "timestamp": "2024-10-07T15:16:41+02:00",
+          "tree_id": "1fefdb808ffd93284005c965aaf01034bc673983",
+          "url": "https://github.com/cocotb/cocotb/commit/a24ff3bc5dd3c31eda9028db462aba25b22f40e2"
+        },
+        "date": 1728307258219,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12593872855873622,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036871809130144116",
+            "extra": "mean: 7.940369189400007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1780107725050359,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045319498767694026",
+            "extra": "mean: 5.617637550399991 sec\nrounds: 5"
           }
         ]
       }
