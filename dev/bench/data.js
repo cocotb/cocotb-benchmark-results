@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728307258909,
+  "lastUpdate": 1728317858835,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -11953,6 +11953,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045319498767694026",
             "extra": "mean: 5.617637550399991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31325319+dolphingarlic@users.noreply.github.com",
+            "name": "Andi Qu",
+            "username": "dolphingarlic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0339d6775c55bc3defe1d3cba9e074dd8db99a76",
+          "message": "Rename deprecated environment variables in test Makefiles (#4192)\n\n* Rename MODULE to COCOTB_TEST_MODULES in test Makefiles\r\n* Rename TOPLEVEL to COCOTB_TOPLEVEL in test Makefiles",
+          "timestamp": "2024-10-07T10:14:00-06:00",
+          "tree_id": "fd1de3c0ee2311aed43ca891093ddf74c07062c9",
+          "url": "https://github.com/cocotb/cocotb/commit/0339d6775c55bc3defe1d3cba9e074dd8db99a76"
+        },
+        "date": 1728317858118,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1270706438944894,
+            "unit": "iter/sec",
+            "range": "stddev: 0.060527162317184524",
+            "extra": "mean: 7.869638252799996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17930699957331733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07533880242118854",
+            "extra": "mean: 5.577027123199992 sec\nrounds: 5"
           }
         ]
       }
