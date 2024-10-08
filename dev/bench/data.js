@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728421528713,
+  "lastUpdate": 1728422561975,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12143,6 +12143,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031138239464941375",
             "extra": "mean: 5.609573286399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "8356f23d55fce3c17592d204e9f71b8dbbd6992c",
+          "message": "Document how to backport PRs",
+          "timestamp": "2024-10-08T23:17:05+02:00",
+          "tree_id": "ff956441cdfeada04d86eb24d95f725c78b2579d",
+          "url": "https://github.com/cocotb/cocotb/commit/8356f23d55fce3c17592d204e9f71b8dbbd6992c"
+        },
+        "date": 1728422561624,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12740739515666738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05089950082635461",
+            "extra": "mean: 7.848837963999995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1797171544166456,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06999350487599053",
+            "extra": "mean: 5.564299096799959 sec\nrounds: 5"
           }
         ]
       }
