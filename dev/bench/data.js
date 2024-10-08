@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728371031374,
+  "lastUpdate": 1728371370183,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12029,6 +12029,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026459955546275445",
             "extra": "mean: 5.5683721903999865 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "55cb25a60e7daa3f43384e7d3f0e63a5386316f8",
+          "message": "Backport cocotb 1.9 release notes",
+          "timestamp": "2024-10-08T09:05:24+02:00",
+          "tree_id": "3681b241c906e8cc824c6b826ca2fe471bc4341d",
+          "url": "https://github.com/cocotb/cocotb/commit/55cb25a60e7daa3f43384e7d3f0e63a5386316f8"
+        },
+        "date": 1728371369642,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12695870803547002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038010654280369136",
+            "extra": "mean: 7.876576687600016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17884385505410086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04630426918256208",
+            "extra": "mean: 5.591469719200006 sec\nrounds: 5"
           }
         ]
       }
