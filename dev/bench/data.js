@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728423750734,
+  "lastUpdate": 1728426559469,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12219,6 +12219,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.044886296846264544",
             "extra": "mean: 5.587136290200005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "e911807e979aff58b374a27745b27fdf496c3463",
+          "message": "Rename some things in the scheduler\n\n* Tasks that are waiting on Triggers are \"pending\"\n* Tasks that are run are \"resumed\"\n* Tasks that are queued up to be resumed are \"scheduled\"",
+          "timestamp": "2024-10-08T15:25:43-07:00",
+          "tree_id": "fff20af32b7a542de524892b41b6d07a7c2c5956",
+          "url": "https://github.com/cocotb/cocotb/commit/e911807e979aff58b374a27745b27fdf496c3463"
+        },
+        "date": 1728426559161,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12508141310899204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035428834676381804",
+            "extra": "mean: 7.994792952399979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17785424344154277,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0462383650476846",
+            "extra": "mean: 5.622581618800007 sec\nrounds: 5"
           }
         ]
       }
