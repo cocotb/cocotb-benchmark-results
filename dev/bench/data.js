@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728371370183,
+  "lastUpdate": 1728372830783,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12067,6 +12067,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04630426918256208",
             "extra": "mean: 5.591469719200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "3690f8ee08ae8ec2a30e57084acc4712e527c83a",
+          "message": "Move contributor guide to main documentation\n\nPerform only minimal changes as part of the conversion and the\nrestructuring, keep text as-is.",
+          "timestamp": "2024-10-08T09:30:04+02:00",
+          "tree_id": "8455b6c05d476fc8656c0a39a785a1ce6924f48a",
+          "url": "https://github.com/cocotb/cocotb/commit/3690f8ee08ae8ec2a30e57084acc4712e527c83a"
+        },
+        "date": 1728372830295,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12653779483681926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04670917229017337",
+            "extra": "mean: 7.902777200199995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17926609245214623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06845835725975864",
+            "extra": "mean: 5.5782997572 sec\nrounds: 5"
           }
         ]
       }
