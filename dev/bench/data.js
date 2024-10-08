@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728372830783,
+  "lastUpdate": 1728421528713,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12105,6 +12105,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06845835725975864",
             "extra": "mean: 5.5782997572 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "gilbertoabram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ba1c7f5390485b73a7baa4703549782fd52f36e",
+          "message": "VPI: Queue callback objects instead of simulator pointers. (#4206)\n\nDon't queue on first cb. Clean up queue on deregister.",
+          "timestamp": "2024-10-08T15:01:50-06:00",
+          "tree_id": "d3fdeaa208dc5dd2506154aeef3dfbcbfae55b0c",
+          "url": "https://github.com/cocotb/cocotb/commit/8ba1c7f5390485b73a7baa4703549782fd52f36e"
+        },
+        "date": 1728421528406,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12632210124071255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07407664345867325",
+            "extra": "mean: 7.916271105199985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17826667893339188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031138239464941375",
+            "extra": "mean: 5.609573286399995 sec\nrounds: 5"
           }
         ]
       }
