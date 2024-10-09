@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728490488054,
+  "lastUpdate": 1728493723008,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12295,6 +12295,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029428979160800874",
             "extra": "mean: 5.603647956800023 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0c400bd2e390c143c13c5fc7b2ce5d45b87a36c4",
+          "message": "Fix toplevel discovery in Questa and Modelsim",
+          "timestamp": "2024-10-09T11:05:03-06:00",
+          "tree_id": "c6202950d9f62b83c81490d4cc5cf31b8a44a36d",
+          "url": "https://github.com/cocotb/cocotb/commit/0c400bd2e390c143c13c5fc7b2ce5d45b87a36c4"
+        },
+        "date": 1728493722248,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12498498909970869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06993485493004897",
+            "extra": "mean: 8.000960812999988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17897834669640103,
+            "unit": "iter/sec",
+            "range": "stddev: 0.056876217531361344",
+            "extra": "mean: 5.587268060400004 sec\nrounds: 5"
           }
         ]
       }
