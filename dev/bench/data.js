@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728496708330,
+  "lastUpdate": 1728521287581,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12371,6 +12371,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04548202141095872",
             "extra": "mean: 5.581445151399987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31325319+dolphingarlic@users.noreply.github.com",
+            "name": "Andi Qu",
+            "username": "dolphingarlic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa3e92c1a494e6a314f649b0732a74022d9a77a6",
+          "message": "Make `test_3316` run but expect a fail when `--timing` is not set (#4204)",
+          "timestamp": "2024-10-09T18:44:34-06:00",
+          "tree_id": "1bf7ef46f4d31475b278d20aaccc77329e507ce3",
+          "url": "https://github.com/cocotb/cocotb/commit/fa3e92c1a494e6a314f649b0732a74022d9a77a6"
+        },
+        "date": 1728521287074,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1266054723888055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04546904344469785",
+            "extra": "mean: 7.898552733400015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17887807260085675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031000292551715252",
+            "extra": "mean: 5.590400128200008 sec\nrounds: 5"
           }
         ]
       }
