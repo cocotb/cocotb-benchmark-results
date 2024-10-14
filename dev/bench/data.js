@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728521287581,
+  "lastUpdate": 1728940070225,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12409,6 +12409,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031000292551715252",
             "extra": "mean: 5.590400128200008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b2a3ba491e87de1a5a299de1bfa358569b00034a",
+          "message": "Remove unused and incorrect unreachable() impl",
+          "timestamp": "2024-10-14T17:04:14-04:00",
+          "tree_id": "fcea26d1081a44473d09ef2365ea4543a91d8af7",
+          "url": "https://github.com/cocotb/cocotb/commit/b2a3ba491e87de1a5a299de1bfa358569b00034a"
+        },
+        "date": 1728940069906,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12504844195008263,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02421863230906421",
+            "extra": "mean: 7.996900916200014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17714231016445112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025950113943595563",
+            "extra": "mean: 5.6451787214000095 sec\nrounds: 5"
           }
         ]
       }
