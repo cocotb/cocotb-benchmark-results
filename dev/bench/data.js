@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729611097896,
+  "lastUpdate": 1729625742253,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12561,6 +12561,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0709072797944274",
             "extra": "mean: 5.682785989799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9f854e9097b8364600569812e48c6c395f7556f7",
+          "message": "Bump MacOS Github CI runs to use macos-13 environment",
+          "timestamp": "2024-10-22T14:32:03-05:00",
+          "tree_id": "a39bd98ccfc70e6493b4f2ee4551b1492902e22b",
+          "url": "https://github.com/cocotb/cocotb/commit/9f854e9097b8364600569812e48c6c395f7556f7"
+        },
+        "date": 1729625741867,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12592667203380872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03187987400860166",
+            "extra": "mean: 7.941129419600008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17943890192359982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028443835806165788",
+            "extra": "mean: 5.57292754959999 sec\nrounds: 5"
           }
         ]
       }
