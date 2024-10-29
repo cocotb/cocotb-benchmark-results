@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730169599142,
+  "lastUpdate": 1730191871435,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12675,6 +12675,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05973226472500949",
             "extra": "mean: 5.613105446199984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte@hudson-trading.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "51f7f82337cd5a493c79a1eca33ff55b5323e712",
+          "message": "add -Werror=shadow",
+          "timestamp": "2024-10-29T09:47:29+01:00",
+          "tree_id": "46c0be736914dbbdcbe4c4055151f60c3046aa48",
+          "url": "https://github.com/cocotb/cocotb/commit/51f7f82337cd5a493c79a1eca33ff55b5323e712"
+        },
+        "date": 1730191870584,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1250731856803277,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026912977987380685",
+            "extra": "mean: 7.995318857199993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17884497380479866,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04972460764810101",
+            "extra": "mean: 5.591434742199999 sec\nrounds: 5"
           }
         ]
       }
