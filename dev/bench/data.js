@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730191871435,
+  "lastUpdate": 1730302580556,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12713,6 +12713,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04972460764810101",
             "extra": "mean: 5.591434742199999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31325319+dolphingarlic@users.noreply.github.com",
+            "name": "Andi Qu",
+            "username": "dolphingarlic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a24a292d02b8039c92f42aba03ab22cac054ab9",
+          "message": "Make VHPI detect null ranges correctly (#4212)",
+          "timestamp": "2024-10-30T09:32:37-06:00",
+          "tree_id": "0c1694c64da3fc934eb464350008104400feb00c",
+          "url": "https://github.com/cocotb/cocotb/commit/0a24a292d02b8039c92f42aba03ab22cac054ab9"
+        },
+        "date": 1730302579838,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12435044371236958,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025328949219167392",
+            "extra": "mean: 8.041788755599963 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1786554867691427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04190598164448537",
+            "extra": "mean: 5.59736517519998 sec\nrounds: 5"
           }
         ]
       }
