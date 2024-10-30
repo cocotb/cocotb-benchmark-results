@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730302840849,
+  "lastUpdate": 1730302863820,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12789,6 +12789,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03543751065711259",
             "extra": "mean: 5.601036551000016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte@hudson-trading.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ccabff3f033fdbaf18cf9ab309bcd70d451ae9b",
+          "message": "Vpi: remove vpiPort from iteration (#4240)",
+          "timestamp": "2024-10-30T09:36:25-06:00",
+          "tree_id": "019afc5207fb705be261c18b724c40df8829afc1",
+          "url": "https://github.com/cocotb/cocotb/commit/9ccabff3f033fdbaf18cf9ab309bcd70d451ae9b"
+        },
+        "date": 1730302863270,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12447047051128701,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061970097333844155",
+            "extra": "mean: 8.034034063600007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17692044503521184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03029112840245926",
+            "extra": "mean: 5.652257995399987 sec\nrounds: 5"
           }
         ]
       }
