@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730302580556,
+  "lastUpdate": 1730302840849,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12751,6 +12751,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04190598164448537",
             "extra": "mean: 5.59736517519998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte@hudson-trading.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f5502426cee39a35a38ba76a7a80d4fbf9e08a5",
+          "message": "Vpi: error on null string pointers (#4239)",
+          "timestamp": "2024-10-30T09:33:59-06:00",
+          "tree_id": "ae68ea7560790b92d341966a98a009bbb332f029",
+          "url": "https://github.com/cocotb/cocotb/commit/9f5502426cee39a35a38ba76a7a80d4fbf9e08a5"
+        },
+        "date": 1730302839077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12387312023287923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05843881186989257",
+            "extra": "mean: 8.072776387000005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17853838140396688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03543751065711259",
+            "extra": "mean: 5.601036551000016 sec\nrounds: 5"
           }
         ]
       }
