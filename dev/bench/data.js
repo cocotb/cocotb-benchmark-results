@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730381777982,
+  "lastUpdate": 1730382003385,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12865,6 +12865,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04379848674554958",
             "extra": "mean: 5.58548688080001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte@hudson-trading.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d23e43b36db10007904f1caed973cd7217e754cd",
+          "message": "Add stacklevel option to TestFactory.generate_tests() (#4241)",
+          "timestamp": "2024-10-31T07:32:57-06:00",
+          "tree_id": "5c032fc46b843837652e5f146acd0d6072b6fbb6",
+          "url": "https://github.com/cocotb/cocotb/commit/d23e43b36db10007904f1caed973cd7217e754cd"
+        },
+        "date": 1730382002894,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12135322909945583,
+            "unit": "iter/sec",
+            "range": "stddev: 0.047751165119209384",
+            "extra": "mean: 8.240407012000015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17572967772527887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059681501827849516",
+            "extra": "mean: 5.6905584357999945 sec\nrounds: 5"
           }
         ]
       }
