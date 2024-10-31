@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730302863820,
+  "lastUpdate": 1730381777982,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12827,6 +12827,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03029112840245926",
             "extra": "mean: 5.652257995399987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "gilbertoabram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ee407d2cd8cb336423b55cd78e7ab555e41d5f7",
+          "message": "Exit cleanly on HDL errors in verilator sims. (#4235)",
+          "timestamp": "2024-10-31T07:32:34-06:00",
+          "tree_id": "44223ae2ad31add708f02cb0b9a3ea0e812c1369",
+          "url": "https://github.com/cocotb/cocotb/commit/4ee407d2cd8cb336423b55cd78e7ab555e41d5f7"
+        },
+        "date": 1730381777253,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12487564153717588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10056134475060759",
+            "extra": "mean: 8.00796686760001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17903542186044302,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04379848674554958",
+            "extra": "mean: 5.58548688080001 sec\nrounds: 5"
           }
         ]
       }
