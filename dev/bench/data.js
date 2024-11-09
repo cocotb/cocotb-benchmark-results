@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730843969954,
+  "lastUpdate": 1731125299643,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12941,6 +12941,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03979298103852157",
             "extra": "mean: 5.610359867199998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f28fca1cf8589fa6088dbb21286874dc6953052a",
+          "message": "Verilator build parallelism (#4257)\n\nCo-authored-by: acm289 <acm289@cornell.edu>",
+          "timestamp": "2024-11-08T21:04:45-07:00",
+          "tree_id": "3144987643b43b50b4e561e3557abbb21557dc69",
+          "url": "https://github.com/cocotb/cocotb/commit/f28fca1cf8589fa6088dbb21286874dc6953052a"
+        },
+        "date": 1731125299245,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1255204199401064,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043566136031639786",
+            "extra": "mean: 7.966831217400022 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1768831543981234,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03265417578064566",
+            "extra": "mean: 5.653449608599976 sec\nrounds: 5"
           }
         ]
       }
