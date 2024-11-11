@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731125299643,
+  "lastUpdate": 1731356765130,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -12979,6 +12979,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03265417578064566",
             "extra": "mean: 5.653449608599976 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95b4421488bab48f4fc68f5d23aac2c716ba98d8",
+          "message": "Add `__index__` to LogicArray to support integer string casting (#4244)\n\nFor supporting integer string casting: hex(), bin(), etc.",
+          "timestamp": "2024-11-11T13:21:35-07:00",
+          "tree_id": "942419fedbed8f06dcfdf8040bc124e344bfc982",
+          "url": "https://github.com/cocotb/cocotb/commit/95b4421488bab48f4fc68f5d23aac2c716ba98d8"
+        },
+        "date": 1731356764613,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12420263330606149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07808945712674623",
+            "extra": "mean: 8.051359084599994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17501496432637179,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07524169932872597",
+            "extra": "mean: 5.713797124999997 sec\nrounds: 5"
           }
         ]
       }
