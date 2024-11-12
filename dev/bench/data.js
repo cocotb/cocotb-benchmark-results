@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731391729367,
+  "lastUpdate": 1731453164674,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13055,6 +13055,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04603840241872571",
             "extra": "mean: 5.610350490799988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a220e176b917c678ccac300ca092ca451802f6dc",
+          "message": "Use Python 3.12 to build docs at RTD (#4265)",
+          "timestamp": "2024-11-13T00:08:58+01:00",
+          "tree_id": "b0f8308f696c92d606a9da8361efcbc98d794963",
+          "url": "https://github.com/cocotb/cocotb/commit/a220e176b917c678ccac300ca092ca451802f6dc"
+        },
+        "date": 1731453164047,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12566660432414278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05519281884893388",
+            "extra": "mean: 7.9575636294000045 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17761456377340323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037905987130891675",
+            "extra": "mean: 5.630168938599979 sec\nrounds: 5"
           }
         ]
       }
