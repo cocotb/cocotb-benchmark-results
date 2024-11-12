@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731453380736,
+  "lastUpdate": 1731455046906,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13131,6 +13131,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.041151921478667024",
             "extra": "mean: 4.9396188576000215 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0380184b585072a6fcb66ca615c92f27a4be4592",
+          "message": "Move to new version of Verilator in CI (#4254)",
+          "timestamp": "2024-11-12T16:40:37-07:00",
+          "tree_id": "ea6de07f5eb0644c4b85dc99ed760217e41eccc7",
+          "url": "https://github.com/cocotb/cocotb/commit/0380184b585072a6fcb66ca615c92f27a4be4592"
+        },
+        "date": 1731455046606,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1383184928057112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04800487808473807",
+            "extra": "mean: 7.229691270600005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2024137443415301,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03603384652304162",
+            "extra": "mean: 4.940375977200011 sec\nrounds: 5"
           }
         ]
       }
