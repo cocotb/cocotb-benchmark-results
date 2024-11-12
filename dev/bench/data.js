@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731356765130,
+  "lastUpdate": 1731391729367,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13017,6 +13017,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07524169932872597",
             "extra": "mean: 5.713797124999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2f635547f4d69d504c857745fa32a985e6915f0c",
+          "message": "Fix lint error in logic.py",
+          "timestamp": "2024-11-11T23:05:06-07:00",
+          "tree_id": "4c485feaf93de7db48778bbbd729ff45212d69e1",
+          "url": "https://github.com/cocotb/cocotb/commit/2f635547f4d69d504c857745fa32a985e6915f0c"
+        },
+        "date": 1731391729003,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.12565127664893527,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05818232130119745",
+            "extra": "mean: 7.9585343393999946 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.17824198356944515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04603840241872571",
+            "extra": "mean: 5.610350490799988 sec\nrounds: 5"
           }
         ]
       }
