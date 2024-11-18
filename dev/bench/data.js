@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731455046906,
+  "lastUpdate": 1731950347888,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13169,6 +13169,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03603384652304162",
             "extra": "mean: 4.940375977200011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "77928195+jacob720@users.noreply.github.com",
+            "name": "jacob720",
+            "username": "jacob720"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6649d76692ef11cd6ecb905fca5d8133128c4a1a",
+          "message": "Allow user to specify elaboration arguments for NVC simulator (#4267)\n\nCo-authored-by: Jacob Williamson <hvj62882@pc0132.cs.diamond.ac.uk>",
+          "timestamp": "2024-11-18T10:15:40-07:00",
+          "tree_id": "96c72e876d50273450ffd1f9b68bb14a9649adb7",
+          "url": "https://github.com/cocotb/cocotb/commit/6649d76692ef11cd6ecb905fca5d8133128c4a1a"
+        },
+        "date": 1731950347545,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13824879757822145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09712909919817404",
+            "extra": "mean: 7.233335967599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20317774266831132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04457898416072447",
+            "extra": "mean: 4.921798947399987 sec\nrounds: 5"
           }
         ]
       }
