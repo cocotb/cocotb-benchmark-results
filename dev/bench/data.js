@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732654796326,
+  "lastUpdate": 1732662451205,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13321,6 +13321,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027016240288567146",
             "extra": "mean: 4.961855846800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ipburbank@users.noreply.github.com",
+            "name": "Istvan Burbank",
+            "username": "ipburbank"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4735dd380ac92e9dbecd950c020e47dedf6983d1",
+          "message": "Vcs `-debug_access+all`\n\n`-memcbk` prevented unpacked arrays, rams, etc from being dumped to waves.",
+          "timestamp": "2024-11-26T16:04:04-07:00",
+          "tree_id": "6efcaae746b5214a9af847337476f0a3d3c2af70",
+          "url": "https://github.com/cocotb/cocotb/commit/4735dd380ac92e9dbecd950c020e47dedf6983d1"
+        },
+        "date": 1732662450761,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13816484081877878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02143334161414032",
+            "extra": "mean: 7.2377313510000025 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2022934498117135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026430138096912904",
+            "extra": "mean: 4.943313789600007 sec\nrounds: 5"
           }
         ]
       }
