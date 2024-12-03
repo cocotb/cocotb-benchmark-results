@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733191054206,
+  "lastUpdate": 1733244435042,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13397,6 +13397,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022247377299519405",
             "extra": "mean: 4.918026685399991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1810leo@gmail.com",
+            "name": "TrAyZeN",
+            "username": "TrAyZeN"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "28b53df48c8b710dda66b7baa30503f1b5aacfd0",
+          "message": "Disable icarus waveform output when WAVES disabled\n\nWhen WAVES was disabled a waveform in the default format (vcd) was\nproduced. Now `-none` is passed to icarus to disable waveform output.",
+          "timestamp": "2024-12-03T09:43:41-07:00",
+          "tree_id": "f001c65adf4876e5d0437c6c637d6c6e4e3725fe",
+          "url": "https://github.com/cocotb/cocotb/commit/28b53df48c8b710dda66b7baa30503f1b5aacfd0"
+        },
+        "date": 1733244434512,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1386119250093861,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012097493223630991",
+            "extra": "mean: 7.2143864961999835 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2007163864732906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04514691442190373",
+            "extra": "mean: 4.982154260400011 sec\nrounds: 5"
           }
         ]
       }
