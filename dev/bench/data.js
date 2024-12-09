@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733244435042,
+  "lastUpdate": 1733767565680,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13435,6 +13435,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04514691442190373",
             "extra": "mean: 4.982154260400011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "klemmer@uni-bremen.de",
+            "name": "Lucas Klemmer",
+            "username": "LucasKl"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5922e677c6255a31e590e69006993d3ceca3e308",
+          "message": "Add Surfer to simulator support docs (#4294)",
+          "timestamp": "2024-12-09T11:02:26-07:00",
+          "tree_id": "675f3220ca5a8da06de60b47c77ad017ea353fe8",
+          "url": "https://github.com/cocotb/cocotb/commit/5922e677c6255a31e590e69006993d3ceca3e308"
+        },
+        "date": 1733767565305,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13887593983393728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050058990684475196",
+            "extra": "mean: 7.200671341600014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2009565689508565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009008053890620324",
+            "extra": "mean: 4.976199609800005 sec\nrounds: 5"
           }
         ]
       }
