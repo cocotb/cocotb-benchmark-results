@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733767565680,
+  "lastUpdate": 1733781674861,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13473,6 +13473,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009008053890620324",
             "extra": "mean: 4.976199609800005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61d4f116cb70bfdb93ad04aa4c1b43f8636d1f4e",
+          "message": "Disable bool cast on handles (#4296)\n\nIn 1.X some handles had __bool__ casts defined as `bool(handle.value)`.\r\nThis behavior is now changed and can cause silent failures. This\r\nprevents those suprises. Users should explicitly use `handle is not\r\nNone` check if they wish to check to see if a handle object is present\r\nin a variable or not; and should use `bool(handle.value)` checks for the\r\n1.X behavior.",
+          "timestamp": "2024-12-09T14:57:42-07:00",
+          "tree_id": "b03d15a4b41c92a71762f16a78474779e81426db",
+          "url": "https://github.com/cocotb/cocotb/commit/61d4f116cb70bfdb93ad04aa4c1b43f8636d1f4e"
+        },
+        "date": 1733781674336,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1378106619789691,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08056565597802551",
+            "extra": "mean: 7.256332606199999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20067811380644643,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015914321255445507",
+            "extra": "mean: 4.983104440400001 sec\nrounds: 5"
           }
         ]
       }
