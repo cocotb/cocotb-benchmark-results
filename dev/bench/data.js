@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733781674861,
+  "lastUpdate": 1733790570958,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13511,6 +13511,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015914321255445507",
             "extra": "mean: 4.983104440400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0407e7a89e332f60a1ea3ba1f95e5317d1aa864b",
+          "message": "[pre-commit.ci] pre-commit autoupdate (#4297)\n\nupdates:\r\n- [github.com/astral-sh/ruff-pre-commit: v0.8.1 → v0.8.2](https://github.com/astral-sh/ruff-pre-commit/compare/v0.8.1...v0.8.2)\r\n\r\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2024-12-09T17:26:07-07:00",
+          "tree_id": "166a4c94831486bda538423defde21d5f7297538",
+          "url": "https://github.com/cocotb/cocotb/commit/0407e7a89e332f60a1ea3ba1f95e5317d1aa864b"
+        },
+        "date": 1733790570553,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13835741536934976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04412441139036437",
+            "extra": "mean: 7.227657421399977 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20193571406744257,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02141482296067238",
+            "extra": "mean: 4.952071032199979 sec\nrounds: 5"
           }
         ]
       }
