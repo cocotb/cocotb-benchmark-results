@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733964437359,
+  "lastUpdate": 1734019833151,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13587,6 +13587,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02334806359491084",
             "extra": "mean: 5.038803451599994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "filipe.lains@gmail.com",
+            "name": "Filipe Laíns 🇵🇸",
+            "username": "FFY00"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e23280df0eec08d71dd1c38faf71e33b7ffd49c7",
+          "message": "gpi_embed: set the program name to PYTHON_BIN (#4293)\n\nSigned-off-by: Filipe Laíns <lains@riseup.net>\r\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2024-12-12T09:07:00-07:00",
+          "tree_id": "59921c2b3404c89040df3c22af6f8b4b5ebacaa2",
+          "url": "https://github.com/cocotb/cocotb/commit/e23280df0eec08d71dd1c38faf71e33b7ffd49c7"
+        },
+        "date": 1734019832565,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13799822791750477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05164658190562151",
+            "extra": "mean: 7.246469864799996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19665090939244584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03473855743134852",
+            "extra": "mean: 5.085153193999997 sec\nrounds: 5"
           }
         ]
       }
