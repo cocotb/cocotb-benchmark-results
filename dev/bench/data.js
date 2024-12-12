@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733790570958,
+  "lastUpdate": 1733964437359,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13549,6 +13549,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02141482296067238",
             "extra": "mean: 4.952071032199979 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anolte512@gmail.com",
+            "name": "Andrew Nolte",
+            "username": "AndrewNolte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74cf7d1e76e7e88aa13ee1e14a1cf4943dd7e875",
+          "message": "Add back resolve x (#4253)\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2024-12-11T17:43:31-07:00",
+          "tree_id": "57bc59a80c4ea977ea3d776ff83de4f97e266df9",
+          "url": "https://github.com/cocotb/cocotb/commit/74cf7d1e76e7e88aa13ee1e14a1cf4943dd7e875"
+        },
+        "date": 1733964436536,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1396341310748042,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03206829445024754",
+            "extra": "mean: 7.161572835399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19845981483609276,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02334806359491084",
+            "extra": "mean: 5.038803451599994 sec\nrounds: 5"
           }
         ]
       }
