@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734019833151,
+  "lastUpdate": 1734082229447,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13625,6 +13625,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03473855743134852",
             "extra": "mean: 5.085153193999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "c8ec8b2e110b3181a7b95dfe576a9467e82db502",
+          "message": "VHPI: Support accessing 9-state values\n\nSupport, and test, accessing 9-state values (`std_ulogic`) when VHPI is\nused.\n\nDocument a bit more clearly what VPI on GHDL means for the end-user.",
+          "timestamp": "2024-12-13T10:27:01+01:00",
+          "tree_id": "463316d8a82891055a48f7240246102d48152f99",
+          "url": "https://github.com/cocotb/cocotb/commit/c8ec8b2e110b3181a7b95dfe576a9467e82db502"
+        },
+        "date": 1734082229116,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13870052047488488,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03731463468497206",
+            "extra": "mean: 7.209778280399997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19820335422882854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02716261552962883",
+            "extra": "mean: 5.045323293799993 sec\nrounds: 5"
           }
         ]
       }
