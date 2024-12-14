@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734082229447,
+  "lastUpdate": 1734166335020,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13663,6 +13663,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02716261552962883",
             "extra": "mean: 5.045323293799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "7ecbbc3c4f3ee0f26ef3a0d50d902bb3eaa9035b",
+          "message": "Remove runner.check_results_file from documentation\n\nPR #4235 removed `check_results_file` from `runner.py` but left the\nreference to it in the documentation. Remove it from the docs as well.",
+          "timestamp": "2024-12-14T09:47:54+01:00",
+          "tree_id": "c2224804c10b16a8b11dc4e8b5795093c04e77c1",
+          "url": "https://github.com/cocotb/cocotb/commit/7ecbbc3c4f3ee0f26ef3a0d50d902bb3eaa9035b"
+        },
+        "date": 1734166334275,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1387868217216008,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06677497853674272",
+            "extra": "mean: 7.205295053199995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19871490837450062,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04016166649755289",
+            "extra": "mean: 5.032335058199999 sec\nrounds: 5"
           }
         ]
       }
