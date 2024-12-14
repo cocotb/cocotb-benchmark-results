@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734166335020,
+  "lastUpdate": 1734191121266,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13701,6 +13701,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04016166649755289",
             "extra": "mean: 5.032335058199999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "73640421+Gophen@users.noreply.github.com",
+            "name": "Gophen",
+            "username": "Gophen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "708c3f32c4387682827b81b5e8d94339bffdeefa",
+          "message": "Add robustness on as_tcl_value() function (#4225)\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2024-12-14T08:41:52-07:00",
+          "tree_id": "e5e2dcb701ab7d43e242c4aba47036a0377076d2",
+          "url": "https://github.com/cocotb/cocotb/commit/708c3f32c4387682827b81b5e8d94339bffdeefa"
+        },
+        "date": 1734191120379,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13913947961731793,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0385291729405913",
+            "extra": "mean: 7.18703277279999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19866473334661638,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021564018224728438",
+            "extra": "mean: 5.033606031399995 sec\nrounds: 5"
           }
         ]
       }
