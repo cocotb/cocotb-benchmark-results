@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734449591495,
+  "lastUpdate": 1734554122742,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13777,6 +13777,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05189139291818777",
             "extra": "mean: 5.045406448000017 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f5c243cb8babbb17d9286a3ddc213cbbb5c983c1",
+          "message": "Cache calls to get_sim_time\n\nThis function is called on every logging call and Timer creation. It\nonly changes value whenever control is returned to the simulator. So we\ncache the call and invalidate whenever a GPITrigger fires.\n\nAlso tidied up some test in test_timing_triggers because they were\nfailing. Tests no longer assume fs precision and a couple out of date\ntests below are cleaned up.",
+          "timestamp": "2024-12-18T13:31:47-07:00",
+          "tree_id": "024425c083ad614431ee58b6b636c9444d4fbc07",
+          "url": "https://github.com/cocotb/cocotb/commit/f5c243cb8babbb17d9286a3ddc213cbbb5c983c1"
+        },
+        "date": 1734554122366,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1403476536014033,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03798506965783438",
+            "extra": "mean: 7.125163651400021 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20049012656795345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03383440333593345",
+            "extra": "mean: 4.987776790400017 sec\nrounds: 5"
           }
         ]
       }
