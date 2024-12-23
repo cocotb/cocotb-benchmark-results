@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734833907295,
+  "lastUpdate": 1734976739127,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13853,6 +13853,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02476519600258804",
             "extra": "mean: 5.056313150400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f5d5ea51a20b85d1939912d0a0105d269de77f5a",
+          "message": "Revert \"Cache calls to get_sim_time\"\n\nThis reverts commit f5c243cb8babbb17d9286a3ddc213cbbb5c983c1.\nFurther testing shows this actually slightly decreasess performance.",
+          "timestamp": "2024-12-23T12:55:32-05:00",
+          "tree_id": "9bf0ab5bd9e5aaf6effabc1afb8bef976ab35511",
+          "url": "https://github.com/cocotb/cocotb/commit/f5d5ea51a20b85d1939912d0a0105d269de77f5a"
+        },
+        "date": 1734976738784,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13902225064392612,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07013856419328066",
+            "extra": "mean: 7.193093158600004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19767033929565175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01758413180888398",
+            "extra": "mean: 5.0589279279999575 sec\nrounds: 5"
           }
         ]
       }
