@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735046485801,
+  "lastUpdate": 1735299407001,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -13929,6 +13929,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09345840730861059",
             "extra": "mean: 5.0746632846000015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78fd5c239614af113c28f88dc2c4f6ab083dce69",
+          "message": "Remove unnecessary objects from VPI discovery (#3360)\n\nRemoved translation of syntactic elements like always, initial, and function blocks and modport defitions. `vpiRefObj` are aliases which require a `vpiActual` discovery to determine the underlying element. We will not translate those until we have that code in place.\n\nRemoved iteration over:\n* `vpiProcess`\n* `vpiModPath` (delay path)\n* `vpiTchk`\n* `vpiAttribute` (syntax)\n\nAdded translation of `vpiSwitch` which is a kind of primitive object like `vpiGate` and `vpiPrimTerm` for sake of completeness.\n\nCloses #3353",
+          "timestamp": "2024-12-27T11:33:15Z",
+          "tree_id": "1f715125493bf4ed51262ee81d3cc8a3e13cb36c",
+          "url": "https://github.com/cocotb/cocotb/commit/78fd5c239614af113c28f88dc2c4f6ab083dce69"
+        },
+        "date": 1735299406546,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1399184938092531,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026736979475066147",
+            "extra": "mean: 7.147018044399988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19858657402399266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015639259177053614",
+            "extra": "mean: 5.035587148399986 sec\nrounds: 5"
           }
         ]
       }
