@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735339934219,
+  "lastUpdate": 1735840355066,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14081,6 +14081,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03147799916462419",
             "extra": "mean: 5.048404567199986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "themperek@users.noreply.github.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2eda2bd75ed30153225b98ed183f8131f22c8ad0",
+          "message": "Correct LANGUAGE in simple_dff (#4329)",
+          "timestamp": "2025-01-02T18:48:51+01:00",
+          "tree_id": "ca8d6aae4b8b1c6df463147f4f4129b2743f4762",
+          "url": "https://github.com/cocotb/cocotb/commit/2eda2bd75ed30153225b98ed183f8131f22c8ad0"
+        },
+        "date": 1735840354575,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13746567602523926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028298470631759023",
+            "extra": "mean: 7.274543209000012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.1972067061874588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03736875838560813",
+            "extra": "mean: 5.07082147120002 sec\nrounds: 5"
           }
         ]
       }
