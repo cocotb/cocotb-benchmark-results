@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735840355066,
+  "lastUpdate": 1735883912003,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14119,6 +14119,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03736875838560813",
             "extra": "mean: 5.07082147120002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5237f9de3620aaf64e36d2e76960b9f7121bea96",
+          "message": "Make ReadWrite, ReadOnly, and NextTimeStep regular singletons\n\nThe use of ParameterizedSingletons in these class was overkill. This\nmakes the lifetime of these objects the full program. It should slightly\nincrease performance as we don't have to do a weakref cache lookup.",
+          "timestamp": "2025-01-02T22:55:09-07:00",
+          "tree_id": "e66b7e7b0168d7a6cb5848d99ae95ab6c27caf49",
+          "url": "https://github.com/cocotb/cocotb/commit/5237f9de3620aaf64e36d2e76960b9f7121bea96"
+        },
+        "date": 1735883911640,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13798910589421506,
+            "unit": "iter/sec",
+            "range": "stddev: 0.058675027213554366",
+            "extra": "mean: 7.246948906 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.198809053640691,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03089767769218773",
+            "extra": "mean: 5.029952015200007 sec\nrounds: 5"
           }
         ]
       }
