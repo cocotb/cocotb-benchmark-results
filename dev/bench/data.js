@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736040513071,
+  "lastUpdate": 1736090107201,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14195,6 +14195,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019923073837779966",
             "extra": "mean: 5.0784338746000115 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ae0a039cd9e865b785724c113d6510d8dbe629e7",
+          "message": "Check results file for failures in Makefile flow",
+          "timestamp": "2025-01-05T08:11:40-07:00",
+          "tree_id": "255bc99a80f87f4043dd4140507ed96f94ef6e8b",
+          "url": "https://github.com/cocotb/cocotb/commit/ae0a039cd9e865b785724c113d6510d8dbe629e7"
+        },
+        "date": 1736090106824,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13741675579585222,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0698440475697629",
+            "extra": "mean: 7.27713293920001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19652769730315253,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04886496794948994",
+            "extra": "mean: 5.088341306199993 sec\nrounds: 5"
           }
         ]
       }
