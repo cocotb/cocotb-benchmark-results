@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736137634522,
+  "lastUpdate": 1736193383572,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14271,6 +14271,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04777719983481802",
             "extra": "mean: 5.0811283910000045 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a95438c538af13a66853de2ac244b5d136e90356",
+          "message": "Move COCOTB_TRUST_INERTIAL_WRITES inside ifdef guard in makefile",
+          "timestamp": "2025-01-06T12:52:55-07:00",
+          "tree_id": "9dfdc64df60c17769cc67ce4b232c822b34d865b",
+          "url": "https://github.com/cocotb/cocotb/commit/a95438c538af13a66853de2ac244b5d136e90356"
+        },
+        "date": 1736193383205,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13825783137986147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026679459461872095",
+            "extra": "mean: 7.23286333960001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19790707402461677,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07082782853979588",
+            "extra": "mean: 5.052876482199997 sec\nrounds: 5"
           }
         ]
       }
