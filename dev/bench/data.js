@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736090107201,
+  "lastUpdate": 1736137634522,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14233,6 +14233,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04886496794948994",
             "extra": "mean: 5.088341306199993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7c30cf52adbaa3f94776e0fb3aa4fbfcd2fc839a",
+          "message": "Update Doxyfile",
+          "timestamp": "2025-01-05T21:23:49-07:00",
+          "tree_id": "c6e1ea43acbea49ba7d0e4116bfcb98879d0bf3c",
+          "url": "https://github.com/cocotb/cocotb/commit/7c30cf52adbaa3f94776e0fb3aa4fbfcd2fc839a"
+        },
+        "date": 1736137634104,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13661344288034896,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07072828573108732",
+            "extra": "mean: 7.319923858999999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19680667817236408,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04777719983481802",
+            "extra": "mean: 5.0811283910000045 sec\nrounds: 5"
           }
         ]
       }
