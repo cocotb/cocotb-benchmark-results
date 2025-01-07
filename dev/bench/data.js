@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736217538642,
+  "lastUpdate": 1736218066484,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14347,6 +14347,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02151855741884467",
             "extra": "mean: 5.071020551399988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1b42a7cc8655b14134c7e283df22feaa83e07aa5",
+          "message": "Allow KeyboardInterrupt and SystemExit to bubble up\n\nCurrent these are \"handled\" as part of the Task and Test classes, but in\nboth cases what's meant is \"die now\", not \"handle me and maybe keep\nrunning tests\".\n\nasyncio follows the same approach by special casing these two exception\ntypes.",
+          "timestamp": "2025-01-06T19:44:24-07:00",
+          "tree_id": "04a913c36bb3c262621fe1e7370fbaedbd5a4d8b",
+          "url": "https://github.com/cocotb/cocotb/commit/1b42a7cc8655b14134c7e283df22feaa83e07aa5"
+        },
+        "date": 1736218066145,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13865464924858742,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07145257808554209",
+            "extra": "mean: 7.212163496999994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19916790376019286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019490582827477433",
+            "extra": "mean: 5.020889315599993 sec\nrounds: 5"
           }
         ]
       }
