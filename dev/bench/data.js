@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736305079655,
+  "lastUpdate": 1736365805154,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14423,6 +14423,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03468266632752187",
             "extra": "mean: 5.137009257000011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc5fe77434a4825e1cda989f8b633fb19083f259",
+          "message": "Refactor `Join` into `TaskComplete` (#4341)\n\n* Refactor Join trigger into new TaskComplete trigger\r\n\r\nSince `Join(task)` and `task.join()` behave the same as `task` when\r\nusing the resulting value, these were updated to simply return the\r\nTask. This allows the Join trigger to work like all other triggers by\r\nreturning itself when awaited.\r\n\r\nThe Join trigger  was renamed to TaskComplete and is now avaiable via\r\nthe `Task.complete` attribute.\r\n\r\nStoring the TaskComplete trigger on the Task means we don't need to use\r\nParameterizedSingletonMetaclass to associate their lifetimes and\r\npreserve uniqueness.",
+          "timestamp": "2025-01-08T12:46:25-07:00",
+          "tree_id": "ef459337cfca90453383b57b26d91f8e7446e3fa",
+          "url": "https://github.com/cocotb/cocotb/commit/fc5fe77434a4825e1cda989f8b633fb19083f259"
+        },
+        "date": 1736365804433,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13787310263159908,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03355609060786357",
+            "extra": "mean: 7.253046322400019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.19889406837997492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02749803408940545",
+            "extra": "mean: 5.027802026200004 sec\nrounds: 5"
           }
         ]
       }
