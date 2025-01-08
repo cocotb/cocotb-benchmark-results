@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736370748582,
+  "lastUpdate": 1736378381454,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14537,6 +14537,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04793940584262894",
             "extra": "mean: 4.6980685085999765 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "2cb887be090e3856e2f28a375d37881fbbd8b530",
+          "message": "docs: Clean up links on release notes and some docstring formatting on reference page",
+          "timestamp": "2025-01-08T15:16:05-08:00",
+          "tree_id": "d05aab0d551564058254cb2491fd519cedcedb3b",
+          "url": "https://github.com/cocotb/cocotb/commit/2cb887be090e3856e2f28a375d37881fbbd8b530"
+        },
+        "date": 1736378380716,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1460139101279881,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050439244276320065",
+            "extra": "mean: 6.848662563199992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20795399319018035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028745122941012093",
+            "extra": "mean: 4.808755940000003 sec\nrounds: 5"
           }
         ]
       }
