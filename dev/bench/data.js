@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736365805154,
+  "lastUpdate": 1736366621130,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14461,6 +14461,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02749803408940545",
             "extra": "mean: 5.027802026200004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13a6736e4792f31c0993fb91c399cdd54de71163",
+          "message": "Separate logic objects into scalars and arrays (#4318)\n\n* Combine GPI_NET and GPI_REGISTER into GPI_LOGIC\r\n* Separate GPI_LOGIC into that and GPI_LOGIC_ARRAY\r\n* Update Python code to reflect GPI_LOGIC being scalar by separating\r\n  LogicObject into that and LogicArrayObject",
+          "timestamp": "2025-01-08T13:00:01-07:00",
+          "tree_id": "d7faf8b7c9e0563f4caeafec54d1c92155c70fbb",
+          "url": "https://github.com/cocotb/cocotb/commit/13a6736e4792f31c0993fb91c399cdd54de71163"
+        },
+        "date": 1736366620395,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1453829512681023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09792124970279979",
+            "extra": "mean: 6.878385610400005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20637756451803613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014668689535110822",
+            "extra": "mean: 4.845487940200042 sec\nrounds: 5"
           }
         ]
       }
