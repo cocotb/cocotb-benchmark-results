@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736378381454,
+  "lastUpdate": 1736467878611,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14575,6 +14575,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028745122941012093",
             "extra": "mean: 4.808755940000003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7965b8cf776f505b470a3e39d49d1ad81ad8aa1",
+          "message": "Verilator: Update to latest release (v5.032) in CI (#4356)",
+          "timestamp": "2025-01-09T16:07:48-08:00",
+          "tree_id": "eab77a8e8016442d3396b6720d4730dc6d8e563c",
+          "url": "https://github.com/cocotb/cocotb/commit/e7965b8cf776f505b470a3e39d49d1ad81ad8aa1"
+        },
+        "date": 1736467878103,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14676237406184894,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03735696718484893",
+            "extra": "mean: 6.813735512199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20522388734949404,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039976153153146114",
+            "extra": "mean: 4.872727112399986 sec\nrounds: 5"
           }
         ]
       }
