@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736467878611,
+  "lastUpdate": 1736718382011,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14613,6 +14613,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039976153153146114",
             "extra": "mean: 4.872727112399986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8b36797c5dec8ac71be238ad433a83ef2249977",
+          "message": "Pin ubuntu CI actions to specific versions (#4358)\n\nWe are currently on 20.04 across the board, but NVC does not build on\r\n20.04, so it was pinned to 22.04.",
+          "timestamp": "2025-01-12T14:42:46-07:00",
+          "tree_id": "f83399b75fedaefafbcff0af9403a4d228a9f827",
+          "url": "https://github.com/cocotb/cocotb/commit/e8b36797c5dec8ac71be238ad433a83ef2249977"
+        },
+        "date": 1736718381265,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14694967736968367,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05840548555526701",
+            "extra": "mean: 6.805050666999994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20636253955015296,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015964761527514647",
+            "extra": "mean: 4.845840733400001 sec\nrounds: 5"
           }
         ]
       }
