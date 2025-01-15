@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736973994454,
+  "lastUpdate": 1736978199710,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14727,6 +14727,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012916041747804727",
             "extra": "mean: 4.834210473200028 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "themperek@users.noreply.github.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "committer": {
+            "email": "themperek@users.noreply.github.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "distinct": true,
+          "id": "82d18027246aa64b74af87915dee1e6c3c1448ae",
+          "message": "Clean up Makefile.vcs\n\nCo-authored-by: Philipp Wagner <mail@philipp-wagner.com>",
+          "timestamp": "2025-01-15T22:53:08+01:00",
+          "tree_id": "ffe5c537a02b804f527543311e040adbe5353fdc",
+          "url": "https://github.com/cocotb/cocotb/commit/82d18027246aa64b74af87915dee1e6c3c1448ae"
+        },
+        "date": 1736978199006,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14683251419858576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03519247325352396",
+            "extra": "mean: 6.810480672199998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2052190415588154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04323678679881229",
+            "extra": "mean: 4.872842171000014 sec\nrounds: 5"
           }
         ]
       }
