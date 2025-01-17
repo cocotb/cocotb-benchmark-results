@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736978199710,
+  "lastUpdate": 1737090349962,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14765,6 +14765,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04323678679881229",
             "extra": "mean: 4.872842171000014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "320d11668f5d5916f7b07010812ff04ced7c3754",
+          "message": "Require byteorder when converting LogicArray to/from bytes (#4366)\n\nParallels int.from_bytes and int.to_bytes.",
+          "timestamp": "2025-01-16T22:02:17-07:00",
+          "tree_id": "e54a506def86e45c7f82e6e2529990769c94a56d",
+          "url": "https://github.com/cocotb/cocotb/commit/320d11668f5d5916f7b07010812ff04ced7c3754"
+        },
+        "date": 1737090349567,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14184517525894322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017300965351755498",
+            "extra": "mean: 7.049940177200005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20082476132410043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05709014219892344",
+            "extra": "mean: 4.979465646599988 sec\nrounds: 5"
           }
         ]
       }
