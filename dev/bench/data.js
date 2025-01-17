@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737130099966,
+  "lastUpdate": 1737134435655,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14841,6 +14841,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025007393671374594",
             "extra": "mean: 4.827190072200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ca40cae4e2ad23bcb58fd771982f72faad832eac",
+          "message": "Add section to tutorial on how to use First and Combine\n\nAlso mentions with_timeout and shows the idiom of using First to\ndetermine which of multiple Tasks finish first.",
+          "timestamp": "2025-01-17T10:17:11-07:00",
+          "tree_id": "1283c127b72a30142f88631bf2b5de4441bb16b2",
+          "url": "https://github.com/cocotb/cocotb/commit/ca40cae4e2ad23bcb58fd771982f72faad832eac"
+        },
+        "date": 1737134435106,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14535038336555442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06574101536672897",
+            "extra": "mean: 6.879926814400017 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20583779226174526,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013406157525170643",
+            "extra": "mean: 4.858194353000011 sec\nrounds: 5"
           }
         ]
       }
