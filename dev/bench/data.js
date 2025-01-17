@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737090349962,
+  "lastUpdate": 1737130099966,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14803,6 +14803,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05709014219892344",
             "extra": "mean: 4.979465646599988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "maxime.larue@deep-mine.com",
+            "name": "Maxime Larue",
+            "username": "maxime-lr"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2e5a8a425ab124d4bd2879067a59fe7df95afc24",
+          "message": "Document how to get libstdc++-static on RHEL9",
+          "timestamp": "2025-01-17T09:04:10-07:00",
+          "tree_id": "3c9917cbefb1b976df94f95c87cb30ebbce987c1",
+          "url": "https://github.com/cocotb/cocotb/commit/2e5a8a425ab124d4bd2879067a59fe7df95afc24"
+        },
+        "date": 1737130099560,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14520732016433427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04847019081649059",
+            "extra": "mean: 6.886705152799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20715985594995376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025007393671374594",
+            "extra": "mean: 4.827190072200006 sec\nrounds: 5"
           }
         ]
       }
