@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737219537708,
+  "lastUpdate": 1737222262937,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14917,6 +14917,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01445455254110538",
             "extra": "mean: 4.895418075600008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6b19d759c6966f9ab1aedd27f9808480695fc0d",
+          "message": "Remove unused files hal_cosimulation.{xml,svg} (#4372)",
+          "timestamp": "2025-01-18T18:40:50+01:00",
+          "tree_id": "65c9d9c7d347c5f87ac4c9abb391d31d68482943",
+          "url": "https://github.com/cocotb/cocotb/commit/b6b19d759c6966f9ab1aedd27f9808480695fc0d"
+        },
+        "date": 1737222262013,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1450994726089932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03758678248616948",
+            "extra": "mean: 6.891823808999982 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20602978481443185,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04290281966628674",
+            "extra": "mean: 4.853667157400014 sec\nrounds: 5"
           }
         ]
       }
