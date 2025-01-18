@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737134435655,
+  "lastUpdate": 1737219537708,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14879,6 +14879,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013406157525170643",
             "extra": "mean: 4.858194353000011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "bee22bbf508a0889dbef8082e5fd12465155c53f",
+          "message": "Changes to pyuvm ecosystem test",
+          "timestamp": "2025-01-18T09:55:30-07:00",
+          "tree_id": "4a5926c00c7dd4f2ff0d52c0e1346631cc19cbf3",
+          "url": "https://github.com/cocotb/cocotb/commit/bee22bbf508a0889dbef8082e5fd12465155c53f"
+        },
+        "date": 1737219537326,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14423606464984998,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06426299239591934",
+            "extra": "mean: 6.933078786000005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20427264526889968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01445455254110538",
+            "extra": "mean: 4.895418075600008 sec\nrounds: 5"
           }
         ]
       }
