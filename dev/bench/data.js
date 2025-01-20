@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737398994610,
+  "lastUpdate": 1737402604243,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15069,6 +15069,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0349507592414165",
             "extra": "mean: 4.838503085600007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98fd764e7e64207c1ea487b92ab1ca38e9049eff",
+          "message": "Add more semantic markup (#4374)\n\nOnly markup the first keyword occurrence in running doc text",
+          "timestamp": "2025-01-20T20:46:43+01:00",
+          "tree_id": "69e1acd64a8d2df0b1a51bc93f9408023c07bf4f",
+          "url": "https://github.com/cocotb/cocotb/commit/98fd764e7e64207c1ea487b92ab1ca38e9049eff"
+        },
+        "date": 1737402603746,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1450978997218658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06029693165671028",
+            "extra": "mean: 6.891898517599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.206865378723688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024020690515107284",
+            "extra": "mean: 4.83406167899999 sec\nrounds: 5"
           }
         ]
       }
