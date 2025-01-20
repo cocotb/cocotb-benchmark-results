@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737398749890,
+  "lastUpdate": 1737398994610,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15031,6 +15031,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045730270169722836",
             "extra": "mean: 4.9471341011999925 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "823b37f5c9e444e1f83be70b6333aadcaf111b5e",
+          "message": "Switch to Sphinx 8 (#4376)\n\nThe blocker https://github.com/breathe-doc/breathe/issues/999 was moved to Sphinx 9",
+          "timestamp": "2025-01-20T19:42:30+01:00",
+          "tree_id": "4ecfe4f50dda36d1e32f03744ed72f56f34814f6",
+          "url": "https://github.com/cocotb/cocotb/commit/823b37f5c9e444e1f83be70b6333aadcaf111b5e"
+        },
+        "date": 1737398994090,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14694197480860907,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03063416375178522",
+            "extra": "mean: 6.805407381399993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20667549080956993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0349507592414165",
+            "extra": "mean: 4.838503085600007 sec\nrounds: 5"
           }
         ]
       }
