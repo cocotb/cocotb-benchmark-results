@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737224486205,
+  "lastUpdate": 1737398749890,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -14993,6 +14993,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039175523435942404",
             "extra": "mean: 4.8599089331999945 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5066371a6782e8ba0756fa054f03ac5c73558345",
+          "message": "Fix docstring markup (#4377)\n\n* Improve docstring markup\n* Make text before some lists not appear as a section",
+          "timestamp": "2025-01-20T19:42:04+01:00",
+          "tree_id": "d9346271506a2a1911bf0e8687c363814fd5fc35",
+          "url": "https://github.com/cocotb/cocotb/commit/5066371a6782e8ba0756fa054f03ac5c73558345"
+        },
+        "date": 1737398749312,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14557984020616957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02640795483611044",
+            "extra": "mean: 6.869082962200014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20213723330391162,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045730270169722836",
+            "extra": "mean: 4.9471341011999925 sec\nrounds: 5"
           }
         ]
       }
