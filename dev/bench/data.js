@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737414574890,
+  "lastUpdate": 1737584628368,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15145,6 +15145,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04124256966297934",
             "extra": "mean: 4.856686527599993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0376b44bc1e03dfa576d380b61c4a07a1ebcfc27",
+          "message": "Add cocotb-styled doc theme based on sphinx-book-theme+sphinx-design (#4370)\n\n* Use sphinx-book-theme+sphinx-design for docs\n* Add CSS for cocotb style\n\nRefs #4367",
+          "timestamp": "2025-01-22T23:20:26+01:00",
+          "tree_id": "f67d5d42eb6b00e412131a90564e3747ba94b070",
+          "url": "https://github.com/cocotb/cocotb/commit/0376b44bc1e03dfa576d380b61c4a07a1ebcfc27"
+        },
+        "date": 1737584627849,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14406674842177447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04884259978695933",
+            "extra": "mean: 6.9412269726000035 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2061657607634421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02690998684245358",
+            "extra": "mean: 4.850465937199999 sec\nrounds: 5"
           }
         ]
       }
