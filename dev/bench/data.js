@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737612295496,
+  "lastUpdate": 1737614942962,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15297,6 +15297,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031576488752593924",
             "extra": "mean: 4.880912155400028 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b18d8c3459b42d1626625f5c04a63734a553388a",
+          "message": "Merge pull request #4369 from ktbarrett/refactor-init\n\nRefactor `__init__.py`",
+          "timestamp": "2025-01-22T23:45:19-07:00",
+          "tree_id": "d55937c8c0c6f1af8412ece54bf68b8f16d02de0",
+          "url": "https://github.com/cocotb/cocotb/commit/b18d8c3459b42d1626625f5c04a63734a553388a"
+        },
+        "date": 1737614942465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1451433255342695,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05597493087869873",
+            "extra": "mean: 6.889741545599986 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20710049888226112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014775138179248045",
+            "extra": "mean: 4.828573592999942 sec\nrounds: 5"
           }
         ]
       }
