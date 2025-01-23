@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737597556278,
+  "lastUpdate": 1737598245539,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15221,6 +15221,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03941494132701819",
             "extra": "mean: 4.896576493000009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1d26b9232c9b410d473503b8e9a71bb3bc44b704",
+          "message": "Fix sphinxcontrib.domaintools to work with Python 3.12+",
+          "timestamp": "2025-01-22T19:07:20-07:00",
+          "tree_id": "a993eb949f9bf964b5e14b3d18d002085bc971da",
+          "url": "https://github.com/cocotb/cocotb/commit/1d26b9232c9b410d473503b8e9a71bb3bc44b704"
+        },
+        "date": 1737598245070,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14388975487268654,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03577735661699873",
+            "extra": "mean: 6.949765123200041 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20692467541332998,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008726851199155646",
+            "extra": "mean: 4.832676421999986 sec\nrounds: 5"
           }
         ]
       }
