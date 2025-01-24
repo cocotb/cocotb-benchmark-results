@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737655988707,
+  "lastUpdate": 1737753717053,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15373,6 +15373,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07416713889379636",
             "extra": "mean: 4.8606643105999865 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9a024f93a6eb09d88833aff3b0e2ca733de301ef",
+          "message": "Fix test names for IntEnum and StrEnum\n\nMove the Enum branch up so StrEnum and IntEnum use the enum name and not the weird Enum repr due to matching the `str` and `int` branch.",
+          "timestamp": "2025-01-24T14:18:34-07:00",
+          "tree_id": "eab77394f27e49cb86bf3ca8639a44d7054a5a4f",
+          "url": "https://github.com/cocotb/cocotb/commit/9a024f93a6eb09d88833aff3b0e2ca733de301ef"
+        },
+        "date": 1737753716083,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14519204566559096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02396192451807824",
+            "extra": "mean: 6.887429648200003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2053760584912672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019197867234945248",
+            "extra": "mean: 4.869116718599997 sec\nrounds: 5"
           }
         ]
       }
