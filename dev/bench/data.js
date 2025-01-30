@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738030104560,
+  "lastUpdate": 1738277061504,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15449,6 +15449,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04217983878676465",
             "extra": "mean: 4.873080660400023 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b390655a4c9fdd5e12ca36f717ed6638cb5c2bbe",
+          "message": "Handle passing no triggers to Combine and First (#4409)",
+          "timestamp": "2025-01-30T15:41:01-07:00",
+          "tree_id": "f5200a6d50d927f0d04d92802753299aed745c35",
+          "url": "https://github.com/cocotb/cocotb/commit/b390655a4c9fdd5e12ca36f717ed6638cb5c2bbe"
+        },
+        "date": 1738277060919,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14496510547685842,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03784742650256511",
+            "extra": "mean: 6.898211791800032 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20576404398269635,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044704252713358435",
+            "extra": "mean: 4.859935587600011 sec\nrounds: 5"
           }
         ]
       }
