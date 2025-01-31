@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738277061504,
+  "lastUpdate": 1738354829990,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15487,6 +15487,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.044704252713358435",
             "extra": "mean: 4.859935587600011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wieser.eric@gmail.com",
+            "name": "Eric Wieser",
+            "username": "eric-wieser"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "06179d87bf1abe2c416031564d17fe6adec20b3d",
+          "message": "Fix handling of escaped identifiers containing dots\n\nAlso fixes an issue where strings were not escape before inserting into regexes.\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-01-31T13:16:59-07:00",
+          "tree_id": "a4be8b9e8dcc4f851d6a453067407993982651d7",
+          "url": "https://github.com/cocotb/cocotb/commit/06179d87bf1abe2c416031564d17fe6adec20b3d"
+        },
+        "date": 1738354829049,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1446674656000758,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051256911562354554",
+            "extra": "mean: 6.912404221999975 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20324038948152387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1289250765290372",
+            "extra": "mean: 4.920281852199992 sec\nrounds: 5"
           }
         ]
       }
