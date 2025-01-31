@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738354829990,
+  "lastUpdate": 1738355038977,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15525,6 +15525,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1289250765290372",
             "extra": "mean: 4.920281852199992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "borchsh.vn@gmail.com",
+            "name": "Vladislav Borshch",
+            "username": "vborchsh"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "76de221ac0057041a79f1bdf9296aef6a58a7e5b",
+          "message": "Test and fix issue with passing strings as defines in the runner\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-01-31T13:18:55-07:00",
+          "tree_id": "9420496e24d5ee8f47434b4b6ed057b36e449400",
+          "url": "https://github.com/cocotb/cocotb/commit/76de221ac0057041a79f1bdf9296aef6a58a7e5b"
+        },
+        "date": 1738355038104,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14548215712999132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04261146179197347",
+            "extra": "mean: 6.873695164600008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20637100978706543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021020980268487637",
+            "extra": "mean: 4.8456418420000205 sec\nrounds: 5"
           }
         ]
       }
