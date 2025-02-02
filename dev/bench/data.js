@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738512377224,
+  "lastUpdate": 1738528442465,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15601,6 +15601,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02140153616212008",
             "extra": "mean: 4.874974143400005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa487e7354933924143f4711c2319bc80e6f3b02",
+          "message": "Make heading format of release notes more consistent (#4418)",
+          "timestamp": "2025-02-02T21:30:32+01:00",
+          "tree_id": "88b21d6d2d9607b38475b7c50e4dcafed2dc1d0c",
+          "url": "https://github.com/cocotb/cocotb/commit/aa487e7354933924143f4711c2319bc80e6f3b02"
+        },
+        "date": 1738528441575,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14579486297499056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04238732541196972",
+            "extra": "mean: 6.858952226400038 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20625756491747588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05310912181985128",
+            "extra": "mean: 4.848307020399966 sec\nrounds: 5"
           }
         ]
       }
