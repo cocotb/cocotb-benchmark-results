@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738555723385,
+  "lastUpdate": 1738614290599,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15753,6 +15753,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.037678598346734274",
             "extra": "mean: 4.940181448800013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d545a5e45053dac67e75d55be049df075e45d72f",
+          "message": "Use Doxygen markup for GPI (#4383)\n\n* Use Doxygen markup for GPI\n* Set TYPEDEF_HIDES_STRUCT=YES in Doxyfile",
+          "timestamp": "2025-02-03T21:20:02+01:00",
+          "tree_id": "efe9c6053debd8629c310a48cb36cec312d2e00a",
+          "url": "https://github.com/cocotb/cocotb/commit/d545a5e45053dac67e75d55be049df075e45d72f"
+        },
+        "date": 1738614290090,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14487794951960092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02357936583319194",
+            "extra": "mean: 6.902361631400003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20865872830855858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028391353866578543",
+            "extra": "mean: 4.792514591199984 sec\nrounds: 5"
           }
         ]
       }
