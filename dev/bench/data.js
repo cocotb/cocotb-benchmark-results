@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738553065550,
+  "lastUpdate": 1738555723385,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15715,6 +15715,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.057027241549833185",
             "extra": "mean: 4.9437871456000035 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3b9fee3ddbba491bd5b7267fe56989b3e6bcd95d",
+          "message": "Fix tests that work oddly with Riviera\n\nThere seems to be play between the test_last_scheduled_write_* tests and\ntests before it. The issue being that the test_last_schedule_write_*\ntests depend upon ReadWrite in ReadWrite behavior, so they were changed\nto use Timer instead to force a new time step.",
+          "timestamp": "2025-02-02T21:05:18-07:00",
+          "tree_id": "8cf14340b15741deecd377e7742996f5d3647847",
+          "url": "https://github.com/cocotb/cocotb/commit/3b9fee3ddbba491bd5b7267fe56989b3e6bcd95d"
+        },
+        "date": 1738555722901,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1424781889325417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02748588071783298",
+            "extra": "mean: 7.0186181302000135 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20242171474145013,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037678598346734274",
+            "extra": "mean: 4.940181448800013 sec\nrounds: 5"
           }
         ]
       }
