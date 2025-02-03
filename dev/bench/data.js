@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738528442465,
+  "lastUpdate": 1738549815377,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15639,6 +15639,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05310912181985128",
             "extra": "mean: 4.848307020399966 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8a649a6a8167bc63e6e6e970f8c704d9e249c5bc",
+          "message": "Remove patch version from version specifications if the patch is 0\n\nChanging something for the patch 0 release means it was developed as a\npart of the minor release cycle. The patch 0 is redundant. Only specify\na patch release in versions if the tagged item was changed in that patch\nof the minor release and newer",
+          "timestamp": "2025-02-02T19:26:57-07:00",
+          "tree_id": "6dfd5b2504aedbc70e637ec6fa677f21bd8de83a",
+          "url": "https://github.com/cocotb/cocotb/commit/8a649a6a8167bc63e6e6e970f8c704d9e249c5bc"
+        },
+        "date": 1738549814875,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14567106214927805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08303946378962097",
+            "extra": "mean: 6.864781413999981 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.206111247586643,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042833505236668845",
+            "extra": "mean: 4.851748809000003 sec\nrounds: 5"
           }
         ]
       }
