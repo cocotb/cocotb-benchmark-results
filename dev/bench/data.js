@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738614290599,
+  "lastUpdate": 1738622838787,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15791,6 +15791,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028391353866578543",
             "extra": "mean: 4.792514591199984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a8ecd8aa47512e5050a3c9eadc6cce6efc1f5ccd",
+          "message": "Split cocotb initialization into init and run\n\nThis allows users to initialize the global members of the cocotb package\nwithout running a regression. Allowing other behaviors like discovering\ntests or running alternative regression managers possible.",
+          "timestamp": "2025-02-03T15:43:54-07:00",
+          "tree_id": "5a8862472f03bd389cd6420d577718b1235b43c8",
+          "url": "https://github.com/cocotb/cocotb/commit/a8ecd8aa47512e5050a3c9eadc6cce6efc1f5ccd"
+        },
+        "date": 1738622837936,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14483659300348264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03529196992972696",
+            "extra": "mean: 6.904332525799987 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20801545653291606,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04229919564652884",
+            "extra": "mean: 4.807335073399997 sec\nrounds: 5"
           }
         ]
       }
