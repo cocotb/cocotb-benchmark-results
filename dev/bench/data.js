@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738789297828,
+  "lastUpdate": 1738790734751,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15943,6 +15943,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021831366920067645",
             "extra": "mean: 4.858568512200009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f27ec7a23a07818019da23697dfc44e62c12905f",
+          "message": "Add sphinx-codeautolink extension (#4433)\n\n* Add sphinx-codeautolink extension\n\nProvides automatic links from code examples (code-blocks and literalincludes) to reference docs",
+          "timestamp": "2025-02-05T22:22:05+01:00",
+          "tree_id": "e5621b6bab7179fb74bc1f7d2ff2d28d2cf4bd28",
+          "url": "https://github.com/cocotb/cocotb/commit/f27ec7a23a07818019da23697dfc44e62c12905f"
+        },
+        "date": 1738790734234,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14507923204410397,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0556161607495294",
+            "extra": "mean: 6.8927853140000135 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20655600166468763,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033684553378505656",
+            "extra": "mean: 4.841302077599994 sec\nrounds: 5"
           }
         ]
       }
