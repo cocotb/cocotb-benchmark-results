@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738787913356,
+  "lastUpdate": 1738789297828,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -15905,6 +15905,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024569052973905093",
             "extra": "mean: 4.827579408199972 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c9dd06c621c3265de55cca9037c5f789903594c",
+          "message": "Add TestSuccess and ValueChange to Library Reference (#4437)\n\n* Add TestSuccess and ValueChange to Library Reference\n\nCloses #4436\n\n* Fix reference and ReST markup",
+          "timestamp": "2025-02-05T21:58:09+01:00",
+          "tree_id": "cc4b2cda117423058da16164c691e346fbc9ef45",
+          "url": "https://github.com/cocotb/cocotb/commit/9c9dd06c621c3265de55cca9037c5f789903594c"
+        },
+        "date": 1738789294228,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14356672195879294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042820512421490035",
+            "extra": "mean: 6.965402471800002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2058219406578235,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021831366920067645",
+            "extra": "mean: 4.858568512200009 sec\nrounds: 5"
           }
         ]
       }
