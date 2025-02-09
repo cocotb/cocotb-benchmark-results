@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739139633740,
+  "lastUpdate": 1739139879806,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16057,6 +16057,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017473273598593686",
             "extra": "mean: 4.775072083600003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3a634db048f842c45542d7b8b43c8e4f7d0aa810",
+          "message": "Mention Ubuntu 24.04 support",
+          "timestamp": "2025-02-09T15:18:38-07:00",
+          "tree_id": "49a2b6b9bf9dd7e6b59d58bafd03a764cb6de236",
+          "url": "https://github.com/cocotb/cocotb/commit/3a634db048f842c45542d7b8b43c8e4f7d0aa810"
+        },
+        "date": 1739139879318,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1451015861817389,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04199655699106763",
+            "extra": "mean: 6.891723421599994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20735899918792874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04875518916709696",
+            "extra": "mean: 4.822554139999989 sec\nrounds: 5"
           }
         ]
       }
