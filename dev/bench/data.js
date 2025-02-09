@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739139879806,
+  "lastUpdate": 1739140015008,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16095,6 +16095,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04875518916709696",
             "extra": "mean: 4.822554139999989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e7dfd5a650318fc30051e8d886fafd51b4266d6a",
+          "message": "Remove RHEL 7 support",
+          "timestamp": "2025-02-09T15:19:43-07:00",
+          "tree_id": "a47b238da8c2b706b8e5216ec4e20948932dd8e3",
+          "url": "https://github.com/cocotb/cocotb/commit/e7dfd5a650318fc30051e8d886fafd51b4266d6a"
+        },
+        "date": 1739140014505,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14433069007667226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02240076102073967",
+            "extra": "mean: 6.928533352600016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20705533630986783,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020812318860567416",
+            "extra": "mean: 4.829626793600016 sec\nrounds: 5"
           }
         ]
       }
