@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738907931159,
+  "lastUpdate": 1739139633740,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16019,6 +16019,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09792681942113564",
             "extra": "mean: 4.848807702800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ae019fc00bab78ecfa4b19f39b6c73fdd1cddd33",
+          "message": "Fix examples of Combine and First in coroutines tutorial",
+          "timestamp": "2025-02-09T15:16:54-07:00",
+          "tree_id": "2e6558588688b57ced887dfcb89889cd1851bf31",
+          "url": "https://github.com/cocotb/cocotb/commit/ae019fc00bab78ecfa4b19f39b6c73fdd1cddd33"
+        },
+        "date": 1739139633223,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14533108384293328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01902675991295668",
+            "extra": "mean: 6.880840447599985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20942092234261814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017473273598593686",
+            "extra": "mean: 4.775072083600003 sec\nrounds: 5"
           }
         ]
       }
