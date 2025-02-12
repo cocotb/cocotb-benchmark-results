@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739394704369,
+  "lastUpdate": 1739394932776,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16323,6 +16323,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02652623215969392",
             "extra": "mean: 4.8079209801999925 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rk.ryan.king@gmail.com",
+            "name": "Ryan King",
+            "username": "rkryan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e476d02d12c70663448c27400d1eb413a42767ed",
+          "message": "Add failing testcase for `Release()` scheduling (#4402)\n\nA Release() occurring at the end of a test does not occur. It is\r\nscheduled to occur, but the test ends, and the scheduled writes are\r\ncleared. This testcase deliberately hits this error.\r\n\r\nThis is detailed in #4401.",
+          "timestamp": "2025-02-12T14:11:47-07:00",
+          "tree_id": "60a7b7058d34d526dc6c2cbcc90be779dcb2f79d",
+          "url": "https://github.com/cocotb/cocotb/commit/e476d02d12c70663448c27400d1eb413a42767ed"
+        },
+        "date": 1739394932244,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1452973403683924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04498342165767748",
+            "extra": "mean: 6.882438436000013 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20740709299177443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038595896470369956",
+            "extra": "mean: 4.8214358803999975 sec\nrounds: 5"
           }
         ]
       }
