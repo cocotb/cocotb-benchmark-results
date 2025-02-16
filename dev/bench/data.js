@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739692691278,
+  "lastUpdate": 1739738661093,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16513,6 +16513,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0469809848966119",
             "extra": "mean: 4.847819894400004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "51f1425cc82ad9042987e93e0932f669363bd465",
+          "message": "Fix leak of waiters in Combine",
+          "timestamp": "2025-02-16T13:40:26-07:00",
+          "tree_id": "424bba51ffb03964812acf0a1641da864f39be55",
+          "url": "https://github.com/cocotb/cocotb/commit/51f1425cc82ad9042987e93e0932f669363bd465"
+        },
+        "date": 1739738660644,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14492497930157075,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018971770260582773",
+            "extra": "mean: 6.900121737600012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20694150085386892,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0330390793280731",
+            "extra": "mean: 4.832283499800008 sec\nrounds: 5"
           }
         ]
       }
