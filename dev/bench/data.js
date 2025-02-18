@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739829381514,
+  "lastUpdate": 1739838644248,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16627,6 +16627,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028803479578170116",
             "extra": "mean: 4.742279673600024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "253283d114538f8b1989bda507bd07fbb310dfe5",
+          "message": "Prevent Lock.acquire() from being used by multiple Tasks simultaneously",
+          "timestamp": "2025-02-17T17:27:18-07:00",
+          "tree_id": "6468415b4a29d0c3e036c06458e973cb8459bd4f",
+          "url": "https://github.com/cocotb/cocotb/commit/253283d114538f8b1989bda507bd07fbb310dfe5"
+        },
+        "date": 1739838643435,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1464546201738043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04132957865024018",
+            "extra": "mean: 6.828053623800019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20909962245352195,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032747532279525",
+            "extra": "mean: 4.782409400200026 sec\nrounds: 5"
           }
         ]
       }
