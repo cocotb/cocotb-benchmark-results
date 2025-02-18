@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739891924480,
+  "lastUpdate": 1739892618260,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16779,6 +16779,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06819338977843116",
             "extra": "mean: 4.842406067199988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "753b01a1818d6988bd7796050734218d44c1ecfb",
+          "message": "Fix computation of results_xml_file in Python runner",
+          "timestamp": "2025-02-18T08:26:23-07:00",
+          "tree_id": "ae174bf592860e40e0630d6f95f87c3389e08a13",
+          "url": "https://github.com/cocotb/cocotb/commit/753b01a1818d6988bd7796050734218d44c1ecfb"
+        },
+        "date": 1739892617808,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1456249266356547,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04398398628437555",
+            "extra": "mean: 6.866956249199996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21024260932236982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0171396497786165",
+            "extra": "mean: 4.756409765000001 sec\nrounds: 5"
           }
         ]
       }
