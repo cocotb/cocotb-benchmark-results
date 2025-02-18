@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739852184137,
+  "lastUpdate": 1739891924480,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16741,6 +16741,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031112032042151048",
             "extra": "mean: 4.7201024557999745 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "dbf055e50cf6eca5ad6fd6a3d9f0e50cdcc9a08d",
+          "message": "Fix VPI issuing error incorrectly",
+          "timestamp": "2025-02-18T08:14:57-07:00",
+          "tree_id": "79204da6f11f8e1df99ec6028d06b45ac79aa58e",
+          "url": "https://github.com/cocotb/cocotb/commit/dbf055e50cf6eca5ad6fd6a3d9f0e50cdcc9a08d"
+        },
+        "date": 1739891923630,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14297675383514974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04374251097861235",
+            "extra": "mean: 6.99414396520001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2065089102653936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06819338977843116",
+            "extra": "mean: 4.842406067199988 sec\nrounds: 5"
           }
         ]
       }
