@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739998419665,
+  "lastUpdate": 1739999729799,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16931,6 +16931,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.043004976388460445",
             "extra": "mean: 4.7879493843999965 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hexagonrecursion@gmail.com",
+            "name": "Andrey Andreyevich Bienkowski",
+            "username": "hexagonrecursion"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "757ac9d91d298bb3e7a97b84cb7ef08980713e25",
+          "message": "Raise logging level of exceptions from tests (#4463)\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-02-19T14:11:56-07:00",
+          "tree_id": "bd0c6aca271cd447015b6eaaf3d6ce7389f3db0a",
+          "url": "https://github.com/cocotb/cocotb/commit/757ac9d91d298bb3e7a97b84cb7ef08980713e25"
+        },
+        "date": 1739999729350,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14632951740403727,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03875640411176939",
+            "extra": "mean: 6.833891191200019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2089741363356187,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04174953043174395",
+            "extra": "mean: 4.785281171799989 sec\nrounds: 5"
           }
         ]
       }
