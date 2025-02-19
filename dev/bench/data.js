@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739989595398,
+  "lastUpdate": 1739998419665,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16893,6 +16893,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03547896256265305",
             "extra": "mean: 4.7694485536 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "023f93e4649ea7b656d363aba660fbb07b018a43",
+          "message": "Fix bug in Combine and First\n\nModifying the waiters list in the on_done callback was a bad idea. In\nthe loop after completion where the waiters are killed it kills the\nwaiters, which run the on_done callbacks, which may modify the waiters\nlist. Whoops...\n\nThe new tests prove that unfinished waiter tasks are killed after First\nfinishes, First exceptions, and Combine exceptions.",
+          "timestamp": "2025-02-19T13:50:10-07:00",
+          "tree_id": "c85483d02244e2bbd835966f1bf5582de12ab01b",
+          "url": "https://github.com/cocotb/cocotb/commit/023f93e4649ea7b656d363aba660fbb07b018a43"
+        },
+        "date": 1739998419101,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14396367073866612,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06331840314838552",
+            "extra": "mean: 6.946196876399995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20885767991996335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043004976388460445",
+            "extra": "mean: 4.7879493843999965 sec\nrounds: 5"
           }
         ]
       }
