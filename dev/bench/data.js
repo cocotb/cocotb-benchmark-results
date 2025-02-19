@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739985116013,
+  "lastUpdate": 1739989595398,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -16855,6 +16855,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08290781913353829",
             "extra": "mean: 4.8117691730000045 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "339432c022aa84fcd2039996fa5a7cc27ee59a2d",
+          "message": "Use Sphinx 8.1 specifically",
+          "timestamp": "2025-02-19T11:22:54-07:00",
+          "tree_id": "001349d16e10abb3536941f2a562ee06adc8f4eb",
+          "url": "https://github.com/cocotb/cocotb/commit/339432c022aa84fcd2039996fa5a7cc27ee59a2d"
+        },
+        "date": 1739989594612,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14593615826245024,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03683356670915619",
+            "extra": "mean: 6.8523113935999955 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2096678449849712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03547896256265305",
+            "extra": "mean: 4.7694485536 sec\nrounds: 5"
           }
         ]
       }
