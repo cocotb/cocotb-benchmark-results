@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740604938503,
+  "lastUpdate": 1740610100914,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17197,6 +17197,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019385900362954952",
             "extra": "mean: 4.765836270599993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "38105974bf3cde8dba1275b82d040cb55f94dbb7",
+          "message": "Fix leak if handle_gpi_callback fails\n\nMake pygpi PythonCallback take ownership of Python objects. This makes\ndeterministic cleanup easier.",
+          "timestamp": "2025-02-26T15:45:00-07:00",
+          "tree_id": "c0b7f1911815a8a2a95e3857600f39af76c8241d",
+          "url": "https://github.com/cocotb/cocotb/commit/38105974bf3cde8dba1275b82d040cb55f94dbb7"
+        },
+        "date": 1740610100480,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14690064975835587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02754772462337721",
+            "extra": "mean: 6.807321830399997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.211318949385227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017437761163329398",
+            "extra": "mean: 4.732183284599978 sec\nrounds: 5"
           }
         ]
       }
