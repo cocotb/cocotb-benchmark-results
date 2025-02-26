@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740553536857,
+  "lastUpdate": 1740604704444,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17083,6 +17083,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04475267818352485",
             "extra": "mean: 4.7981563768 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "62c9f4553db6a4e1e2c012715b786351bb08f785",
+          "message": "Reimplement Queues\n\nThe PIMPL idiom was not necessary as soon as we moved to AbstractQueue\nand making Queue a distinct type instead of a supertype of LifoQueue and\nPriorityQueue.\n\nAdditionally, new version of pylance *hate* the code that was there\nbecause it couldn't deduce whether the use of `T` in the Impl class was\na *use* of `T` or an attempt at declaring a new and indepdent generic\nclass.\n\nSo we moved to a more typical ABC style implementation.",
+          "timestamp": "2025-02-26T14:14:26-07:00",
+          "tree_id": "869c59934b489e9723a20efef426b3dd9f5a47f3",
+          "url": "https://github.com/cocotb/cocotb/commit/62c9f4553db6a4e1e2c012715b786351bb08f785"
+        },
+        "date": 1740604704005,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14497097464558886,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022304427362178338",
+            "extra": "mean: 6.8979325168000285 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20946958664395302,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02544095723756008",
+            "extra": "mean: 4.773962731400024 sec\nrounds: 5"
           }
         ]
       }
