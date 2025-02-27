@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740614402922,
+  "lastUpdate": 1740614648977,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17273,6 +17273,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008166280492092733",
             "extra": "mean: 4.749086049400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f998c45d222e509ab11cf49e6505899e1a6397fe",
+          "message": "Always emit interface issues at log level DEBUG",
+          "timestamp": "2025-02-26T16:56:44-07:00",
+          "tree_id": "ace891c4deafb14fdfb72dc744709e2deaf8605c",
+          "url": "https://github.com/cocotb/cocotb/commit/f998c45d222e509ab11cf49e6505899e1a6397fe"
+        },
+        "date": 1740614648468,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14258053337969753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03762443198041908",
+            "extra": "mean: 7.013580159200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20644468341987296,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05312572674376428",
+            "extra": "mean: 4.843912584400016 sec\nrounds: 5"
           }
         ]
       }
