@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741036774911,
+  "lastUpdate": 1741042874930,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17387,6 +17387,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09046339089434255",
             "extra": "mean: 4.882240992400034 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1e6a085f0ab29eb284e3c1ac2116504a6f19a657",
+          "message": "Prevent confusion due to difference in docs/master branch\n\n* The tutorial from the README was deleted and a link to the stable\n  quickstart guide was added.\n* The extension links were moved to the Wiki\n* The \"latest\" docs in RTD was renamed to \"development\"\n* A redirect from \"latest\" to \"development\" was added to RTD\n* Internal links were updated to \"development\"",
+          "timestamp": "2025-03-03T15:57:48-07:00",
+          "tree_id": "9ca28e3747134604cc9c9b1e19379b5b617ea1a8",
+          "url": "https://github.com/cocotb/cocotb/commit/1e6a085f0ab29eb284e3c1ac2116504a6f19a657"
+        },
+        "date": 1741042874399,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14370732483861828,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045331040734734734",
+            "extra": "mean: 6.958587539799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20747549149873487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023851118944748673",
+            "extra": "mean: 4.819846396199995 sec\nrounds: 5"
           }
         ]
       }
