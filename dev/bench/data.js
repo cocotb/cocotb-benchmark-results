@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741042874930,
+  "lastUpdate": 1741072024888,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17425,6 +17425,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023851118944748673",
             "extra": "mean: 4.819846396199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Krause.Markus@gmx.com",
+            "name": "Markus Krause",
+            "username": "markusdd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3864002c7b168454a436c2ca480063b0d1af02d",
+          "message": "Improve get_handle_by_name (#4517)\n\nMake get_handle_by_name() accept an optional enum GpiDiscovery for the discovery method.\n\nThis allows for queries that explicitly should NOT cross language barriers when testing for presence\nof a signal.\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-03-04T08:03:30+01:00",
+          "tree_id": "b10da27b12f624114156d2636714ffb4ba49e293",
+          "url": "https://github.com/cocotb/cocotb/commit/b3864002c7b168454a436c2ca480063b0d1af02d"
+        },
+        "date": 1741072023852,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14315165240814445,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0571858735933812",
+            "extra": "mean: 6.985598721199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20709783129182663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06589857407207858",
+            "extra": "mean: 4.828635789000009 sec\nrounds: 5"
           }
         ]
       }
