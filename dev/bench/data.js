@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741125429634,
+  "lastUpdate": 1741240819286,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17501,6 +17501,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01910100097327245",
             "extra": "mean: 4.846646048000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "029c679633ba0cc76bf500424d2cd9051144a649",
+          "message": "Split Test logic out of RegressionManager and Scheduler\n\n* Move Test into new `cocotb._test` module.\n* Make `cocotb.start_soon` register tasks with a task queue in the Test.\n* When Test ends only kill Tasks associated with the Test and not *all*\n  Tasks.\n* Move cocotb.start_soon, cocotb.create_task, and cocotb.start to the\n  new module as they depend upon test-specific knowledge.\n* Remove test_complete_cb and test termination logic from Scheduler.",
+          "timestamp": "2025-03-05T22:56:52-07:00",
+          "tree_id": "c6a5260c810f446ce0ee09cd16187390d2368224",
+          "url": "https://github.com/cocotb/cocotb/commit/029c679633ba0cc76bf500424d2cd9051144a649"
+        },
+        "date": 1741240818862,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14213242068976545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036579002680063984",
+            "extra": "mean: 7.0356924559999925 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20654152498415812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030313769339051094",
+            "extra": "mean: 4.841641408800001 sec\nrounds: 5"
           }
         ]
       }
