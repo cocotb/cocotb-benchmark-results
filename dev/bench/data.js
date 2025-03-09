@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741479825743,
+  "lastUpdate": 1741549328074,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17615,6 +17615,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013920109827670207",
             "extra": "mean: 4.85637690760002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "csantosb@inventati.org",
+            "name": "Cayetano Santos",
+            "username": "csantosb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "084fb6be2a3af615611a8be8b1fed06edfb978c2",
+          "message": "Add installation instructions for Guix (#4535)",
+          "timestamp": "2025-03-09T20:38:09+01:00",
+          "tree_id": "7e59dfebfe619781e8d6ac446dd51da8ab172212",
+          "url": "https://github.com/cocotb/cocotb/commit/084fb6be2a3af615611a8be8b1fed06edfb978c2"
+        },
+        "date": 1741549327550,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1414495266288957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03894022713010877",
+            "extra": "mean: 7.069659572799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20666295800013584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020296816338599755",
+            "extra": "mean: 4.838796510400004 sec\nrounds: 5"
           }
         ]
       }
