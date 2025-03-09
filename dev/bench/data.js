@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741444212450,
+  "lastUpdate": 1741479825743,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17577,6 +17577,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027464325092359125",
             "extra": "mean: 4.839111911000009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Krause.Markus@gmx.com",
+            "name": "Markus Krause",
+            "username": "markusdd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7248e97966dcd387750b781cb33a715da6a0c666",
+          "message": "Move more GPI logs to DEBUG level\n\n* move those logs to debug as per issue #4530\n\n* move vhpi callback wanring to debug\n\n* move all callback warnings to debug\n\ncocotb tries to handle them gracefully and for some simulators every single occurrence will cause log spam as they have basic issues. if real problems do occur like crashes etc. debug will make them visible.\n\n* move iterate message about NULL return to DEBUG",
+          "timestamp": "2025-03-08T19:19:53-05:00",
+          "tree_id": "97c9a6e3d1c502a197e94e74bc28935c4f448ad9",
+          "url": "https://github.com/cocotb/cocotb/commit/7248e97966dcd387750b781cb33a715da6a0c666"
+        },
+        "date": 1741479824757,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14173122101117605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03258055985421798",
+            "extra": "mean: 7.055608445799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20591482478121564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013920109827670207",
+            "extra": "mean: 4.85637690760002 sec\nrounds: 5"
           }
         ]
       }
