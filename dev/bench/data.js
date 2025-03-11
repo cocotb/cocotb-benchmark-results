@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741648707289,
+  "lastUpdate": 1741698638513,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17691,6 +17691,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045185856420687766",
             "extra": "mean: 4.861901832199999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f36a774cfc14186876963f18d4fb5128f30aafb6",
+          "message": "Don't export BIN_DIR in Makefiles\n\nIt not useful to cocotb tests exported and causes issues when setting\nthe CMD_BIN as the first Makefile invocation will set it, which will\nthen trigger the branch where BIN_DIR is assumed set and try to\nrecompute the CMD to $BIN_DIR/$BIN_DIR/simulator.",
+          "timestamp": "2025-03-11T09:07:11-04:00",
+          "tree_id": "1c54c5b357b985b89429605321196562e26e288f",
+          "url": "https://github.com/cocotb/cocotb/commit/f36a774cfc14186876963f18d4fb5128f30aafb6"
+        },
+        "date": 1741698637979,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14195394957372506,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040190096071025534",
+            "extra": "mean: 7.044538056199985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20375330119871085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03405450142444951",
+            "extra": "mean: 4.9078959413999765 sec\nrounds: 5"
           }
         ]
       }
