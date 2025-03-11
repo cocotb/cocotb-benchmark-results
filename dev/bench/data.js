@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741701827416,
+  "lastUpdate": 1741708101396,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17767,6 +17767,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031580189588870336",
             "extra": "mean: 4.8815910584 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilbertoabram@tersatech.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b35f8149bf8c9b13efe5c6f31427043d9d96a0ad",
+          "message": "Fix converting log level to string",
+          "timestamp": "2025-03-11T11:44:39-04:00",
+          "tree_id": "eb9c4619137bd7d8116c76344650c52fe0ad8ae8",
+          "url": "https://github.com/cocotb/cocotb/commit/b35f8149bf8c9b13efe5c6f31427043d9d96a0ad"
+        },
+        "date": 1741708100399,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14171572678228458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033590562023803526",
+            "extra": "mean: 7.056379857799993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20577202158179325,
+            "unit": "iter/sec",
+            "range": "stddev: 0.060060570323236875",
+            "extra": "mean: 4.859747172200014 sec\nrounds: 5"
           }
         ]
       }
