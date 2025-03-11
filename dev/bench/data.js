@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741698638513,
+  "lastUpdate": 1741701827416,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17729,6 +17729,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03405450142444951",
             "extra": "mean: 4.9078959413999765 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a0b3ca9f4efa00a12b0637edef900a06a668b1c3",
+          "message": "Task.cancel() now causes CancelledError to be thrown",
+          "timestamp": "2025-03-11T10:00:07-04:00",
+          "tree_id": "a9d240ef5026635572c27726d0adc7b82230f99b",
+          "url": "https://github.com/cocotb/cocotb/commit/a0b3ca9f4efa00a12b0637edef900a06a668b1c3"
+        },
+        "date": 1741701826651,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14157797427445035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05853030748245445",
+            "extra": "mean: 7.063245572799974 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20485124379258474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031580189588870336",
+            "extra": "mean: 4.8815910584 sec\nrounds: 5"
           }
         ]
       }
