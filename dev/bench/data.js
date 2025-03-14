@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741708101396,
+  "lastUpdate": 1741970797733,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17805,6 +17805,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.060060570323236875",
             "extra": "mean: 4.859747172200014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b6d68ed552498b4665f64297ab24392d87f34446",
+          "message": "Simplify typing on ClockCycles",
+          "timestamp": "2025-03-14T12:43:08-04:00",
+          "tree_id": "e7087a4a42fab2c2fbfb849078b5bfd6fb11af2e",
+          "url": "https://github.com/cocotb/cocotb/commit/b6d68ed552498b4665f64297ab24392d87f34446"
+        },
+        "date": 1741970796819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14125086686278518,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04672206822583285",
+            "extra": "mean: 7.07960256959999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20445183828652175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012080306029287273",
+            "extra": "mean: 4.891127457599993 sec\nrounds: 5"
           }
         ]
       }
