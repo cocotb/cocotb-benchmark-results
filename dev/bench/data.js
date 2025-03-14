@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741970797733,
+  "lastUpdate": 1741971501842,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17843,6 +17843,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012080306029287273",
             "extra": "mean: 4.891127457599993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "943b9d90648024697215a63200d23df635855132",
+          "message": "Use ValueError instead of OverflowError in sim objects (#4543)",
+          "timestamp": "2025-03-14T12:54:57-04:00",
+          "tree_id": "4bf9332d3ad13f9981c5100637680286a3821228",
+          "url": "https://github.com/cocotb/cocotb/commit/943b9d90648024697215a63200d23df635855132"
+        },
+        "date": 1741971500697,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14260712938363812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04170360612669421",
+            "extra": "mean: 7.0122721375999735 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2063715931386794,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04323306240415275",
+            "extra": "mean: 4.845628144800003 sec\nrounds: 5"
           }
         ]
       }
