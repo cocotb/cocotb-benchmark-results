@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741971501842,
+  "lastUpdate": 1742002474883,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17881,6 +17881,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04323306240415275",
             "extra": "mean: 4.845628144800003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3568762d5a71e3ef33c13e07ff77e0987f9b9cda",
+          "message": "Fix documentation on ResolveX enum",
+          "timestamp": "2025-03-14T21:30:56-04:00",
+          "tree_id": "a5cff3a5c9a5d2f3ee5e04408a7eefee6f1b19e8",
+          "url": "https://github.com/cocotb/cocotb/commit/3568762d5a71e3ef33c13e07ff77e0987f9b9cda"
+        },
+        "date": 1742002474397,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14659516895304636,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028085497270872225",
+            "extra": "mean: 6.82150719660001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21375798837773288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023872902878562093",
+            "extra": "mean: 4.678187737399992 sec\nrounds: 5"
           }
         ]
       }
