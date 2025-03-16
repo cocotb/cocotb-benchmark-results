@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742002474883,
+  "lastUpdate": 1742158002905,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17919,6 +17919,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023872902878562093",
             "extra": "mean: 4.678187737399992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4016907cd4cfbcf6d55d137a408d38c8695d2ce9",
+          "message": "Update CI to test unpacked arrays",
+          "timestamp": "2025-03-16T14:43:18-06:00",
+          "tree_id": "17643a91893a63db3625c49b334b5feacd1de63e",
+          "url": "https://github.com/cocotb/cocotb/commit/4016907cd4cfbcf6d55d137a408d38c8695d2ce9"
+        },
+        "date": 1742158002344,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14608828810993052,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04581108582362344",
+            "extra": "mean: 6.845175701199992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21400031183740237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022635824110127878",
+            "extra": "mean: 4.672890387000001 sec\nrounds: 5"
           }
         ]
       }
