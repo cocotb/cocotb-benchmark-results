@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742248195224,
+  "lastUpdate": 1742252883482,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18033,6 +18033,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030915323149498387",
             "extra": "mean: 4.666982887799986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ee2fdced9a1020f9cb20c29560c55663e959a15e",
+          "message": "Fix PLW1508 issue",
+          "timestamp": "2025-03-17T17:04:47-06:00",
+          "tree_id": "038ed83fb2ddf40e52a27e2622da0ddd5624778b",
+          "url": "https://github.com/cocotb/cocotb/commit/ee2fdced9a1020f9cb20c29560c55663e959a15e"
+        },
+        "date": 1742252882996,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14654517810707549,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04163386995048463",
+            "extra": "mean: 6.823834212199972 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21326065721325463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04743523376108765",
+            "extra": "mean: 4.689097431599999 sec\nrounds: 5"
           }
         ]
       }
