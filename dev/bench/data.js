@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742163972789,
+  "lastUpdate": 1742248195224,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -17995,6 +17995,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.041609463931176274",
             "extra": "mean: 4.680412728200008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "963329bec224faefe8268a560ea8e2808812c16c",
+          "message": "Add Icarus 10.3 to extended CI and update Icarus runs to Ubuntu 22.04",
+          "timestamp": "2025-03-17T15:45:25-06:00",
+          "tree_id": "6116989da8d33013890afc6bcf4d9bd0790de1ab",
+          "url": "https://github.com/cocotb/cocotb/commit/963329bec224faefe8268a560ea8e2808812c16c"
+        },
+        "date": 1742248194786,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.147450463139725,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05329332157361624",
+            "extra": "mean: 6.781938684400018 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21427119491140872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030915323149498387",
+            "extra": "mean: 4.666982887799986 sec\nrounds: 5"
           }
         ]
       }
