@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742252883482,
+  "lastUpdate": 1742310672357,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18071,6 +18071,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04743523376108765",
             "extra": "mean: 4.689097431599999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5b61780a32a111c0ae962e3c4420b8c5cbc284c1",
+          "message": "Check for immutable signals with Edge triggers",
+          "timestamp": "2025-03-18T09:07:48-06:00",
+          "tree_id": "c9384f0520bc5bc23811806b43f7e78cf83cd0fb",
+          "url": "https://github.com/cocotb/cocotb/commit/5b61780a32a111c0ae962e3c4420b8c5cbc284c1"
+        },
+        "date": 1742310671532,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14699229180912063,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06177072226289711",
+            "extra": "mean: 6.803077819199984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21373642448980112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05111743208182095",
+            "extra": "mean: 4.6786597201999935 sec\nrounds: 5"
           }
         ]
       }
