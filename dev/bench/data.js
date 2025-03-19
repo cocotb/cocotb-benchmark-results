@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742396707115,
+  "lastUpdate": 1742396915994,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18223,6 +18223,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04074961125844023",
             "extra": "mean: 4.7519949704000055 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2efcbfbafb693b90d25d9d01b8d55863e86ba4d2",
+          "message": "Introduce EmptyTrigger to replace some uses of NullTrigger\n\nAlso improve documentation on NullTrigger to suggest alternatives.",
+          "timestamp": "2025-03-19T09:01:57-06:00",
+          "tree_id": "01f10c66540c5ffd4eaf80f4498928647b47929b",
+          "url": "https://github.com/cocotb/cocotb/commit/2efcbfbafb693b90d25d9d01b8d55863e86ba4d2"
+        },
+        "date": 1742396915405,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14509646353204791,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03666968440110991",
+            "extra": "mean: 6.891966734800031 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21125101266415508,
+            "unit": "iter/sec",
+            "range": "stddev: 0.048282953960879435",
+            "extra": "mean: 4.733705118800026 sec\nrounds: 5"
           }
         ]
       }
