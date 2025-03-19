@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742396915994,
+  "lastUpdate": 1742400186952,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18261,6 +18261,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.048282953960879435",
             "extra": "mean: 4.733705118800026 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e2d675586b5ffec47758f759788d88df8a81bd57",
+          "message": "Deprecate Event name\n\nThis is not supported by asyncio.Event.",
+          "timestamp": "2025-03-19T09:59:41-06:00",
+          "tree_id": "3f4939bc27f05c00a6c6eb40ae5a4a27d3da8c9b",
+          "url": "https://github.com/cocotb/cocotb/commit/e2d675586b5ffec47758f759788d88df8a81bd57"
+        },
+        "date": 1742400185857,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14583527201822016,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021167593271253345",
+            "extra": "mean: 6.857051700599999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21109873526198944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02426003763529127",
+            "extra": "mean: 4.737119806800001 sec\nrounds: 5"
           }
         ]
       }
