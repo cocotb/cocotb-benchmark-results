@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742405277242,
+  "lastUpdate": 1742437981014,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18375,6 +18375,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030227441211259608",
             "extra": "mean: 4.74020124780003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1f3821776008e30ae0dd67c4c6f129441cf03326",
+          "message": "Introduce TaskStarted trigger\n\n* Refactored all the Task triggers into a base class.\n* Updated cocotb.start docs to refrence TaskStarted instead",
+          "timestamp": "2025-03-19T20:29:32-06:00",
+          "tree_id": "4c9ff9dbe3f226a665586ef393b1b84730918070",
+          "url": "https://github.com/cocotb/cocotb/commit/1f3821776008e30ae0dd67c4c6f129441cf03326"
+        },
+        "date": 1742437980105,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14504707982240223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03156010076777168",
+            "extra": "mean: 6.894313220399988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21168106785143592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0487689492928471",
+            "extra": "mean: 4.7240880355999995 sec\nrounds: 5"
           }
         ]
       }
