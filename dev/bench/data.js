@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742437981014,
+  "lastUpdate": 1742714404888,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18413,6 +18413,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0487689492928471",
             "extra": "mean: 4.7240880355999995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "2aa4957bed1651bbbe65d92b10030fedc52790ab",
+          "message": "Switch private CI to Ubuntu 22.04",
+          "timestamp": "2025-03-23T08:16:02+01:00",
+          "tree_id": "2dbba0d6bcdd41d1591a75fdcf351cf287f3d5ed",
+          "url": "https://github.com/cocotb/cocotb/commit/2aa4957bed1651bbbe65d92b10030fedc52790ab"
+        },
+        "date": 1742714404382,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14349697044941342,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02173104965749613",
+            "extra": "mean: 6.96878823899998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20882600154421158,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018253010239334705",
+            "extra": "mean: 4.788675704200012 sec\nrounds: 5"
           }
         ]
       }
