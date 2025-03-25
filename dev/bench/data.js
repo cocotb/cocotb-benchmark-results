@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742890562623,
+  "lastUpdate": 1742909761449,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18527,6 +18527,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.057332202400722246",
             "extra": "mean: 4.773466574799988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "xwzheng@ustc.edu.cn",
+            "name": "xwzheng",
+            "username": "xwzheng1020"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b53e21e61c8710752028147b9f31380c89d9552f",
+          "message": "Update Makefile.icarus\n\nI found that it can directly enter the gdb debugging console with `make debug`, but it seems that the command is missing the `-M` option",
+          "timestamp": "2025-03-25T07:32:23-06:00",
+          "tree_id": "a418d3df3dfb7b637fe0f445ca92ac3757435361",
+          "url": "https://github.com/cocotb/cocotb/commit/b53e21e61c8710752028147b9f31380c89d9552f"
+        },
+        "date": 1742909760821,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14462814121910586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07105225525136688",
+            "extra": "mean: 6.9142837042 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.21040650464696808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050231767421970226",
+            "extra": "mean: 4.7527047781999725 sec\nrounds: 5"
           }
         ]
       }
