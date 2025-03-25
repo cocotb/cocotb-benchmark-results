@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742849079062,
+  "lastUpdate": 1742890562623,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18489,6 +18489,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023261369682221478",
             "extra": "mean: 4.759416172800025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "c0b2d91cfe504b98bc4c9276541db99cd82f5d7d",
+          "message": "Shorten license headers\n\nUse new-style license headers across the whole code base, which rely on\nthe SPDX identifier and a reference to the LICENSE file for the full\nlicense text.\n\nKeep existing Copyright lines untouched.",
+          "timestamp": "2025-03-25T09:12:37+01:00",
+          "tree_id": "36bdf6fa158f659b3c2c0366ec77041c1bf37e26",
+          "url": "https://github.com/cocotb/cocotb/commit/c0b2d91cfe504b98bc4c9276541db99cd82f5d7d"
+        },
+        "date": 1742890562101,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14428432859740808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06350870385603093",
+            "extra": "mean: 6.930759630800014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20949135902180288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.057332202400722246",
+            "extra": "mean: 4.773466574799988 sec\nrounds: 5"
           }
         ]
       }
