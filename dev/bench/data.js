@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742909761449,
+  "lastUpdate": 1742999140500,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18565,6 +18565,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.050231767421970226",
             "extra": "mean: 4.7527047781999725 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "340449c0f06a900760c2d654e459768ea5eb3a24",
+          "message": "Fix bounds check in LogicArray's from_signed() (#4580)",
+          "timestamp": "2025-03-26T08:21:56-06:00",
+          "tree_id": "6fa371e20d0b7a4eb0ebbf07bf332b2cc2c29159",
+          "url": "https://github.com/cocotb/cocotb/commit/340449c0f06a900760c2d654e459768ea5eb3a24"
+        },
+        "date": 1742999139517,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14293284811407672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.19339811409116986",
+            "extra": "mean: 6.996292407200099 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2105959547109874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028735177147610595",
+            "extra": "mean: 4.748429291399998 sec\nrounds: 5"
           }
         ]
       }
