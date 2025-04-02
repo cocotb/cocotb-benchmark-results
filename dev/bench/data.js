@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743016431378,
+  "lastUpdate": 1743606005022,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18641,6 +18641,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035644313907867306",
             "extra": "mean: 4.823286186399992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teo.biton@gmail.com",
+            "name": "Téo Biton",
+            "username": "teobiton"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8194d4d689677c19cdc25f5128ae8621faa1c533",
+          "message": "Add support for DSim simulator\n\nSupport DSim in the Makefile flow, with split compile and run\nphases and with wave generation support, and a Python runner\nimplementation.\n\nCloses #3990",
+          "timestamp": "2025-04-02T08:56:36-06:00",
+          "tree_id": "6aee3364909ac1becea332913457a23ceb7456b6",
+          "url": "https://github.com/cocotb/cocotb/commit/8194d4d689677c19cdc25f5128ae8621faa1c533"
+        },
+        "date": 1743606001902,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1440814961264458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025275904615814433",
+            "extra": "mean: 6.94051649160001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20960788119918564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032117200889699396",
+            "extra": "mean: 4.7708129783999995 sec\nrounds: 5"
           }
         ]
       }
