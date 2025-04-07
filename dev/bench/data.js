@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743606005022,
+  "lastUpdate": 1744006928445,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18679,6 +18679,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.032117200889699396",
             "extra": "mean: 4.7708129783999995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "63054b8847526fcc036bcfa5bd350540baf48838",
+          "message": "Bump actions/create-github-app-token from 1 to 2\n\nBumps [actions/create-github-app-token](https://github.com/actions/create-github-app-token) from 1 to 2.\n- [Release notes](https://github.com/actions/create-github-app-token/releases)\n- [Commits](https://github.com/actions/create-github-app-token/compare/v1...v2)\n\n---\nupdated-dependencies:\n- dependency-name: actions/create-github-app-token\n  dependency-version: '2'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-04-07T00:18:43-06:00",
+          "tree_id": "b4c74017b2928351724011b2447ff21eb1a64f4a",
+          "url": "https://github.com/cocotb/cocotb/commit/63054b8847526fcc036bcfa5bd350540baf48838"
+        },
+        "date": 1744006927662,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14456480105485994,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04397682738639343",
+            "extra": "mean: 6.917313154399989 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20934708796250173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038074470334642535",
+            "extra": "mean: 4.776756198199996 sec\nrounds: 5"
           }
         ]
       }
