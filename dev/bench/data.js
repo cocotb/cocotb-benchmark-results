@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744224010147,
+  "lastUpdate": 1744225908825,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18869,6 +18869,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035498736130302744",
             "extra": "mean: 4.829252708000013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4a29b7df8d389e9a5ae6d3c9580a01a886803c18",
+          "message": "Refactor Task.kill and Task.cancel to put common paths first",
+          "timestamp": "2025-04-09T13:08:23-06:00",
+          "tree_id": "651f2cea7470a469502f8e655d7a130df9b9fbfc",
+          "url": "https://github.com/cocotb/cocotb/commit/4a29b7df8d389e9a5ae6d3c9580a01a886803c18"
+        },
+        "date": 1744225908245,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13928129906137118,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059821217063402016",
+            "extra": "mean: 7.179714769599991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20800262707051764,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04540404313363795",
+            "extra": "mean: 4.807631586599996 sec\nrounds: 5"
           }
         ]
       }
