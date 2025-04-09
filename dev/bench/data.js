@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744222527153,
+  "lastUpdate": 1744222819020,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18793,6 +18793,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025847532629284353",
             "extra": "mean: 4.898123386200007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f180b7e4525bdf028f1e121cbc0f1cecb070c3f8",
+          "message": "Fix documentation on cocotb.start and NullTrigger after reverting new Triggers",
+          "timestamp": "2025-04-09T12:15:45-06:00",
+          "tree_id": "538bda6b5a0f49f43be84e780f28e0d0c65317fe",
+          "url": "https://github.com/cocotb/cocotb/commit/f180b7e4525bdf028f1e121cbc0f1cecb070c3f8"
+        },
+        "date": 1744222818026,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14001333183031456,
+            "unit": "iter/sec",
+            "range": "stddev: 0.048295791658261",
+            "extra": "mean: 7.142177012199977 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20573230172627494,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05198149339090335",
+            "extra": "mean: 4.86068542280002 sec\nrounds: 5"
           }
         ]
       }
