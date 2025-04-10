@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744225908825,
+  "lastUpdate": 1744249609178,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18907,6 +18907,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04540404313363795",
             "extra": "mean: 4.807631586599996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "078291776db6ddb7bb5efeea5e5b971ecc7be20f",
+          "message": "Add documentation for Task.cancel() and test end cancels",
+          "timestamp": "2025-04-09T19:43:18-06:00",
+          "tree_id": "c0fad29cc103d7d7f5ff8babb867ba78d5a20793",
+          "url": "https://github.com/cocotb/cocotb/commit/078291776db6ddb7bb5efeea5e5b971ecc7be20f"
+        },
+        "date": 1744249608694,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13858721220301937,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03297189868337735",
+            "extra": "mean: 7.215672962199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20589971461949078,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018584195716944415",
+            "extra": "mean: 4.856733297800008 sec\nrounds: 5"
           }
         ]
       }
