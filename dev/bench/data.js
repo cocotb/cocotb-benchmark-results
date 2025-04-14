@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744649427450,
+  "lastUpdate": 1744674256771,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19021,6 +19021,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025815802504328914",
             "extra": "mean: 4.872751080400008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "39dcf415f8907f312ff81b8503af151b299d232f",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.11.4 → v0.11.5](https://github.com/astral-sh/ruff-pre-commit/compare/v0.11.4...v0.11.5)",
+          "timestamp": "2025-04-14T17:40:41-06:00",
+          "tree_id": "f14f99d838e87a9e3c320a71165c83011ff8dc03",
+          "url": "https://github.com/cocotb/cocotb/commit/39dcf415f8907f312ff81b8503af151b299d232f"
+        },
+        "date": 1744674255745,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13964259717725608,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01864859767438937",
+            "extra": "mean: 7.161138651199996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2051253650065813,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039086546208963284",
+            "extra": "mean: 4.8750674982000195 sec\nrounds: 5"
           }
         ]
       }
