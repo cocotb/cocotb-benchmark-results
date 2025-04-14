@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744646884730,
+  "lastUpdate": 1744649427450,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18983,6 +18983,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010595338673835594",
             "extra": "mean: 4.8392215696000225 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kees.jongenburger@gmail.com",
+            "name": "Kees Jongenburger",
+            "username": "keesj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4f29124ce87139db9fd5464c07ba51ad67e14dd",
+          "message": "Fix support for $dumpvars and $dumpfile in Verilator",
+          "timestamp": "2025-04-14T10:46:58-06:00",
+          "tree_id": "b62e48f357807fea8f2f25b2ebce9a7c91b771a0",
+          "url": "https://github.com/cocotb/cocotb/commit/e4f29124ce87139db9fd5464c07ba51ad67e14dd"
+        },
+        "date": 1744649426884,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1372688284901092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09234115280996781",
+            "extra": "mean: 7.28497511779999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20522287789794288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025815802504328914",
+            "extra": "mean: 4.872751080400008 sec\nrounds: 5"
           }
         ]
       }
