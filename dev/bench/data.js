@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744249609178,
+  "lastUpdate": 1744646884730,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -18945,6 +18945,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018584195716944415",
             "extra": "mean: 4.856733297800008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "todd.strader@gmail.com",
+            "name": "Todd Strader",
+            "username": "toddstrader"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee79906a1ec6566e836f5b64307a8a12681ad4a2",
+          "message": "Error message for Verilator\n\nAdd error message when trying to run Verilator with tracing when the design wasn't built with tracing support.",
+          "timestamp": "2025-04-14T10:04:04-06:00",
+          "tree_id": "543b1bb6b6fad589962445fa473be30e60aa8cf4",
+          "url": "https://github.com/cocotb/cocotb/commit/ee79906a1ec6566e836f5b64307a8a12681ad4a2"
+        },
+        "date": 1744646883800,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13860921389001143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045176801777276676",
+            "extra": "mean: 7.214527605599983 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20664480549557754,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010595338673835594",
+            "extra": "mean: 4.8392215696000225 sec\nrounds: 5"
           }
         ]
       }
