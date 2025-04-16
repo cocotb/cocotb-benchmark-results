@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744674256771,
+  "lastUpdate": 1744807528816,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19059,6 +19059,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039086546208963284",
             "extra": "mean: 4.8750674982000195 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8dc347b00222260b491c5fa0e88fafd61289e8ec",
+          "message": "Use license field instead of trove classifier",
+          "timestamp": "2025-04-16T06:41:50-06:00",
+          "tree_id": "8696002fd54bc0638d91fd6831ce707be66563d6",
+          "url": "https://github.com/cocotb/cocotb/commit/8dc347b00222260b491c5fa0e88fafd61289e8ec"
+        },
+        "date": 1744807528010,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1382702718904896,
+            "unit": "iter/sec",
+            "range": "stddev: 0.054280186114183844",
+            "extra": "mean: 7.2322125814000175 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2021914737774465,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038254703776275316",
+            "extra": "mean: 4.945806968600005 sec\nrounds: 5"
           }
         ]
       }
