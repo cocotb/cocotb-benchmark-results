@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745283649014,
+  "lastUpdate": 1745531946464,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19135,6 +19135,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.050324919366677844",
             "extra": "mean: 4.888253806199998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rice.shelley@ieee.org",
+            "name": "Rice Shelley",
+            "username": "RiceShelley"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "806ce61866df984ee0ba53db89d781633ff1b904",
+          "message": "Added timescale flag to Verilator Runner",
+          "timestamp": "2025-04-24T15:55:39-06:00",
+          "tree_id": "ce90f12e70b381dcedb69d0d0aaa31dbc55fdb5b",
+          "url": "https://github.com/cocotb/cocotb/commit/806ce61866df984ee0ba53db89d781633ff1b904"
+        },
+        "date": 1745531945948,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14118395089132946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027685888177475353",
+            "extra": "mean: 7.082958039400023 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20804080422860058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04934562761382638",
+            "extra": "mean: 4.806749347599975 sec\nrounds: 5"
           }
         ]
       }
