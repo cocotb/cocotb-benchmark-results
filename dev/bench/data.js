@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745550800952,
+  "lastUpdate": 1745598316360,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19211,6 +19211,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.036156719499426795",
             "extra": "mean: 4.817376760000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "18e24ef2c8b573a45f461ac0df2cf342b45c649d",
+          "message": "Add Vcs and Dsim to documented Runners",
+          "timestamp": "2025-04-25T10:21:47-06:00",
+          "tree_id": "a784180b5a9227c6db2d2035199eeec8cf1703a1",
+          "url": "https://github.com/cocotb/cocotb/commit/18e24ef2c8b573a45f461ac0df2cf342b45c649d"
+        },
+        "date": 1745598315792,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1411378736358503,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0239847588251015",
+            "extra": "mean: 7.085270411399984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2074395899381913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07707226727437455",
+            "extra": "mean: 4.820680566800002 sec\nrounds: 5"
           }
         ]
       }
