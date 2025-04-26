@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745598316360,
+  "lastUpdate": 1745640676670,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19249,6 +19249,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07707226727437455",
             "extra": "mean: 4.820680566800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e1ba051e99849fc84d36fa4046a502ed0a1ab438",
+          "message": "Replace deprecated argument name and clarify assertion error",
+          "timestamp": "2025-04-25T22:07:54-06:00",
+          "tree_id": "cff1f523b0993a4cfdc705c21495f1adde3d485f",
+          "url": "https://github.com/cocotb/cocotb/commit/e1ba051e99849fc84d36fa4046a502ed0a1ab438"
+        },
+        "date": 1745640676199,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1404518891468918,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04962051808845932",
+            "extra": "mean: 7.119875753000008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20686510776552147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025152965622648894",
+            "extra": "mean: 4.8340680107999905 sec\nrounds: 5"
           }
         ]
       }
