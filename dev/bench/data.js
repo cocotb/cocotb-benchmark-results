@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745681165582,
+  "lastUpdate": 1745772089299,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19325,6 +19325,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03214090228448884",
             "extra": "mean: 4.860371267599999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0b47978253170dceec0e6ff4e0245daf64b19cb6",
+          "message": "Add codespell pre-commit hook and fix spelling",
+          "timestamp": "2025-04-27T10:38:02-06:00",
+          "tree_id": "229d652b46dc123422dd97f1f2ccb8bfaf9e4249",
+          "url": "https://github.com/cocotb/cocotb/commit/0b47978253170dceec0e6ff4e0245daf64b19cb6"
+        },
+        "date": 1745772088768,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13970430152501404,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009687065177817937",
+            "extra": "mean: 7.157975732199986 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2064984488020104,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02514105187767092",
+            "extra": "mean: 4.8426513893999985 sec\nrounds: 5"
           }
         ]
       }
