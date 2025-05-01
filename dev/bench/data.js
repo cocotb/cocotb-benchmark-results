@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746139003729,
+  "lastUpdate": 1746139650237,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19439,6 +19439,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.041402957061227784",
             "extra": "mean: 4.8503118121999815 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dee11c944d5416781a511e65ef609ff0788b7973",
+          "message": "Bump minimum Verilator version support to 5.036 (#4644)\n\n* Bump minimum support Verilator to v5.036\n* Improve Verilator simulator support section\n* Verilator support is now longer \"experimental\" as it works fairly\n  well.\n* Added notes about improvements done in 2.0",
+          "timestamp": "2025-05-01T16:39:24-06:00",
+          "tree_id": "4d649a9b87027dc08e134fa34f1cdb70f4329797",
+          "url": "https://github.com/cocotb/cocotb/commit/dee11c944d5416781a511e65ef609ff0788b7973"
+        },
+        "date": 1746139649334,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14063150583319672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026705488392810547",
+            "extra": "mean: 7.110782139999992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20789565429383472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051604807870673335",
+            "extra": "mean: 4.810105354999985 sec\nrounds: 5"
           }
         ]
       }
