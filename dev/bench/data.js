@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746139650237,
+  "lastUpdate": 1746381661948,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19477,6 +19477,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.051604807870673335",
             "extra": "mean: 4.810105354999985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3619db98c732830705f9a33c3b7c83613165926f",
+          "message": "Add gui option for GHDL, NVC, Verilator, Icarus, and Dsim",
+          "timestamp": "2025-05-04T11:57:19-06:00",
+          "tree_id": "127b4babaeb991bb1831743657e8df8a8b01b781",
+          "url": "https://github.com/cocotb/cocotb/commit/3619db98c732830705f9a33c3b7c83613165926f"
+        },
+        "date": 1746381661380,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.13912637138279862,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0557429869620553",
+            "extra": "mean: 7.1877099220000105 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2057739840648451,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044377984440246945",
+            "extra": "mean: 4.859700824399999 sec\nrounds: 5"
           }
         ]
       }
