@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746480235724,
+  "lastUpdate": 1746480897565,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19591,6 +19591,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033485042452059466",
             "extra": "mean: 4.830263088999982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "9193afd3224bad13f946ef9c97d21a544cfe12c6",
+          "message": "Timescale: add to Dsim, add not supported to Vcs, test more simulators supporting it",
+          "timestamp": "2025-05-05T23:31:08+02:00",
+          "tree_id": "e9e4e8ff3e918f3ecea5661fdd39f0ca017139a9",
+          "url": "https://github.com/cocotb/cocotb/commit/9193afd3224bad13f946ef9c97d21a544cfe12c6"
+        },
+        "date": 1746480896694,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1402328966452588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06613103750421737",
+            "extra": "mean: 7.130994395199991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20750252877750042,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029106757190731674",
+            "extra": "mean: 4.819218377199991 sec\nrounds: 5"
           }
         ]
       }
