@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746381661948,
+  "lastUpdate": 1746406274128,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19515,6 +19515,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.044377984440246945",
             "extra": "mean: 4.859700824399999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e63082f70bca688ba102f0aa0775e1a4a11a9baf",
+          "message": "Propagate return value in GPI callbacks to cleanup after failure\n\ngpi_embed_init uses the return value to conditionally call gpi_embed_end\nif there was a failure. This was broken in the GPI refactor (and wasn't\ndone consistently before then). This PR calls gpi_embed_end() if all\ncallback has a failure, which requires propagating the return value\nthrough many functions.\n\nAdditionally, we have to condition calling PyErr_Print if it's not a\nSystemExit, as that calls exit() and doesn't cleanly shutdown.",
+          "timestamp": "2025-05-04T18:47:38-06:00",
+          "tree_id": "ad0f228cb614ae9a16d46791b21349c2b37f9436",
+          "url": "https://github.com/cocotb/cocotb/commit/e63082f70bca688ba102f0aa0775e1a4a11a9baf"
+        },
+        "date": 1746406273576,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.14042012450727015,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02432683413857115",
+            "extra": "mean: 7.12148635040005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.20688823608976703,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02785080260621561",
+            "extra": "mean: 4.833527603599987 sec\nrounds: 5"
           }
         ]
       }
