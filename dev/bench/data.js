@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746498782741,
+  "lastUpdate": 1746498983630,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19781,6 +19781,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03733775388081001",
             "extra": "mean: 4.284404225800006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "61abf5c9c0a9e9f120b7b8d31a43ea621241d878",
+          "message": "Removal all internal uses of deprecated Task.kill()",
+          "timestamp": "2025-05-05T20:32:02-06:00",
+          "tree_id": "31065d7bfc106804a5536d3b6b7dd78ff5233e07",
+          "url": "https://github.com/cocotb/cocotb/commit/61abf5c9c0a9e9f120b7b8d31a43ea621241d878"
+        },
+        "date": 1746498982823,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15203205604147849,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06391821674120361",
+            "extra": "mean: 6.577560193800002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23385907551306964,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010667265411613967",
+            "extra": "mean: 4.2760795056 sec\nrounds: 5"
           }
         ]
       }
