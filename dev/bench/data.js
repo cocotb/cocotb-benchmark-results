@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746486064160,
+  "lastUpdate": 1746496387375,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19705,6 +19705,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023872976123806334",
             "extra": "mean: 4.240796014600027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "f5cd319a6e9a7dccfba083263fbf74f0242cdba3",
+          "message": "Improve suggestion in error message\n\nWe are actually looking for COCOTB_TESTCASE these days, not just\nthe plain TESTCASE. Improve the error message to use the same variable\nas the code.",
+          "timestamp": "2025-05-06T03:49:14+02:00",
+          "tree_id": "b71894c6c636c13afae6bf7a47f96b61df2ff825",
+          "url": "https://github.com/cocotb/cocotb/commit/f5cd319a6e9a7dccfba083263fbf74f0242cdba3"
+        },
+        "date": 1746496386367,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15335778911409367,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030441402474105584",
+            "extra": "mean: 6.520699116600002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23573199655317717,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029254642893920633",
+            "extra": "mean: 4.242105503800019 sec\nrounds: 5"
           }
         ]
       }
