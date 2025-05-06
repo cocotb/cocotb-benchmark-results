@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746498983630,
+  "lastUpdate": 1746535814450,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19819,6 +19819,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010667265411613967",
             "extra": "mean: 4.2760795056 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7f0b11329dab4aa1916c42f444a685adb4c34880",
+          "message": "Better handle null LogicArray and integers\n\nConstructing a null LogicArray with an integer always failed, so it made\nlittle sense for converting and comparing a null LogicArray to an\ninteger to work.\n\n* Converting null LogicArray to int now ValueError instead of returning\n  0.\n* Comparing a null LogicArray to int will always return False.",
+          "timestamp": "2025-05-06T06:46:37-06:00",
+          "tree_id": "1f74b0d2df46bfe2404151be760d21e04aebeb02",
+          "url": "https://github.com/cocotb/cocotb/commit/7f0b11329dab4aa1916c42f444a685adb4c34880"
+        },
+        "date": 1746535813353,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.152845944947213,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05759559853348327",
+            "extra": "mean: 6.542535363600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23591456203207314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05003814045364154",
+            "extra": "mean: 4.238822696599999 sec\nrounds: 5"
           }
         ]
       }
