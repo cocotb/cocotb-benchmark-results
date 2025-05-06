@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746551467550,
+  "lastUpdate": 1746554932969,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19933,6 +19933,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022752535788088595",
             "extra": "mean: 4.214960880399985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "385a4a219a9678c4122075ee7d9c20826e7d9a29",
+          "message": "Fail if the user asks for coverage and we can't provide (#4656)",
+          "timestamp": "2025-05-06T12:05:29-06:00",
+          "tree_id": "f6ab28119f2cf97ad934ac3de195512798e4f6dd",
+          "url": "https://github.com/cocotb/cocotb/commit/385a4a219a9678c4122075ee7d9c20826e7d9a29"
+        },
+        "date": 1746554932245,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1527810071048319,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05675841210559361",
+            "extra": "mean: 6.545316194400016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23673018473143276,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03353247618149583",
+            "extra": "mean: 4.224218390800002 sec\nrounds: 5"
           }
         ]
       }
