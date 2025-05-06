@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746540891713,
+  "lastUpdate": 1746551467550,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19895,6 +19895,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028759528376183768",
             "extra": "mean: 4.2514266650000305 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "30649e878e2e0a04bd535107005d49b4113589a1",
+          "message": "Remove pylint config, since we use ruff",
+          "timestamp": "2025-05-06T11:07:48-06:00",
+          "tree_id": "0b1d20b332a9d1f1e67f9f90f92b904cbc37ead3",
+          "url": "https://github.com/cocotb/cocotb/commit/30649e878e2e0a04bd535107005d49b4113589a1"
+        },
+        "date": 1746551466682,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15382168530761425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022331255383503563",
+            "extra": "mean: 6.501033960200016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2372501260094977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022752535788088595",
+            "extra": "mean: 4.214960880399985 sec\nrounds: 5"
           }
         ]
       }
