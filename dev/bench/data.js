@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746554932969,
+  "lastUpdate": 1746595356367,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -19971,6 +19971,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03353247618149583",
             "extra": "mean: 4.224218390800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "cd7aa7956a0e095c6515f8c655fed695a3339438",
+          "message": "Questa: Ensure VHDL_GPI_INTERFACE is passed to simulator\n\nVHDL_GPI_INTERFACE was not passed on to the simulator if the user only\nset it as make variable. (It was passed on if the user exported it in\nthe shell environment.) Fix that and improve the formatting in the\nMakefile to better see what's going on.",
+          "timestamp": "2025-05-07T07:19:24+02:00",
+          "tree_id": "2b4cadafec93a7f9406d124851680a70e991b1b2",
+          "url": "https://github.com/cocotb/cocotb/commit/cd7aa7956a0e095c6515f8c655fed695a3339438"
+        },
+        "date": 1746595355826,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15448188245161407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05043921003684246",
+            "extra": "mean: 6.473250999599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.238419418408966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02527672795991026",
+            "extra": "mean: 4.194289234799987 sec\nrounds: 5"
           }
         ]
       }
