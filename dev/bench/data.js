@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746681032484,
+  "lastUpdate": 1746730717873,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20085,6 +20085,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03893573822214039",
             "extra": "mean: 4.259267305799983 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "1cb087291e16b8ebc3f1d010dfbb2277cd794f52",
+          "message": "Finalize RTL_LIBRARY -> TOPLEVEL_LIBRARY transition\n\nFix the remaining uses in our test suite and simulator support files.",
+          "timestamp": "2025-05-08T20:55:21+02:00",
+          "tree_id": "911194b5811a262c3700aee8e886b16a692bb409",
+          "url": "https://github.com/cocotb/cocotb/commit/1cb087291e16b8ebc3f1d010dfbb2277cd794f52"
+        },
+        "date": 1746730717257,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15466557416151364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022587158341042652",
+            "extra": "mean: 6.465562911599989 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23660437936657908,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020347780436587012",
+            "extra": "mean: 4.226464458000021 sec\nrounds: 5"
           }
         ]
       }
