@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746630014469,
+  "lastUpdate": 1746681032484,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20047,6 +20047,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.043614457638490915",
             "extra": "mean: 4.24275606739999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "0fdfe644dfc76619bb48e5977b45d9bc6245df53",
+          "message": "Aldec: Re-enable testing for complex array types\n\ntest_array had special handling for Aldec simulators.\n\n* The Makefile tried to use a separate VHDL file for Aldec simulators,\n  but the condition never matched (any more), since the simulator is\n  called riviera, not aldec. We were running with the `array_module.vhd`\n  for probably a long time.\n* Now that we're using the full file, we can also test the associated\n  features and they are confirmed to work with Riviera-PRO 2024.04 and\n  2020.04.\n\nPart of #1858",
+          "timestamp": "2025-05-08T07:07:06+02:00",
+          "tree_id": "5b113b170bbf2efa63f0028531c6ec1240935461",
+          "url": "https://github.com/cocotb/cocotb/commit/0fdfe644dfc76619bb48e5977b45d9bc6245df53"
+        },
+        "date": 1746681031508,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15368890086657444,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025608856449757585",
+            "extra": "mean: 6.506650736399979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23478216514804492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03893573822214039",
+            "extra": "mean: 4.259267305799983 sec\nrounds: 5"
           }
         ]
       }
