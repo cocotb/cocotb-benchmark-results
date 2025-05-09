@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746799195005,
+  "lastUpdate": 1746801553735,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20199,6 +20199,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019895519830969495",
             "extra": "mean: 4.246904643000027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfcf43214fe777f4e89b405e8a5484aa7ec04459",
+          "message": "Change default of `PYTHON_BIN` to `python3` (#4671)\n\nPEP394 states this should always be available and correct if a Python 3 is installed.",
+          "timestamp": "2025-05-09T08:35:53-06:00",
+          "tree_id": "d53e49ce9239b8392806912b6c935b27f6c9e1e3",
+          "url": "https://github.com/cocotb/cocotb/commit/dfcf43214fe777f4e89b405e8a5484aa7ec04459"
+        },
+        "date": 1746801552786,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15320918201906472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03596406254916572",
+            "extra": "mean: 6.527023947399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2360310209451005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028788728911721437",
+            "extra": "mean: 4.23673123980002 sec\nrounds: 5"
           }
         ]
       }
