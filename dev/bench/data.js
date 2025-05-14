@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747169762541,
+  "lastUpdate": 1747257163072,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20351,6 +20351,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01677740002366289",
             "extra": "mean: 4.213128825000001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d66c7561842e017fb063a62cbc660fae2862e68c",
+          "message": "Fix hang with `Event.wait()` (#4675)",
+          "timestamp": "2025-05-14T15:08:21-06:00",
+          "tree_id": "9dbf378e9f9a3d0a5f282fc366f17830da4256ba",
+          "url": "https://github.com/cocotb/cocotb/commit/d66c7561842e017fb063a62cbc660fae2862e68c"
+        },
+        "date": 1747257162117,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15717995523461675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039001849782248736",
+            "extra": "mean: 6.362134398800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23793891791404137,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04258810492482507",
+            "extra": "mean: 4.2027592996000065 sec\nrounds: 5"
           }
         ]
       }
