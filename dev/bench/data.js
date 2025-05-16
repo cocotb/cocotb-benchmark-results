@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747257480735,
+  "lastUpdate": 1747418225000,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20427,6 +20427,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.034977048170782725",
             "extra": "mean: 4.207218784199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8497ed0b97f4c690c9b2e6cdce5f800c43801546",
+          "message": "Fix using Python API after releasing GIL\n\ndeleteing the PythonCallback calls Python C API functions, which is not\nsafe unless the GIL is acquired, so the Ensure and DEFER Release were\nmoved up, so the Release occurs *after* the delete of the\nPythonCallback.\n\nThis fixes a segfault seen in VCS slave mode.",
+          "timestamp": "2025-05-16T11:53:17-06:00",
+          "tree_id": "753d95b3509cdf5cb9a63377967c6e2a21bfc918",
+          "url": "https://github.com/cocotb/cocotb/commit/8497ed0b97f4c690c9b2e6cdce5f800c43801546"
+        },
+        "date": 1747418224428,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1559899485669069,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03311741695710913",
+            "extra": "mean: 6.4106694642000095 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2373811752522474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01924994928653145",
+            "extra": "mean: 4.21263395860002 sec\nrounds: 5"
           }
         ]
       }
