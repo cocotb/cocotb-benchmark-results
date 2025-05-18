@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747576883304,
+  "lastUpdate": 1747588572068,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20503,6 +20503,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0545167996663765",
             "extra": "mean: 4.205989620400004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "52b474e9e26effb2135d646e9c92c0e6c6ea25f0",
+          "message": "Update minimum Verilator version in Makefile\n\nThe Verilator version check in the Makefile didn't get updated in line\nwith the minimum requirement for Verilator. Synchronize the two.",
+          "timestamp": "2025-05-18T19:12:37+02:00",
+          "tree_id": "b052a522c9f100191f0164b56ccfedcbd6d792bd",
+          "url": "https://github.com/cocotb/cocotb/commit/52b474e9e26effb2135d646e9c92c0e6c6ea25f0"
+        },
+        "date": 1747588571209,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15716532943467135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05655020900364045",
+            "extra": "mean: 6.3627264587999885 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23921626872916227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015269861942571678",
+            "extra": "mean: 4.180317690400011 sec\nrounds: 5"
           }
         ]
       }
