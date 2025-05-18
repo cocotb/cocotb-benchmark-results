@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747418225000,
+  "lastUpdate": 1747576883304,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20465,6 +20465,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01924994928653145",
             "extra": "mean: 4.21263395860002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "88c52561bd01eaad73c6d0bdf902280c4253fc40",
+          "message": "Move NVC in CI to r1.16.0",
+          "timestamp": "2025-05-18T07:57:46-06:00",
+          "tree_id": "7c55c6e62d2f84183dff59491d920b322764be89",
+          "url": "https://github.com/cocotb/cocotb/commit/88c52561bd01eaad73c6d0bdf902280c4253fc40"
+        },
+        "date": 1747576882355,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15827410807691533,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022910708786028425",
+            "extra": "mean: 6.318152805599999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2377561739928632,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0545167996663765",
+            "extra": "mean: 4.205989620400004 sec\nrounds: 5"
           }
         ]
       }
