@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747692036381,
+  "lastUpdate": 1747760811806,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20617,6 +20617,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014462190662431016",
             "extra": "mean: 4.195693537599999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oscar.gustafsson@gmail.com",
+            "name": "Oscar Gustafsson",
+            "username": "oscargus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71093f3eddcbec3edfc3a2dba6a992a17083fdae",
+          "message": "Install development version of cocotb after ecosystem test package (#4668)",
+          "timestamp": "2025-05-20T11:02:44-06:00",
+          "tree_id": "961238cb07b9737b06422112bd3d2e15aad911d6",
+          "url": "https://github.com/cocotb/cocotb/commit/71093f3eddcbec3edfc3a2dba6a992a17083fdae"
+        },
+        "date": 1747760811161,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1583544366930817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024746098224239475",
+            "extra": "mean: 6.314947789799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23897106880347715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029863302105842968",
+            "extra": "mean: 4.1846069694000105 sec\nrounds: 5"
           }
         ]
       }
