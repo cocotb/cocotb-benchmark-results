@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747764601663,
+  "lastUpdate": 1747765395946,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20693,6 +20693,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04693965341753962",
             "extra": "mean: 4.2402317653999715 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b67b5d50c48ff907dcb790353d6fd7810e706f3e",
+          "message": "Fix and expand number of paths-ignore for regressions",
+          "timestamp": "2025-05-20T12:19:40-06:00",
+          "tree_id": "9d9407136b49731ef8e1592e4d1f32a3501e481f",
+          "url": "https://github.com/cocotb/cocotb/commit/b67b5d50c48ff907dcb790353d6fd7810e706f3e"
+        },
+        "date": 1747765395438,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.156255264830712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03732892620856291",
+            "extra": "mean: 6.399784359800014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23596575925785343,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02343028949663453",
+            "extra": "mean: 4.2379030040000085 sec\nrounds: 5"
           }
         ]
       }
