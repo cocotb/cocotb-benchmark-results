@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747765395946,
+  "lastUpdate": 1747924681394,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20731,6 +20731,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02343028949663453",
             "extra": "mean: 4.2379030040000085 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "90429215+mferris3CS1003@users.noreply.github.com",
+            "name": "mferris3CS1003",
+            "username": "mferris3CS1003"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "365edc2e4333f22d41894fcd5f3a6793db1f0fc3",
+          "message": "Module argument(s): Slight wording change (#4683)\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-05-22T08:34:40-06:00",
+          "tree_id": "bdbcf8eed098a1c75685e2e8723e9299a73cc1e5",
+          "url": "https://github.com/cocotb/cocotb/commit/365edc2e4333f22d41894fcd5f3a6793db1f0fc3"
+        },
+        "date": 1747924680801,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15840159154361502,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028703386880148826",
+            "extra": "mean: 6.313067881800009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2402947090383598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03250114525932257",
+            "extra": "mean: 4.161556465400008 sec\nrounds: 5"
           }
         ]
       }
