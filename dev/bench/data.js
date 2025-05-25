@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748012682540,
+  "lastUpdate": 1748198878057,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20807,6 +20807,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04666041303418569",
             "extra": "mean: 4.239195379000011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7da54be693ec5ad99b12b831258f02dd04654c7f",
+          "message": "Merge pull request #4684 from ktbarrett/revert-test-discovery-change-1\n\nRevert Test Discovery Change (part 1)",
+          "timestamp": "2025-05-25T12:44:16-06:00",
+          "tree_id": "308419dd430b84b3916ed29edbb441e452069304",
+          "url": "https://github.com/cocotb/cocotb/commit/7da54be693ec5ad99b12b831258f02dd04654c7f"
+        },
+        "date": 1748198877145,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15601074615149396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03755864313985623",
+            "extra": "mean: 6.409814866399984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2349764988520196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021354792582072533",
+            "extra": "mean: 4.255744744200001 sec\nrounds: 5"
           }
         ]
       }
