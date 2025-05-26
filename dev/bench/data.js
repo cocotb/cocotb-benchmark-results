@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748198878057,
+  "lastUpdate": 1748273929298,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20845,6 +20845,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021354792582072533",
             "extra": "mean: 4.255744744200001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8f9c3f732010bb10d4698b0a1c14b8f4cd09067e",
+          "message": "Change discovery of cocotb.parametrize objects\n\nParametrize object no longer just stick the generated tests into the\ncaller's module scope, but instead the Parametrize object is returned\nand picked up by the RegressionManager, who then generates the tests.",
+          "timestamp": "2025-05-26T09:35:23-06:00",
+          "tree_id": "7cee5829d6c2b980f63082807e4de61317f4b6ca",
+          "url": "https://github.com/cocotb/cocotb/commit/8f9c3f732010bb10d4698b0a1c14b8f4cd09067e"
+        },
+        "date": 1748273928715,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15682708351469982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09386536958206777",
+            "extra": "mean: 6.376449638600002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23771098120325135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03233350069581343",
+            "extra": "mean: 4.206789248600023 sec\nrounds: 5"
           }
         ]
       }
