@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748295060189,
+  "lastUpdate": 1748317372345,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -20959,6 +20959,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02800485509018804",
             "extra": "mean: 4.170083027799978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jon@leetfighter.com",
+            "name": "Jon Povey",
+            "username": "jonpovey"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "abb64eefdd760e1727fc747ed6c8c33080bd7c80",
+          "message": "Fix gitter link in support.rst\n\nWas link to github",
+          "timestamp": "2025-05-26T21:39:35-06:00",
+          "tree_id": "404c4182e47c2937effdef7f02df8f390d5d9040",
+          "url": "https://github.com/cocotb/cocotb/commit/abb64eefdd760e1727fc747ed6c8c33080bd7c80"
+        },
+        "date": 1748317371789,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15958888480507383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012384529737858752",
+            "extra": "mean: 6.266100557200002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2411280940649364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02335940664160488",
+            "extra": "mean: 4.1471733266 sec\nrounds: 5"
           }
         ]
       }
