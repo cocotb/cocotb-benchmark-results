@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748561815053,
+  "lastUpdate": 1748788567714,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21262,6 +21262,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033886012614990274",
             "extra": "mean: 4.185344986600012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "88ca328af2a1583ebecd8b8bf5083c07b1a9c856",
+          "message": "Add release notes for 1.8.1",
+          "timestamp": "2025-06-01T08:32:13-06:00",
+          "tree_id": "cd9c1cb260229963cb95cb83a67210718da80f05",
+          "url": "https://github.com/cocotb/cocotb/commit/88ca328af2a1583ebecd8b8bf5083c07b1a9c856"
+        },
+        "date": 1748788566678,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15838615474214837,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03550983777434232",
+            "extra": "mean: 6.3136831728000065 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23823173208127296,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04901774376969142",
+            "extra": "mean: 4.197593625600007 sec\nrounds: 5"
           }
         ]
       }
