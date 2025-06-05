@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749055703542,
+  "lastUpdate": 1749151781841,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21376,6 +21376,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03752727795250117",
             "extra": "mean: 4.216340183600005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8ccd6150bdc6e51b265522e947fc1f19f9a1b9ce",
+          "message": "Unlink redundant LogicArray links in LogicArray docs",
+          "timestamp": "2025-06-05T13:26:10-06:00",
+          "tree_id": "d4807dac2a7d23a7b8af688792b07c5a64745935",
+          "url": "https://github.com/cocotb/cocotb/commit/8ccd6150bdc6e51b265522e947fc1f19f9a1b9ce"
+        },
+        "date": 1749151781111,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15843495646737557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02060842199260962",
+            "extra": "mean: 6.311738408599979 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23816803806883435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01511815780802118",
+            "extra": "mean: 4.198716201000002 sec\nrounds: 5"
           }
         ]
       }
