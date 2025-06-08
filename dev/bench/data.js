@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749151781841,
+  "lastUpdate": 1749415161685,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21414,6 +21414,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01511815780802118",
             "extra": "mean: 4.198716201000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "will.keen1@googlemail.com",
+            "name": "Will Keen",
+            "username": "will-keen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e390ce681985c2502e7d19416df3c5bf4d4643ad",
+          "message": "allow user to specify wave file location for icarus",
+          "timestamp": "2025-06-08T14:35:53-06:00",
+          "tree_id": "e0c2398e8c87218d1c6d146ee458d742d6e86d03",
+          "url": "https://github.com/cocotb/cocotb/commit/e390ce681985c2502e7d19416df3c5bf4d4643ad"
+        },
+        "date": 1749415161032,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15754388808756392,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06358600503513288",
+            "extra": "mean: 6.347437606999984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2386278151186611,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018299710635637484",
+            "extra": "mean: 4.190626308600008 sec\nrounds: 5"
           }
         ]
       }
