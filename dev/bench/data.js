@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749481972647,
+  "lastUpdate": 1749482194389,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21490,6 +21490,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024644691696259755",
             "extra": "mean: 4.241480758599994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "de65e7491088146041ce734319e388a748c00642",
+          "message": "Bump Sphinx to 8.2 to use new py:decorator role",
+          "timestamp": "2025-06-09T09:12:32-06:00",
+          "tree_id": "f46cdd646cc511854b5bba83d53570289a273907",
+          "url": "https://github.com/cocotb/cocotb/commit/de65e7491088146041ce734319e388a748c00642"
+        },
+        "date": 1749482193374,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1568895201367181,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018420621432711393",
+            "extra": "mean: 6.373912031399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23775154450778346,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02823889458380587",
+            "extra": "mean: 4.2060715192000036 sec\nrounds: 5"
           }
         ]
       }
