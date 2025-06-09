@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749415161685,
+  "lastUpdate": 1749481972647,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21452,6 +21452,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018299710635637484",
             "extra": "mean: 4.190626308600008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "797b3d7e5c05017522a60766ec8fcb791d75f591",
+          "message": "Add PTH ruff rules and fix uses of pathlib manually",
+          "timestamp": "2025-06-09T09:09:27-06:00",
+          "tree_id": "fbd21634b0cb1272184eff28827806c8a608ee0d",
+          "url": "https://github.com/cocotb/cocotb/commit/797b3d7e5c05017522a60766ec8fcb791d75f591"
+        },
+        "date": 1749481972097,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1561054792985735,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03601137521508545",
+            "extra": "mean: 6.405925048200009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23576671849150976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024644691696259755",
+            "extra": "mean: 4.241480758599994 sec\nrounds: 5"
           }
         ]
       }
