@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749506631528,
+  "lastUpdate": 1749516378676,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21718,6 +21718,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03526760574226812",
             "extra": "mean: 4.214226636400008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f2bf64a56b3e595d49c78209fe05f97d3b5fa181",
+          "message": "Add envvar to customize installing pytest assertion rewriting hook",
+          "timestamp": "2025-06-09T18:42:48-06:00",
+          "tree_id": "6f3bdb715ea19d5e8ef5c8486e84187b951b3f6e",
+          "url": "https://github.com/cocotb/cocotb/commit/f2bf64a56b3e595d49c78209fe05f97d3b5fa181"
+        },
+        "date": 1749516377984,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1556102182549295,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06488122197463086",
+            "extra": "mean: 6.426313202400007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23501098699371778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04709430556943949",
+            "extra": "mean: 4.255120208599999 sec\nrounds: 5"
           }
         ]
       }
