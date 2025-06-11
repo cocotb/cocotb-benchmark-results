@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749516378676,
+  "lastUpdate": 1749616416768,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21756,6 +21756,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04709430556943949",
             "extra": "mean: 4.255120208599999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "af7f0ed955bd871fc3ce1008ec3a15792b96e0de",
+          "message": "Use absolute path to build dir in NVC Runner\n\nBecause the test_dir runs the test out of another directory this must be\nspecified absolutely.",
+          "timestamp": "2025-06-10T22:30:17-06:00",
+          "tree_id": "0ba6262fbd6e5045a72aa9731c62c4e3b1388590",
+          "url": "https://github.com/cocotb/cocotb/commit/af7f0ed955bd871fc3ce1008ec3a15792b96e0de"
+        },
+        "date": 1749616416019,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15786836357264214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026540026695684425",
+            "extra": "mean: 6.334391371199945 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23748172622050728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026988724596229946",
+            "extra": "mean: 4.210850308000022 sec\nrounds: 5"
           }
         ]
       }
