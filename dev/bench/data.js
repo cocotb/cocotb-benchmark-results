@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749616416768,
+  "lastUpdate": 1749652496067,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21794,6 +21794,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026988724596229946",
             "extra": "mean: 4.210850308000022 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0bf2cbfd159a2ab738c1083282cead62d68e090",
+          "message": "Use short \"a | b\" syntax for Literal types in docs (#4741)\n\nhttps://www.sphinx-doc.org/en/master/usage/configuration.html#confval-python_display_short_literal_types",
+          "timestamp": "2025-06-11T16:31:38+02:00",
+          "tree_id": "9f2b0d668ae270f2275dfc5686707f4b6a764327",
+          "url": "https://github.com/cocotb/cocotb/commit/d0bf2cbfd159a2ab738c1083282cead62d68e090"
+        },
+        "date": 1749652495450,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15712993726799893,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08292870807073273",
+            "extra": "mean: 6.364159608200009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.236783947054323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05006182361034329",
+            "extra": "mean: 4.223259272600012 sec\nrounds: 5"
           }
         ]
       }
