@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749658784403,
+  "lastUpdate": 1749682540993,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21908,6 +21908,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01851987440142609",
             "extra": "mean: 4.166891477599893 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e4486c6b7d7a492cb8ca576ba79907dc2060c549",
+          "message": "Deprecate Lock name field like Event",
+          "timestamp": "2025-06-11T16:52:25-06:00",
+          "tree_id": "98cd2171a3c4a839f7921e5c8cff645e7f0f496f",
+          "url": "https://github.com/cocotb/cocotb/commit/e4486c6b7d7a492cb8ca576ba79907dc2060c549"
+        },
+        "date": 1749682540352,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15766578279261412,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01525359409154251",
+            "extra": "mean: 6.342530270600003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2382255314771573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03606777800770652",
+            "extra": "mean: 4.197702881800001 sec\nrounds: 5"
           }
         ]
       }
