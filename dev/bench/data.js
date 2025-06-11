@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749653288144,
+  "lastUpdate": 1749658784403,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21870,6 +21870,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045207451295472045",
             "extra": "mean: 4.218018706599992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "fe55f36441a1a7279888e2c49d83f3b9ece1bc7b",
+          "message": "Fix instances of union of literals",
+          "timestamp": "2025-06-11T10:16:12-06:00",
+          "tree_id": "d294c5d32f27f4d3e8d199a041009a1ed34f0906",
+          "url": "https://github.com/cocotb/cocotb/commit/fe55f36441a1a7279888e2c49d83f3b9ece1bc7b"
+        },
+        "date": 1749658783718,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1583883319459344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019324624024990033",
+            "extra": "mean: 6.3135963849998005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23998705158887282,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01851987440142609",
+            "extra": "mean: 4.166891477599893 sec\nrounds: 5"
           }
         ]
       }
