@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749682540993,
+  "lastUpdate": 1749736214447,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21946,6 +21946,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03606777800770652",
             "extra": "mean: 4.197702881800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "csantosb@inventati.org",
+            "name": "Cayetano Santos",
+            "username": "csantosb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3cbc827d104e17d2ea3bb935aaf2e3ed38f66f39",
+          "message": "Correct installation instructions for Guix (#4748)\n\nThis package is now part of guix, no need to refer to guix-science\nchannel anymore.\n\n    https://codeberg.org/guix/guix/pulls/56",
+          "timestamp": "2025-06-12T15:46:58+02:00",
+          "tree_id": "b8998a1abf79bbb6038c2b99df1d36c27b85dcc7",
+          "url": "https://github.com/cocotb/cocotb/commit/3cbc827d104e17d2ea3bb935aaf2e3ed38f66f39"
+        },
+        "date": 1749736213781,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15615208017308427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02743634637128486",
+            "extra": "mean: 6.404013311199992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23483028472541087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05230640182863931",
+            "extra": "mean: 4.2583945302000075 sec\nrounds: 5"
           }
         ]
       }
