@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749736214447,
+  "lastUpdate": 1749743112306,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -21984,6 +21984,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05230640182863931",
             "extra": "mean: 4.2583945302000075 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ad02cf3777909c177adbf2781d2d2a7acea42c62",
+          "message": "Use setup-nvc to run NVC CI tests with pre-built binaries",
+          "timestamp": "2025-06-12T09:41:48-06:00",
+          "tree_id": "593a53a6bb44a99553a6efa18897a3dd3a2c6730",
+          "url": "https://github.com/cocotb/cocotb/commit/ad02cf3777909c177adbf2781d2d2a7acea42c62"
+        },
+        "date": 1749743111164,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1575582013241171,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03133299017879834",
+            "extra": "mean: 6.346860979600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23839230733152728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031029362994376145",
+            "extra": "mean: 4.1947662287999945 sec\nrounds: 5"
           }
         ]
       }
