@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749826168181,
+  "lastUpdate": 1749833698408,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22060,6 +22060,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024475844557793693",
             "extra": "mean: 4.231677158600007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3a349932a94be66c18b21f3acfcafb83436529ee",
+          "message": "Fix combine_results not finding results.xml files",
+          "timestamp": "2025-06-13T10:51:42-06:00",
+          "tree_id": "6a556c342bca44a6c4a56769b47d866155a712ec",
+          "url": "https://github.com/cocotb/cocotb/commit/3a349932a94be66c18b21f3acfcafb83436529ee"
+        },
+        "date": 1749833697603,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1576207589936888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0360167012736789",
+            "extra": "mean: 6.344341991400006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2385436069192884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009101770732667262",
+            "extra": "mean: 4.192105640199998 sec\nrounds: 5"
           }
         ]
       }
