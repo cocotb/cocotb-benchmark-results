@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749833698408,
+  "lastUpdate": 1750003050878,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22098,6 +22098,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009101770732667262",
             "extra": "mean: 4.192105640199998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "72cc47a3afb765e134b587508931c1e9ba533993",
+          "message": "Correct activation of base conda environment in CI",
+          "timestamp": "2025-06-15T09:54:10-06:00",
+          "tree_id": "8d41729db3b30fcd5ed66f7e25c87c0d706adce2",
+          "url": "https://github.com/cocotb/cocotb/commit/72cc47a3afb765e134b587508931c1e9ba533993"
+        },
+        "date": 1750003050186,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15715464248425484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020592785350740002",
+            "extra": "mean: 6.36315914180002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2384351311897104,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022922690788959064",
+            "extra": "mean: 4.194012832800013 sec\nrounds: 5"
           }
         ]
       }
