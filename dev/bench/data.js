@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750186178241,
+  "lastUpdate": 1750187257011,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22250,6 +22250,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04534009611248762",
             "extra": "mean: 4.397611402200004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "peter.birch@intuity-design.co.uk",
+            "name": "Peter Birch",
+            "username": "Intuity"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66994ce19a5bcb1826e499f55f1830d4af0306f6",
+          "message": "Add Forastero to ecosystem-compat.yml",
+          "timestamp": "2025-06-17T13:03:58-06:00",
+          "tree_id": "67cf2070d2e95d5a891f6122c3c53bd3641825c8",
+          "url": "https://github.com/cocotb/cocotb/commit/66994ce19a5bcb1826e499f55f1830d4af0306f6"
+        },
+        "date": 1750187256332,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1576631254837382,
+            "unit": "iter/sec",
+            "range": "stddev: 0.060523451362165456",
+            "extra": "mean: 6.342637169800002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23900982384545272,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016559170989017154",
+            "extra": "mean: 4.183928442399986 sec\nrounds: 5"
           }
         ]
       }
