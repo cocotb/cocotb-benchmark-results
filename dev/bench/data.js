@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750178449321,
+  "lastUpdate": 1750186178241,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22212,6 +22212,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04038694983708773",
             "extra": "mean: 4.313806866799996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d1598adb9ab23654c5ccb06cbcf44ae9eb507594",
+          "message": "Fix Riviera Python runner for VHDL",
+          "timestamp": "2025-06-17T12:45:53-06:00",
+          "tree_id": "d11db2674078fbb4cf838e210ff0885857ca49ed",
+          "url": "https://github.com/cocotb/cocotb/commit/d1598adb9ab23654c5ccb06cbcf44ae9eb507594"
+        },
+        "date": 1750186177483,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15069905074739984,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04123096116806859",
+            "extra": "mean: 6.635741864599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2273961722720037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04534009611248762",
+            "extra": "mean: 4.397611402200004 sec\nrounds: 5"
           }
         ]
       }
