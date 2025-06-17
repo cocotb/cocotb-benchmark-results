@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750103471047,
+  "lastUpdate": 1750178449321,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22174,6 +22174,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005910778851115009",
             "extra": "mean: 4.197869176000012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92dc5bc675b1b8a79ae7bddc4031ca8d1d0f23f4",
+          "message": "Add timing model to docs",
+          "timestamp": "2025-06-17T10:37:15-06:00",
+          "tree_id": "3f0586a833367d7ae3decb30bb5bf05aef62d604",
+          "url": "https://github.com/cocotb/cocotb/commit/92dc5bc675b1b8a79ae7bddc4031ca8d1d0f23f4"
+        },
+        "date": 1750178448656,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15568231253309833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10112146072860952",
+            "extra": "mean: 6.423337267599993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23181380874888474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04038694983708773",
+            "extra": "mean: 4.313806866799996 sec\nrounds: 5"
           }
         ]
       }
