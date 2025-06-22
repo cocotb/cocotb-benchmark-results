@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750187257011,
+  "lastUpdate": 1750619266337,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22288,6 +22288,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.016559170989017154",
             "extra": "mean: 4.183928442399986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d73830e18629efc6c4b9aeb64e3b3bc525327b4d",
+          "message": "Docs: Tweak font size of headings; small color and padding fixes (#4763)\n\n* Base font sizes on cocotb.org but apply non-linear scaling\n* Reduce top/bottom margins for headings by a factor of 0.7\n* Tweak font sizes more, make h6 (which we don't use yet) italic\n* Define --pst-color-secondary-highlight (used in Back to top hover)\n* Remove padding-left of Parameters: lists",
+          "timestamp": "2025-06-22T21:04:28+02:00",
+          "tree_id": "ea1e9f35e296a0b231229df0e9ae8135296676e4",
+          "url": "https://github.com/cocotb/cocotb/commit/d73830e18629efc6c4b9aeb64e3b3bc525327b4d"
+        },
+        "date": 1750619265562,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15845265184333268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020018498368348393",
+            "extra": "mean: 6.311033538199996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23849937628778345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02332296722723842",
+            "extra": "mean: 4.192883082400004 sec\nrounds: 5"
           }
         ]
       }
