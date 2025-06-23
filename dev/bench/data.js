@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750660191355,
+  "lastUpdate": 1750709237248,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22364,6 +22364,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04555458204335343",
             "extra": "mean: 4.205488063600012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10c89b59273130ce0043055c1d31d8fe518286da",
+          "message": "LogicArray: enforce _value_as_int to be an int (#4759)",
+          "timestamp": "2025-06-23T14:03:53-06:00",
+          "tree_id": "78d86005b3fc3492a1f5295098aa5718d440de8a",
+          "url": "https://github.com/cocotb/cocotb/commit/10c89b59273130ce0043055c1d31d8fe518286da"
+        },
+        "date": 1750709236112,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1579843862927665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04528172718370904",
+            "extra": "mean: 6.329739434799995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23748241406982692,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036027239747359656",
+            "extra": "mean: 4.210838111600003 sec\nrounds: 5"
           }
         ]
       }
