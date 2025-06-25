@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750712446025,
+  "lastUpdate": 1750883911861,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22440,6 +22440,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021381940792205477",
             "extra": "mean: 4.204305621399999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9e24942f670903879fce71b092b3481401e6299e",
+          "message": "Manually fix PLC0415",
+          "timestamp": "2025-06-25T14:35:02-06:00",
+          "tree_id": "1fc05ee240c38121c1331289b83004994839d8e7",
+          "url": "https://github.com/cocotb/cocotb/commit/9e24942f670903879fce71b092b3481401e6299e"
+        },
+        "date": 1750883910855,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1576507410324937,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025843422593223073",
+            "extra": "mean: 6.343135423599994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23720763804104555,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0156379682950734",
+            "extra": "mean: 4.215715852400012 sec\nrounds: 5"
           }
         ]
       }
