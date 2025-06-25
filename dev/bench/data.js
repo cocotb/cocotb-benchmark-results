@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750883911861,
+  "lastUpdate": 1750885544615,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22478,6 +22478,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0156379682950734",
             "extra": "mean: 4.215715852400012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b92e60acdf2b42e00a2322c06391a84a17072599",
+          "message": "Map vpiPackedArray objects to LogicArrayObject",
+          "timestamp": "2025-06-25T15:02:26-06:00",
+          "tree_id": "cf2016bee4c561615561d8b5cdfcbe95a71c7ef5",
+          "url": "https://github.com/cocotb/cocotb/commit/b92e60acdf2b42e00a2322c06391a84a17072599"
+        },
+        "date": 1750885543520,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15864127483911936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03245885463002605",
+            "extra": "mean: 6.303529778200004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.237470988225174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014027541856180254",
+            "extra": "mean: 4.211040714800004 sec\nrounds: 5"
           }
         ]
       }
