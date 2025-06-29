@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750885898511,
+  "lastUpdate": 1751213976944,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22554,6 +22554,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03706510216165443",
             "extra": "mean: 4.227472558400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b1bcf48e4122a7f4a31d975d4beab2873abe6bf2",
+          "message": "Use normal dict for inertial write cache",
+          "timestamp": "2025-06-29T10:16:17-06:00",
+          "tree_id": "a942b65688a47494483f5b3b054a705a3f42dc0e",
+          "url": "https://github.com/cocotb/cocotb/commit/b1bcf48e4122a7f4a31d975d4beab2873abe6bf2"
+        },
+        "date": 1751213976297,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15861866865402127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03060816518670278",
+            "extra": "mean: 6.304428151399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23836229949936177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018889448585031873",
+            "extra": "mean: 4.195294315000001 sec\nrounds: 5"
           }
         ]
       }
