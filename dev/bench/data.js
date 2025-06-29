@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751213976944,
+  "lastUpdate": 1751234397253,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22592,6 +22592,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018889448585031873",
             "extra": "mean: 4.195294315000001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "612ecfeb255296679e124e59db2710ec1ebb3bc9",
+          "message": "Add ability to get and set Task name",
+          "timestamp": "2025-06-29T15:56:21-06:00",
+          "tree_id": "46e4ab8b5aa92554682f4caa1b7b8cd71f7c52f3",
+          "url": "https://github.com/cocotb/cocotb/commit/612ecfeb255296679e124e59db2710ec1ebb3bc9"
+        },
+        "date": 1751234396641,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1583704521083069,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0167929261105611",
+            "extra": "mean: 6.314309182600027 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23692607275368507,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02358916165563682",
+            "extra": "mean: 4.220725850799999 sec\nrounds: 5"
           }
         ]
       }
