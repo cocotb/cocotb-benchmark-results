@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751234397253,
+  "lastUpdate": 1751313618068,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22630,6 +22630,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02358916165563682",
             "extra": "mean: 4.220725850799999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a46501d33581dd015477f02c23d41ae5cf15a165",
+          "message": "Add CSS classes removed, deprecated, new and use in 'Upgrading to 2.0'",
+          "timestamp": "2025-06-30T13:56:34-06:00",
+          "tree_id": "53fed95b5078cbcab699e23b1ef5222931072860",
+          "url": "https://github.com/cocotb/cocotb/commit/a46501d33581dd015477f02c23d41ae5cf15a165"
+        },
+        "date": 1751313617271,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15686348124666874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04128830443963332",
+            "extra": "mean: 6.3749700826000035 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23368918913437492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07130394516049779",
+            "extra": "mean: 4.279188111800005 sec\nrounds: 5"
           }
         ]
       }
