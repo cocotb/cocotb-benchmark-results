@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751552576321,
+  "lastUpdate": 1751570574486,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22782,6 +22782,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02538382502477088",
             "extra": "mean: 4.241796463200001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6ba99b5e3caaab6209baa0eabaef2a5aea222c68",
+          "message": "Introduce deprecated __len__ for Logic",
+          "timestamp": "2025-07-03T13:19:18-06:00",
+          "tree_id": "0b44e80e9beabe9d74d578cd01ac7508e3303927",
+          "url": "https://github.com/cocotb/cocotb/commit/6ba99b5e3caaab6209baa0eabaef2a5aea222c68"
+        },
+        "date": 1751570573826,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15865419969276306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009452599008599606",
+            "extra": "mean: 6.3030162575999835 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2388145474667196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019870788598750744",
+            "extra": "mean: 4.187349600799996 sec\nrounds: 5"
           }
         ]
       }
