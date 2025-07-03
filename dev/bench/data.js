@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751470442368,
+  "lastUpdate": 1751552576321,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22744,6 +22744,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03582487353554153",
             "extra": "mean: 4.182814156800009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89979d14ef28b473d6939f86250bb661f98f9bb0",
+          "message": "Verilator: wrap up trace and coverage on abort (#4758)",
+          "timestamp": "2025-07-03T08:19:09-06:00",
+          "tree_id": "f2e36de76929aa88d92c45205b98951a04da70ce",
+          "url": "https://github.com/cocotb/cocotb/commit/89979d14ef28b473d6939f86250bb661f98f9bb0"
+        },
+        "date": 1751552575074,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15670890017776484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08656683887194837",
+            "extra": "mean: 6.381258491799997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23574917105890614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02538382502477088",
+            "extra": "mean: 4.241796463200001 sec\nrounds: 5"
           }
         ]
       }
