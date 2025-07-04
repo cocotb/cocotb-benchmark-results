@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751574616349,
+  "lastUpdate": 1751635981201,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22858,6 +22858,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015208134516835121",
             "extra": "mean: 4.1962889835999935 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "themperek@gmail.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "committer": {
+            "email": "themperek@users.noreply.github.com",
+            "name": "Tomasz Hemperek",
+            "username": "themperek"
+          },
+          "distinct": true,
+          "id": "aa8e7ce411aee586956dc5498d4092385f9bea07",
+          "message": "Force mingw on windows when testing for mingw",
+          "timestamp": "2025-07-04T15:29:29+02:00",
+          "tree_id": "5588379317ef0ff6c880e57bfc8afd539d920d4f",
+          "url": "https://github.com/cocotb/cocotb/commit/aa8e7ce411aee586956dc5498d4092385f9bea07"
+        },
+        "date": 1751635980613,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1566315004587763,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04435751562652065",
+            "extra": "mean: 6.384411801399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23471345364986895,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046604719207675525",
+            "extra": "mean: 4.2605141905999915 sec\nrounds: 5"
           }
         ]
       }
