@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751663512823,
+  "lastUpdate": 1751696699325,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22934,6 +22934,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03411326863356684",
             "extra": "mean: 4.204128355199987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8a9287eba0ddac788bff2395fbb306fca8af304e",
+          "message": "Update src/cocotb/share/lib/vpi/VpiImpl.cpp\n\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>",
+          "timestamp": "2025-07-05T00:20:47-06:00",
+          "tree_id": "686b0f06e0475fd7a2a1d77f8982e0ca0de30468",
+          "url": "https://github.com/cocotb/cocotb/commit/8a9287eba0ddac788bff2395fbb306fca8af304e"
+        },
+        "date": 1751696698684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15896796441396668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03155889191404945",
+            "extra": "mean: 6.290575611800068 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23802833604889112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03959038143326687",
+            "extra": "mean: 4.201180483800044 sec\nrounds: 5"
           }
         ]
       }
