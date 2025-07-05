@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751696699325,
+  "lastUpdate": 1751729199251,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -22972,6 +22972,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03959038143326687",
             "extra": "mean: 4.201180483800044 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad76ef4e22f5ef18379aa6d11661e50ab23e8661",
+          "message": "Add literal type RoundMode and use it (#4772)\n\n* Add literal type RoundMode and use it\n\n* Fix docs for Timer.round_mode\n\n---------\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-07-05T17:23:10+02:00",
+          "tree_id": "f15a8e8e35634b4531dfbe6ea13182e0dcdd6f8d",
+          "url": "https://github.com/cocotb/cocotb/commit/ad76ef4e22f5ef18379aa6d11661e50ab23e8661"
+        },
+        "date": 1751729198402,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15756974083574882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03270269214779395",
+            "extra": "mean: 6.346396171599997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23824821636735558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041495015517508026",
+            "extra": "mean: 4.197303195999996 sec\nrounds: 5"
           }
         ]
       }
