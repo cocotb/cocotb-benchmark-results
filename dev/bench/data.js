@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752097416611,
+  "lastUpdate": 1752100483355,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23276,6 +23276,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02463017108478723",
             "extra": "mean: 4.199202308799988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "792f38912d45731eb82fdfc708c64a0f7def69c5",
+          "message": "Small Fixes (#4793)\n\n* avoid vlt virtual classes\n* Fix cocotb_tools.config finding cocotb\n\nCo-authored-by: Andrew Nolte <anolte@hudson-trading.com>",
+          "timestamp": "2025-07-09T16:31:01-06:00",
+          "tree_id": "1df6531697ef8bc4c6fd7b814731dd43308e9947",
+          "url": "https://github.com/cocotb/cocotb/commit/792f38912d45731eb82fdfc708c64a0f7def69c5"
+        },
+        "date": 1752100482428,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15543582185118132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035267243994543875",
+            "extra": "mean: 6.433523418800002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23872185748473543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015260797404439518",
+            "extra": "mean: 4.188975448399998 sec\nrounds: 5"
           }
         ]
       }
