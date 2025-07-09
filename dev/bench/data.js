@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752080321673,
+  "lastUpdate": 1752080949328,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23162,6 +23162,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022395509082424853",
             "extra": "mean: 4.199563135399996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f01d302d5e32b11866944f85630e2c680fd3e4ab",
+          "message": "Make a manually inserted horizontal rule better visible (#4797)",
+          "timestamp": "2025-07-09T19:04:33+02:00",
+          "tree_id": "c8cee0168f19d53f45c6976b1f513a75cdacabc6",
+          "url": "https://github.com/cocotb/cocotb/commit/f01d302d5e32b11866944f85630e2c680fd3e4ab"
+        },
+        "date": 1752080948228,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15847766985766804,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07647012768921845",
+            "extra": "mean: 6.310037249399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2388469844115548,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028523419623017365",
+            "extra": "mean: 4.186780932000005 sec\nrounds: 5"
           }
         ]
       }
