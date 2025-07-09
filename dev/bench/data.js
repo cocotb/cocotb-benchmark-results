@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752080114382,
+  "lastUpdate": 1752080321673,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23124,6 +23124,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.039558679178924146",
             "extra": "mean: 4.228997468800003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "fd022ca1456f86f5c2ac7ff9083f545bf9f0fc1c",
+          "message": "CI: Use Questa 2025.2",
+          "timestamp": "2025-07-09T17:54:58+01:00",
+          "tree_id": "34d75ea8a4deea39b2cfdac587adcde6480c7f19",
+          "url": "https://github.com/cocotb/cocotb/commit/fd022ca1456f86f5c2ac7ff9083f545bf9f0fc1c"
+        },
+        "date": 1752080320762,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1584690314729463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03067467858845672",
+            "extra": "mean: 6.310381218999998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23812000623839963,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022395509082424853",
+            "extra": "mean: 4.199563135399996 sec\nrounds: 5"
           }
         ]
       }
