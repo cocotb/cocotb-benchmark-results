@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751920785736,
+  "lastUpdate": 1752067759690,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23048,6 +23048,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06576610818209416",
             "extra": "mean: 4.218315793600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c87615a1c64daae52bc1f72774775aa332274b8d",
+          "message": "[2.0 upgrade docs] BinaryValue -> LogicArray",
+          "timestamp": "2025-07-09T07:25:41-06:00",
+          "tree_id": "7700d0397ff4fe541b87d9ced9e87dcc843fcbf8",
+          "url": "https://github.com/cocotb/cocotb/commit/c87615a1c64daae52bc1f72774775aa332274b8d"
+        },
+        "date": 1752067758626,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15707228657995864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05167619112646962",
+            "extra": "mean: 6.366495463799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23451824435193147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04140121876992749",
+            "extra": "mean: 4.264060575600007 sec\nrounds: 5"
           }
         ]
       }
