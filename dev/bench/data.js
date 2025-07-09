@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752067759690,
+  "lastUpdate": 1752080114382,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23086,6 +23086,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04140121876992749",
             "extra": "mean: 4.264060575600007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e207019099bd96b7399173fc3782dfccbe9bb5c6",
+          "message": "Split AbstractArray into mutable and immutable versions",
+          "timestamp": "2025-07-09T10:51:48-06:00",
+          "tree_id": "f3266835dbc04722f7f2fc239935de97a943e684",
+          "url": "https://github.com/cocotb/cocotb/commit/e207019099bd96b7399173fc3782dfccbe9bb5c6"
+        },
+        "date": 1752080113780,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.159453280572437,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013614901426177068",
+            "extra": "mean: 6.271429451999995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23646266222139747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039558679178924146",
+            "extra": "mean: 4.228997468800003 sec\nrounds: 5"
           }
         ]
       }
