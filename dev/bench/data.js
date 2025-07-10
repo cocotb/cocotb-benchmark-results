@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752100483355,
+  "lastUpdate": 1752141718399,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23314,6 +23314,43 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015260797404439518",
             "extra": "mean: 4.188975448399998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "abdelrahman.tharwat@siemens.com",
+            "name": "Abdelrahman Tharwat"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "b837fa69c9de381e42a49a4d0d97f74d192b3ad6",
+          "message": "Support the Questa QIS/Qrun flow\n\nUpdated Makefile for Questa simulator to use the new flow QIS and qrun\ninstead of +acc and vlog/vsim respectively.\nAlso using Visualizer instead of the classic GUI for Live simulation\nand adding option for Visualizer post simulation mode\nBy Default Questa runs in batch mode, to enable Live SIM mode set\nGUI=livesim, to enable Post SIM mode set GUI=postsim\n\nAdded vis cmd for Visualizer beside vsim cmd for Post SIM mode,\nand added same checks for the cmd as vsim\nChanged way of invoking Questa from running .DO file into directly\ninvoking Questa from bash/shell terminal\nVSIM_ARGS and other variables kept untouched for backward compatibility,\nalso SCRIPT_FILE is kept for user custom DO file\nAdded more variables for new design.bin and qwave.db file names\nfor user custom preferences\n\nFixes #2852",
+          "timestamp": "2025-07-10T11:58:31+02:00",
+          "tree_id": "b798b72b9168633aae80d85aa98cca192d3ec12d",
+          "url": "https://github.com/cocotb/cocotb/commit/b837fa69c9de381e42a49a4d0d97f74d192b3ad6"
+        },
+        "date": 1752141717627,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15374950327517584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03933609128805103",
+            "extra": "mean: 6.504086053600008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23526198233273457,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02402112303253392",
+            "extra": "mean: 4.250580523400015 sec\nrounds: 5"
           }
         ]
       }
