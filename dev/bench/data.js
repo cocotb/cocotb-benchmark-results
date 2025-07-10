@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752172374446,
+  "lastUpdate": 1752182327193,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23427,6 +23427,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03559755144637202",
             "extra": "mean: 4.221577568199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "284f07208ec4b75c5ccababafdee94e9ec45eeff",
+          "message": "Remove coverage exclusions as they are now default (#4801)",
+          "timestamp": "2025-07-10T15:15:21-06:00",
+          "tree_id": "db2e97939f6c68a6ae4339eead7de39122cc9b2a",
+          "url": "https://github.com/cocotb/cocotb/commit/284f07208ec4b75c5ccababafdee94e9ec45eeff"
+        },
+        "date": 1752182326434,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15578999355509113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04050242267125869",
+            "extra": "mean: 6.418897498999996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23819797375471144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01162880783729366",
+            "extra": "mean: 4.198188524599994 sec\nrounds: 5"
           }
         ]
       }
