@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752166792630,
+  "lastUpdate": 1752172374446,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23389,6 +23389,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027379409256454178",
             "extra": "mean: 4.214976097199991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71fa22636a27d28092c4333b0212262bea57cadc",
+          "message": "Add a badge for links that point to v1.9 docs (#4800)\n\nAdd badges for links that point to docs of specific cocotb versions,\nadd more such links.",
+          "timestamp": "2025-07-10T20:29:23+02:00",
+          "tree_id": "3acd60549f306a758d8134db3190056ec4bde43b",
+          "url": "https://github.com/cocotb/cocotb/commit/71fa22636a27d28092c4333b0212262bea57cadc"
+        },
+        "date": 1752172373324,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15671157924536755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012231611105997695",
+            "extra": "mean: 6.381149400800007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2368782721257404,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03559755144637202",
+            "extra": "mean: 4.221577568199995 sec\nrounds: 5"
           }
         ]
       }
