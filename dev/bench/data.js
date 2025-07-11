@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752238990685,
+  "lastUpdate": 1752254514854,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23503,6 +23503,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02364885732748899",
             "extra": "mean: 4.182107251600007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98a6ce5f311b1f449d53e9f57a84e75e32c68785",
+          "message": "Support customizing `Clock`'s set action (#4794)",
+          "timestamp": "2025-07-11T11:18:01-06:00",
+          "tree_id": "6492d2abf6db3909d106584d9ff556dcff7721c4",
+          "url": "https://github.com/cocotb/cocotb/commit/98a6ce5f311b1f449d53e9f57a84e75e32c68785"
+        },
+        "date": 1752254513872,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1561403101927261,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033040253030394436",
+            "extra": "mean: 6.404496050799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2347435935579992,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009471569794410429",
+            "extra": "mean: 4.259967161799989 sec\nrounds: 5"
           }
         ]
       }
