@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752261855046,
+  "lastUpdate": 1752264321977,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23579,6 +23579,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03612715706639557",
             "extra": "mean: 4.102597070200005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "865fb05d947e19f8ab0632c4302e924d3d64f993",
+          "message": "verilator.cpp: create trace after top",
+          "timestamp": "2025-07-11T14:01:39-06:00",
+          "tree_id": "049dde4389c1f241b721fdbb7ec0ffe8ed701e30",
+          "url": "https://github.com/cocotb/cocotb/commit/865fb05d947e19f8ab0632c4302e924d3d64f993"
+        },
+        "date": 1752264321096,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1592233214725305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03969092070049608",
+            "extra": "mean: 6.2804869962 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24124846793550034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02214703695669872",
+            "extra": "mean: 4.145104043800012 sec\nrounds: 5"
           }
         ]
       }
