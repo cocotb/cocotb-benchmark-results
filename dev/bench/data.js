@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752254514854,
+  "lastUpdate": 1752261855046,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23541,6 +23541,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009471569794410429",
             "extra": "mean: 4.259967161799989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a599a4e5e6b0b151aeb5c10b2fc296e7c9d6ab89",
+          "message": "separate initialization of handler and loggers (#4775)\n\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-07-11T13:20:53-06:00",
+          "tree_id": "4066f8ba00abc3d7e179507a7a72efef4c63f794",
+          "url": "https://github.com/cocotb/cocotb/commit/a599a4e5e6b0b151aeb5c10b2fc296e7c9d6ab89"
+        },
+        "date": 1752261854076,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16223374885617214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020764435685787244",
+            "extra": "mean: 6.163945584999993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24374804127456004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03612715706639557",
+            "extra": "mean: 4.102597070200005 sec\nrounds: 5"
           }
         ]
       }
