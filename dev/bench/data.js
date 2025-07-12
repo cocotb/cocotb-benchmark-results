@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752264321977,
+  "lastUpdate": 1752321349851,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23617,6 +23617,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02214703695669872",
             "extra": "mean: 4.145104043800012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "c68efccc3601fceea5302d802c072bef9e411028",
+          "message": "Update platform support\n\n* Remove macOS versions that are no longer supported in GitHub actions.\n* Remove Ubuntu 20.04 (EOL).\n* Add RHEL 10.",
+          "timestamp": "2025-07-12T13:52:17+02:00",
+          "tree_id": "1f7ebf84527cd831e655ac3a0142d1dd5e7ab487",
+          "url": "https://github.com/cocotb/cocotb/commit/c68efccc3601fceea5302d802c072bef9e411028"
+        },
+        "date": 1752321348840,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1607891220727322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02293479050971081",
+            "extra": "mean: 6.219326202600041 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24344213878275747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03165846898029144",
+            "extra": "mean: 4.107752277400005 sec\nrounds: 5"
           }
         ]
       }
