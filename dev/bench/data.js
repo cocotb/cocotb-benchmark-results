@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752327506577,
+  "lastUpdate": 1752516660986,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23731,6 +23731,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01294428607441502",
             "extra": "mean: 4.091058882200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "fdb3657a447edba26f402487b9c508c372ef72fc",
+          "message": "Add FutureWarning for removing support for old Python",
+          "timestamp": "2025-07-14T12:07:40-06:00",
+          "tree_id": "a1dd2a11027a17775c5b61e31d68d396b765d05d",
+          "url": "https://github.com/cocotb/cocotb/commit/fdb3657a447edba26f402487b9c508c372ef72fc"
+        },
+        "date": 1752516660244,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16358214779963262,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0417301232286146",
+            "extra": "mean: 6.113136509399993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24718190586107844,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02741794148644257",
+            "extra": "mean: 4.045603566799997 sec\nrounds: 5"
           }
         ]
       }
