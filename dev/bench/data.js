@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752525139263,
+  "lastUpdate": 1752769088072,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23807,6 +23807,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0067596905934676895",
             "extra": "mean: 4.093855181799995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "066639ec8d800942fa3a057de896dd7ca944fdde",
+          "message": "Make headings in Release Notes sticky on top (#4810)",
+          "timestamp": "2025-07-17T18:14:49+02:00",
+          "tree_id": "8b7bfd0f7bebfa696fa0ca39d33e3cfec739f50b",
+          "url": "https://github.com/cocotb/cocotb/commit/066639ec8d800942fa3a057de896dd7ca944fdde"
+        },
+        "date": 1752769087153,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16043371575763268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023371805490801065",
+            "extra": "mean: 6.2331037792000075 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2412807634252756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05322077542918776",
+            "extra": "mean: 4.144549220600004 sec\nrounds: 5"
           }
         ]
       }
