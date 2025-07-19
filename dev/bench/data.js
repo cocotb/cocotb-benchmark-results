@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752769088072,
+  "lastUpdate": 1752890584684,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23845,6 +23845,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05322077542918776",
             "extra": "mean: 4.144549220600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "39400946+CheeksTheGeek@users.noreply.github.com",
+            "name": "Chaitanya Sharma",
+            "username": "CheeksTheGeek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "445fb62caf5b3e6b0b40027bdfa7c3185817eca8",
+          "message": "add generic type parameter for HierarchyArrayObject children (#4807)",
+          "timestamp": "2025-07-18T19:59:34-06:00",
+          "tree_id": "47412a540b16726794dd84d740c3a4fb642a4832",
+          "url": "https://github.com/cocotb/cocotb/commit/445fb62caf5b3e6b0b40027bdfa7c3185817eca8"
+        },
+        "date": 1752890583567,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15994199759500838,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041257641366834394",
+            "extra": "mean: 6.252266540600021 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2400006926112774,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0432960228531736",
+            "extra": "mean: 4.166654642200024 sec\nrounds: 5"
           }
         ]
       }
