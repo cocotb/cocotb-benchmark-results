@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752890584684,
+  "lastUpdate": 1753013061838,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23883,6 +23883,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0432960228531736",
             "extra": "mean: 4.166654642200024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "e5ff4566856857f102d298f8570ac92ad7970167",
+          "message": "Use action titles in migration guide",
+          "timestamp": "2025-07-20T14:00:51+02:00",
+          "tree_id": "06d18a5dbdb885b64ab33197aab41c443c867227",
+          "url": "https://github.com/cocotb/cocotb/commit/e5ff4566856857f102d298f8570ac92ad7970167"
+        },
+        "date": 1753013061047,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1620907820517132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023238173642806913",
+            "extra": "mean: 6.169382289000009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24358718414175098,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03808511044751357",
+            "extra": "mean: 4.105306293200011 sec\nrounds: 5"
           }
         ]
       }
