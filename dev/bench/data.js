@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753132576434,
+  "lastUpdate": 1753286132449,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -23997,6 +23997,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026633736853574452",
             "extra": "mean: 4.108783376199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "53c9bcdf29c10eab32dbcc696ee07689a9b3fbe1",
+          "message": "Add 2.0 upgrade docs for logic and array handle value changes",
+          "timestamp": "2025-07-23T09:51:52-06:00",
+          "tree_id": "20f275ff8dceff92a84573b5dbab0f99ddefafba",
+          "url": "https://github.com/cocotb/cocotb/commit/53c9bcdf29c10eab32dbcc696ee07689a9b3fbe1"
+        },
+        "date": 1753286131243,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16243011542351085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026231332146065153",
+            "extra": "mean: 6.156493809 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2431650986529864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025493432915990176",
+            "extra": "mean: 4.1124322756000025 sec\nrounds: 5"
           }
         ]
       }
