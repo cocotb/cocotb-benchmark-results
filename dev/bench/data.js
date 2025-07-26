@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753286132449,
+  "lastUpdate": 1753500013220,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24035,6 +24035,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025493432915990176",
             "extra": "mean: 4.1124322756000025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e4c3d6c6bdeca456f6659b0e7d13cf8914f84a15",
+          "message": "Use Any instead of empty string in py_compat typing\n\nUsing an empty string apparently makes older releases of 3.6 and 3.7\nunhappy.",
+          "timestamp": "2025-07-25T21:16:51-06:00",
+          "tree_id": "93060748953af0a22d650d0bf7841a72a311d92c",
+          "url": "https://github.com/cocotb/cocotb/commit/e4c3d6c6bdeca456f6659b0e7d13cf8914f84a15"
+        },
+        "date": 1753500012306,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1618949970732556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03704808452857796",
+            "extra": "mean: 6.176843127199982 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2433783661082988,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02571479438849113",
+            "extra": "mean: 4.108828635800023 sec\nrounds: 5"
           }
         ]
       }
