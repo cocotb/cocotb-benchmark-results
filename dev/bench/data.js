@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753500013220,
+  "lastUpdate": 1753685268076,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24073,6 +24073,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02571479438849113",
             "extra": "mean: 4.108828635800023 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d9df17caee9ee6990e83ea7b471b0352c8fc30f",
+          "message": "Remove dead link to DSim installation instructions (#4827)",
+          "timestamp": "2025-07-28T08:44:19+02:00",
+          "tree_id": "d84d4e389f3b4886f3ec419d7861a96728e6c320",
+          "url": "https://github.com/cocotb/cocotb/commit/9d9df17caee9ee6990e83ea7b471b0352c8fc30f"
+        },
+        "date": 1753685267344,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16179615079818174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022329044919057118",
+            "extra": "mean: 6.1806167517999935 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24340603684783094,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020683493460018614",
+            "extra": "mean: 4.1083615383999925 sec\nrounds: 5"
           }
         ]
       }
