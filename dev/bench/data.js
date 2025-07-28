@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753736090109,
+  "lastUpdate": 1753738706090,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24149,6 +24149,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019936440266137483",
             "extra": "mean: 4.108838896400004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b715b55384bb92e91a338877f4d3c97de72c538a",
+          "message": "Improvements around runner (#4826)\n\n* Swap order of _build_command and _test_command for Icarus\n* Support timescale for Xcelium in runner\n* Improve docstrings in runner\n* Point to runner class docs for limitations\n* Raise exception when waves is set in build step for Xcelium\n* Use admonition in simulator runner class docstring\n* Change subtitle to 'Reported Issues for this Simulator'\n* Add Python Runner example command line to Simulator Support\n* Add Python Runner reference to doc of SIM variable\n  Leave SIM a make var for now, even though it is also read as an envvar.",
+          "timestamp": "2025-07-28T23:35:11+02:00",
+          "tree_id": "6c17a4063202a5d8d7bce4ef5377569365dca242",
+          "url": "https://github.com/cocotb/cocotb/commit/b715b55384bb92e91a338877f4d3c97de72c538a"
+        },
+        "date": 1753738705250,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16190522130820587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044798556115941426",
+            "extra": "mean: 6.1764530626000065 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24283281130778744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03528998231247409",
+            "extra": "mean: 4.118059641999997 sec\nrounds: 5"
           }
         ]
       }
