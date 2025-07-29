@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753738706090,
+  "lastUpdate": 1753808078586,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24187,6 +24187,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03528998231247409",
             "extra": "mean: 4.118059641999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d09cc1efc85cec345b4c0a6e392b2f4e14b2dbc",
+          "message": "Fix color of generic admonitions to cocotb-blue (#4833)",
+          "timestamp": "2025-07-29T18:51:10+02:00",
+          "tree_id": "b5357b1d533a33b6410390e5472d18a5ff97e40b",
+          "url": "https://github.com/cocotb/cocotb/commit/1d09cc1efc85cec345b4c0a6e392b2f4e14b2dbc"
+        },
+        "date": 1753808077876,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16127790235087944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009836276664105326",
+            "extra": "mean: 6.200477470400005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23964682310946822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040682865372755755",
+            "extra": "mean: 4.172807246200006 sec\nrounds: 5"
           }
         ]
       }
