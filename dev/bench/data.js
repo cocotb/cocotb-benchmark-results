@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753808078586,
+  "lastUpdate": 1753978242172,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24225,6 +24225,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.040682865372755755",
             "extra": "mean: 4.172807246200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "7928b050bbc6b16d435f0eb0257123bed613088d",
+          "message": "Use OIDC instead of API key for PyPi release uploads\n\nWe have configured Trusted Publishing in PyPi, which is their term for\nOpen ID Connect (OIDC), where GitHub and PyPi are configured to trust\neach other and share short-lived keys to perform the release upload\nthrough the PyPi API.\n\nRemove the hardcoded API key to use OIDC instead.",
+          "timestamp": "2025-07-31T18:07:17+02:00",
+          "tree_id": "46df19a8b4f2084e4dc1f33b83e60ccc80653779",
+          "url": "https://github.com/cocotb/cocotb/commit/7928b050bbc6b16d435f0eb0257123bed613088d"
+        },
+        "date": 1753978241470,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1621994363676898,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03366221116469576",
+            "extra": "mean: 6.165249537199998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24317579041559917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024354334679674114",
+            "extra": "mean: 4.1122514634000025 sec\nrounds: 5"
           }
         ]
       }
