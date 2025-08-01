@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753978242172,
+  "lastUpdate": 1754062759491,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24263,6 +24263,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024354334679674114",
             "extra": "mean: 4.1122514634000025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "67aa159ae9f1acf4a727a05a82a5ff0a675b0d79",
+          "message": "Properly escape dumpfile path for Icarus runner",
+          "timestamp": "2025-08-01T09:35:47-06:00",
+          "tree_id": "5154e886458f2e535a8f33f5acf41a7dff68130a",
+          "url": "https://github.com/cocotb/cocotb/commit/67aa159ae9f1acf4a727a05a82a5ff0a675b0d79"
+        },
+        "date": 1754062758619,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16279665821282738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013103130435158998",
+            "extra": "mean: 6.142632231999994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.241217674505132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045310864566860426",
+            "extra": "mean: 4.1456332006000025 sec\nrounds: 5"
           }
         ]
       }
