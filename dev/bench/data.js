@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754062759491,
+  "lastUpdate": 1754145079817,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24301,6 +24301,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045310864566860426",
             "extra": "mean: 4.1456332006000025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "89473a99d0b041609687c29b19fdc3730323ab1f",
+          "message": "CI: Update to VCS X-2025.06",
+          "timestamp": "2025-08-02T16:27:47+02:00",
+          "tree_id": "c7fe22bd51a79f3bc1cf77972bf5506f411c930d",
+          "url": "https://github.com/cocotb/cocotb/commit/89473a99d0b041609687c29b19fdc3730323ab1f"
+        },
+        "date": 1754145078921,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16160645395630258,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017644765724759603",
+            "extra": "mean: 6.187871681600006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24219800788961926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04116905997053382",
+            "extra": "mean: 4.128853117799986 sec\nrounds: 5"
           }
         ]
       }
