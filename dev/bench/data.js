@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754255533935,
+  "lastUpdate": 1754339228340,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24491,6 +24491,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03066261105340525",
             "extra": "mean: 4.262382962599981 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16ce13145bcdc3f3abd96b1044042593919641b0",
+          "message": "Mention Verilator uses COCOTB_TRUST_INERTIAL_WRITES=1 by default (#4851)",
+          "timestamp": "2025-08-04T22:23:28+02:00",
+          "tree_id": "662134234a8f8c458aaa4a7f2f5c14769aab73aa",
+          "url": "https://github.com/cocotb/cocotb/commit/16ce13145bcdc3f3abd96b1044042593919641b0"
+        },
+        "date": 1754339227120,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1590016043004292,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023653488860533464",
+            "extra": "mean: 6.289244717999997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23396067648637683,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059823629772224364",
+            "extra": "mean: 4.274222553199996 sec\nrounds: 5"
           }
         ]
       }
