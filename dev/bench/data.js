@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754342059280,
+  "lastUpdate": 1754499136937,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24567,6 +24567,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04370972174915514",
             "extra": "mean: 4.222069333800005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "4f4b1268837589da20ba8c7495aa604b550cc89b",
+          "message": "Scheduler: Protect from scheduling Tasks that have finished executing\n\nIf a finished/cancelled Task is re-scheduled, we get an error running the coroutine\nand then another error in the scheduler:\n\nRuntimeError: cannot reuse already awaited coroutine\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"../src/cocotb/_scheduler.py\", line 160, in _sim_react\n    self._event_loop()\n  File \"../src/cocotb/_scheduler.py\", line 220, in _event_loop\n    self._resume_task(task, exc)\n  File \"../src/cocotb/_scheduler.py\", line 410, in _resume_task\n    trigger = task._advance(exc)\n  File \"../src/cocotb/task.py\", line 259, in _advance\n    self._set_outcome(Error(remove_traceback_frames(e, [\"_advance\"])))\n  File \"../src/cocotb/task.py\", line 207, in _set_outcome\n    callback(self)\n  File \"../src/cocotb/_test.py\", line 109, in _task_done_callback\n    self.tasks.remove(task)\nValueError: list.remove(x): x not in list",
+          "timestamp": "2025-08-06T09:48:46-07:00",
+          "tree_id": "ef4d6ea284200b52bdfd98f6a26d6188abd4cdfa",
+          "url": "https://github.com/cocotb/cocotb/commit/4f4b1268837589da20ba8c7495aa604b550cc89b"
+        },
+        "date": 1754499135888,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15544675515836298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05713195777877187",
+            "extra": "mean: 6.433070918600004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2331438978437134,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03532723299577061",
+            "extra": "mean: 4.28919654020001 sec\nrounds: 5"
           }
         ]
       }
