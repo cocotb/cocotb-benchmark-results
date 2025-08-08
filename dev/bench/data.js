@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754594013944,
+  "lastUpdate": 1754665672588,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24643,6 +24643,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02427583633422176",
             "extra": "mean: 4.229144640200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fca59b00549f7a3757e70a70d42469769ea1bb2",
+          "message": "docs: Clarify test passed/failed/errored outcomes (#4857)",
+          "timestamp": "2025-08-08T08:04:33-07:00",
+          "tree_id": "30ab0b0fc88303fb829a9b12380fd9264395d2d5",
+          "url": "https://github.com/cocotb/cocotb/commit/2fca59b00549f7a3757e70a70d42469769ea1bb2"
+        },
+        "date": 1754665671828,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1594883450116639,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04972460409130527",
+            "extra": "mean: 6.270050641799981 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2365295597003568,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037568595582709925",
+            "extra": "mean: 4.2278013846000135 sec\nrounds: 5"
           }
         ]
       }
