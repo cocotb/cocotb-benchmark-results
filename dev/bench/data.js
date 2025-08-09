@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754687836307,
+  "lastUpdate": 1754704767010,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24757,6 +24757,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03003846698996353",
             "extra": "mean: 4.228572532400006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3ae3f03ce0ba44b8b4fb747abac71062703f8984",
+          "message": "Better split logging configuration",
+          "timestamp": "2025-08-08T20:55:59-05:00",
+          "tree_id": "5f8f85d51e15e7499d606c2f27c4ebcac768ae1a",
+          "url": "https://github.com/cocotb/cocotb/commit/3ae3f03ce0ba44b8b4fb747abac71062703f8984"
+        },
+        "date": 1754704765521,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1547162639090451,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042165846922978596",
+            "extra": "mean: 6.463444596799997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23163534664386715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05578598242503968",
+            "extra": "mean: 4.3171304142000055 sec\nrounds: 5"
           }
         ]
       }
