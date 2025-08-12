@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755013163345,
+  "lastUpdate": 1755013388373,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -24947,6 +24947,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022256590719973306",
             "extra": "mean: 4.323399735800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa53d298b4a72b2d6107ceacb72356e1a1e8107f",
+          "message": "Add `period_high` feature to Clock driver",
+          "timestamp": "2025-08-12T09:37:10-06:00",
+          "tree_id": "3b2cd66c910c9089e64cc897ccea569baf3b3d7c",
+          "url": "https://github.com/cocotb/cocotb/commit/fa53d298b4a72b2d6107ceacb72356e1a1e8107f"
+        },
+        "date": 1755013387336,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1540453493375587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0369763798093202",
+            "extra": "mean: 6.491594873200006 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23108544192330996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01131681891156923",
+            "extra": "mean: 4.327403715600002 sec\nrounds: 5"
           }
         ]
       }
