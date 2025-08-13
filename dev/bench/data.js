@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755091367686,
+  "lastUpdate": 1755107081037,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25099,6 +25099,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04115894172731769",
             "extra": "mean: 4.339890115000003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1700f3f36fce0ff6fb419880d4ace26add5c99ab",
+          "message": "Add is_resolvable property to Logic to mirror LogicArray",
+          "timestamp": "2025-08-13T11:40:46-06:00",
+          "tree_id": "c20ce016b7c0e0992fa54084ddd866f0827c9d73",
+          "url": "https://github.com/cocotb/cocotb/commit/1700f3f36fce0ff6fb419880d4ace26add5c99ab"
+        },
+        "date": 1755107079983,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1564032270783196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026429354606412738",
+            "extra": "mean: 6.393729967600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23180881933771794,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012543952575661266",
+            "extra": "mean: 4.313899716399999 sec\nrounds: 5"
           }
         ]
       }
