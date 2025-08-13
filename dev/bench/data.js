@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755026577567,
+  "lastUpdate": 1755091367686,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25061,6 +25061,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020487847514829138",
             "extra": "mean: 4.319583783799999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "db980959a4ff0df95dd84a67af74317924ee80d6",
+          "message": "Fix VCS Makefile GUI option",
+          "timestamp": "2025-08-13T07:19:28-06:00",
+          "tree_id": "71fd56afda38907476c29158a5e2e530286b9428",
+          "url": "https://github.com/cocotb/cocotb/commit/db980959a4ff0df95dd84a67af74317924ee80d6"
+        },
+        "date": 1755091366306,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15663573891923732,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026139227826272",
+            "extra": "mean: 6.384239043399975 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23042058059112847,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04115894172731769",
+            "extra": "mean: 4.339890115000003 sec\nrounds: 5"
           }
         ]
       }
