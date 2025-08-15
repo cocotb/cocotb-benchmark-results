@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755107081037,
+  "lastUpdate": 1755291924344,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25137,6 +25137,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012543952575661266",
             "extra": "mean: 4.313899716399999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82e25b97ece8aa0f783652c544c8a9132b2039ba",
+          "message": "docs: Fix links and log formatter docstrings (#4889)\n\nFor SimLogFormatter and SimColourLogFormatter, sphinx was pulling in Python's logging.Formatter __init__() docstring. Fix that by documenting parameters.",
+          "timestamp": "2025-08-15T14:01:52-07:00",
+          "tree_id": "589d3ff1ad1e7b6a5bfa8728a4e72b066bbee586",
+          "url": "https://github.com/cocotb/cocotb/commit/82e25b97ece8aa0f783652c544c8a9132b2039ba"
+        },
+        "date": 1755291923176,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15550304472552814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018107183774518948",
+            "extra": "mean: 6.430742251800007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23162179495163557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03125596144307865",
+            "extra": "mean: 4.317383000199993 sec\nrounds: 5"
           }
         ]
       }
