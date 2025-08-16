@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755291924344,
+  "lastUpdate": 1755366299763,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25175,6 +25175,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03125596144307865",
             "extra": "mean: 4.317383000199993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7abae6fcb5d3c6738a1ff585f7850973991fd9e5",
+          "message": "Support copy and deepcopy on modeling types",
+          "timestamp": "2025-08-16T11:41:41-06:00",
+          "tree_id": "4ee09aa72383a066c0faaa1402496804cf9480fc",
+          "url": "https://github.com/cocotb/cocotb/commit/7abae6fcb5d3c6738a1ff585f7850973991fd9e5"
+        },
+        "date": 1755366298312,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15904843922624762,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024056386318136707",
+            "extra": "mean: 6.287392726799993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23989140735868306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009448708224108647",
+            "extra": "mean: 4.168552808999993 sec\nrounds: 5"
           }
         ]
       }
