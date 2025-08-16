@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755366299763,
+  "lastUpdate": 1755366883020,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25213,6 +25213,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009448708224108647",
             "extra": "mean: 4.168552808999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "087ce2d397f769f679f300643a86a57d0ae28c68",
+          "message": "Undo rename of COVERAGE_RCFILE\n\nThis envvar is used by the `coverage` module. We have no need to monkey\nwith the name.",
+          "timestamp": "2025-08-16T11:50:56-06:00",
+          "tree_id": "502b0abf69328b9afef2eff81780bc620d2ff7f0",
+          "url": "https://github.com/cocotb/cocotb/commit/087ce2d397f769f679f300643a86a57d0ae28c68"
+        },
+        "date": 1755366881893,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15737622710718496,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05192943037893699",
+            "extra": "mean: 6.354199858399994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23761738072812127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031157804959819506",
+            "extra": "mean: 4.208446355799987 sec\nrounds: 5"
           }
         ]
       }
