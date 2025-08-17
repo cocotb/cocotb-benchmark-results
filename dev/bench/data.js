@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755449993435,
+  "lastUpdate": 1755450286575,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25327,6 +25327,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013530115662200182",
             "extra": "mean: 4.16586730859999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0afaa52671f7c51ebe829391f672a0682794efa3",
+          "message": "Rename native_check_create functions to match three different use cases (#4892)",
+          "timestamp": "2025-08-17T10:01:07-07:00",
+          "tree_id": "98578b30a74c582df04d80749a480620778278b0",
+          "url": "https://github.com/cocotb/cocotb/commit/0afaa52671f7c51ebe829391f672a0682794efa3"
+        },
+        "date": 1755450285531,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15572673498177686,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03798864834947415",
+            "extra": "mean: 6.42150495300001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2349801547352882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029316712741515837",
+            "extra": "mean: 4.255678532199999 sec\nrounds: 5"
           }
         ]
       }
