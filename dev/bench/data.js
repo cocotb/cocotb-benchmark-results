@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755366883020,
+  "lastUpdate": 1755444938790,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25251,6 +25251,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031157804959819506",
             "extra": "mean: 4.208446355799987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5e1132eca0f89c363f455fb424f32a0218fb72d1",
+          "message": "Specify minimum version of supported Icarus is 11.0",
+          "timestamp": "2025-08-17T09:31:47-06:00",
+          "tree_id": "f0cc7fc52dea299ee069c14a44201c6902f5c071",
+          "url": "https://github.com/cocotb/cocotb/commit/5e1132eca0f89c363f455fb424f32a0218fb72d1"
+        },
+        "date": 1755444937716,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15859660839296771,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020608620240043216",
+            "extra": "mean: 6.3053050763999865 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23913705113920236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05643234209308735",
+            "extra": "mean: 4.181702480800004 sec\nrounds: 5"
           }
         ]
       }
