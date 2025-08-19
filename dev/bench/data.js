@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755569472491,
+  "lastUpdate": 1755611065626,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25479,6 +25479,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03605775485045723",
             "extra": "mean: 4.191344528200011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbee69d16c686f8970053fa151c3a4a260f5ae45",
+          "message": "Bump CI simulators\n\n* Bump Verilator version in CI\n\n* Bump NVC version in CI\n\n* Bump GHDL version in CI\n\n* Add older versions of NVC to extended regression",
+          "timestamp": "2025-08-19T07:41:08-06:00",
+          "tree_id": "e9e5edfadaf652ae6603964ae319f1be57011b48",
+          "url": "https://github.com/cocotb/cocotb/commit/bbee69d16c686f8970053fa151c3a4a260f5ae45"
+        },
+        "date": 1755611064461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15805279508751865,
+            "unit": "iter/sec",
+            "range": "stddev: 0.044292254704884085",
+            "extra": "mean: 6.3269997816 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2392728358667821,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013530503453577",
+            "extra": "mean: 4.1793294102 sec\nrounds: 5"
           }
         ]
       }
