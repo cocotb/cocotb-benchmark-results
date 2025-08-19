@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755611065626,
+  "lastUpdate": 1755618400254,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25517,6 +25517,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013530503453577",
             "extra": "mean: 4.1793294102 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "231e53a7adfc805f98a1c50d2eb805c526c8df97",
+          "message": "Docs: small improvements (#4898)\n\n* Show inherited members for Queue subclasses\n  This makes the analog_model files link correctly again.\n* Mark up bad and good example with color in NullTrigger docs\n* Mark up function reference\n* Add linebreak in docstring for consistent rendering\n* Add markup in Force/Release et al\n* Fix linking of COCOTB_PLUSARGS\n* Fix 'hex:' typo\n* Fix 'ClockCycles' reference",
+          "timestamp": "2025-08-19T17:43:12+02:00",
+          "tree_id": "ea884a5f0a725ec963345cb6838c70dc52fcbe08",
+          "url": "https://github.com/cocotb/cocotb/commit/231e53a7adfc805f98a1c50d2eb805c526c8df97"
+        },
+        "date": 1755618398774,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15836997302372127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01918983152973894",
+            "extra": "mean: 6.314328283999998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23910339756609159,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027921116950143227",
+            "extra": "mean: 4.182291051399995 sec\nrounds: 5"
           }
         ]
       }
