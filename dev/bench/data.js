@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755618400254,
+  "lastUpdate": 1755702877878,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25555,6 +25555,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027921116950143227",
             "extra": "mean: 4.182291051399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93c5bab1bcac29ab32b98d9653b69522f8d23fa4",
+          "message": "Make 1st level Python objects stand out more against 2nd level objects in docs (#4865)\n\n* Make 1st level Python objects stand out more against 2nd level objects in docs\n* Make code literals look less prominent\n* Make size of 'pre' the same as the main font\n* Reduce body line-height a bit\n* Reduce margin-bottom of 2nd level objects\n* Reduce top and bottom margin of admonitions\n* Add thin blue line between 1st level objects",
+          "timestamp": "2025-08-20T17:10:55+02:00",
+          "tree_id": "1414128b23e32214bea413904f3728b42410e06c",
+          "url": "https://github.com/cocotb/cocotb/commit/93c5bab1bcac29ab32b98d9653b69522f8d23fa4"
+        },
+        "date": 1755702876792,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1570582543468235,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028364585401661226",
+            "extra": "mean: 6.367064272800031 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23817624555643482,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008147273478474876",
+            "extra": "mean: 4.198571514400055 sec\nrounds: 5"
           }
         ]
       }
