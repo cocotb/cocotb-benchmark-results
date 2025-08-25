@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756138295996,
+  "lastUpdate": 1756153924137,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25707,6 +25707,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01358573989566408",
             "extra": "mean: 4.155219073200021 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "83ac36a43bbb7434c337949d87a424ea3b236bf9",
+          "message": "Use ccache to improve performance of CI",
+          "timestamp": "2025-08-25T14:28:12-06:00",
+          "tree_id": "14ab43c79600647b24b56b3dd06c9dd6c0815cd6",
+          "url": "https://github.com/cocotb/cocotb/commit/83ac36a43bbb7434c337949d87a424ea3b236bf9"
+        },
+        "date": 1756153922758,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15698302164775915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05413477921229444",
+            "extra": "mean: 6.370115630999988 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23624591340992174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023020352398699564",
+            "extra": "mean: 4.232877451999991 sec\nrounds: 5"
           }
         ]
       }
