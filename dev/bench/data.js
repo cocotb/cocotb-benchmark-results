@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756221694629,
+  "lastUpdate": 1756236824611,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25821,6 +25821,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028083360627629953",
             "extra": "mean: 4.179174511399992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "85474449ab15d269225606fdc8d70135620e393d",
+          "message": "Logger strip ANSI codes (#4909)\n\n* Replace want_color_output() with global flag which is modifiable\n* Fix handling of COCOTB_ANSI_OUTPUT\n* Strip ANSI escape codes if logger should color\n* Rename 'color' to 'strip_ansi'",
+          "timestamp": "2025-08-26T13:30:10-06:00",
+          "tree_id": "ab5c1828d825152aa8a6ea74977c3ca0de35f325",
+          "url": "https://github.com/cocotb/cocotb/commit/85474449ab15d269225606fdc8d70135620e393d"
+        },
+        "date": 1756236823593,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15664689880770702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029926892590314436",
+            "extra": "mean: 6.383784215399993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23770090995472384,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04520180947659795",
+            "extra": "mean: 4.206967487800005 sec\nrounds: 5"
           }
         ]
       }
