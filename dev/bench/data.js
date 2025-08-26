@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756158477451,
+  "lastUpdate": 1756221694629,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25783,6 +25783,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035070289068238746",
             "extra": "mean: 4.207529542999964 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50cf24c74f0c1d7db107e1c449e4e076a63ed1f8",
+          "message": "Improve documentation of public GPI header (#4893)",
+          "timestamp": "2025-08-26T08:17:15-07:00",
+          "tree_id": "862e01e2643542ad9fde002cd2a0975b7069c921",
+          "url": "https://github.com/cocotb/cocotb/commit/50cf24c74f0c1d7db107e1c449e4e076a63ed1f8"
+        },
+        "date": 1756221693573,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15773467573763503,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03020127078558477",
+            "extra": "mean: 6.3397600770000055 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23928170438257373,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028083360627629953",
+            "extra": "mean: 4.179174511399992 sec\nrounds: 5"
           }
         ]
       }
