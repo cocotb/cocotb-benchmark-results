@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756236824611,
+  "lastUpdate": 1756299719960,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25859,6 +25859,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04520180947659795",
             "extra": "mean: 4.206967487800005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c22261ff9faffd2cf8fa1bc6bac49db0bbcf10a7",
+          "message": "Deprecate +seed and +ntb_random_seed seeding Python RNG",
+          "timestamp": "2025-08-27T06:58:34-06:00",
+          "tree_id": "10991257bea78a7dae615835b183ae6cc3760532",
+          "url": "https://github.com/cocotb/cocotb/commit/c22261ff9faffd2cf8fa1bc6bac49db0bbcf10a7"
+        },
+        "date": 1756299718717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15641235604512638,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024463596449596194",
+            "extra": "mean: 6.393356799200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23768939259145136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006406518582520039",
+            "extra": "mean: 4.207171338600011 sec\nrounds: 5"
           }
         ]
       }
