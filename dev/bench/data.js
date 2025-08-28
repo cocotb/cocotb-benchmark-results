@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756301678638,
+  "lastUpdate": 1756407558165,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -25973,6 +25973,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018700291100033205",
             "extra": "mean: 4.186293466600011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilbertoabram@tersatech.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7d4271b74d114e6d16a57f35e44cd1d148f0acf",
+          "message": "Add verilator.cpp flag to dump the trace at every time step",
+          "timestamp": "2025-08-28T12:55:48-06:00",
+          "tree_id": "3c2e8059a4788ebbc3e06ed16b6ecde8ab307592",
+          "url": "https://github.com/cocotb/cocotb/commit/c7d4271b74d114e6d16a57f35e44cd1d148f0acf"
+        },
+        "date": 1756407557083,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15832501365521123,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034313693982754405",
+            "extra": "mean: 6.316121356399992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23757576602343322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03215895471216664",
+            "extra": "mean: 4.209183523800005 sec\nrounds: 5"
           }
         ]
       }
