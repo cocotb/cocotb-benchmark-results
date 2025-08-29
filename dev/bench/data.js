@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756414237575,
+  "lastUpdate": 1756481214413,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26049,6 +26049,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021542747356192382",
             "extra": "mean: 4.1666269688000055 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04064aa2112604277f7271eda8d7f6d6b66e0cc7",
+          "message": "Change docs configs\n\n* Use class for autoclass_content so that docstrings on __init__ aren't used.\n* Add limit the length of a signature, which is fairly unreadable otherwise\n  when the signature is long.\n* Move typehints back to signature now that they are split up.",
+          "timestamp": "2025-08-29T09:23:15-06:00",
+          "tree_id": "c2bf42d228f8fd0391f864c859775472239c93b3",
+          "url": "https://github.com/cocotb/cocotb/commit/04064aa2112604277f7271eda8d7f6d6b66e0cc7"
+        },
+        "date": 1756481213676,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1581449553669425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03829835258915957",
+            "extra": "mean: 6.323312670199994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2376440220552282,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03326187098494882",
+            "extra": "mean: 4.207974563600009 sec\nrounds: 5"
           }
         ]
       }
