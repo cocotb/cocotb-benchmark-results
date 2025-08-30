@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756562000150,
+  "lastUpdate": 1756587286204,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26277,6 +26277,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024227238942695486",
             "extra": "mean: 4.177266478200011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3d09164cac0730ff4af96527287c55334ad136c4",
+          "message": "Fix NullTrigger's docs",
+          "timestamp": "2025-08-30T14:50:41-06:00",
+          "tree_id": "05bb5b655624208009fdcb2bd594a55923485856",
+          "url": "https://github.com/cocotb/cocotb/commit/3d09164cac0730ff4af96527287c55334ad136c4"
+        },
+        "date": 1756587285379,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1568993376021034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05217101572252391",
+            "extra": "mean: 6.3735132046000045 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23955152368775084,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030186113671090323",
+            "extra": "mean: 4.174467290400014 sec\nrounds: 5"
           }
         ]
       }
