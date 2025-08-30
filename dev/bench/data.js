@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756545739661,
+  "lastUpdate": 1756562000150,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26239,6 +26239,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018635463385528146",
             "extra": "mean: 4.202513362200034 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "745c64429b8824489382ff665517f4e6762edd44",
+          "message": "Fix random pylint issues",
+          "timestamp": "2025-08-30T07:49:34-06:00",
+          "tree_id": "c8d435b5a33c0f4ec56358f49e0533a4c7e39c58",
+          "url": "https://github.com/cocotb/cocotb/commit/745c64429b8824489382ff665517f4e6762edd44"
+        },
+        "date": 1756561998624,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15803721653401626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024618617685532907",
+            "extra": "mean: 6.32762346699999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23939100012381812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024227238942695486",
+            "extra": "mean: 4.177266478200011 sec\nrounds: 5"
           }
         ]
       }
