@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756716634005,
+  "lastUpdate": 1756737270573,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26353,6 +26353,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02491170255347127",
             "extra": "mean: 4.205998386600015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b90de9b716da53af4e6f611a5c56ed70cda5882d",
+          "message": "Ensure bridge Tasks are cleaned up when the test ends",
+          "timestamp": "2025-09-01T08:30:45-06:00",
+          "tree_id": "59e38e721ed1dfec2d91ce8fe6cb70b8ac50a9c8",
+          "url": "https://github.com/cocotb/cocotb/commit/b90de9b716da53af4e6f611a5c56ed70cda5882d"
+        },
+        "date": 1756737269497,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15741587062361545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0341767124272054",
+            "extra": "mean: 6.352599620600012 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23658312946080323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015481264747886568",
+            "extra": "mean: 4.226844079199987 sec\nrounds: 5"
           }
         ]
       }
