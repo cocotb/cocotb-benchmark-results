@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756587286204,
+  "lastUpdate": 1756716634005,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26315,6 +26315,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030186113671090323",
             "extra": "mean: 4.174467290400014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "1ac29ebd9a51ed54b2a139d1b5c88e1049e1af34",
+          "message": "Add optimization and debugging to release builds",
+          "timestamp": "2025-09-01T10:47:09+02:00",
+          "tree_id": "cfa297ff476b036a501197ff944a5064a49c0f75",
+          "url": "https://github.com/cocotb/cocotb/commit/1ac29ebd9a51ed54b2a139d1b5c88e1049e1af34"
+        },
+        "date": 1756716633101,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15712211828830128,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051975135822843355",
+            "extra": "mean: 6.364476312399972 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23775567845815693,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02491170255347127",
+            "extra": "mean: 4.205998386600015 sec\nrounds: 5"
           }
         ]
       }
