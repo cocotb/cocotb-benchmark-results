@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756838446652,
+  "lastUpdate": 1756851580998,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26505,6 +26505,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03562896861847876",
             "extra": "mean: 4.192207244400015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b847c6d9c6de23634f110b3f4e21b8857eae9e6b",
+          "message": "Spread envvars docs to related reference sections\n\n* make the building.rst file specifically about the Makefiles\n* move the section about library building to the install_dev.rst\n* spreading the envvars amongst the appropriate sections in the Python reference doc",
+          "timestamp": "2025-09-02T16:16:01-06:00",
+          "tree_id": "90ccc30ceffe33dfbab240569bf64ad8ea2c5207",
+          "url": "https://github.com/cocotb/cocotb/commit/b847c6d9c6de23634f110b3f4e21b8857eae9e6b"
+        },
+        "date": 1756851579729,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1572664052677743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033236413153245",
+            "extra": "mean: 6.358637105600019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23992441925129024,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014030098237030143",
+            "extra": "mean: 4.1679792458000176 sec\nrounds: 5"
           }
         ]
       }
