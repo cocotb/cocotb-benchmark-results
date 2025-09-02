@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756818285701,
+  "lastUpdate": 1756838202914,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26429,6 +26429,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0330416469647966",
             "extra": "mean: 4.20472456120001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9f7b6bad89a013e3bd311a035752fa897781087a",
+          "message": "Fix logging in Pythons <3.11",
+          "timestamp": "2025-09-02T12:32:33-06:00",
+          "tree_id": "c8bf5f828682bda7d4d9b6386e7bebda0845ab11",
+          "url": "https://github.com/cocotb/cocotb/commit/9f7b6bad89a013e3bd311a035752fa897781087a"
+        },
+        "date": 1756838202027,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15648242023847206,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028597230693447787",
+            "extra": "mean: 6.390494206800009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2359735185654534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061391004556291505",
+            "extra": "mean: 4.237763652799981 sec\nrounds: 5"
           }
         ]
       }
