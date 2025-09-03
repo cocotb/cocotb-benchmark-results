@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756851580998,
+  "lastUpdate": 1756889598408,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26543,6 +26543,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014030098237030143",
             "extra": "mean: 4.1679792458000176 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "191d8f71f80cd6eb152b77835718cced5a99aace",
+          "message": "Remove may-fail from Mac Verilator builds",
+          "timestamp": "2025-09-03T10:49:45+02:00",
+          "tree_id": "594ae46ddf7463dfb04e6581932b7f2e685de649",
+          "url": "https://github.com/cocotb/cocotb/commit/191d8f71f80cd6eb152b77835718cced5a99aace"
+        },
+        "date": 1756889597393,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15884791250615904,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03333179311559451",
+            "extra": "mean: 6.295329817200002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23784766021183534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020419359445655986",
+            "extra": "mean: 4.204371819799974 sec\nrounds: 5"
           }
         ]
       }
