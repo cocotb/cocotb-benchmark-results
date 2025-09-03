@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756889598408,
+  "lastUpdate": 1756935733130,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26581,6 +26581,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020419359445655986",
             "extra": "mean: 4.204371819799974 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6cc08d3bdb85dd484366c2b111fc032bb105348f",
+          "message": "Remove ccache from Mac CI",
+          "timestamp": "2025-09-03T15:38:43-06:00",
+          "tree_id": "00fcbb14cfc2bd0050624fe69129cdd0ef413f2d",
+          "url": "https://github.com/cocotb/cocotb/commit/6cc08d3bdb85dd484366c2b111fc032bb105348f"
+        },
+        "date": 1756935732190,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1588659984991872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03463137722851203",
+            "extra": "mean: 6.294613129600014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23956550791520853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010050396680195401",
+            "extra": "mean: 4.174223612999993 sec\nrounds: 5"
           }
         ]
       }
