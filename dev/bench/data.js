@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756935733130,
+  "lastUpdate": 1757010051361,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26619,6 +26619,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010050396680195401",
             "extra": "mean: 4.174223612999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d1166cd256e19741c055ce489ca892507cdc6ded",
+          "message": "[Upgrade 2.0 docs] Replace Task.kill with Task.cancel",
+          "timestamp": "2025-09-04T12:17:21-06:00",
+          "tree_id": "b443e2b9ba7a47af4401cc606ebbb2fbb214b9b2",
+          "url": "https://github.com/cocotb/cocotb/commit/d1166cd256e19741c055ce489ca892507cdc6ded"
+        },
+        "date": 1757010049976,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15764333647206466,
+            "unit": "iter/sec",
+            "range": "stddev: 0.050947265186029524",
+            "extra": "mean: 6.343433362799994 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23803398856083074,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016241674115810848",
+            "extra": "mean: 4.201080719800001 sec\nrounds: 5"
           }
         ]
       }
