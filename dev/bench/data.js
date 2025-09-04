@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757011031414,
+  "lastUpdate": 1757016104818,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26695,6 +26695,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.036787165756283206",
             "extra": "mean: 4.205751605200021 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9abab46da5bf421b74d7b73aa48a88a93e3bccef",
+          "message": "Fix C++ source after clang-format change",
+          "timestamp": "2025-09-04T13:58:11-06:00",
+          "tree_id": "3f5e6dab2a7a7423edb9cf505ab46db3eee85458",
+          "url": "https://github.com/cocotb/cocotb/commit/9abab46da5bf421b74d7b73aa48a88a93e3bccef"
+        },
+        "date": 1757016103588,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15642455242271355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015003098971139384",
+            "extra": "mean: 6.392858311000003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23843371249640746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03437861711256251",
+            "extra": "mean: 4.194037787399997 sec\nrounds: 5"
           }
         ]
       }
