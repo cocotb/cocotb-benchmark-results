@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757262037001,
+  "lastUpdate": 1757270307773,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26771,6 +26771,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03632817480619345",
             "extra": "mean: 4.212857588999986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "73c936aa2fcd2494940c1e8bc0363888c2029ed6",
+          "message": "Build release bdists for Mac against ARM and x86",
+          "timestamp": "2025-09-07T20:35:03+02:00",
+          "tree_id": "269b2ad4d2ce78c37d1133c838780ae6ec52da4b",
+          "url": "https://github.com/cocotb/cocotb/commit/73c936aa2fcd2494940c1e8bc0363888c2029ed6"
+        },
+        "date": 1757270307016,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15741169851706316,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06132136682537482",
+            "extra": "mean: 6.352767992600002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2371132564532941,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03793495227025437",
+            "extra": "mean: 4.217393894199995 sec\nrounds: 5"
           }
         ]
       }
