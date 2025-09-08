@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757330596488,
+  "lastUpdate": 1757330849386,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26847,6 +26847,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014934300542697745",
             "extra": "mean: 4.202006782000001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "fd9a92f17473d50706c7813fe423a78ef8ee1c44",
+          "message": "Bump actions/stale from 9.1.0 to 10.0.0\n\nBumps [actions/stale](https://github.com/actions/stale) from 9.1.0 to 10.0.0.\n- [Release notes](https://github.com/actions/stale/releases)\n- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/stale/compare/5bef64f19d7facfb25b37b414482c7164d639639...3a9db7e6a41a89f618792c92c0e97cc736e1b13f)\n\n---\nupdated-dependencies:\n- dependency-name: actions/stale\n  dependency-version: 10.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-09-08T13:22:58+02:00",
+          "tree_id": "7a655dbf3bc32a69938b633951f8d353d4c7c253",
+          "url": "https://github.com/cocotb/cocotb/commit/fd9a92f17473d50706c7813fe423a78ef8ee1c44"
+        },
+        "date": 1757330848119,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15713949432445487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02310224895631559",
+            "extra": "mean: 6.363772546799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23900514794736918,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0257382630733307",
+            "extra": "mean: 4.1840102967999995 sec\nrounds: 5"
           }
         ]
       }
