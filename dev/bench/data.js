@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757270307773,
+  "lastUpdate": 1757330596488,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26809,6 +26809,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03793495227025437",
             "extra": "mean: 4.217393894199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "8b43706e6873c2264518ae38c29aa0f615d3ba62",
+          "message": "Bump codecov/codecov-action from 5.5.0 to 5.5.1\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 5.5.0 to 5.5.1.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/fdcc8476540edceab3de004e990f80d881c6cc00...5a1091511ad55cbe89839c7260b706298ca349f7)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 5.5.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-09-08T13:19:52+02:00",
+          "tree_id": "2ebbdc6716d4d18f0b2740133e0bd1025c304e9a",
+          "url": "https://github.com/cocotb/cocotb/commit/8b43706e6873c2264518ae38c29aa0f615d3ba62"
+        },
+        "date": 1757330595392,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15922175712345032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027458924190784422",
+            "extra": "mean: 6.2805487017999955 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23798152927398103,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014934300542697745",
+            "extra": "mean: 4.202006782000001 sec\nrounds: 5"
           }
         ]
       }
