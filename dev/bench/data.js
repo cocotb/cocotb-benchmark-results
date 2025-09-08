@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757332945680,
+  "lastUpdate": 1757359504003,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26961,6 +26961,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028352879152971296",
             "extra": "mean: 4.231929201199989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "434accd9de7f390290c2fc2f4dc60fa55918cbc5",
+          "message": "Bump minimum Icarus supported in test_multi_dimensional_array to v12_0",
+          "timestamp": "2025-09-08T21:21:34+02:00",
+          "tree_id": "856ff4ec939c88e442f5c26806acf643273656b2",
+          "url": "https://github.com/cocotb/cocotb/commit/434accd9de7f390290c2fc2f4dc60fa55918cbc5"
+        },
+        "date": 1757359502876,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15690366057148838,
+            "unit": "iter/sec",
+            "range": "stddev: 0.049409924151154506",
+            "extra": "mean: 6.373337603200025 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2391048772718773,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040642796885570216",
+            "extra": "mean: 4.182265169199946 sec\nrounds: 5"
           }
         ]
       }
