@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757359504003,
+  "lastUpdate": 1757359922706,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -26999,6 +26999,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.040642796885570216",
             "extra": "mean: 4.182265169199946 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c1b2c8de7b01eef28d7522242ce297c7b0d38cab",
+          "message": "Hardcore parallelism in Windows CI build jobs",
+          "timestamp": "2025-09-08T13:28:30-06:00",
+          "tree_id": "a450bbdccb4e186572c426a6a8a9733f3609b1b4",
+          "url": "https://github.com/cocotb/cocotb/commit/c1b2c8de7b01eef28d7522242ce297c7b0d38cab"
+        },
+        "date": 1757359921587,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15603355018604143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03724239387863107",
+            "extra": "mean: 6.4088780829999905 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23590798084239334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023933915623140543",
+            "extra": "mean: 4.238940948199991 sec\nrounds: 5"
           }
         ]
       }
