@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757367649515,
+  "lastUpdate": 1757446013888,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27075,6 +27075,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026380530675080786",
             "extra": "mean: 4.248479487200029 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b3e44adde3028783c480bbb0f3664266e66a200",
+          "message": "Docs: linewrapping etc. fixes (#4961)\n\n* Fix extra linebreak in apidoc better\n* Small doc fixes\n* Add space between consecutive paragraphs\n* Add text 'envvar' before environment variable definitions\n* Make sure typewriter text has the same font size as the surrounding headings\n* Fix small markup inconsistencies",
+          "timestamp": "2025-09-09T21:23:00+02:00",
+          "tree_id": "e29f27cf19907d125164ca6016a4a66546ed0528",
+          "url": "https://github.com/cocotb/cocotb/commit/6b3e44adde3028783c480bbb0f3664266e66a200"
+        },
+        "date": 1757446012442,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15827875631946034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04343059903609219",
+            "extra": "mean: 6.317967257600003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23920303956328012,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030045253983995934",
+            "extra": "mean: 4.180548883600011 sec\nrounds: 5"
           }
         ]
       }
