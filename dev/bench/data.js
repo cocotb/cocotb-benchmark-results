@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757446013888,
+  "lastUpdate": 1757447410386,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27113,6 +27113,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030045253983995934",
             "extra": "mean: 4.180548883600011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f708c0069ff2f2f058dccd89cec07e1005d06331",
+          "message": "Docs: Add link from SIM envar to simulator support page (#4962)",
+          "timestamp": "2025-09-09T12:46:31-07:00",
+          "tree_id": "0fe2eeb2588ef7f97b0032b55f0f21ac7f60dc55",
+          "url": "https://github.com/cocotb/cocotb/commit/f708c0069ff2f2f058dccd89cec07e1005d06331"
+        },
+        "date": 1757447409116,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15744577905791066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031720014976619734",
+            "extra": "mean: 6.351392879400004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23777523336994488,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0186612627963219",
+            "extra": "mean: 4.20565248040001 sec\nrounds: 5"
           }
         ]
       }
