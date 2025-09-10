@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757519427264,
+  "lastUpdate": 1757531851445,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27265,6 +27265,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02178794804567028",
             "extra": "mean: 4.170210847199996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f7278126fa4c268a71db7097ed30112decad880",
+          "message": "Docs: Release notes cleanup (#4966)",
+          "timestamp": "2025-09-10T12:14:03-07:00",
+          "tree_id": "e2ce4522a5302dbe2460c62a70b2f1df437e898d",
+          "url": "https://github.com/cocotb/cocotb/commit/9f7278126fa4c268a71db7097ed30112decad880"
+        },
+        "date": 1757531850001,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15777941354855435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027896806546101143",
+            "extra": "mean: 6.3379624598000195 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23845647500301329,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009272766557964614",
+            "extra": "mean: 4.193637434199945 sec\nrounds: 5"
           }
         ]
       }
