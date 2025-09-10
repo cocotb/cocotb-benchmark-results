@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757531851445,
+  "lastUpdate": 1757534570986,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27303,6 +27303,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009272766557964614",
             "extra": "mean: 4.193637434199945 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cd1ce5f782b36cb46b18e0659229a1eb8e27e8a",
+          "message": "Document envvars GUI, WAVES, COCOTB_WAVEFORM_VIEWER (#4968)\n\nCloses #4967",
+          "timestamp": "2025-09-10T21:59:17+02:00",
+          "tree_id": "b20d550378de4b5768df2f67340749e0d9877544",
+          "url": "https://github.com/cocotb/cocotb/commit/6cd1ce5f782b36cb46b18e0659229a1eb8e27e8a"
+        },
+        "date": 1757534570096,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15854571532218467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018694426958914486",
+            "extra": "mean: 6.307329075200016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24053234807468338,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014665663619690161",
+            "extra": "mean: 4.157444967400011 sec\nrounds: 5"
           }
         ]
       }
