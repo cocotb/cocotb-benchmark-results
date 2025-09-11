@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757534832025,
+  "lastUpdate": 1757603211753,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27379,6 +27379,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02675570872042489",
             "extra": "mean: 4.192479394199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "fade4627621cbbe98e49ef7aa58219b6578194db",
+          "message": "Downgrade unexpected GPITrigger to warning\n\nThis is not a simulation breaking event, we can just ignore the trigger\nand continue. But it is not intended, all GPITriggers should be cleaned\nup if the Tasks waiting on them are.",
+          "timestamp": "2025-09-11T17:03:14+02:00",
+          "tree_id": "80ff68a060e88a7e87808b448e91042b9777d0a1",
+          "url": "https://github.com/cocotb/cocotb/commit/fade4627621cbbe98e49ef7aa58219b6578194db"
+        },
+        "date": 1757603210506,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15753300025257927,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01752793081877368",
+            "extra": "mean: 6.3478763078000044 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2407062117520404,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03349013785247804",
+            "extra": "mean: 4.154442017600002 sec\nrounds: 5"
           }
         ]
       }
