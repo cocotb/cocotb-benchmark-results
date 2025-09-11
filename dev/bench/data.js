@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757616105569,
+  "lastUpdate": 1757620410149,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27455,6 +27455,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03646820037296615",
             "extra": "mean: 4.192154263799989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6af688e9dabee9521793004b7c6ddcce336b27f1",
+          "message": "Improve doc markup and crossreferencing (#4970)",
+          "timestamp": "2025-09-11T21:49:36+02:00",
+          "tree_id": "43254583831bb03a33a331f7c5d3d59378b495d7",
+          "url": "https://github.com/cocotb/cocotb/commit/6af688e9dabee9521793004b7c6ddcce336b27f1"
+        },
+        "date": 1757620408899,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15600578250771416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0333057621593964",
+            "extra": "mean: 6.4100188077999745 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2375576736545522,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03566946805218245",
+            "extra": "mean: 4.2095040948000015 sec\nrounds: 5"
           }
         ]
       }
