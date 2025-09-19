@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758207440077,
+  "lastUpdate": 1758318466444,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27835,6 +27835,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03778131690961657",
             "extra": "mean: 4.205150053399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "3a940afa1a3c219b88f74e73ecb6447e26b25aa6",
+          "message": "Fix runner for Python 3.6\n\nsubprocess.run() added *text* as alias for *universal_newlines* in 3.7",
+          "timestamp": "2025-09-19T14:44:15-07:00",
+          "tree_id": "441f4b65d25e279ebf83c64184176d3308f3efe1",
+          "url": "https://github.com/cocotb/cocotb/commit/3a940afa1a3c219b88f74e73ecb6447e26b25aa6"
+        },
+        "date": 1758318465216,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15897638398309064,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03785288311088829",
+            "extra": "mean: 6.2902424558000005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23925079824860038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019749758718886287",
+            "extra": "mean: 4.17971437220001 sec\nrounds: 5"
           }
         ]
       }
