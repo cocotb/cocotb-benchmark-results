@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758608698311,
+  "lastUpdate": 1758660756056,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27911,6 +27911,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03852519066398295",
             "extra": "mean: 4.221293348999962 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de51adf7805f42433f9a846afa77cbd43ce3e283",
+          "message": "Add missing \"verilator\" to supported_sims variable (#5000)\n\nThis bug prevented `cocotb-config --lib-name-path vpi verilator` from working.",
+          "timestamp": "2025-09-23T22:49:06+02:00",
+          "tree_id": "b9ea706a297d18b2470383f4c3aeae4a1ec00216",
+          "url": "https://github.com/cocotb/cocotb/commit/de51adf7805f42433f9a846afa77cbd43ce3e283"
+        },
+        "date": 1758660754400,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1570247862387409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026687568575665527",
+            "extra": "mean: 6.368421342599999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23637712729850932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029442448359588497",
+            "extra": "mean: 4.230527764799968 sec\nrounds: 5"
           }
         ]
       }
