@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758660756056,
+  "lastUpdate": 1758733588388,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -27949,6 +27949,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029442448359588497",
             "extra": "mean: 4.230527764799968 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rice.shelley@ieee.org",
+            "name": "Rice Shelley",
+            "username": "RiceShelley"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c311e2bbf6d7b033c65624cd7442631c77ab4259",
+          "message": "Added VerilatorControlFile tag",
+          "timestamp": "2025-09-24T19:02:13+02:00",
+          "tree_id": "54a455a6363fd4a1322d9430f2fb1d824da9113c",
+          "url": "https://github.com/cocotb/cocotb/commit/c311e2bbf6d7b033c65624cd7442631c77ab4259"
+        },
+        "date": 1758733587265,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15684202654434298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02607956437786127",
+            "extra": "mean: 6.375842126199996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23346612650341242,
+            "unit": "iter/sec",
+            "range": "stddev: 0.053386971351236066",
+            "extra": "mean: 4.283276614799979 sec\nrounds: 5"
           }
         ]
       }
