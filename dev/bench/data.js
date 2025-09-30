@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759181817236,
+  "lastUpdate": 1759261803760,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28063,6 +28063,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.034767773052848415",
             "extra": "mean: 4.234443029800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43295125+georgmagne@users.noreply.github.com",
+            "name": "Georg",
+            "username": "georgmagne"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2cdad006e742fff7bface9f56ddbb1e4abe96056",
+          "message": "Make quickstart example less \"basic\" (#4977)",
+          "timestamp": "2025-09-30T13:46:15-06:00",
+          "tree_id": "9f01ea650986cf61ff44313249610a69ad73ee18",
+          "url": "https://github.com/cocotb/cocotb/commit/2cdad006e742fff7bface9f56ddbb1e4abe96056"
+        },
+        "date": 1759261802580,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15818372229139854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05365944931155514",
+            "extra": "mean: 6.321762982399969 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2396256505937132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01926939269723734",
+            "extra": "mean: 4.173175941399973 sec\nrounds: 5"
           }
         ]
       }
