@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759409146503,
+  "lastUpdate": 1759503016657,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28139,6 +28139,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.054056108605333754",
             "extra": "mean: 4.338455239599989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darryl.miles@darrylmiles.org",
+            "name": "Darryl Miles",
+            "username": "dlmiles"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7836327995e3d6f2d4d0d3c71a24f928ed3bfb49",
+          "message": "Makefile.icarus: fix $WAVES to not override the default simulation behaviour (#5025)\n\nPreviously this would inhibit any $dumpvar because -none was always\nappended to the end of the command line.  Which overrides $RUN_ARGS\nor any other user configuration (such as verilog $dumpfunc usage).",
+          "timestamp": "2025-10-03T08:46:28-06:00",
+          "tree_id": "3827c38fbca7daca4dcb6c8ab7cc6b326dee0ad8",
+          "url": "https://github.com/cocotb/cocotb/commit/7836327995e3d6f2d4d0d3c71a24f928ed3bfb49"
+        },
+        "date": 1759503015475,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15905771123346282,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012085246425704538",
+            "extra": "mean: 6.287026213600001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23963225389801873,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018355987278539466",
+            "extra": "mean: 4.173060945400005 sec\nrounds: 5"
           }
         ]
       }
