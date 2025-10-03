@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759522914161,
+  "lastUpdate": 1759529246174,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28253,6 +28253,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028659159039069994",
             "extra": "mean: 4.2508504666000135 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5636a63262898e1e395795e0b61ce394c6a604f4",
+          "message": "Update simtime.py",
+          "timestamp": "2025-10-03T16:04:05-06:00",
+          "tree_id": "27984ece79702e1c576fb5d61892e037546bf1ce",
+          "url": "https://github.com/cocotb/cocotb/commit/5636a63262898e1e395795e0b61ce394c6a604f4"
+        },
+        "date": 1759529245028,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15802811368290426,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024089912997309504",
+            "extra": "mean: 6.327987955399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2370668678852184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03463906947715741",
+            "extra": "mean: 4.218219141800001 sec\nrounds: 5"
           }
         ]
       }
