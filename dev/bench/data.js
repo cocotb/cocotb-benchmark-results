@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759529246174,
+  "lastUpdate": 1759627026899,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28291,6 +28291,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03463906947715741",
             "extra": "mean: 4.218219141800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "1eb1017cb9952e094dfe1f175a6e47b0dd426c2e",
+          "message": "Run NVC on Windows in CI\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2025-10-04T18:13:11-07:00",
+          "tree_id": "d2b4116d5b8902442b53841d74dbccb850289543",
+          "url": "https://github.com/cocotb/cocotb/commit/1eb1017cb9952e094dfe1f175a6e47b0dd426c2e"
+        },
+        "date": 1759627025734,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15554440848349552,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0977392379188359",
+            "extra": "mean: 6.429032131400004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2358540688031153,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012358737423828217",
+            "extra": "mean: 4.239909894600009 sec\nrounds: 5"
           }
         ]
       }
