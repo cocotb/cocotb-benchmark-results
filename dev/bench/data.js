@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759627026899,
+  "lastUpdate": 1759698127767,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28329,6 +28329,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012358737423828217",
             "extra": "mean: 4.239909894600009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad0e4a8262ef593da7832643aad684d344229a89",
+          "message": "Windows CI: Don't run make when testing release version (#5036)",
+          "timestamp": "2025-10-05T13:57:46-07:00",
+          "tree_id": "e4a106921c6ab1f320fe7bc6fb56eccb84041d28",
+          "url": "https://github.com/cocotb/cocotb/commit/ad0e4a8262ef593da7832643aad684d344229a89"
+        },
+        "date": 1759698126475,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15574043758315417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07486078354858063",
+            "extra": "mean: 6.42093996599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23591583348181705,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009451112069746167",
+            "extra": "mean: 4.238799851800001 sec\nrounds: 5"
           }
         ]
       }
