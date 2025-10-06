@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759724368620,
+  "lastUpdate": 1759750314618,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28443,6 +28443,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024821130327904017",
             "extra": "mean: 4.206194626199988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "182ca18ce223d24bbf38488b2f2880a8a5753e3f",
+          "message": "Improve deepcopy implementation Array/LogicArray\n\nThis is more efficient as it skips the checking and also it correctly\ncopies the \"_warn_indexing\" variable which was skipped before.",
+          "timestamp": "2025-10-06T05:27:35-06:00",
+          "tree_id": "367a60a5ddad9d022bbe726012c50fe440c6489f",
+          "url": "https://github.com/cocotb/cocotb/commit/182ca18ce223d24bbf38488b2f2880a8a5753e3f"
+        },
+        "date": 1759750313043,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1579774142802956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03671769610366457",
+            "extra": "mean: 6.33001878500001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23859047308024356,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02349460893954339",
+            "extra": "mean: 4.191282187799999 sec\nrounds: 5"
           }
         ]
       }
