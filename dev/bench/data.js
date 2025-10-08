@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759945919459,
+  "lastUpdate": 1759947341489,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28633,6 +28633,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0265852164018991",
             "extra": "mean: 4.1902889949999915 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7418bb09d22311aabef07a5822eef1732387a596",
+          "message": "Update docs/source/upgrade-2.0.rst\n\nCo-authored-by: Marlon James <marlon.james@gmail.com>",
+          "timestamp": "2025-10-08T12:11:38-06:00",
+          "tree_id": "a85e81337eedc27cb578858f34aa84c4014a0334",
+          "url": "https://github.com/cocotb/cocotb/commit/7418bb09d22311aabef07a5822eef1732387a596"
+        },
+        "date": 1759947340017,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15808156675317672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03791250437172148",
+            "extra": "mean: 6.325848234799992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23818161717662814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020237045688536036",
+            "extra": "mean: 4.1984768255999825 sec\nrounds: 5"
           }
         ]
       }
