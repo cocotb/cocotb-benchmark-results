@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759791442519,
+  "lastUpdate": 1759937808122,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28557,6 +28557,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015081741196384899",
             "extra": "mean: 4.155027534400006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2e22c811b0809e1e61871e07afcf4a8201223632",
+          "message": "Cleanup uses of dut._log in tests",
+          "timestamp": "2025-10-08T09:33:20-06:00",
+          "tree_id": "6a91af6875ea9583289d3cdf69a73d127a6778b0",
+          "url": "https://github.com/cocotb/cocotb/commit/2e22c811b0809e1e61871e07afcf4a8201223632"
+        },
+        "date": 1759937806769,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15893533267010732,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035240447292384416",
+            "extra": "mean: 6.2918671587999935 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23640763057287495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038777546365414785",
+            "extra": "mean: 4.2299819069999955 sec\nrounds: 5"
           }
         ]
       }
