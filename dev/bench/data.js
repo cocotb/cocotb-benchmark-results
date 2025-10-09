@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759951746633,
+  "lastUpdate": 1760028114887,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28747,6 +28747,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03168459095636058",
             "extra": "mean: 4.210769465399994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darryl.miles@darrylmiles.org",
+            "name": "Darryl L. Miles",
+            "username": "dlmiles"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f85a12823d91d21dbc2bddae885395e13ffb91df",
+          "message": "Makefile.icarus: make $FST lower priority in argument order\n\nThis follows the convention of trying to make framework provided\nsettings a low precedence than user provided custom settings such as\n$SIM_ARS $EXTRA_ARGS $COCOTB_PLUSARGS which now have a chance to\noverride the framework's insertion of '-fst' on command line.\n\nAlso since $WAVES=1 is the expected method to set $FST there is also\na defacto standard that env-var settings have lower precedence than\ncommand line arguments.\n\nSo this is also consistent with conceptual expectations.",
+          "timestamp": "2025-10-09T08:59:08-06:00",
+          "tree_id": "1048c5477248784db9ca075054a285b0e5f17a75",
+          "url": "https://github.com/cocotb/cocotb/commit/f85a12823d91d21dbc2bddae885395e13ffb91df"
+        },
+        "date": 1760028113385,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1651594265461464,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032235336299563176",
+            "extra": "mean: 6.05475582539998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2402011941382055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01799081002774788",
+            "extra": "mean: 4.163176638599998 sec\nrounds: 5"
           }
         ]
       }
