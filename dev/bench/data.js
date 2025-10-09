@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760028114887,
+  "lastUpdate": 1760030204830,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28785,6 +28785,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01799081002774788",
             "extra": "mean: 4.163176638599998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "bf1de9c01493564892acd10c4e4d782d1eb24acc",
+          "message": "Fix typo in upgrade-2.0.rst",
+          "timestamp": "2025-10-09T11:12:42-06:00",
+          "tree_id": "11a376f40e710dc1a77c326abd51d74cf86a3cd4",
+          "url": "https://github.com/cocotb/cocotb/commit/bf1de9c01493564892acd10c4e4d782d1eb24acc"
+        },
+        "date": 1760030203330,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1664871004505955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042459906067421484",
+            "extra": "mean: 6.00647135600002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23943523774533107,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026093873744518162",
+            "extra": "mean: 4.1764946939999845 sec\nrounds: 5"
           }
         ]
       }
