@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760117572369,
+  "lastUpdate": 1760123283875,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28861,6 +28861,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008274367361768925",
             "extra": "mean: 4.190536979999979 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b9a165d69ee25c75fa3ae39a0122fac6ae64f402",
+          "message": "Manual upgrades after dropping < Python 3.9",
+          "timestamp": "2025-10-10T13:04:26-06:00",
+          "tree_id": "2548fe4f1477305a383385dc089154452600ac13",
+          "url": "https://github.com/cocotb/cocotb/commit/b9a165d69ee25c75fa3ae39a0122fac6ae64f402"
+        },
+        "date": 1760123282401,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1650847572233994,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05748349884550218",
+            "extra": "mean: 6.057494445999998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23981789163639639,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03188121537655904",
+            "extra": "mean: 4.169830671 sec\nrounds: 5"
           }
         ]
       }
