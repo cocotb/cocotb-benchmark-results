@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760030204830,
+  "lastUpdate": 1760117572369,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28823,6 +28823,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026093873744518162",
             "extra": "mean: 4.1764946939999845 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7476b48df0c96aa486301769ba7e476f99d7bd39",
+          "message": "Add section on simulator support to Support Policy\n\nAlso specifically mention we only support 64-bit things.",
+          "timestamp": "2025-10-10T11:27:55-06:00",
+          "tree_id": "3503168c3f1949cc3245b1179332566fbdc58aac",
+          "url": "https://github.com/cocotb/cocotb/commit/7476b48df0c96aa486301769ba7e476f99d7bd39"
+        },
+        "date": 1760117571000,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1658890220183511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03994549513956097",
+            "extra": "mean: 6.0281264416000795 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23863290188647973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008274367361768925",
+            "extra": "mean: 4.190536979999979 sec\nrounds: 5"
           }
         ]
       }
