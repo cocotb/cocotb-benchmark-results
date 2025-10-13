@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760292556823,
+  "lastUpdate": 1760376120451,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -28937,6 +28937,43 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015041512741469414",
             "extra": "mean: 4.196919663000017 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "",
+            "name": "Szymon Kulis"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "14bf39a7feaf7e1f671eb8b1d0d13f0e33b2705c",
+          "message": "Fix VPI callback memory leak by deleting C++ wrapper objects",
+          "timestamp": "2025-10-13T11:16:32-06:00",
+          "tree_id": "7962b5df3634df7561d7ab36746e8493560060d8",
+          "url": "https://github.com/cocotb/cocotb/commit/14bf39a7feaf7e1f671eb8b1d0d13f0e33b2705c"
+        },
+        "date": 1760376119257,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16461874762094783,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08843655782813321",
+            "extra": "mean: 6.074642253399998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23467702280873387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.058284367868219396",
+            "extra": "mean: 4.261175585199998 sec\nrounds: 5"
           }
         ]
       }
