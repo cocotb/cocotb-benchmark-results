@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760559887015,
+  "lastUpdate": 1760560107630,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29050,6 +29050,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007523403792900766",
             "extra": "mean: 4.1670848428 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "timkoers@users.noreply.github.com",
+            "name": "timkoers",
+            "username": "timkoers"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2b59bd72497f1e4a4f2d215c0943b322f19b3b3",
+          "message": "Improve VsimSA simulator support (add Active-HDL support and update Riviera-Pro support) (#5062)",
+          "timestamp": "2025-10-15T14:21:17-06:00",
+          "tree_id": "936ebb10f68d8b9144a18a38aed6803b4ad5cab2",
+          "url": "https://github.com/cocotb/cocotb/commit/b2b59bd72497f1e4a4f2d215c0943b322f19b3b3"
+        },
+        "date": 1760560106131,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16764626914323397,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029172724101668674",
+            "extra": "mean: 5.964940377799985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23985445137982028,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01891663306937028",
+            "extra": "mean: 4.169195085799993 sec\nrounds: 5"
           }
         ]
       }
