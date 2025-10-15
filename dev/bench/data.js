@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760399337151,
+  "lastUpdate": 1760559887015,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29012,6 +29012,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033527725487193426",
             "extra": "mean: 4.184360638200007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "midjtxc@gmail.com",
+            "name": "Julien Dorothy",
+            "username": "rabidaudio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54bb1c3ffb991216abacf320263438e2826b6e9d",
+          "message": "add separate cwd argument from build_dir for runner.build",
+          "timestamp": "2025-10-15T14:20:52-06:00",
+          "tree_id": "ef691be7d42eb2692b9f96b90661b5db0c423b7f",
+          "url": "https://github.com/cocotb/cocotb/commit/54bb1c3ffb991216abacf320263438e2826b6e9d"
+        },
+        "date": 1760559885736,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1680160708428251,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027576352398881454",
+            "extra": "mean: 5.9518116033999835 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23997591547189798,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007523403792900766",
+            "extra": "mean: 4.1670848428 sec\nrounds: 5"
           }
         ]
       }
