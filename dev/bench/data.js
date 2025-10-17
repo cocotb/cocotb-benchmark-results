@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760560107630,
+  "lastUpdate": 1760711657901,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29088,6 +29088,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01891663306937028",
             "extra": "mean: 4.169195085799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "cbec427a1a1b52f22970daeb5be14ec2e667dc5c",
+          "message": "Explicitly disallow pickling sim objects",
+          "timestamp": "2025-10-17T08:30:32-06:00",
+          "tree_id": "1e2c7cdf364c17379f66e876296a4febec1eecf1",
+          "url": "https://github.com/cocotb/cocotb/commit/cbec427a1a1b52f22970daeb5be14ec2e667dc5c"
+        },
+        "date": 1760711656721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1679446738517369,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014246272643728337",
+            "extra": "mean: 5.954341850000015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2410374715645217,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015347759451002712",
+            "extra": "mean: 4.148732533199995 sec\nrounds: 5"
           }
         ]
       }
