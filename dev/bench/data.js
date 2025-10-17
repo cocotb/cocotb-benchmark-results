@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760711899843,
+  "lastUpdate": 1760745452478,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29164,6 +29164,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023941077354584034",
             "extra": "mean: 4.213103954000007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "287d39f728a8b6a06f79a4f4684cde330477b796",
+          "message": "Make cocotb.RANDOM_SEED the current test seed\n\nLeaves the value in place during test collection.\n\nThis is done to ensure that anyone who grabs cocotb.RANDOM_SEED in a\ntest for seeding a new PRNG is using the current test's random seed and\nnot the regression-wide random seed to prevent random sequences from\nbeing the same on similar tests.",
+          "timestamp": "2025-10-17T17:53:46-06:00",
+          "tree_id": "94807bdebd00bcb7c01be11e10440885563dd1cb",
+          "url": "https://github.com/cocotb/cocotb/commit/287d39f728a8b6a06f79a4f4684cde330477b796"
+        },
+        "date": 1760745451270,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16752791145953025,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03363386931423556",
+            "extra": "mean: 5.969154580200029 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24307800816982203,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00626198011782904",
+            "extra": "mean: 4.113905686199996 sec\nrounds: 5"
           }
         ]
       }
