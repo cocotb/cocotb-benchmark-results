@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760711657901,
+  "lastUpdate": 1760711899843,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29126,6 +29126,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015347759451002712",
             "extra": "mean: 4.148732533199995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "343178b7985d057ac7d1cf457436b38520982e34",
+          "message": "Make RoundMode and TimeUnit TypeAliases public",
+          "timestamp": "2025-10-17T08:32:01-06:00",
+          "tree_id": "7f5e1bed38a12abdd4ece6ba5ad7e82f14d579fb",
+          "url": "https://github.com/cocotb/cocotb/commit/343178b7985d057ac7d1cf457436b38520982e34"
+        },
+        "date": 1760711898538,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1665749923195335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02940332419465837",
+            "extra": "mean: 6.003302092800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23735469404940257,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023941077354584034",
+            "extra": "mean: 4.213103954000007 sec\nrounds: 5"
           }
         ]
       }
