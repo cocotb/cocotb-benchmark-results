@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761242894253,
+  "lastUpdate": 1761335932618,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29316,6 +29316,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03707374706978965",
             "extra": "mean: 4.140812768000001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b39b1260e290446cbe37c484137c5f6e58aadba",
+          "message": "CI: Add test for VHDL integer signal value change trigger (#5100)",
+          "timestamp": "2025-10-24T12:55:18-07:00",
+          "tree_id": "85c993d19cbd24154f0a062e5cf367bf989ebf18",
+          "url": "https://github.com/cocotb/cocotb/commit/6b39b1260e290446cbe37c484137c5f6e58aadba"
+        },
+        "date": 1761335931420,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16731002565951308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.063652709466472",
+            "extra": "mean: 5.976928137200014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2424360130012297,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033447780903994924",
+            "extra": "mean: 4.1247997259999805 sec\nrounds: 5"
           }
         ]
       }
