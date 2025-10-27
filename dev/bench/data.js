@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761576243429,
+  "lastUpdate": 1761576462611,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29392,6 +29392,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03403653300128698",
             "extra": "mean: 4.135079858799986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "92c38382e5eb15c1934415021c2c28bab77e0a0f",
+          "message": "Bump actions/upload-artifact from 4.6.2 to 5.0.0\n\nBumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.6.2 to 5.0.0.\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/ea165f8d65b6e75b540449e92b4886f43607fa02...330a01c490aca151604b8cf639adc76d48f6c5d4)\n\n---\nupdated-dependencies:\n- dependency-name: actions/upload-artifact\n  dependency-version: 5.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-10-27T08:40:15-06:00",
+          "tree_id": "62e4a1f4bcbb5cf9f2003f9a46d68d5df6a6c4ca",
+          "url": "https://github.com/cocotb/cocotb/commit/92c38382e5eb15c1934415021c2c28bab77e0a0f"
+        },
+        "date": 1761576461162,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16689313346681328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015132212644683495",
+            "extra": "mean: 5.9918582582 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24041806605626193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01817529401367767",
+            "extra": "mean: 4.159421196600022 sec\nrounds: 5"
           }
         ]
       }
