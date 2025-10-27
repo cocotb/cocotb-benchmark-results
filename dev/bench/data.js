@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761581078400,
+  "lastUpdate": 1761583202063,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29468,6 +29468,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025095179467849008",
             "extra": "mean: 4.135838831199988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "amykyta3@users.noreply.github.com",
+            "name": "Alex Mykyta",
+            "username": "amykyta3"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "01046e8c8b3ba1fe23b18236c6683e11748a3314",
+          "message": "Implement verbose option in Questa runner",
+          "timestamp": "2025-10-27T10:36:40-06:00",
+          "tree_id": "e29e5e8385608f497bc6d25e076ae6485c59e0e6",
+          "url": "https://github.com/cocotb/cocotb/commit/01046e8c8b3ba1fe23b18236c6683e11748a3314"
+        },
+        "date": 1761583200194,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18565647932883853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03440734286208651",
+            "extra": "mean: 5.386291949599991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.27263687927100655,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028601471542518814",
+            "extra": "mean: 3.6678823594000276 sec\nrounds: 5"
           }
         ]
       }
