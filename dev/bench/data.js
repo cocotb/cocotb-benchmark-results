@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762372104901,
+  "lastUpdate": 1762379361908,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29658,6 +29658,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013501364865213722",
             "extra": "mean: 4.167148979399985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3cfca15f0d5f3ba05a4de4c8b278f082a8c18e88",
+          "message": "Remove embed library, introduce GPI_USERS\n\nGPI_USERS is a list of native libraries to load and functions to call\nafter the GPI initialized. This replaces the hard runtime link\npreviously in libembed to libcocotb.\n\nAdditionally, the gpi_register_*_callback for start of sim time,\nend of sim time, and finalization were added to replace the remaining\nhard runtime links from libembed to libcocotb.\n\nAfter this, libembed was removed.\n\nPreloading libpython is now done in the GPI entry point, but will likely\nbe moved to being preloaded by GPI_USERS.",
+          "timestamp": "2025-11-05T14:45:50-07:00",
+          "tree_id": "45a6fa0ae1017da4b0f10f48a0c1ee2f26a003f4",
+          "url": "https://github.com/cocotb/cocotb/commit/3cfca15f0d5f3ba05a4de4c8b278f082a8c18e88"
+        },
+        "date": 1762379360318,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16902646661084544,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029856097972234815",
+            "extra": "mean: 5.916233238799987 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2409914626255044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03596001258683065",
+            "extra": "mean: 4.149524589399993 sec\nrounds: 5"
           }
         ]
       }
