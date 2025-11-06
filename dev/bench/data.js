@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762379361908,
+  "lastUpdate": 1762459010686,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29696,6 +29696,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03596001258683065",
             "extra": "mean: 4.149524589399993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "1f27ff86bb6d5aff2a9dbdd243c58cb42c4a36a3",
+          "message": "CI: Update to Xcelium 2509",
+          "timestamp": "2025-11-06T20:52:48+01:00",
+          "tree_id": "ee3105aa6fd6c86bd37d41a201402aa0ee1ee64f",
+          "url": "https://github.com/cocotb/cocotb/commit/1f27ff86bb6d5aff2a9dbdd243c58cb42c4a36a3"
+        },
+        "date": 1762459009340,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1679380396026131,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0663765812087209",
+            "extra": "mean: 5.954577071200015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23956040457630168,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030175856303688874",
+            "extra": "mean: 4.1743125362 sec\nrounds: 5"
           }
         ]
       }
