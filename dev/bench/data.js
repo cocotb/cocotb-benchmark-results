@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762459010686,
+  "lastUpdate": 1762501810386,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29734,6 +29734,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030175856303688874",
             "extra": "mean: 4.1743125362 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "b006cc820eda762edab618d12322f2c09f4089d2",
+          "message": "CI: Disable VCS due to missing license",
+          "timestamp": "2025-11-07T08:46:30+01:00",
+          "tree_id": "72d7fc5a04a522fe4ddc3746cd535d32d0192e11",
+          "url": "https://github.com/cocotb/cocotb/commit/b006cc820eda762edab618d12322f2c09f4089d2"
+        },
+        "date": 1762501808791,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16635542818709198,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03927672157904264",
+            "extra": "mean: 6.011225548200014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24020825154147318,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00758810936023528",
+            "extra": "mean: 4.163054322999995 sec\nrounds: 5"
           }
         ]
       }
