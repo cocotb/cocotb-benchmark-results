@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762501810386,
+  "lastUpdate": 1762502087129,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29772,6 +29772,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00758810936023528",
             "extra": "mean: 4.163054322999995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "5f354f7a7e0e9a0a20a0c67365cd449a0076ebc0",
+          "message": "Remove blurb about cocotb-bus",
+          "timestamp": "2025-11-07T08:48:12+01:00",
+          "tree_id": "e4d7193eaeb84a96ff3dee265acdcceaf0d5d6b5",
+          "url": "https://github.com/cocotb/cocotb/commit/5f354f7a7e0e9a0a20a0c67365cd449a0076ebc0"
+        },
+        "date": 1762502085596,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16743525014823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02643113896660961",
+            "extra": "mean: 5.972458004600003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.23979437251188165,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019103127249839237",
+            "extra": "mean: 4.170239649599995 sec\nrounds: 5"
           }
         ]
       }
