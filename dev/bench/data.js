@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762805275122,
+  "lastUpdate": 1762805619120,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29924,6 +29924,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022204550473534434",
             "extra": "mean: 4.142246389599995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "09247199508985d87bcff57d94ff6698264dd050",
+          "message": "Bump Verilator version in CI",
+          "timestamp": "2025-11-10T13:09:21-07:00",
+          "tree_id": "403d4f4736760b8ab2feb19f642b6b1b6dc44a6a",
+          "url": "https://github.com/cocotb/cocotb/commit/09247199508985d87bcff57d94ff6698264dd050"
+        },
+        "date": 1762805617475,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16834749487291564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016009868959048167",
+            "extra": "mean: 5.940094331400019 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24099914931156427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02988381149194177",
+            "extra": "mean: 4.149392239999974 sec\nrounds: 5"
           }
         ]
       }
