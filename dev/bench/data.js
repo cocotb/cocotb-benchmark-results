@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762805619120,
+  "lastUpdate": 1762809403370,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29962,6 +29962,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02988381149194177",
             "extra": "mean: 4.149392239999974 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee9fa2316b6380c908a3f8b6c356fc9e54d0d421",
+          "message": "Add test exemption for old versions of NVC",
+          "timestamp": "2025-11-10T14:13:13-07:00",
+          "tree_id": "e3f4dd25b9ee336c804be4b25c1cd66f214be99f",
+          "url": "https://github.com/cocotb/cocotb/commit/ee9fa2316b6380c908a3f8b6c356fc9e54d0d421"
+        },
+        "date": 1762809401889,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1674995813325352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03658028400260154",
+            "extra": "mean: 5.970164176200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2375039448585852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07253016720200753",
+            "extra": "mean: 4.210456380400001 sec\nrounds: 5"
           }
         ]
       }
