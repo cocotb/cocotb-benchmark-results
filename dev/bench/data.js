@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762705990329,
+  "lastUpdate": 1762805275122,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -29886,6 +29886,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01880687493555129",
             "extra": "mean: 4.135384965799972 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "587f01c3c4f40ff7ce81a22f23544a2df9351b21",
+          "message": "tests: Test that waiting on First() twice will catch both triggers that occur at same simulation time (#5112)",
+          "timestamp": "2025-11-10T12:03:41-08:00",
+          "tree_id": "2b72143e21fbea044578d0e1ef14653587e5e044",
+          "url": "https://github.com/cocotb/cocotb/commit/587f01c3c4f40ff7ce81a22f23544a2df9351b21"
+        },
+        "date": 1762805273888,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16817603580230286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02406201565304659",
+            "extra": "mean: 5.9461503847999895 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24141490050198755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022204550473534434",
+            "extra": "mean: 4.142246389599995 sec\nrounds: 5"
           }
         ]
       }
