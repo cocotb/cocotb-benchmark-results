@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762816535972,
+  "lastUpdate": 1762829671371,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30114,6 +30114,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021145579455956298",
             "extra": "mean: 4.219449774800006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "16f8d8e9c403555c96e77c156307d0359281e800",
+          "message": "Add support for Python 3.14",
+          "timestamp": "2025-11-10T19:51:03-07:00",
+          "tree_id": "ce1bf995324a4411ba6da2e8ccc6442f75129aad",
+          "url": "https://github.com/cocotb/cocotb/commit/16f8d8e9c403555c96e77c156307d0359281e800"
+        },
+        "date": 1762829670432,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1678605978693613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020041459364802155",
+            "extra": "mean: 5.957324188599978 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2415301094237839,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02242814760717069",
+            "extra": "mean: 4.140270554200015 sec\nrounds: 5"
           }
         ]
       }
