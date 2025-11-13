@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763054050747,
+  "lastUpdate": 1763061238070,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30228,6 +30228,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0171074862309853",
             "extra": "mean: 4.063604468800008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fc5bbc95ff0b7aa5f48dd7d0e3407c94b3ad600",
+          "message": "Error out if unsupported version of Python is used (#5138)\n\n* Error out if unsupported version of Python is used\n\n* Update setup.py",
+          "timestamp": "2025-11-13T12:10:27-07:00",
+          "tree_id": "ee3d2f1baad0840793de3053d4d0a577795b999e",
+          "url": "https://github.com/cocotb/cocotb/commit/8fc5bbc95ff0b7aa5f48dd7d0e3407c94b3ad600"
+        },
+        "date": 1763061236845,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17092194581649825,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01813104860472524",
+            "extra": "mean: 5.850623775799977 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24274035376567776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025469544083675123",
+            "extra": "mean: 4.1196281726000965 sec\nrounds: 5"
           }
         ]
       }
