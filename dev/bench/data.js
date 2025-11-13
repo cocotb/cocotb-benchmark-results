@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762830371780,
+  "lastUpdate": 1763054050747,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30190,6 +30190,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01806350832249283",
             "extra": "mean: 3.5740840747999982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8090e3971ebbfa6beac861f2bdbe21fdb66f4aa",
+          "message": "Merge GPI and PyGPI libraries into singular libraries\n\nlibcocotb, libpygpilog, and the simulator Python extension module were merged into a single library: the simulator extension module. libgpi, libgpilog, and the runtime loading parts of libcocotbutils were merged into a single library: libgpi.",
+          "timestamp": "2025-11-13T10:10:49-07:00",
+          "tree_id": "0718ae7bd85859913d8de7caff8ffc0eadbc8b43",
+          "url": "https://github.com/cocotb/cocotb/commit/b8090e3971ebbfa6beac861f2bdbe21fdb66f4aa"
+        },
+        "date": 1763054049322,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17321748978673884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020704735450187715",
+            "extra": "mean: 5.773089087200003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2460869426830073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0171074862309853",
+            "extra": "mean: 4.063604468800008 sec\nrounds: 5"
           }
         ]
       }
