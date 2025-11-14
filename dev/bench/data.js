@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763061238070,
+  "lastUpdate": 1763138833301,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30266,6 +30266,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025469544083675123",
             "extra": "mean: 4.1196281726000965 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "993c77c13764a37ef8829098416e0c5f709bc318",
+          "message": "Add flag to suppress maximum Python version support error",
+          "timestamp": "2025-11-14T09:43:45-07:00",
+          "tree_id": "cac37cfa42a6fbe5d06d4144ab0635c75ea0a411",
+          "url": "https://github.com/cocotb/cocotb/commit/993c77c13764a37ef8829098416e0c5f709bc318"
+        },
+        "date": 1763138831729,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1701892907969556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02034962480838619",
+            "extra": "mean: 5.875810371599999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24083735318194793,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04021323244183655",
+            "extra": "mean: 4.152179829199997 sec\nrounds: 5"
           }
         ]
       }
