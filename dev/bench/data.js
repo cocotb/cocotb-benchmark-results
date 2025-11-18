@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763138833301,
+  "lastUpdate": 1763480876871,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30304,6 +30304,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04021323244183655",
             "extra": "mean: 4.152179829199997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e2342ee12544a28d10feb884ece86d12b6cdf149",
+          "message": "Remove type ignores after bugfix in nox",
+          "timestamp": "2025-11-18T08:44:20-07:00",
+          "tree_id": "4cf44708814de244755c7634afcb177c433fdf60",
+          "url": "https://github.com/cocotb/cocotb/commit/e2342ee12544a28d10feb884ece86d12b6cdf149"
+        },
+        "date": 1763480875635,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1667039313245104,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11017696683831368",
+            "extra": "mean: 5.998658772199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2393137818901478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030979376695003988",
+            "extra": "mean: 4.178614336800001 sec\nrounds: 5"
           }
         ]
       }
