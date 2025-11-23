@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763480876871,
+  "lastUpdate": 1763929417014,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30342,6 +30342,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030979376695003988",
             "extra": "mean: 4.178614336800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ef4a9191f7d88410e8b4e56d1d3c2c7d1bc80b7f",
+          "message": "Add newsfragment for scheduler refactor",
+          "timestamp": "2025-11-23T13:19:55-07:00",
+          "tree_id": "67949e232e31b3ca4a795a290c8ba51852a6a827",
+          "url": "https://github.com/cocotb/cocotb/commit/ef4a9191f7d88410e8b4e56d1d3c2c7d1bc80b7f"
+        },
+        "date": 1763929415579,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17229665801068778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04536460563955118",
+            "extra": "mean: 5.803943103400002 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24339589761111716,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02718330672262215",
+            "extra": "mean: 4.108532681999998 sec\nrounds: 5"
           }
         ]
       }
