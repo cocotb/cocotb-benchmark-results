@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763958931318,
+  "lastUpdate": 1763999427214,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30456,6 +30456,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028967791815335958",
             "extra": "mean: 4.0764778716000025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91aad486b63f54cd3cfa943619d4931828bec833",
+          "message": "`Task.cancel` changes and Task debug logging refactor\n\n* Task.cancel changes and Task debug logging refactor\n\n* Refactor Task debug logs\n* raise RuntimeError when cancelling currently running Task\n* Hijack current schedule when cancelling scheduled Task rather than\n  re-schedule\n\nThe logs in _schedule_resume and _set_outcome were removed so more\nspecific logs could be added at each state change location. Also some\nlogs which output arbitrary user values were changed to only output the\ntype as the value might be very large making the debug logs useless.\n\nAlso changed Task.cancel() so you can't try to cancel the current Task.\nThis wouldn't work currently since the currently running Task would\ncontinue executing entering _resume in an unintended state\npotentially causing bad state changes.\n\nFinally, changed the implementation of Task.cancel to hijack the current\nschedule if a Task is scheduled when it's cancelled. This will prevent\nlivelocks occuring if a Task is repeatedly cancelled by another Task.",
+          "timestamp": "2025-11-24T08:47:05-07:00",
+          "tree_id": "17de8949080c3859085d4e3372e159b2e35d72f4",
+          "url": "https://github.com/cocotb/cocotb/commit/91aad486b63f54cd3cfa943619d4931828bec833"
+        },
+        "date": 1763999426224,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1726614502272434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0059883333572384855",
+            "extra": "mean: 5.791680764199993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2438345330576097,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003540423382891688",
+            "extra": "mean: 4.101141817200005 sec\nrounds: 5"
           }
         ]
       }
