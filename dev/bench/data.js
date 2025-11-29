@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764019609239,
+  "lastUpdate": 1764428547661,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30532,6 +30532,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0389187991277263",
             "extra": "mean: 4.1000941745999855 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3ae874aa7d7dc8273b50a40cb53d913c507e5e54",
+          "message": "Bump required version of setuptools in build\n\nsetuptools is removing support for PEP621 style license fields in\npyproject.toml in February 2026.",
+          "timestamp": "2025-11-29T07:59:07-07:00",
+          "tree_id": "0770d562fd3a145d95bcc0aac0b53d1527cad496",
+          "url": "https://github.com/cocotb/cocotb/commit/3ae874aa7d7dc8273b50a40cb53d913c507e5e54"
+        },
+        "date": 1764428546484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17284436860671817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02978968563030516",
+            "extra": "mean: 5.785551522799983 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2439998831271818,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036598637634072985",
+            "extra": "mean: 4.098362618799956 sec\nrounds: 5"
           }
         ]
       }
