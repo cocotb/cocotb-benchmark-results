@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764599549320,
+  "lastUpdate": 1764626580129,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30646,6 +30646,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03153964839074876",
             "extra": "mean: 4.16322385580001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "79cd4443e6172039a260f8e3015534f920d81a54",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.14.6 → v0.14.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.14.6...v0.14.7)\n- [github.com/pre-commit/mirrors-mypy: v1.18.2 → v1.19.0](https://github.com/pre-commit/mirrors-mypy/compare/v1.18.2...v1.19.0)",
+          "timestamp": "2025-12-01T14:59:18-07:00",
+          "tree_id": "171c7b74a86d85512f779fa9c99f94711384fe36",
+          "url": "https://github.com/cocotb/cocotb/commit/79cd4443e6172039a260f8e3015534f920d81a54"
+        },
+        "date": 1764626578565,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17276307154726714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02520633664935264",
+            "extra": "mean: 5.788274027800003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24307954076414812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026078529256900934",
+            "extra": "mean: 4.113879748399995 sec\nrounds: 5"
           }
         ]
       }
