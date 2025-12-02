@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764626580129,
+  "lastUpdate": 1764695739696,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30684,6 +30684,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026078529256900934",
             "extra": "mean: 4.113879748399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af2608f89e27c68a0453486297409cddf3376bcf",
+          "message": "Add cooldown to dependabot config (#5176)\n\nSee https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns",
+          "timestamp": "2025-12-02T18:12:18+01:00",
+          "tree_id": "f5d4b4dab31308097c04bbf2d57deb2ee8b98788",
+          "url": "https://github.com/cocotb/cocotb/commit/af2608f89e27c68a0453486297409cddf3376bcf"
+        },
+        "date": 1764695738360,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1731471724009859,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014529526710733869",
+            "extra": "mean: 5.775433615999992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24481261941907864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0310126375258826",
+            "extra": "mean: 4.084756751399999 sec\nrounds: 5"
           }
         ]
       }
