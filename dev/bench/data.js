@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764695739696,
+  "lastUpdate": 1764748717252,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30722,6 +30722,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0310126375258826",
             "extra": "mean: 4.084756751399999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "9d8531b670adb9f634c5fc820beb9935b491a8c1",
+          "message": "CI: Re-enable VCS",
+          "timestamp": "2025-12-03T08:55:11+01:00",
+          "tree_id": "2d838c3fee16406f2e8b375342d3d46c65db9490",
+          "url": "https://github.com/cocotb/cocotb/commit/9d8531b670adb9f634c5fc820beb9935b491a8c1"
+        },
+        "date": 1764748715639,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17457467284157105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013772528438665322",
+            "extra": "mean: 5.728207784799997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24560256951007317,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014673019749029136",
+            "extra": "mean: 4.071618639800045 sec\nrounds: 5"
           }
         ]
       }
