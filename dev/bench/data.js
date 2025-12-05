@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764748717252,
+  "lastUpdate": 1764975482421,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30760,6 +30760,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014673019749029136",
             "extra": "mean: 4.071618639800045 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "126986907+Topi-ab@users.noreply.github.com",
+            "name": "Topi-ab",
+            "username": "Topi-ab"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5b98eadfd74ddb029bd76bd1b21b878e77360c31",
+          "message": "Added pre_cmd support for Aldec Riviera-Pro. (#5181)",
+          "timestamp": "2025-12-05T15:54:43-07:00",
+          "tree_id": "44c58be6f701530efd065d7c02b5c03cb81f9016",
+          "url": "https://github.com/cocotb/cocotb/commit/5b98eadfd74ddb029bd76bd1b21b878e77360c31"
+        },
+        "date": 1764975480524,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18959811448655212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018689022196745213",
+            "extra": "mean: 5.2743140547999925 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2766478655001189,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012876987430722513",
+            "extra": "mean: 3.6147034722000058 sec\nrounds: 5"
           }
         ]
       }
