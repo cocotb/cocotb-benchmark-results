@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764975482421,
+  "lastUpdate": 1765059231400,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30798,6 +30798,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012876987430722513",
             "extra": "mean: 3.6147034722000058 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "126986907+Topi-ab@users.noreply.github.com",
+            "name": "Topi-ab",
+            "username": "Topi-ab"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40ad6d6867490456aa03c768e5bc4efc2f8a805d",
+          "message": "Added gui support for Aldec Riviera-Pro",
+          "timestamp": "2025-12-06T15:10:10-07:00",
+          "tree_id": "93153dcd3e0a9723ab4f910615834ae085387ee4",
+          "url": "https://github.com/cocotb/cocotb/commit/40ad6d6867490456aa03c768e5bc4efc2f8a805d"
+        },
+        "date": 1765059230000,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17245869816093376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04600702440042349",
+            "extra": "mean: 5.798489787200106 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24408546181672763,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011730855919270589",
+            "extra": "mean: 4.09692569380004 sec\nrounds: 5"
           }
         ]
       }
