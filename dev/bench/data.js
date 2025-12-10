@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765243237354,
+  "lastUpdate": 1765394542183,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30874,6 +30874,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0229030041044006",
             "extra": "mean: 4.0918121639999985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e9d48f248b0a6741f5077b8dd82eca4b9c66bbf0",
+          "message": "Fix interpreter path setting in embed.cpp",
+          "timestamp": "2025-12-10T11:18:38-08:00",
+          "tree_id": "ba78e38edff1eaa48700d0e21c6396eb19483a97",
+          "url": "https://github.com/cocotb/cocotb/commit/e9d48f248b0a6741f5077b8dd82eca4b9c66bbf0"
+        },
+        "date": 1765394540402,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17101708865591803,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021730522722355358",
+            "extra": "mean: 5.847368867399996 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2386508262192214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06470193561012559",
+            "extra": "mean: 4.190222241600009 sec\nrounds: 5"
           }
         ]
       }
