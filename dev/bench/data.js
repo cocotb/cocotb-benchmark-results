@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765394789704,
+  "lastUpdate": 1765399015442,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30950,6 +30950,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04266732905017952",
             "extra": "mean: 4.164275262599949 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gilberto@hudson-trading.com",
+            "name": "Gilberto Abram",
+            "username": "gilbertoabram"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21e76dfdd8a3fd51d6a3eb176b85700d25e7d3b5",
+          "message": "Use simulator-only registration function in xcelium (#5160)",
+          "timestamp": "2025-12-10T13:33:19-07:00",
+          "tree_id": "cb7d7fbbd9826f665281d1a97c5730ff5c7692a8",
+          "url": "https://github.com/cocotb/cocotb/commit/21e76dfdd8a3fd51d6a3eb176b85700d25e7d3b5"
+        },
+        "date": 1765399013687,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17238851994181573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04991758293043211",
+            "extra": "mean: 5.800850313800003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2452270761163752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025705934208931237",
+            "extra": "mean: 4.077853130400001 sec\nrounds: 5"
           }
         ]
       }
