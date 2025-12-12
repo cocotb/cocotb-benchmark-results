@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765399015442,
+  "lastUpdate": 1765556979812,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -30988,6 +30988,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025705934208931237",
             "extra": "mean: 4.077853130400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec1ef5b487eddca3c3d9745d30539501e7402e59",
+          "message": "Add gather, select, and wait functions\n\nThe `wait` function is inspired by `asyncio.wait`, but is designed\nslightly differently to avoid some of the limitations of that function.\n\n`gather` is more or less the same as `asyncio.gather`, but it doesn't\nleak Tasks after an exception occurs when not in `return_exception`\nmode.\n\n`select` is essentially the \"any\" version of `gather`. No such function\nexists in asyncio.",
+          "timestamp": "2025-12-12T09:26:00-07:00",
+          "tree_id": "3328f4bbfb74620f6e7c0c1f9b998844ee95043d",
+          "url": "https://github.com/cocotb/cocotb/commit/ec1ef5b487eddca3c3d9745d30539501e7402e59"
+        },
+        "date": 1765556978328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17229996809651751,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033479186953226915",
+            "extra": "mean: 5.8038316028 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24472491766648885,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028242147746784154",
+            "extra": "mean: 4.086220600399997 sec\nrounds: 5"
           }
         ]
       }
