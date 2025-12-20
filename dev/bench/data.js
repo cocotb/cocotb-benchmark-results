@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766178315710,
+  "lastUpdate": 1766244240941,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31216,6 +31216,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007061619443251264",
             "extra": "mean: 4.112144828400005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5dc832a1b3c4138154f2d0fbdca065fcf4a3276d",
+          "message": "Merge triggers.rst into coroutines.rst and add an overview table (#5204)\n\nMerge triggers.rst into coroutines.rst and add an overview table\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>\n\nCloses #5191",
+          "timestamp": "2025-12-20T16:20:23+01:00",
+          "tree_id": "dd89be9800e51faf8bb6e311a289730ae3498d86",
+          "url": "https://github.com/cocotb/cocotb/commit/5dc832a1b3c4138154f2d0fbdca065fcf4a3276d"
+        },
+        "date": 1766244239333,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1720823715347014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04455591706446116",
+            "extra": "mean: 5.811170493999986 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24434657388185957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037927812022388055",
+            "extra": "mean: 4.0925476634 sec\nrounds: 5"
           }
         ]
       }
