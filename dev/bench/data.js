@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766335953138,
+  "lastUpdate": 1766365534582,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31330,6 +31330,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05227407785156676",
             "extra": "mean: 4.095409977200006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aab4f3b03357d7093a22ac7836b01e5decde576d",
+          "message": "Merge pull request #5211 from marlonjames/vhpi-split-files\n\nGPI: Split VhpiCbHdl.cpp (with history)",
+          "timestamp": "2025-12-21T17:02:18-08:00",
+          "tree_id": "eee1eb3af62f7e49aa180ec52f8bc265206956dc",
+          "url": "https://github.com/cocotb/cocotb/commit/aab4f3b03357d7093a22ac7836b01e5decde576d"
+        },
+        "date": 1766365532731,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19015600384103298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018129277844635402",
+            "extra": "mean: 5.25884000399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2770836241112375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010187377225553348",
+            "extra": "mean: 3.6090187690000106 sec\nrounds: 5"
           }
         ]
       }
