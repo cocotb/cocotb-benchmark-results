@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766365534582,
+  "lastUpdate": 1766381160727,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31368,6 +31368,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010187377225553348",
             "extra": "mean: 3.6090187690000106 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "94c568db6cea1d3178a32e074aed3ac764513d8e",
+          "message": "Add versionadded to docs of TaskManager, wait, gather, and select",
+          "timestamp": "2025-12-21T22:22:33-07:00",
+          "tree_id": "90eb00190f9ed449cc1f6dff6848a07163996d86",
+          "url": "https://github.com/cocotb/cocotb/commit/94c568db6cea1d3178a32e074aed3ac764513d8e"
+        },
+        "date": 1766381159289,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17255520653403672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03205678109787343",
+            "extra": "mean: 5.795246750800004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2437981970162478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021150424629206518",
+            "extra": "mean: 4.101753057399992 sec\nrounds: 5"
           }
         ]
       }
