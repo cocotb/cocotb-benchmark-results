@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766500980978,
+  "lastUpdate": 1766546701284,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31558,6 +31558,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02476258349510217",
             "extra": "mean: 4.117818949399998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "cb191c2f080d7ed752144b7e252cec6b9e1d1157",
+          "message": "Xcelium Runner: cleanup PLI options on build",
+          "timestamp": "2025-12-23T22:21:13-05:00",
+          "tree_id": "c11a47e66fad349a4e76f589286ab9c1550c5a3f",
+          "url": "https://github.com/cocotb/cocotb/commit/cb191c2f080d7ed752144b7e252cec6b9e1d1157"
+        },
+        "date": 1766546699374,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19034448994889724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027155996387243083",
+            "extra": "mean: 5.253632507400004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.27994297629207227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017514197816851283",
+            "extra": "mean: 3.5721560627999907 sec\nrounds: 5"
           }
         ]
       }
