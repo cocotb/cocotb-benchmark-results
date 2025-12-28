@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766874581014,
+  "lastUpdate": 1766892632375,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31672,6 +31672,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02354911298079902",
             "extra": "mean: 4.129072382800007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "41957a2e9fe3e1de5c584c3817f443042942817d",
+          "message": "feat: add pytest as regression manager for cocotb\n\nThis feature is adding pytest as regression manager\nto manage and run cocotb tests.\n\npytest plugin for cocotb can be enabled from command line:\n\n```plaintext\npytest -p cocotb_tools.pytest.plugin\n```\n\nUsing environment variable:\n\n```plaintext\nexport PYTEST_PLUGINS=cocotb_tools.pytest.plugin\n```\n\nUsing `pyproject.toml` configuration file:\n\n```toml\n[project.entry-points.pytest11]\ncocotb = \"cocotb_tools.pytest.plugin\"\n```\n\nUsing `conftest.py` file:\n\n```python\npytest_plugins = (\"cocotb_tools.pytest.plugin\",)\n```\n\nTest examples can be found under `./tests/pytest/plugin/*.py`.\n\nTo run them (for now, hardcoded to support GHDL/VHDL):\n\n```plaintext\npytest tests/pytest/plugin\n```\n\nOverview:\n\n- full support for using pytest with cocotb\n- using pytest as regression manager for running cocotb tests\n- `pytest --collect-only` will return collected cocotb tests\n- pytest fixtures support for cocotb coroutines (for test setup/teardown)\n- `pytest -k '<expression>'` can be used to filter cocotb tests\n- `@cocotb.test` decorator will be transformed to `@pytest.mark.cocotb`\n- `@cocotb.parametrize` decorator will be transformed to\n  `@pytest.mark.parametrize`\n- `dut` as pytest fixture\n- `@pytest.mark.cocotb` to mark normal function as cocotb runner and\n  coroutine function as cocotb test\n- `@pytest.mark.cocotb` or `@cocotb.test` decorators are not needed\n  for test functions defined as `async def test_*(dut, ...) -> None:`\n- support for grouping tests within classes\n- pytest command line arguments for cocotb as `--cocotb-*`\n- support for defining configuration options using `cocotb_*` entries\n  in configuration files like `pyproject.toml`\n- support for defining configuration options using\n  environment variables `COCOTB_*`\n- precedence of configuration options: command line arguments >\n  environment variables > configuration files > default values\n\nRemarks:\n\n- Documentation in progress...\n- More unit tests in progress...\n- More comments and docstrings in progress...\n\nCloses #4642, closes #494",
+          "timestamp": "2025-12-27T22:26:56-05:00",
+          "tree_id": "0fc2779f270200eef2121e58fde1621b46f21910",
+          "url": "https://github.com/cocotb/cocotb/commit/41957a2e9fe3e1de5c584c3817f443042942817d"
+        },
+        "date": 1766892630723,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17333292930952685,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02455340986347891",
+            "extra": "mean: 5.769244216800052 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24486343307580974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02793875374500068",
+            "extra": "mean: 4.083909089400049 sec\nrounds: 5"
           }
         ]
       }
