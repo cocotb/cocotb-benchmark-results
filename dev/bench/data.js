@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766892632375,
+  "lastUpdate": 1767055033502,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31710,6 +31710,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02793875374500068",
             "extra": "mean: 4.083909089400049 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe7d22e9185d8c37773c0699f0dc785f2a254f52",
+          "message": "GPI logging interface refactors (#5218)\n\n* Remove gpi_log_filtered and replace uses with gpi_debug_enabled\n* Remove gpi_log_filter and gpi_log_set_level functionality. Reimplement this in the pygpi log handler.\n* Reimplement pygpi logging to not use native logger\n* Move public parts of GPI logging API to gpi.h and made remainder of GPI logging API implementation private\n* Made more GPI logger functions private/static\n* Use fallback GPI logger until Python is configured in PyGPI\n* Make PyGPI naming consistent\n* Use enum for log level instead of int",
+          "timestamp": "2025-12-29T19:33:45-05:00",
+          "tree_id": "7339a652c19de891b9c11f8ca2ca47de50bf8763",
+          "url": "https://github.com/cocotb/cocotb/commit/fe7d22e9185d8c37773c0699f0dc785f2a254f52"
+        },
+        "date": 1767055031835,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17287072254131275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019475257668689443",
+            "extra": "mean: 5.784669522400009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24211473475665976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022906427526077324",
+            "extra": "mean: 4.130273198799989 sec\nrounds: 5"
           }
         ]
       }
