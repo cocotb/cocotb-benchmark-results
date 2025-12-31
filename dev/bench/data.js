@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767055033502,
+  "lastUpdate": 1767144427240,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31748,6 +31748,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022906427526077324",
             "extra": "mean: 4.130273198799989 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0dab7640c7f7112b75cf31dcba4313bfaa477b47",
+          "message": "Update VPI headers",
+          "timestamp": "2025-12-30T20:23:38-05:00",
+          "tree_id": "0ea87def35c88cc69892e91bc54a922922af9840",
+          "url": "https://github.com/cocotb/cocotb/commit/0dab7640c7f7112b75cf31dcba4313bfaa477b47"
+        },
+        "date": 1767144425774,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17241794955323084,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028409542976061304",
+            "extra": "mean: 5.799860180400003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24375337845899742,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027072451544523427",
+            "extra": "mean: 4.102507240400007 sec\nrounds: 5"
           }
         ]
       }
