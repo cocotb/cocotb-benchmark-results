@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767144427240,
+  "lastUpdate": 1767188777278,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31786,6 +31786,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027072451544523427",
             "extra": "mean: 4.102507240400007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3a76caedfa12d5d7c3ed53fc13cdaec9da1d4704",
+          "message": "Deprecate passing Tasks to First/Combine\n\nFirst and Combine are Triggers. Triggers can be awaited multiple times\nto re-prime whatever condition they represent. Tasks wrap coroutines and\ncan only run once, so there is an impedance mismatch. In operation,\nwhat's happening is the First/Combine are re-awaiting the Task's\ncompletion trigger. Repeated uses of the First and Combine will consume\nno time once the Task completes.\n\nThis behavior was only supported since there needed to be some way to\nwait for multiple concurrent coroutines to joined. But now that\ngather/select are available, they do the job *much* better and avoid the\nlimitations of using Tasks in First/Combine.",
+          "timestamp": "2025-12-31T08:42:54-05:00",
+          "tree_id": "1d8f8e7f9d6b345f1f6901bfe5d38628a75ea101",
+          "url": "https://github.com/cocotb/cocotb/commit/3a76caedfa12d5d7c3ed53fc13cdaec9da1d4704"
+        },
+        "date": 1767188775723,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1722925342476034,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07591993311382861",
+            "extra": "mean: 5.8040820188000115 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24355423859444236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029013869836016764",
+            "extra": "mean: 4.10586161739999 sec\nrounds: 5"
           }
         ]
       }
