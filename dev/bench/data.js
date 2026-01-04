@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767188777278,
+  "lastUpdate": 1767543664210,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31824,6 +31824,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029013869836016764",
             "extra": "mean: 4.10586161739999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8987289258ad6dddbd526b1ba6832c86231977e0",
+          "message": "chore(pytest): setup/teardown random seed per test\n\nAlign handling random seed in the same way like in the built-in\nregression manager. Random seed will be set and restore per test.\n\nCloses #5228",
+          "timestamp": "2026-01-04T09:17:32-07:00",
+          "tree_id": "82ae5c9e61e6b7271e707b84ade0d53211e73913",
+          "url": "https://github.com/cocotb/cocotb/commit/8987289258ad6dddbd526b1ba6832c86231977e0"
+        },
+        "date": 1767543662762,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17117361834015568,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05916363742671146",
+            "extra": "mean: 5.842021742000003 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24163712393268125,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012448771834411197",
+            "extra": "mean: 4.138436940999986 sec\nrounds: 5"
           }
         ]
       }
