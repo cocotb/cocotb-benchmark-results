@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767626719800,
+  "lastUpdate": 1767664617482,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31900,6 +31900,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012035520180368773",
             "extra": "mean: 4.104156163800008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5c8f43a5c9b4d4c516a63aa7e1932c3a308f75b0",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/henryiii/validate-pyproject-schema-store: 2025.11.21 → 2026.01.02](https://github.com/henryiii/validate-pyproject-schema-store/compare/2025.11.21...2026.01.02)",
+          "timestamp": "2026-01-05T18:53:42-07:00",
+          "tree_id": "871f142b79064f89c3cf525139d2df2b846d47d7",
+          "url": "https://github.com/cocotb/cocotb/commit/5c8f43a5c9b4d4c516a63aa7e1932c3a308f75b0"
+        },
+        "date": 1767664615576,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19131281497194177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01925454375092834",
+            "extra": "mean: 5.2270413780000125 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.27933725265134385,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01206752874377539",
+            "extra": "mean: 3.5799020378000024 sec\nrounds: 5"
           }
         ]
       }
