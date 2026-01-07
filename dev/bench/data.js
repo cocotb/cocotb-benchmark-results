@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767827846032,
+  "lastUpdate": 1767829574262,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32166,6 +32166,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008916999557603422",
             "extra": "mean: 3.581701265799984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1ab81f5edb63a12f5b1d26caa4393c5ed07aaf8d",
+          "message": "Added overflow handling to LogicArray.from_(un)signed",
+          "timestamp": "2026-01-07T16:42:31-07:00",
+          "tree_id": "f61a05ac1910d43eeddd50e234b8974980f97030",
+          "url": "https://github.com/cocotb/cocotb/commit/1ab81f5edb63a12f5b1d26caa4393c5ed07aaf8d"
+        },
+        "date": 1767829572600,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17211514952558576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019414464063858307",
+            "extra": "mean: 5.810063801799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24233890063898705,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0203170090501274",
+            "extra": "mean: 4.126452655200012 sec\nrounds: 5"
           }
         ]
       }
