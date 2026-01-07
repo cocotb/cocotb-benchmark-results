@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767802962408,
+  "lastUpdate": 1767818834745,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32014,6 +32014,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01958727997010216",
             "extra": "mean: 4.100443539800006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6178dba8223a8175e9e8e18eb5893aaa0a514feb",
+          "message": "chore(env): add env module to handle environment variables (#5232)\n\n- Move `src/cocotb_tools/pytest/env.py` to `src/cocotb_tools/_env.py`\n- Add unit tests `tests/pytest/test_env.py`\n- Code coverage for the `cocotb_tools._env` module is 100%\n- Replace `from cocotb_tools.pytest import env` with `from cocotb_tools import _env`\n- Replace `os.environ.get()` with `_env.as_*` functions\n- Replace `os.environ[]` with `_env.as_*` functions\n- Replace `os.getenv()` with `_env.as_*` functions\n- Update info about the [NO_COLOR](https://no-color.org/) environment variable\n- Add documentation about environment variables\n- Add news fragments about environment variables\n- Add types for environment variables in documentation\n\nCloses #5024",
+          "timestamp": "2026-01-07T21:43:38+01:00",
+          "tree_id": "37ae42d560a362f47f9d82356454100787693496",
+          "url": "https://github.com/cocotb/cocotb/commit/6178dba8223a8175e9e8e18eb5893aaa0a514feb"
+        },
+        "date": 1767818833206,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17152719157938362,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030539961442637667",
+            "extra": "mean: 5.829979438200008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24015159624459664,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019297272749023382",
+            "extra": "mean: 4.164036448799993 sec\nrounds: 5"
           }
         ]
       }
