@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767802710327,
+  "lastUpdate": 1767802962408,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31976,6 +31976,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01931592598995914",
             "extra": "mean: 4.08821152060001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3bb5165d5c2d693a76d7924cb2f907fff49bc477",
+          "message": "chore(pytest-plugin): use RunningTest class\n\n- Using the `RunningTest` class\n- Added more docstrings and comments\n- Removed dependency to `cocotb.regression`\n- Added own `SimFailure` exception instead relying on `cocotb.regression.SimFailure`\n- Added `RunningTestSetup` class for pytest `setup` - `teardown`.\n  Added sub-tasks in test setup like clock generators cannot be cancelled,\n  they must survive test `setup` abort, test `call` abort but be aborted in test `teardown`\n- Code refactoring that should simplify and help understanding pytest flow\n  `setup` -> `call` -> `teardown`\n\nchore(docstring): apply suggestions from code review\n\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>\n\ndoc(regression): better docstring for _setups, _call, _teardowns attributes",
+          "timestamp": "2026-01-07T09:16:17-07:00",
+          "tree_id": "e2336e36281668947f3491c231727010a4c9c0fd",
+          "url": "https://github.com/cocotb/cocotb/commit/3bb5165d5c2d693a76d7924cb2f907fff49bc477"
+        },
+        "date": 1767802960910,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17269096305788884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05636826863936265",
+            "extra": "mean: 5.790690967799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24387605640554041,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01958727997010216",
+            "extra": "mean: 4.100443539800006 sec\nrounds: 5"
           }
         ]
       }
