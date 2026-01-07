@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767821369780,
+  "lastUpdate": 1767827614657,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32090,6 +32090,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02919556692477925",
             "extra": "mean: 4.100093992199993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "824e68aadd9c8d07f458df939e504c5ab10b47ba",
+          "message": "Add format specifier support to LogicArray",
+          "timestamp": "2026-01-07T16:09:56-07:00",
+          "tree_id": "1858b0fb4084217a4d35291c71f672ffccec9541",
+          "url": "https://github.com/cocotb/cocotb/commit/824e68aadd9c8d07f458df939e504c5ab10b47ba"
+        },
+        "date": 1767827613637,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17227249434816258,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008784376325910162",
+            "extra": "mean: 5.804757188799977 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24273205552781482,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028254477967993456",
+            "extra": "mean: 4.119769009600009 sec\nrounds: 5"
           }
         ]
       }
