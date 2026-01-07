@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767664617482,
+  "lastUpdate": 1767802710327,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -31938,6 +31938,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01206752874377539",
             "extra": "mean: 3.5799020378000024 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d7ffcc0dff67cf2bd6e09e1259b19e172ef81c5",
+          "message": "Support getting sign and size on integer objects\n\n* Added `gpi_is_signed` to get signedness of GPI objects\n* Fixed reporting of size on integer-like GPI objects\n* Added `is_signed` property to IntegerObject, EnumObject, and LogicArrayObject\n* Added support for `vhpiLongInt`",
+          "timestamp": "2026-01-07T09:15:08-07:00",
+          "tree_id": "26c9329bf57206e90a1e5a960e4ef7c5c97203c7",
+          "url": "https://github.com/cocotb/cocotb/commit/9d7ffcc0dff67cf2bd6e09e1259b19e172ef81c5"
+        },
+        "date": 1767802708928,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17296712590174496,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019922304411597234",
+            "extra": "mean: 5.781445432400005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24460573895482646,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01931592598995914",
+            "extra": "mean: 4.08821152060001 sec\nrounds: 5"
           }
         ]
       }
