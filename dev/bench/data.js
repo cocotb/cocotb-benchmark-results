@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767818834745,
+  "lastUpdate": 1767821369780,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32052,6 +32052,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019297272749023382",
             "extra": "mean: 4.164036448799993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95f6db473dd672790288d344256f46dd9d20e13e",
+          "message": "Reimplement `testcase` argument to `Runner.test` with `COCOTB_TEST_FILTER`",
+          "timestamp": "2026-01-07T14:26:01-07:00",
+          "tree_id": "1a045244ea30e048dc28444d5e96beda65b03bbd",
+          "url": "https://github.com/cocotb/cocotb/commit/95f6db473dd672790288d344256f46dd9d20e13e"
+        },
+        "date": 1767821368034,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17295764992292212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009004362581319309",
+            "extra": "mean: 5.7817621853999865 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2438968477070031,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02919556692477925",
+            "extra": "mean: 4.100093992199993 sec\nrounds: 5"
           }
         ]
       }
