@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767890337120,
+  "lastUpdate": 1767897171461,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32242,6 +32242,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01850391984730191",
             "extra": "mean: 4.173661824399995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11b8cd8d17f8e3fea5b8023a7bdda6dc87f3f667",
+          "message": "removed issue_253 test (#5250)\n\nBecause the Makefile uses ifndef ($(SIM),) rather than actually checking for \"icarus\" then this tests is never run in CI. Turns out it is broken. The functionality it tested was broken in 1.9 and no one has complained, so lets just remove the test.",
+          "timestamp": "2026-01-08T11:29:29-07:00",
+          "tree_id": "c219f90703e79e832d506099330b3726af33e632",
+          "url": "https://github.com/cocotb/cocotb/commit/11b8cd8d17f8e3fea5b8023a7bdda6dc87f3f667"
+        },
+        "date": 1767897170045,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17346980839956233,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020679159550456076",
+            "extra": "mean: 5.764691903599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24247070314971378,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03010343598329787",
+            "extra": "mean: 4.124209593200004 sec\nrounds: 5"
           }
         ]
       }
