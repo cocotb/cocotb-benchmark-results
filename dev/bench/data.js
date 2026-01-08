@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767829574262,
+  "lastUpdate": 1767890337120,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32204,6 +32204,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0203170090501274",
             "extra": "mean: 4.126452655200012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0a02a80510ed9f2e38c7d721dbfe1f9ea7a774c9",
+          "message": "Refactor initialization/finalization\n\n* Move RegressionManager singleton instance to cocotb.regression\n* Move shutdown to it's own module\n* Move initialization from cocotb._init into appropriate modules\n* Unrelated nitpicking",
+          "timestamp": "2026-01-08T09:35:08-07:00",
+          "tree_id": "3a16d0537a059d0aae49495900d81a1ec3d690f1",
+          "url": "https://github.com/cocotb/cocotb/commit/0a02a80510ed9f2e38c7d721dbfe1f9ea7a774c9"
+        },
+        "date": 1767890335677,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16900934811289775,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046552250152297525",
+            "extra": "mean: 5.916832477999992 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2395977542200032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01850391984730191",
+            "extra": "mean: 4.173661824399995 sec\nrounds: 5"
           }
         ]
       }
