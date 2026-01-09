@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767897171461,
+  "lastUpdate": 1767995675531,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32280,6 +32280,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03010343598329787",
             "extra": "mean: 4.124209593200004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "427ce43451728fa42afe9932fab32ca143059eb5",
+          "message": "Combine coverage from each test run\n\nWrite coverage to a temp file and then merge into the master coverage file name. This prevents overwriting coverage data on back-to-back simulation runs.",
+          "timestamp": "2026-01-09T14:51:03-07:00",
+          "tree_id": "a4291c26c4aac762cd97ce919c8ec7611d2fd9b7",
+          "url": "https://github.com/cocotb/cocotb/commit/427ce43451728fa42afe9932fab32ca143059eb5"
+        },
+        "date": 1767995673800,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17173569996265492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.053310022085526154",
+            "extra": "mean: 5.822901122000007 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24277802237226517,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025259236860950194",
+            "extra": "mean: 4.118988985200002 sec\nrounds: 5"
           }
         ]
       }
