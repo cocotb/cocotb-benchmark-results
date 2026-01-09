@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767995675531,
+  "lastUpdate": 1767996953328,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32318,6 +32318,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025259236860950194",
             "extra": "mean: 4.118988985200002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ffd8c9f06c4927890dc90203e505bf98d11595e7",
+          "message": "chore(pytest-plugin): make modules private\n\nMost modules and functions of pytest plugin will be private.\nThey are no needed by users.\n\nPublic modules:\n\n- `hookspecs.py` - it contains hook specifications needed for documentation and users\n- `mark.py` - it contains pytest markers with types, used in documentation\n- `hdl.py` - it contains `HDL` class used for `hdl` fixture\n- `plugin.py` - it contains `hdl`, `dut` fixtures, used as plugin entry point\n\nCloses #5247",
+          "timestamp": "2026-01-09T15:11:46-07:00",
+          "tree_id": "ec40446b43326a6e60e8c67eb04689c78e4c995c",
+          "url": "https://github.com/cocotb/cocotb/commit/ffd8c9f06c4927890dc90203e505bf98d11595e7"
+        },
+        "date": 1767996951361,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1899933241798697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02625277239333837",
+            "extra": "mean: 5.263342826999986 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.27976237997527575,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012744573145432038",
+            "extra": "mean: 3.5744620134000002 sec\nrounds: 5"
           }
         ]
       }
