@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767996953328,
+  "lastUpdate": 1768081385438,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32356,6 +32356,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012744573145432038",
             "extra": "mean: 3.5744620134000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "5a6882b908462acbe5afc93996bf97f217d0e98d",
+          "message": "CI: Add some GPI init failure tests",
+          "timestamp": "2026-01-10T13:39:29-08:00",
+          "tree_id": "d7b4eb10b612ea52ef7f06bfefa2f118fa72c997",
+          "url": "https://github.com/cocotb/cocotb/commit/5a6882b908462acbe5afc93996bf97f217d0e98d"
+        },
+        "date": 1768081383722,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17183403865561453,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06993920665692548",
+            "extra": "mean: 5.819568741 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24170773036840565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06787679851894567",
+            "extra": "mean: 4.137228041799995 sec\nrounds: 5"
           }
         ]
       }
