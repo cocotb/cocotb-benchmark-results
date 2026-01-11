@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768081654404,
+  "lastUpdate": 1768167881886,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32432,6 +32432,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025759906907140636",
             "extra": "mean: 4.483551184199996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "afee4adc53ae6e78e7a43acbd63919ae58783d31",
+          "message": "Optimize implementation of some handle type conversions",
+          "timestamp": "2026-01-11T14:41:10-07:00",
+          "tree_id": "bf6d9d680223c7aef8e53e7a95bc8e1aa9d76663",
+          "url": "https://github.com/cocotb/cocotb/commit/afee4adc53ae6e78e7a43acbd63919ae58783d31"
+        },
+        "date": 1768167880446,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16043260594179776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.055001666261618495",
+            "extra": "mean: 6.233146897599999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.22224922305314299,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030208902966975957",
+            "extra": "mean: 4.499453299599997 sec\nrounds: 5"
           }
         ]
       }
