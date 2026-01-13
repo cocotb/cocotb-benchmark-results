@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768263028379,
+  "lastUpdate": 1768336271235,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32508,6 +32508,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025033738809352085",
             "extra": "mean: 4.531414448799978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53f30bdda84a06eca0829b3f4589652141c14b18",
+          "message": "Add typing support for LogicArray on LogicObject (#5270)",
+          "timestamp": "2026-01-13T13:27:42-07:00",
+          "tree_id": "c98f35c404765005747fe1e2927eb1d9566b94e0",
+          "url": "https://github.com/cocotb/cocotb/commit/53f30bdda84a06eca0829b3f4589652141c14b18"
+        },
+        "date": 1768336269915,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16289026648253224,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02404048126869844",
+            "extra": "mean: 6.1391022409999945 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2233426206973296,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029178404389469368",
+            "extra": "mean: 4.477425745600004 sec\nrounds: 5"
           }
         ]
       }
