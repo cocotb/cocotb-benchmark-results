@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768336271235,
+  "lastUpdate": 1768336626352,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32546,6 +32546,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029178404389469368",
             "extra": "mean: 4.477425745600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e07e62b1f94f6cff48a3842abcf8d0cf52ddd7ed",
+          "message": "Use is_signed to determine bounds of LogicArray, Integer, and Enum Objects",
+          "timestamp": "2026-01-13T13:33:22-07:00",
+          "tree_id": "f3f37cc1e6a7f3cf63ce4d9a670c273c9f522f9f",
+          "url": "https://github.com/cocotb/cocotb/commit/e07e62b1f94f6cff48a3842abcf8d0cf52ddd7ed"
+        },
+        "date": 1768336624570,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.16097264202269485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030574792255010325",
+            "extra": "mean: 6.2122357404000015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2225275827305888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01996019124130419",
+            "extra": "mean: 4.493824935000021 sec\nrounds: 5"
           }
         ]
       }
