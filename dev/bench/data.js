@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768336626352,
+  "lastUpdate": 1768499532552,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32584,6 +32584,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01996019124130419",
             "extra": "mean: 4.493824935000021 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "cfaa7b72bdbbc989ed6c90921a3a8b8a429ec71d",
+          "message": "Don't pass argv to Python entry points\n\nWe can now programmatically \"get\" the argv using the GPI. This reduces\nrequirements on the entry points.",
+          "timestamp": "2026-01-15T10:48:33-07:00",
+          "tree_id": "ceaea7157ffad6f6550d9c7a7107889a1536c66b",
+          "url": "https://github.com/cocotb/cocotb/commit/cfaa7b72bdbbc989ed6c90921a3a8b8a429ec71d"
+        },
+        "date": 1768499530886,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.15990752176007747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.056475094924930726",
+            "extra": "mean: 6.253614520400004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2231495640821757,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023329560779913824",
+            "extra": "mean: 4.481299365799998 sec\nrounds: 5"
           }
         ]
       }
