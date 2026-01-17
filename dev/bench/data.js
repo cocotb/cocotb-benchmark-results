@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768499532552,
+  "lastUpdate": 1768668015062,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32622,6 +32622,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023329560779913824",
             "extra": "mean: 4.481299365799998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "78d2cb0fd353fcc0e282f9efe549eb8d5f9ff0a1",
+          "message": "Revert \"Introduce and use cached_no_args_method\"\n\nThis reverts commit 4c2f0b7f8da512c9b6df404f20524d178e280dd3.\n\nThe way Python looks up special methods like `__len__` when calling\n`len(...)` is not like normal lookup. This causes the `__get__` on\n`cached_no_args_method` to be called with an instance object, which adds\nthe wrapped function. But it does this on every call, it *never* looks\nup the method from the object's `__dict__`.\n\nTurns out caching the length isn't needed, just running the function is\nfast.",
+          "timestamp": "2026-01-17T09:36:43-07:00",
+          "tree_id": "291ba9f285ab9e7a4c5658de656d1ffec651be14",
+          "url": "https://github.com/cocotb/cocotb/commit/78d2cb0fd353fcc0e282f9efe549eb8d5f9ff0a1"
+        },
+        "date": 1768668013700,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17330619351041002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04852387849622918",
+            "extra": "mean: 5.770134233199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24511837934307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03894827572236233",
+            "extra": "mean: 4.079661438199992 sec\nrounds: 5"
           }
         ]
       }
