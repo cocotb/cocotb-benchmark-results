@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768860075289,
+  "lastUpdate": 1769027637742,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32698,6 +32698,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01495329855762627",
             "extra": "mean: 4.116205499199987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e39e71f3a4ef002c1553e68e67e23a363fd538c2",
+          "message": "Add support for visual separators in LogicArray string literals\n\nAlso improve some other exceptions in LogicArray.",
+          "timestamp": "2026-01-21T13:30:05-07:00",
+          "tree_id": "8796184f0afc671ef97483c2d93fa7e44ea08fec",
+          "url": "https://github.com/cocotb/cocotb/commit/e39e71f3a4ef002c1553e68e67e23a363fd538c2"
+        },
+        "date": 1769027636428,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1791770377570266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037870002055724265",
+            "extra": "mean: 5.5810722876 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.24853387135415633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014274840362601307",
+            "extra": "mean: 4.023596439999994 sec\nrounds: 5"
           }
         ]
       }
