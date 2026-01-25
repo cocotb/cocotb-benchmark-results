@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769181295702,
+  "lastUpdate": 1769360028811,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32774,6 +32774,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011811587840241226",
             "extra": "mean: 4.041583466600014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "36651beffc0cb9f68155a1aaf3e34aef52dccbc2",
+          "message": "Touch-up the Install docs\n\n* Move \"Install Development Version\" to How-To section\n* Remove all the versionchanged notes about dropping Python versions,\n  let that stay in the release notes.\n* Remove needing Make or a simulator from the prerequisites to install,\n  this is technically not true. They are only necessary to use it.\n* Remove note about type checking needing Python 3.11+ since all that's\n  really needed is a version of mypy that supports everything we use,\n  and typically those versions of mypy run on very old versions of\n  Python.\n* Reword and shuffle some things.\n* Split Windows instructions into Conda and WSL in both release and\n  development installation instructions.",
+          "timestamp": "2026-01-25T09:50:10-07:00",
+          "tree_id": "89ca352f4b8180c9a30bf9858294fdbf433c9b19",
+          "url": "https://github.com/cocotb/cocotb/commit/36651beffc0cb9f68155a1aaf3e34aef52dccbc2"
+        },
+        "date": 1769360026951,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17165306274690204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07399846984708193",
+            "extra": "mean: 5.825704382999993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2453354107262999,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04736333305757478",
+            "extra": "mean: 4.076052441999968 sec\nrounds: 5"
           }
         ]
       }
