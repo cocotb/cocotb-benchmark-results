@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769488999189,
+  "lastUpdate": 1769618319982,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32926,6 +32926,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023023190315826492",
             "extra": "mean: 3.8185042107999836 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "21926bae0d584bb898124e4dd7025584181444ff",
+          "message": "Return ExceptionGroup from TestManager\n\nAlso removes the need for Outcome in the RegressionManager and\nTestManager, reducing overhead.\n\nInstead of just printing the additional exceptions, they are gathered\nup. For this to work properly, we will need to change abort() to not\ncall test_complete immediately, but only after all child Tasks have\nfinished cleaning up.",
+          "timestamp": "2026-01-28T09:35:17-07:00",
+          "tree_id": "efe94d02bb370ee9ddbaa30e6fd7fc0988b5707f",
+          "url": "https://github.com/cocotb/cocotb/commit/21926bae0d584bb898124e4dd7025584181444ff"
+        },
+        "date": 1769618318720,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19885130795425962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021080224377594745",
+            "extra": "mean: 5.028883190599998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.29812316244093495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013065482745910089",
+            "extra": "mean: 3.3543183690000036 sec\nrounds: 5"
           }
         ]
       }
