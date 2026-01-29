@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769618319982,
+  "lastUpdate": 1769658726790,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -32964,6 +32964,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013065482745910089",
             "extra": "mean: 3.3543183690000036 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2156c79de19f6dd110934730fbaabecc3d5d7ba6",
+          "message": "chore: pytest plugin overview and tests summary\n\nFixes #5276 by explaning pytest plugin architecture where\ncocotb runners are treated as test functions.\n\nIt also shows cocotb runners as `<Function>` item when invoking `pytest`\nwith the `--collect-only` option. This will fix number of collected\nitems (tests) in collect summary info and match\nwith number of reported tests in test summary info.",
+          "timestamp": "2026-01-28T20:48:35-07:00",
+          "tree_id": "f24933e7b6d71820cf16e98e28c6e20b77de913c",
+          "url": "https://github.com/cocotb/cocotb/commit/2156c79de19f6dd110934730fbaabecc3d5d7ba6"
+        },
+        "date": 1769658725567,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18076424420095014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06825207459639628",
+            "extra": "mean: 5.532067497200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2588811344808043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03310038092671153",
+            "extra": "mean: 3.8627766445999896 sec\nrounds: 5"
           }
         ]
       }
