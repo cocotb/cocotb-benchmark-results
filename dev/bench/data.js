@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769975079753,
+  "lastUpdate": 1770046477858,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33040,6 +33040,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02500373875659982",
             "extra": "mean: 3.824207073000025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f60217391c0a07c6e0df61b2b5b5f78986dc21c7",
+          "message": "Bump actions/setup-python from 6.1.0 to 6.2.0\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 6.1.0 to 6.2.0.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/83679a892e2d95755f2dac6acb0bfd1e9ac5d548...a309ff8b426b58ec0e2a45f0f869d46889d02405)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-version: 6.2.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-02-02T08:31:12-07:00",
+          "tree_id": "a0ba5ca70a2fd458215e9513cb3659eee1a6858c",
+          "url": "https://github.com/cocotb/cocotb/commit/f60217391c0a07c6e0df61b2b5b5f78986dc21c7"
+        },
+        "date": 1770046476695,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18121057444614563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03706183288664404",
+            "extra": "mean: 5.518441752400008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26398942114812396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01883284993729558",
+            "extra": "mean: 3.788030579600013 sec\nrounds: 5"
           }
         ]
       }
