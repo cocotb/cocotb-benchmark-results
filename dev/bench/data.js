@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770046477858,
+  "lastUpdate": 1770143050264,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33078,6 +33078,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01883284993729558",
             "extra": "mean: 3.788030579600013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d01c7d7d35da260a38329fe1ee9fad2c2d64196a",
+          "message": "fix(test_integers): invalid boundary ranges\n\nFixes #5298",
+          "timestamp": "2026-02-03T11:20:51-07:00",
+          "tree_id": "b8de88f7338ecac92ea2c92fc558f2d54e2be5a2",
+          "url": "https://github.com/cocotb/cocotb/commit/d01c7d7d35da260a38329fe1ee9fad2c2d64196a"
+        },
+        "date": 1770143048652,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19882984781240046,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04313707775050575",
+            "extra": "mean: 5.029425968999976 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2970140290694664,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018053031350928103",
+            "extra": "mean: 3.366844330999993 sec\nrounds: 5"
           }
         ]
       }
