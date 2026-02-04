@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770143050264,
+  "lastUpdate": 1770218317445,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33116,6 +33116,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018053031350928103",
             "extra": "mean: 3.366844330999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9f986c9f18f5b8083557374ebdfe3ed6dd0ffec7",
+          "message": "Fix some ResourceWarning caused by TaskManager\n\nPreviously when calling `start_soon` with a coroutine it wrapped the\ncoroutine in a `_waiter` coroutine. Not only is this unnecessary, it\nwas causing issues. If this was done and then the TaskManager cancelled\nthe Task for that coroutine before it was ever run, a CancelledError\nwas thrown into the `_waiter` task. But because it was never started, no\ncode is actually run. So the CancelledError isn't propagated up into the\nuser's coro and it's never closed, leading to the ResourceWarning.",
+          "timestamp": "2026-02-04T08:15:00-07:00",
+          "tree_id": "2c62a9faa868181b1c0f466677b090932796b94b",
+          "url": "https://github.com/cocotb/cocotb/commit/9f986c9f18f5b8083557374ebdfe3ed6dd0ffec7"
+        },
+        "date": 1770218315989,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18114587781090324,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017414271369656908",
+            "extra": "mean: 5.520412675600005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26100065146462087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02692299494434065",
+            "extra": "mean: 3.8314080612 sec\nrounds: 5"
           }
         ]
       }
