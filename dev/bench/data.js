@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770218317445,
+  "lastUpdate": 1770352217036,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33154,6 +33154,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02692299494434065",
             "extra": "mean: 3.8314080612 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ehab.ibrahim@magics.tech",
+            "name": "Ehab Ibrahim",
+            "username": "Ehab-Ibrahim"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abca048044a205a6f4f3ac70fbe98ef47219e587",
+          "message": "Separate cocotb runners in pytest summary (#5287)",
+          "timestamp": "2026-02-05T21:26:54-07:00",
+          "tree_id": "e7e2ea0d9330aa8fc22fae7c6bf9b0caf914b882",
+          "url": "https://github.com/cocotb/cocotb/commit/abca048044a205a6f4f3ac70fbe98ef47219e587"
+        },
+        "date": 1770352215840,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1815049641532911,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04514565485248819",
+            "extra": "mean: 5.509491184800015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26289118193347005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0243671718106968",
+            "extra": "mean: 3.8038552401999937 sec\nrounds: 5"
           }
         ]
       }
