@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770352217036,
+  "lastUpdate": 1770352442623,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33192,6 +33192,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0243671718106968",
             "extra": "mean: 3.8038552401999937 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6b05900d54292819ac83b2ce40755389bf4b4339",
+          "message": "Fill in some coverage gaps on LogicArray",
+          "timestamp": "2026-02-05T21:27:45-07:00",
+          "tree_id": "294df876b18aaf5a22e222343ad1139a0831074a",
+          "url": "https://github.com/cocotb/cocotb/commit/6b05900d54292819ac83b2ce40755389bf4b4339"
+        },
+        "date": 1770352441411,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1829404212106147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03131482645732185",
+            "extra": "mean: 5.466260509200015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.264284016693578,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023834624509393734",
+            "extra": "mean: 3.7838080883999963 sec\nrounds: 5"
           }
         ]
       }
