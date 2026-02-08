@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770509934632,
+  "lastUpdate": 1770510162518,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33268,6 +33268,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01179821897380731",
             "extra": "mean: 3.7874304788000073 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a639d36137e66c8da895e31c17f0ebc629daacde",
+          "message": "Separate TestManager.abort into separate public and private APIs",
+          "timestamp": "2026-02-07T18:16:11-06:00",
+          "tree_id": "ea3b6103a58de745f511733533f761192fa767ba",
+          "url": "https://github.com/cocotb/cocotb/commit/a639d36137e66c8da895e31c17f0ebc629daacde"
+        },
+        "date": 1770510161396,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18152269276949035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029589309701328514",
+            "extra": "mean: 5.508953094200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26111418243737977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017287206361062103",
+            "extra": "mean: 3.8297421865999923 sec\nrounds: 5"
           }
         ]
       }
