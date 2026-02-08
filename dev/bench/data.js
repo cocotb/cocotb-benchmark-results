@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770510162518,
+  "lastUpdate": 1770589774891,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33306,6 +33306,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017287206361062103",
             "extra": "mean: 3.8297421865999923 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1b9979ddd2c16a6b6249fd96beba781c9211fe67",
+          "message": "Use uv for docs building",
+          "timestamp": "2026-02-08T16:26:10-06:00",
+          "tree_id": "ff67ed2a4b4af55aaa467e36edb7748f72e8e1b0",
+          "url": "https://github.com/cocotb/cocotb/commit/1b9979ddd2c16a6b6249fd96beba781c9211fe67"
+        },
+        "date": 1770589773782,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1820571291056887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03885867604230133",
+            "extra": "mean: 5.492781331399965 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2620176728024542,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06122104690673956",
+            "extra": "mean: 3.8165364545999183 sec\nrounds: 5"
           }
         ]
       }
