@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770352442623,
+  "lastUpdate": 1770509934632,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33230,6 +33230,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023834624509393734",
             "extra": "mean: 3.7838080883999963 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c997e64bebf7e6620ee36029ebce2d58a6d634e9",
+          "message": "Remove \"dry-run\" from setuptools build\n\nThis was removed in setuptools v81",
+          "timestamp": "2026-02-07T18:15:30-06:00",
+          "tree_id": "6166f49a7b863c071d012278256dc16c5c06a0d0",
+          "url": "https://github.com/cocotb/cocotb/commit/c997e64bebf7e6620ee36029ebce2d58a6d634e9"
+        },
+        "date": 1770509933359,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18265777257389912,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024464740797641604",
+            "extra": "mean: 5.474719120399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2640312490479919,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01179821897380731",
+            "extra": "mean: 3.7874304788000073 sec\nrounds: 5"
           }
         ]
       }
