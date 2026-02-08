@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770589774891,
+  "lastUpdate": 1770590000289,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33344,6 +33344,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06122104690673956",
             "extra": "mean: 3.8165364545999183 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6321bef5c65c0a487a0339e0991514970075c4ca",
+          "message": "Use independent RNG for random X resolution\n\nThis will increase stability of test runs when switching between the\n\"random\" resolve method and non-random resolve methods. (As long as the\ntest behavior doesn't depend upon X state).",
+          "timestamp": "2026-02-08T16:26:59-06:00",
+          "tree_id": "a3a97b43a5efd910611f4861c5c5203e4587d12d",
+          "url": "https://github.com/cocotb/cocotb/commit/6321bef5c65c0a487a0339e0991514970075c4ca"
+        },
+        "date": 1770589999200,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18189726905085274,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03751847612293435",
+            "extra": "mean: 5.497608651399991 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26392442801103416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03314263514317127",
+            "extra": "mean: 3.7889634072000034 sec\nrounds: 5"
           }
         ]
       }
