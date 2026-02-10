@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770687804703,
+  "lastUpdate": 1770703072035,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33458,6 +33458,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018840276210769176",
             "extra": "mean: 3.7822946959999855 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "2eb55220ba640a7f559109beed0669d9435eacfa",
+          "message": "Include a VS Code Dev Container in the repository\n\nRemove the Gitpod setup and add a VS Code Dev Container configuration.\nThe Dev Container configuration can be used both locally and in GitHub\nCodespaces.\n\nThere's more fine-tuning to be done, especially around running tests\nwithout nox; I'll revisit that in follow-ups once discussions have\nsettled down.",
+          "timestamp": "2026-02-10T06:54:25+01:00",
+          "tree_id": "de8fbbb1381cfc6a62f497b56350108a4cd6f0c2",
+          "url": "https://github.com/cocotb/cocotb/commit/2eb55220ba640a7f559109beed0669d9435eacfa"
+        },
+        "date": 1770703070689,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18091391335793086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042930287484316765",
+            "extra": "mean: 5.527490846000001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26323452600650143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012868453884323316",
+            "extra": "mean: 3.798893766599986 sec\nrounds: 5"
           }
         ]
       }
