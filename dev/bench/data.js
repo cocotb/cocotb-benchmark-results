@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770703072035,
+  "lastUpdate": 1770748069253,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33496,6 +33496,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012868453884323316",
             "extra": "mean: 3.798893766599986 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "c4636473b58cd0e52fb1fc3634f56a233d375c94",
+          "message": "PYGPI: Update simulator module class names and type info",
+          "timestamp": "2026-02-10T10:24:01-08:00",
+          "tree_id": "91da88e8613e7a14c0e08b76aa6a3322d42d382c",
+          "url": "https://github.com/cocotb/cocotb/commit/c4636473b58cd0e52fb1fc3634f56a233d375c94"
+        },
+        "date": 1770748067561,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18166091312360214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05968060610180929",
+            "extra": "mean: 5.504761496599985 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26394656947584655,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020451543811104634",
+            "extra": "mean: 3.7886455656000066 sec\nrounds: 5"
           }
         ]
       }
