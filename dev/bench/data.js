@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770748069253,
+  "lastUpdate": 1771076318377,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33534,6 +33534,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020451543811104634",
             "extra": "mean: 3.7886455656000066 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "3e14533a46d5f5141a976a1be572badeba560199",
+          "message": "Dev Container: Install uv",
+          "timestamp": "2026-02-14T14:35:04+01:00",
+          "tree_id": "06869bdf49a9265409bb477dd422620c54c7f09c",
+          "url": "https://github.com/cocotb/cocotb/commit/3e14533a46d5f5141a976a1be572badeba560199"
+        },
+        "date": 1771076317081,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1804802508662318,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04595063207651337",
+            "extra": "mean: 5.540772440200004 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2615405840650358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014489744577713409",
+            "extra": "mean: 3.8234983820000026 sec\nrounds: 5"
           }
         ]
       }
