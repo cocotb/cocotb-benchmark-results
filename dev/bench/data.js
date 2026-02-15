@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771076318377,
+  "lastUpdate": 1771198145304,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33572,6 +33572,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014489744577713409",
             "extra": "mean: 3.8234983820000026 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "840a956e1a8ffa698b0e6a3ec8bdf1508c2facbc",
+          "message": "GPI: Rename gpi_hdl variables to avoid name collision",
+          "timestamp": "2026-02-15T15:25:34-08:00",
+          "tree_id": "770ac595129abd2a28afe31997482840fea7e3bc",
+          "url": "https://github.com/cocotb/cocotb/commit/840a956e1a8ffa698b0e6a3ec8bdf1508c2facbc"
+        },
+        "date": 1771198144008,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18218587115194956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023397534005383122",
+            "extra": "mean: 5.488899845399999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2623109514598429,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01779033747693316",
+            "extra": "mean: 3.8122693484000023 sec\nrounds: 5"
           }
         ]
       }
