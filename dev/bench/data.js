@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771199996531,
+  "lastUpdate": 1771200227974,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33648,6 +33648,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007750046246674537",
             "extra": "mean: 3.806894268799965 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "171ad7fd93c7be120337a2dade23893a413ee5b6",
+          "message": "Add flag to end regression after N failures (#5309)\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2026-02-15T16:56:59-07:00",
+          "tree_id": "6fce8f4adf1c586343a5495053c9b301e5cd3718",
+          "url": "https://github.com/cocotb/cocotb/commit/171ad7fd93c7be120337a2dade23893a413ee5b6"
+        },
+        "date": 1771200226811,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18225429377015118,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02115504916437676",
+            "extra": "mean: 5.486839181199997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2615671492286286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018176403668645112",
+            "extra": "mean: 3.823110061600005 sec\nrounds: 5"
           }
         ]
       }
