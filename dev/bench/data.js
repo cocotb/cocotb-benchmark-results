@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771280048961,
+  "lastUpdate": 1771431541997,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33724,6 +33724,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.037828617856771905",
             "extra": "mean: 3.8064545215999943 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "352029b9c70ef1b91446197ebd77bafa92d4fb3b",
+          "message": "Use dependency groups in noxfile",
+          "timestamp": "2026-02-18T09:15:43-07:00",
+          "tree_id": "aafa52f355a24cb73e96cea3b247c10703194dcf",
+          "url": "https://github.com/cocotb/cocotb/commit/352029b9c70ef1b91446197ebd77bafa92d4fb3b"
+        },
+        "date": 1771431540183,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19955481739641462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031969405972597675",
+            "extra": "mean: 5.011154393800001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.29693547975077855,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006773346152777942",
+            "extra": "mean: 3.3677349733999846 sec\nrounds: 5"
           }
         ]
       }
