@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771431541997,
+  "lastUpdate": 1771443048293,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33762,6 +33762,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006773346152777942",
             "extra": "mean: 3.3677349733999846 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0c1c4e62529911e72468b7b2414645206bff1d1",
+          "message": "Make dependency-group for sphinx-autobuild target\n\nThis will allow uv/pip to resolve any additional version constraints caused by the inclusion of sphinx-autobuild.",
+          "timestamp": "2026-02-18T12:27:21-07:00",
+          "tree_id": "1a384053ccebf50a88446496ca2beeee75a52c9d",
+          "url": "https://github.com/cocotb/cocotb/commit/c0c1c4e62529911e72468b7b2414645206bff1d1"
+        },
+        "date": 1771443047055,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18098959212259327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01388479250428816",
+            "extra": "mean: 5.525179587799999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26220311966821624,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01761951654583142",
+            "extra": "mean: 3.8138371552000194 sec\nrounds: 5"
           }
         ]
       }
