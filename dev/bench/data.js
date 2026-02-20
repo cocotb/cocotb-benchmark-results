@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771598888890,
+  "lastUpdate": 1771600521700,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34028,6 +34028,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03028971310468439",
             "extra": "mean: 3.814141675600058 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e2b61d4fab33187ec5771f350c027882f63ef0fb",
+          "message": "Upgrade uv deps",
+          "timestamp": "2026-02-20T08:11:55-07:00",
+          "tree_id": "62d9b4c31a3ff8cf6dd1f95f5dab42635007485b",
+          "url": "https://github.com/cocotb/cocotb/commit/e2b61d4fab33187ec5771f350c027882f63ef0fb"
+        },
+        "date": 1771600520077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18316881756481165,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030532150037409174",
+            "extra": "mean: 5.459444534800059 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2626427005383067,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026171439600513248",
+            "extra": "mean: 3.8074539972000823 sec\nrounds: 5"
           }
         ]
       }
