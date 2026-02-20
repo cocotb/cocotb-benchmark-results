@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771557439782,
+  "lastUpdate": 1771598888890,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33990,6 +33990,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030528528460053106",
             "extra": "mean: 3.8201940780000085 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2c06fb74e5f5d282c50425805930f0c0502bcc7a",
+          "message": "Update dependabot config to update the lockfile only",
+          "timestamp": "2026-02-20T07:44:23-07:00",
+          "tree_id": "9bf482648f743415626a2a27928dba74dc8a9af7",
+          "url": "https://github.com/cocotb/cocotb/commit/2c06fb74e5f5d282c50425805930f0c0502bcc7a"
+        },
+        "date": 1771598887180,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18181876859693674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022575257579068673",
+            "extra": "mean: 5.499982249999948 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26218218541729327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03028971310468439",
+            "extra": "mean: 3.814141675600058 sec\nrounds: 5"
           }
         ]
       }
