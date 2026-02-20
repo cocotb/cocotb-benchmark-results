@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771603245012,
+  "lastUpdate": 1771610365734,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34104,6 +34104,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017893193803153244",
             "extra": "mean: 3.881385758800002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "committer": {
+            "email": "marlon.james@gmail.com",
+            "name": "Marlon James",
+            "username": "marlonjames"
+          },
+          "distinct": true,
+          "id": "427484dfdb906652cdb916ae6469bdaa72f2a7f0",
+          "message": "docs: Update GPI docs",
+          "timestamp": "2026-02-20T09:55:45-08:00",
+          "tree_id": "8c03bf3cde5ce075b27275361d3a57320d4b32d0",
+          "url": "https://github.com/cocotb/cocotb/commit/427484dfdb906652cdb916ae6469bdaa72f2a7f0"
+        },
+        "date": 1771610364067,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18284259533020747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04330419267091707",
+            "extra": "mean: 5.469185110799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2613856044104226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08026179719595919",
+            "extra": "mean: 3.8257653946000003 sec\nrounds: 5"
           }
         ]
       }
