@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771531132833,
+  "lastUpdate": 1771552446034,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33838,6 +33838,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08749029100568081",
             "extra": "mean: 3.858002393600003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "cd07ded3782f5ee60a59d00faa193e529194e7b9",
+          "message": "Enable dependabot auto-bumping uv lockfile",
+          "timestamp": "2026-02-19T18:50:44-07:00",
+          "tree_id": "bc6fbc332422fa287487c706323deaea58faf8a4",
+          "url": "https://github.com/cocotb/cocotb/commit/cd07ded3782f5ee60a59d00faa193e529194e7b9"
+        },
+        "date": 1771552444754,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18251717736979609,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06642333270324345",
+            "extra": "mean: 5.478936363200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26446959091417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02299966535324313",
+            "extra": "mean: 3.7811530487999905 sec\nrounds: 5"
           }
         ]
       }
