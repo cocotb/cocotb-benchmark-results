@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771554944304,
+  "lastUpdate": 1771557439782,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -33952,6 +33952,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03160319091881544",
             "extra": "mean: 3.8333092469999883 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5c49db802a93538fab694344a96d6b0f669990b6",
+          "message": "Bump virtualenv from 16.7.12 to 20.36.1\n\nBumps [virtualenv](https://github.com/pypa/virtualenv) from 16.7.12 to 20.36.1.\n- [Release notes](https://github.com/pypa/virtualenv/releases)\n- [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/pypa/virtualenv/compare/16.7.12...20.36.1)\n\n---\nupdated-dependencies:\n- dependency-name: virtualenv\n  dependency-version: 20.36.1\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-02-19T20:13:52-07:00",
+          "tree_id": "c3af90739646e546bf25d824e4a64624bfc36645",
+          "url": "https://github.com/cocotb/cocotb/commit/5c49db802a93538fab694344a96d6b0f669990b6"
+        },
+        "date": 1771557438461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18125757619284086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06530217937837558",
+            "extra": "mean: 5.517010770000008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26176680545076686,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030528528460053106",
+            "extra": "mean: 3.8201940780000085 sec\nrounds: 5"
           }
         ]
       }
