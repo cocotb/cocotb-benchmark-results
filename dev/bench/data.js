@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771693366048,
+  "lastUpdate": 1771693565463,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34218,6 +34218,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07682737099342332",
             "extra": "mean: 3.8372783974000013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "52883c217aca9efa51c41bb207bf078ddc92579a",
+          "message": "Rework release tests\n\nReduces the amount of testing of wheels and increases the amount of\ntesting of the sdist.",
+          "timestamp": "2026-02-21T09:59:59-07:00",
+          "tree_id": "61793e2317128fd6520adc21cbf7ec0f87126ebc",
+          "url": "https://github.com/cocotb/cocotb/commit/52883c217aca9efa51c41bb207bf078ddc92579a"
+        },
+        "date": 1771693563850,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19965867272539406,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022495161927925243",
+            "extra": "mean: 5.008547769799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2974106884001979,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018384695548993635",
+            "extra": "mean: 3.3623539402000007 sec\nrounds: 5"
           }
         ]
       }
