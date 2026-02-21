@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771629783248,
+  "lastUpdate": 1771693366048,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34180,6 +34180,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018211747413291235",
             "extra": "mean: 3.8399225556000034 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "458d62a74fa494f94db43124cf16df77bf16f37f",
+          "message": "Clean up issue directories (#5351)\n\n* Move issue_120 test\n* Move issue_1279 test\n* Removed test_142. We are testing integer overflow in test_handles.py\n* Remove issue_348 test. This is tested by issue_376_* tests in test_edge_triggers.\n* Move issue_957 into test_scheduler\n* Renamed issue_3769 test\n* Remove test_3270 as it's tested by test_first_combine\n* Renamed test_3316\n* Moved test_3316 design and build common files to /tests/designs/\n* Rename issue_2255 test",
+          "timestamp": "2026-02-21T09:59:21-07:00",
+          "tree_id": "35969d1001e3cced94989ff21e35280658f7efd7",
+          "url": "https://github.com/cocotb/cocotb/commit/458d62a74fa494f94db43124cf16df77bf16f37f"
+        },
+        "date": 1771693364746,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18260371029713587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03776438981755414",
+            "extra": "mean: 5.4763399844000045 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2606013680627299,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07682737099342332",
+            "extra": "mean: 3.8372783974000013 sec\nrounds: 5"
           }
         ]
       }
