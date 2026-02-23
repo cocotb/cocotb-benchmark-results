@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771693565463,
+  "lastUpdate": 1771866051720,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34256,6 +34256,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018384695548993635",
             "extra": "mean: 3.3623539402000007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8b17196f2381c66cfa7943358ef7745fa06168bc",
+          "message": "Turn off --locked when running nox-uv tests",
+          "timestamp": "2026-02-23T09:56:55-07:00",
+          "tree_id": "6b304daf46e38faad9429923e5d5559f75956998",
+          "url": "https://github.com/cocotb/cocotb/commit/8b17196f2381c66cfa7943358ef7745fa06168bc"
+        },
+        "date": 1771866050476,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18230729598509335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032741194397665874",
+            "extra": "mean: 5.485243992000005 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2625454619022255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02706093155260814",
+            "extra": "mean: 3.8088641592000156 sec\nrounds: 5"
           }
         ]
       }
