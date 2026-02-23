@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771866051720,
+  "lastUpdate": 1771880636996,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34294,6 +34294,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02706093155260814",
             "extra": "mean: 3.8088641592000156 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2796506a2daa65382b45176371af9198f7fac94e",
+          "message": "Add support for indexing into VHDL logic arrays",
+          "timestamp": "2026-02-23T14:00:15-07:00",
+          "tree_id": "02aa927408cc103a2fd5ca8f14295b5745066965",
+          "url": "https://github.com/cocotb/cocotb/commit/2796506a2daa65382b45176371af9198f7fac94e"
+        },
+        "date": 1771880635861,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18191652882417417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03571487619233317",
+            "extra": "mean: 5.497026611399997 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2631844477759228,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014500756722609335",
+            "extra": "mean: 3.799616612800037 sec\nrounds: 5"
           }
         ]
       }
