@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771885038238,
+  "lastUpdate": 1771976789232,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34370,6 +34370,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018495445811767274",
             "extra": "mean: 3.354414105400008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7da0a479be9204be11808bd21e9e1d16914e06a3",
+          "message": "Switch to using prek for pre-commit locally",
+          "timestamp": "2026-02-24T16:42:52-07:00",
+          "tree_id": "ed8fabe89baea83f3ad44a2849905b72b93d08b5",
+          "url": "https://github.com/cocotb/cocotb/commit/7da0a479be9204be11808bd21e9e1d16914e06a3"
+        },
+        "date": 1771976787275,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18081459579715575,
+            "unit": "iter/sec",
+            "range": "stddev: 0.046995552516357134",
+            "extra": "mean: 5.530526977599948 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26202288631123477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014585018782560919",
+            "extra": "mean: 3.816460516400025 sec\nrounds: 5"
           }
         ]
       }
