@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771976789232,
+  "lastUpdate": 1772125281804,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34408,6 +34408,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014585018782560919",
             "extra": "mean: 3.816460516400025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "da7c7f3bc0a2082c682ac2b631faec681d9b8c57",
+          "message": "Fix VPI error checking",
+          "timestamp": "2026-02-26T09:57:38-07:00",
+          "tree_id": "aa6223fe5787f1902fea063c3ec1f70b035b61ab",
+          "url": "https://github.com/cocotb/cocotb/commit/da7c7f3bc0a2082c682ac2b631faec681d9b8c57"
+        },
+        "date": 1772125280277,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18188492109038149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045258485595423066",
+            "extra": "mean: 5.497981877799998 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26228384115254055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02455796506724905",
+            "extra": "mean: 3.812663393999992 sec\nrounds: 5"
           }
         ]
       }
