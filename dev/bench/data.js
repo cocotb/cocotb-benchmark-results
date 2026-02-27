@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772134280555,
+  "lastUpdate": 1772220503438,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34484,6 +34484,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00731913729409102",
             "extra": "mean: 3.796613809000064 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "47870387+martin-lueker@users.noreply.github.com",
+            "name": "Martin Lueker-Boden",
+            "username": "martin-lueker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "016c3af236b865f03a05b08f958bc6426ed3da6a",
+          "message": "Support SAIF tracing in Verilator (#5114)\n\n- Incorporates the new VerilatedSaifC class from Verilator 5.041.\nThis is important for generating useful power estimates in\nsynthesis.\n- Includes a test case to verify Verilator operation (only applies\nif using Verilator >= v5.042)\n- Adds from_commandlineversion method to VerilatorVersion class to\nfacilitate the version check and determine whether the above test\nshould be skipped.\n\nSigned-off-by: Martin Lueker-Boden <martin.lueker-boden@wdc.com>\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>\nCo-authored-by: Colin Marquardt <cmarqu42@gmail.com>",
+          "timestamp": "2026-02-27T20:24:57+01:00",
+          "tree_id": "b34c131ce0be905304a4ea0773edf919f0ae9ad9",
+          "url": "https://github.com/cocotb/cocotb/commit/016c3af236b865f03a05b08f958bc6426ed3da6a"
+        },
+        "date": 1772220502098,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18243877436984665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031317472737854256",
+            "extra": "mean: 5.481290934200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2648513644113002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01984001709498298",
+            "extra": "mean: 3.775702655800001 sec\nrounds: 5"
           }
         ]
       }
