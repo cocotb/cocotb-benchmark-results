@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772288861321,
+  "lastUpdate": 1772294445721,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34560,6 +34560,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024162415903625376",
             "extra": "mean: 3.817749236399982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42118203+Sebbben@users.noreply.github.com",
+            "name": "Sebbben",
+            "username": "Sebbben"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53445623c5823fe3f2a6695e61f4ee2194e66e7c",
+          "message": "Added nanosecond support in ghdl makefile",
+          "timestamp": "2026-02-28T08:57:35-07:00",
+          "tree_id": "7675f181a44c40acd4eccf0394d1db021d6657db",
+          "url": "https://github.com/cocotb/cocotb/commit/53445623c5823fe3f2a6695e61f4ee2194e66e7c"
+        },
+        "date": 1772294443669,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19904847660051156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04502708829899222",
+            "extra": "mean: 5.023901800600015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.29613729022618135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01876807361794119",
+            "extra": "mean: 3.3768121510000584 sec\nrounds: 5"
           }
         ]
       }
