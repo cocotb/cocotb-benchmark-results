@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772720808664,
+  "lastUpdate": 1772743958873,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34674,6 +34674,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.016472038651477033",
             "extra": "mean: 3.767162146200019 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5c3259bace3873581e257100669c86320bdd58d",
+          "message": "Make Makefile `sim` target not recursive\n\nRecursive Makefiles cause user makefiles to be evaluated twice, so using\n+= on variables causes the right hand side to be added twice.",
+          "timestamp": "2026-03-05T13:48:52-07:00",
+          "tree_id": "38ae817649c347e9d422b51be56a6cbe5e66d4b0",
+          "url": "https://github.com/cocotb/cocotb/commit/e5c3259bace3873581e257100669c86320bdd58d"
+        },
+        "date": 1772743957078,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18118689535250093,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04314316924718343",
+            "extra": "mean: 5.5191629508 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26450748080112724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014741462442727055",
+            "extra": "mean: 3.7806114102000037 sec\nrounds: 5"
           }
         ]
       }
