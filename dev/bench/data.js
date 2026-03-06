@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772835546288,
+  "lastUpdate": 1772838161235,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34826,6 +34826,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01410215224651043",
             "extra": "mean: 3.7965574468 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7b841ee16ab1549994e08909e65e847bcf8ccb5",
+          "message": "Add test listing mode to RegressionManager",
+          "timestamp": "2026-03-06T15:59:21-07:00",
+          "tree_id": "e397eb3d0e88eac5dfd5078ee3842bd81d23ecd5",
+          "url": "https://github.com/cocotb/cocotb/commit/c7b841ee16ab1549994e08909e65e847bcf8ccb5"
+        },
+        "date": 1772838159888,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18313485212001557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01485887026916099",
+            "extra": "mean: 5.4604570808 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2655962591498663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03338246902996445",
+            "extra": "mean: 3.765113270800009 sec\nrounds: 5"
           }
         ]
       }
