@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772756843977,
+  "lastUpdate": 1772809654551,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34750,6 +34750,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022524117228288437",
             "extra": "mean: 3.801164450600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f0f27ccd1a541fe74561015ad3af8a76a5776f19",
+          "message": "Support multiple test failures in RegressionManager\n\nLeverages `pytest.RaisesExc` and `pytest.RaisesGroup`. Additionally, refactors `RegressionManager._score_test` for clarity and further enhancements.",
+          "timestamp": "2026-03-06T08:03:50-07:00",
+          "tree_id": "19219c2b3c977e2c58bb6b16c9f9a82d5b38b7fd",
+          "url": "https://github.com/cocotb/cocotb/commit/f0f27ccd1a541fe74561015ad3af8a76a5776f19"
+        },
+        "date": 1772809652338,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1821125149189932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020609239717263438",
+            "extra": "mean: 5.491110813800015 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2622668223507906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023438009406368056",
+            "extra": "mean: 3.812910802200008 sec\nrounds: 5"
           }
         ]
       }
