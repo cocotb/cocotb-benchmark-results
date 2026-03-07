@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772841270570,
+  "lastUpdate": 1772861813316,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34902,6 +34902,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014918932298740271",
             "extra": "mean: 3.7935332086000018 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2f8f13af8e75b5d8cee127bc7620731ca7876f7b",
+          "message": "Remove unused test_nosim parameter in CI",
+          "timestamp": "2026-03-06T22:33:34-07:00",
+          "tree_id": "3c330946d68eac4a33655dc06ee571890d906539",
+          "url": "https://github.com/cocotb/cocotb/commit/2f8f13af8e75b5d8cee127bc7620731ca7876f7b"
+        },
+        "date": 1772861811783,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18331063430378042,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023186762927736655",
+            "extra": "mean: 5.455220881200001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26477966145338633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03644786826972511",
+            "extra": "mean: 3.776725125000007 sec\nrounds: 5"
           }
         ]
       }
