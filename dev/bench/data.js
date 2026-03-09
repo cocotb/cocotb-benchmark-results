@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773071702618,
+  "lastUpdate": 1773091282707,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35016,6 +35016,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013834278099146453",
             "extra": "mean: 3.7995437578000066 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tdhutt@gmail.com",
+            "name": "Tim Hutt",
+            "username": "Timmmm"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "fbaa1664bf4bac19abacdf4a693b4fb704bc80e8",
+          "message": "Improve Makefile error reporting if simulator CMD is not found\n\nIf `command -v` failed to find the given `CMD` it would return an empty string, which Make is perfectly happy to roll with, leading to weird errors in subsequent commands.\n\nA couple of Makefiles had checking for this (dsim and questa-qisqrun), but most didn't. This commit adds a dedicated `find_command` macro which finds the given command and exits with a reasonable error if it isn't found.\n\nFixes #5396",
+          "timestamp": "2026-03-09T15:17:53-06:00",
+          "tree_id": "dc8ac1e3c6342e0089e96d7ccfdc20ab8c152616",
+          "url": "https://github.com/cocotb/cocotb/commit/fbaa1664bf4bac19abacdf4a693b4fb704bc80e8"
+        },
+        "date": 1773091281178,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19895853699819274,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022320969784856478",
+            "extra": "mean: 5.026172865400008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2965943828256869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007969286880056468",
+            "extra": "mean: 3.371608020600024 sec\nrounds: 5"
           }
         ]
       }
