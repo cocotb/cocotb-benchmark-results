@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773071479880,
+  "lastUpdate": 1773071702618,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -34978,6 +34978,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045685188110684304",
             "extra": "mean: 3.859043031800013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "584b52aef03f053d19973e08f0ed84d07f562ade",
+          "message": "Bump clang-format from 21.1.8 to 22.1.0\n\nBumps [clang-format](https://github.com/ssciwr/clang-format-wheel) from 21.1.8 to 22.1.0.\n- [Release notes](https://github.com/ssciwr/clang-format-wheel/releases)\n- [Commits](https://github.com/ssciwr/clang-format-wheel/compare/v21.1.8...v22.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: clang-format\n  dependency-version: 22.1.0\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-09T09:48:42-06:00",
+          "tree_id": "f6ae552b0023be60ee15a7f49a93f61661f1e51d",
+          "url": "https://github.com/cocotb/cocotb/commit/584b52aef03f053d19973e08f0ed84d07f562ade"
+        },
+        "date": 1773071700645,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18230830450899185,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028805191571522993",
+            "extra": "mean: 5.4852136477999975 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.263189494251019,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013834278099146453",
+            "extra": "mean: 3.7995437578000066 sec\nrounds: 5"
           }
         ]
       }
