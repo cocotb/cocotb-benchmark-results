@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773100035174,
+  "lastUpdate": 1773180445253,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35130,6 +35130,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033866940266041784",
             "extra": "mean: 3.848298016400031 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ad6f1374f9cf627e05bdcc80d095120dd30e0670",
+          "message": "Use new deco role for cocotb.test and cocotb.parametrize in docs",
+          "timestamp": "2026-03-10T16:03:39-06:00",
+          "tree_id": "1ecf61fca299d1022297f0d18b312747bcbd7a2b",
+          "url": "https://github.com/cocotb/cocotb/commit/ad6f1374f9cf627e05bdcc80d095120dd30e0670"
+        },
+        "date": 1773180443660,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1806499619751843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.054730241942449145",
+            "extra": "mean: 5.53556717680001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.25901189212929976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.047653225231502144",
+            "extra": "mean: 3.8608265889999984 sec\nrounds: 5"
           }
         ]
       }
