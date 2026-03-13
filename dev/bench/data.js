@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773259701166,
+  "lastUpdate": 1773433567372,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35206,6 +35206,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012493382070743943",
             "extra": "mean: 3.3660766248000074 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43052490+kiran-vuksanaj@users.noreply.github.com",
+            "name": "Kiran Vuksanaj",
+            "username": "kiran-vuksanaj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01385ebd357da74c5780feecf7e61ccd6922bedc",
+          "message": "Allow external libraries to register Python runners",
+          "timestamp": "2026-03-13T14:22:14-06:00",
+          "tree_id": "744be9c9756eacbd9269c5e980af9da59080ce5e",
+          "url": "https://github.com/cocotb/cocotb/commit/01385ebd357da74c5780feecf7e61ccd6922bedc"
+        },
+        "date": 1773433565631,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18129738561654923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027491762639466868",
+            "extra": "mean: 5.515799340399963 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2620845870383275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02000522734734922",
+            "extra": "mean: 3.8155620339999587 sec\nrounds: 5"
           }
         ]
       }
