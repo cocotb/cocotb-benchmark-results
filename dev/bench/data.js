@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773586724532,
+  "lastUpdate": 1773665890887,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35358,6 +35358,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011425160613669187",
             "extra": "mean: 3.358355115800009 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "273e4f220cb8dec33895febc03e5dd8ca7fe621c",
+          "message": "Bump ruff from 0.15.4 to 0.15.5\n\nBumps [ruff](https://github.com/astral-sh/ruff) from 0.15.4 to 0.15.5.\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.4...0.15.5)\n\n---\nupdated-dependencies:\n- dependency-name: ruff\n  dependency-version: 0.15.5\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-16T08:54:31-04:00",
+          "tree_id": "b2ec11b937ae7a943188e6ef9bf2236d32b0fd88",
+          "url": "https://github.com/cocotb/cocotb/commit/273e4f220cb8dec33895febc03e5dd8ca7fe621c"
+        },
+        "date": 1773665889389,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18211735516961114,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023291048388742717",
+            "extra": "mean: 5.490964873000001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26274336624266736,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016671296513179227",
+            "extra": "mean: 3.8059952351999984 sec\nrounds: 5"
           }
         ]
       }
