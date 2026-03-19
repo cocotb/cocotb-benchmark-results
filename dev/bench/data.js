@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773709174461,
+  "lastUpdate": 1773888374674,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35472,6 +35472,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028280455576536554",
             "extra": "mean: 3.7859135115999947 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5704b26898f6fc51bfbe2f9f67cba6c9b79fdbc3",
+          "message": "Rebase 2.0.1 release notes onto master",
+          "timestamp": "2026-03-18T22:42:57-04:00",
+          "tree_id": "eb773810640dcd0808a7709a2cafb47ed3910aa0",
+          "url": "https://github.com/cocotb/cocotb/commit/5704b26898f6fc51bfbe2f9f67cba6c9b79fdbc3"
+        },
+        "date": 1773888372894,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19852203680358047,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0405205623918906",
+            "extra": "mean: 5.0372241596000205 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.29826325303293344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01058948433816197",
+            "extra": "mean: 3.352742886800013 sec\nrounds: 5"
           }
         ]
       }
