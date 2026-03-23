@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774244916049,
+  "lastUpdate": 1774289498527,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35586,6 +35586,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02810988738172998",
             "extra": "mean: 3.829470061999996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1d168a7f9c610606e6cb0a8c78b54eaa5d1a9e58",
+          "message": "Bump prek from 0.3.4 to 0.3.5\n\nBumps [prek](https://github.com/j178/prek) from 0.3.4 to 0.3.5.\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.3.4...v0.3.5)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.3.5\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-23T12:08:11-06:00",
+          "tree_id": "227b6f2b7d19263361d2e96c27fd7f12d123468b",
+          "url": "https://github.com/cocotb/cocotb/commit/1d168a7f9c610606e6cb0a8c78b54eaa5d1a9e58"
+        },
+        "date": 1774289496881,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18276116869885467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045572456543289855",
+            "extra": "mean: 5.471621828200023 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26213143299387953,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04845636277061301",
+            "extra": "mean: 3.814880148400016 sec\nrounds: 5"
           }
         ]
       }
