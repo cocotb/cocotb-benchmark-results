@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773945441223,
+  "lastUpdate": 1774244916049,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35548,6 +35548,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015204231309828365",
             "extra": "mean: 3.36384156980007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "09bfc87fc9220bfe604db929fcf4dc44e44e15ec",
+          "message": "Remove extra space in Makefile",
+          "timestamp": "2026-03-22T23:45:02-06:00",
+          "tree_id": "905560e45a9c76b4a14b5d561a787874bb903766",
+          "url": "https://github.com/cocotb/cocotb/commit/09bfc87fc9220bfe604db929fcf4dc44e44e15ec"
+        },
+        "date": 1774244914264,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1812568020237835,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02573563504385046",
+            "extra": "mean: 5.517034333799984 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26113273737874204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02810988738172998",
+            "extra": "mean: 3.829470061999996 sec\nrounds: 5"
           }
         ]
       }
