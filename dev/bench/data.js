@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774360147603,
+  "lastUpdate": 1774385082532,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35738,6 +35738,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03234697549777241",
             "extra": "mean: 3.8380229475999954 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cmarqu42@gmail.com",
+            "name": "Colin Marquardt",
+            "username": "cmarqu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de1b9a8ff6530282c36cce5eb4766eb43f375159",
+          "message": "Fix tiny formatting error (#5443)",
+          "timestamp": "2026-03-24T21:41:02+01:00",
+          "tree_id": "c96abd47b7e27dafe9452249ea9b2bc54c67788a",
+          "url": "https://github.com/cocotb/cocotb/commit/de1b9a8ff6530282c36cce5eb4766eb43f375159"
+        },
+        "date": 1774385081072,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1820785884967174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015444911403811414",
+            "extra": "mean: 5.492133963999993 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26153316750522243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02781973098718459",
+            "extra": "mean: 3.8236068088000024 sec\nrounds: 5"
           }
         ]
       }
