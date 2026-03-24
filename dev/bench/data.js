@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774303158982,
+  "lastUpdate": 1774360147603,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35700,6 +35700,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027838738141812983",
             "extra": "mean: 3.7938082175999854 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "bd0b6bd70c64eca28f4ba57f3c84c6961ddb7e6a",
+          "message": "Simplify coverage combining\n\nThe previous code had to create a temp file and did a combine of all\nfiles that matched the \".coverage/\" which is limiting. This works by\nsimply loading the old data (if it exists) of the file we will\neventually write back to.\n\nThis is a revert of #5235.",
+          "timestamp": "2026-03-24T07:45:38-06:00",
+          "tree_id": "d581464151225e1cac86e0dca04b04b98c816834",
+          "url": "https://github.com/cocotb/cocotb/commit/bd0b6bd70c64eca28f4ba57f3c84c6961ddb7e6a"
+        },
+        "date": 1774360146467,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18149032100520796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09494928204398849",
+            "extra": "mean: 5.509935706000016 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.260550813179823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03234697549777241",
+            "extra": "mean: 3.8380229475999954 sec\nrounds: 5"
           }
         ]
       }
