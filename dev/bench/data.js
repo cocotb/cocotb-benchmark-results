@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774858682889,
+  "lastUpdate": 1774858914704,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35890,6 +35890,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017510099968438848",
             "extra": "mean: 3.8352122429999893 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "91831111098e657bdf45ce111d1b64cc7712104a",
+          "message": "Document how to exit the process when in post_mortem",
+          "timestamp": "2026-03-30T02:16:43-06:00",
+          "tree_id": "447e7787d8ed7d0bcc62cd7889610a03cdd06a72",
+          "url": "https://github.com/cocotb/cocotb/commit/91831111098e657bdf45ce111d1b64cc7712104a"
+        },
+        "date": 1774858913290,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1829918990251571,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026314345181649115",
+            "extra": "mean: 5.464722784600008 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2648380058028579,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01804724533276265",
+            "extra": "mean: 3.775893104800025 sec\nrounds: 5"
           }
         ]
       }
