@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774860477056,
+  "lastUpdate": 1774860704707,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36004,6 +36004,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009134816464852424",
             "extra": "mean: 3.8029889553999965 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "paul@liquidinstruments.com",
+            "name": "paulaltin",
+            "username": "paulaltin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffdbc1fa221fa81d3c09cb3da56d7578aac0673d",
+          "message": "Support specifying toplevel architecture with NVC",
+          "timestamp": "2026-03-30T02:45:29-06:00",
+          "tree_id": "3a22bf269a02050aeefa18299dd611f8c5c263e1",
+          "url": "https://github.com/cocotb/cocotb/commit/ffdbc1fa221fa81d3c09cb3da56d7578aac0673d"
+        },
+        "date": 1774860703236,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18356857952195996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033204553560316784",
+            "extra": "mean: 5.447555363800001 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2629814870183315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024602679413964757",
+            "extra": "mean: 3.802549036200003 sec\nrounds: 5"
           }
         ]
       }
