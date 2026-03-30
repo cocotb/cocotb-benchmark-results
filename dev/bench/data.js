@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774858914704,
+  "lastUpdate": 1774859956752,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -35928,6 +35928,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01804724533276265",
             "extra": "mean: 3.775893104800025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "933616ea1bc956e353614b3a1b518c0a535a5f62",
+          "message": "Bump pytest-cov from 7.0.0 to 7.1.0\n\nBumps [pytest-cov](https://github.com/pytest-dev/pytest-cov) from 7.0.0 to 7.1.0.\n- [Changelog](https://github.com/pytest-dev/pytest-cov/blob/master/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest-cov/compare/v7.0.0...v7.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: pytest-cov\n  dependency-version: 7.1.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-30T02:35:48-06:00",
+          "tree_id": "40237dd54a91780f85e09b0b16de0a41ea3299d7",
+          "url": "https://github.com/cocotb/cocotb/commit/933616ea1bc956e353614b3a1b518c0a535a5f62"
+        },
+        "date": 1774859955194,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.17980325972128242,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04745087203392627",
+            "extra": "mean: 5.561634430600009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2613549991202573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014034623261688353",
+            "extra": "mean: 3.8262134007999977 sec\nrounds: 5"
           }
         ]
       }
