@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774906719980,
+  "lastUpdate": 1774977207299,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36080,6 +36080,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017154346773345052",
             "extra": "mean: 3.7939811720000307 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a12e721aeaabd5eeefc9fc37039a7cef90b3861",
+          "message": "Group uv lockfile updates\n\nGroup all minor and patch version bumps into a single PR.",
+          "timestamp": "2026-03-31T11:09:11-06:00",
+          "tree_id": "3a2e24da32837dff4ac9cfcb6900fcde56c42f88",
+          "url": "https://github.com/cocotb/cocotb/commit/2a12e721aeaabd5eeefc9fc37039a7cef90b3861"
+        },
+        "date": 1774977178628,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.19748505917937414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03401718868258805",
+            "extra": "mean: 5.063674204800009 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2952889324956822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030332429088462003",
+            "extra": "mean: 3.386513648000073 sec\nrounds: 5"
           }
         ]
       }
