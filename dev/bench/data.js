@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774989015142,
+  "lastUpdate": 1774991752819,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36194,6 +36194,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015008422019071559",
             "extra": "mean: 3.8129474086000017 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7d090f4fe421dc67de362e054e3992da0677c6c9",
+          "message": "Support null ranged arrays in VHDL",
+          "timestamp": "2026-03-31T15:12:17-06:00",
+          "tree_id": "d5d5558c63d14f7a17a28214b97ef29de4467dc5",
+          "url": "https://github.com/cocotb/cocotb/commit/7d090f4fe421dc67de362e054e3992da0677c6c9"
+        },
+        "date": 1774991751093,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1832283651096233,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03230127098853384",
+            "extra": "mean: 5.457670265199999 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26181256884003434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030721422469288398",
+            "extra": "mean: 3.819526329200005 sec\nrounds: 5"
           }
         ]
       }
