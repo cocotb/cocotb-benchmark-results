@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774991752819,
+  "lastUpdate": 1775312395273,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36232,6 +36232,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030721422469288398",
             "extra": "mean: 3.819526329200005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yanghuaxuan@gmail.com",
+            "name": "yanghuaxuan",
+            "username": "yanghuaxuan"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "bc16fd934bac7efe80af189aee3680e1f0d87502",
+          "message": "directly run verilator rather than call perl",
+          "timestamp": "2026-04-04T08:16:10-06:00",
+          "tree_id": "2f71a034baf9cadee827cc493b7c75a9b75896e4",
+          "url": "https://github.com/cocotb/cocotb/commit/bc16fd934bac7efe80af189aee3680e1f0d87502"
+        },
+        "date": 1775312393641,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18263921082093737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02714795660114896",
+            "extra": "mean: 5.475275520000014 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26029565434930785,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07896519402522396",
+            "extra": "mean: 3.8417852287999947 sec\nrounds: 5"
           }
         ]
       }
