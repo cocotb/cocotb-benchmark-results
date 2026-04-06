@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775312395273,
+  "lastUpdate": 1775489449141,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36270,6 +36270,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07896519402522396",
             "extra": "mean: 3.8417852287999947 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1b04f5ed134e7d8ef52e93e8e16be392bce65638",
+          "message": "Bump the updates group with 3 updates\n\nBumps the updates group with 3 updates: [clang-format](https://github.com/ssciwr/clang-format-wheel), [ruff](https://github.com/astral-sh/ruff) and [build](https://github.com/pypa/build).\n\n\nUpdates `clang-format` from 22.1.1 to 22.1.2\n- [Release notes](https://github.com/ssciwr/clang-format-wheel/releases)\n- [Commits](https://github.com/ssciwr/clang-format-wheel/compare/v22.1.1...v22.1.2)\n\nUpdates `ruff` from 0.15.7 to 0.15.8\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.7...0.15.8)\n\nUpdates `build` from 1.4.0 to 1.4.2\n- [Release notes](https://github.com/pypa/build/releases)\n- [Changelog](https://github.com/pypa/build/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pypa/build/compare/1.4.0...1.4.2)\n\n---\nupdated-dependencies:\n- dependency-name: clang-format\n  dependency-version: 22.1.2\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: ruff\n  dependency-version: 0.15.8\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: build\n  dependency-version: 1.4.2\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-06T09:26:41-06:00",
+          "tree_id": "275dcb0f21388703d9ac3562d67b584ea7a49a19",
+          "url": "https://github.com/cocotb/cocotb/commit/1b04f5ed134e7d8ef52e93e8e16be392bce65638"
+        },
+        "date": 1775489447157,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1825630595348709,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03107336028001665",
+            "extra": "mean: 5.477559384399956 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.26270694111351145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02069687226199389",
+            "extra": "mean: 3.806522948199972 sec\nrounds: 5"
           }
         ]
       }
