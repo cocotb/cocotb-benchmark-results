@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775580442235,
+  "lastUpdate": 1775580681112,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36422,6 +36422,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0548992120954156",
             "extra": "mean: 3.8280204026000093 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cruskin@umich.edu",
+            "name": "Chase Ruskin",
+            "username": "chaseruskin"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "2a3bd51ccbee7a7839d3ec5d70dcc21acd4bb4f1",
+          "message": "Add ability to randomize test order\n\nCreates a new environment variable (COCOTB_RANDOM_TEST_ORDER) to\nenable shuffling of tests within the regression manager (closes #5106).",
+          "timestamp": "2026-04-07T10:43:59-06:00",
+          "tree_id": "811c5c62f47265e6405be92cafdd8079cf120dc4",
+          "url": "https://github.com/cocotb/cocotb/commit/2a3bd51ccbee7a7839d3ec5d70dcc21acd4bb4f1"
+        },
+        "date": 1775580679421,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.18290562721825793,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018168826681469047",
+            "extra": "mean: 5.4673003516 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2651671589974227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029515934859590594",
+            "extra": "mean: 3.7712060715999884 sec\nrounds: 5"
           }
         ]
       }
