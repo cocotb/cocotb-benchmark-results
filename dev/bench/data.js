@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775489699328,
+  "lastUpdate": 1775537527659,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36346,6 +36346,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.023355114745678227",
             "extra": "mean: 3.7117268265999996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "843574e22892ca3929870b9684845f78a6564f60",
+          "message": "Exclude mypy 1.20\n\nThere was a regression in regression (heh).",
+          "timestamp": "2026-04-06T22:48:15-06:00",
+          "tree_id": "001e0f62ef45f50afc94e97db1485d309601527f",
+          "url": "https://github.com/cocotb/cocotb/commit/843574e22892ca3929870b9684845f78a6564f60"
+        },
+        "date": 1775537526022,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "::test_matrix_multiplier_icarus",
+            "value": 0.1898396021338735,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03336405061803155",
+            "extra": "mean: 5.267604802999995 sec\nrounds: 5"
+          },
+          {
+            "name": "::test_matrix_multiplier_nvc",
+            "value": 0.2687187322060798,
+            "unit": "iter/sec",
+            "range": "stddev: 0.051992720790601084",
+            "extra": "mean: 3.7213631956000084 sec\nrounds: 5"
           }
         ]
       }
