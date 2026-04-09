@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775753249535,
+  "lastUpdate": 1775765111330,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36626,6 +36626,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01816848298176679",
             "extra": "mean: 5.01845671179999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "svet@fractile.ai",
+            "name": "Svet Hristozkov",
+            "username": "svet-h"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ddce050ac9a28d830f1becd58f46e94b3711525",
+          "message": "Fix use-after-free in VpiSignalObjHdl::register_value_change_callback \n\nWhen arm() fails (vpi_register_cb returns NULL), the error path\nexecutes `delete this` which destroys the VpiSignalObjHdl (signal\nobject) instead of cb_hdl (the callback that failed to register).\n\nPython still holds a reference to the signal, so when cocotb formats\nthe error message by calling repr() on the trigger, it invokes\ngpi_get_definition_name() on freed memory, causing a segfault.\n\nAdditionally, the allocated VpiValueCbHdl is leaked.",
+          "timestamp": "2026-04-09T14:00:54-06:00",
+          "tree_id": "5429fb2ef0e37728cdd6c27d35ada79db4c0637d",
+          "url": "https://github.com/cocotb/cocotb/commit/1ddce050ac9a28d830f1becd58f46e94b3711525"
+        },
+        "date": 1775765109881,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.180474707319336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05879483309103784",
+            "extra": "mean: 5.540942633199995 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2626733779722429,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026459706112796105",
+            "extra": "mean: 3.8070093274000216 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19748080937944254,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08504034087111263",
+            "extra": "mean: 5.0637831754000215 sec\nrounds: 5"
           }
         ]
       }
