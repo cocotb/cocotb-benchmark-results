@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775765111330,
+  "lastUpdate": 1775794901001,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36671,6 +36671,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08504034087111263",
             "extra": "mean: 5.0637831754000215 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3156ca639ec1f2c213a21e3d461c7b2d75c56f07",
+          "message": "Force git tags in versions to be alphanumeric\n\nIf a git commit happens to be entirely numeric and the leading\ncharacters are 0s they will be stripped leading to odd and\ninconsistently sized version strings. Adding a non-hex letter forces\nthis field to be alphanumeric and wont be treated as if it were a\nnumber.",
+          "timestamp": "2026-04-09T22:17:42-06:00",
+          "tree_id": "c7659b7b39159ff2e1ce43d2b320fa93235a4658",
+          "url": "https://github.com/cocotb/cocotb/commit/3156ca639ec1f2c213a21e3d461c7b2d75c56f07"
+        },
+        "date": 1775794899077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18318527150385988,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01878114629415098",
+            "extra": "mean: 5.458954160400003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26263595403409995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03679695227863901",
+            "extra": "mean: 3.8075518018000025 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.20387237065416677,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04362265374765583",
+            "extra": "mean: 4.90502953780001 sec\nrounds: 5"
           }
         ]
       }
