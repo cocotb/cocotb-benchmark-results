@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776096604961,
+  "lastUpdate": 1776096933487,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36941,6 +36941,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.027400452119572576",
             "extra": "mean: 4.232608677600001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "629a62832989a54c6470a6d7441bb88b8dfd4cd4",
+          "message": "Add documentation on profiling",
+          "timestamp": "2026-04-13T10:06:25-06:00",
+          "tree_id": "c0c29bf96fa5498c8b24c461e05bade0c9de77ab",
+          "url": "https://github.com/cocotb/cocotb/commit/629a62832989a54c6470a6d7441bb88b8dfd4cd4"
+        },
+        "date": 1776096932275,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18198947638187454,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03213152429515101",
+            "extra": "mean: 5.4948232165999915 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2614904171260878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011804290563583193",
+            "extra": "mean: 3.824231920200009 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19602280556590626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08808657805609028",
+            "extra": "mean: 5.101447237800005 sec\nrounds: 5"
           }
         ]
       }
