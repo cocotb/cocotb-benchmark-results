@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776058385699,
+  "lastUpdate": 1776058676893,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36851,6 +36851,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08852090571497635",
             "extra": "mean: 5.158000452199985 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a18883468b7de9d4feca497c67db81faf392bdcf",
+          "message": "Bump ruff from 0.15.8 to 0.15.9 in the updates group\n\nBumps the updates group with 1 update: [ruff](https://github.com/astral-sh/ruff).\n\n\nUpdates `ruff` from 0.15.8 to 0.15.9\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.8...0.15.9)\n\n---\nupdated-dependencies:\n- dependency-name: ruff\n  dependency-version: 0.15.9\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-12T23:24:20-06:00",
+          "tree_id": "e154b3a97b186fb5125b139dd52fef832881b705",
+          "url": "https://github.com/cocotb/cocotb/commit/a18883468b7de9d4feca497c67db81faf392bdcf"
+        },
+        "date": 1776058675748,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18955682053651862,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03511819530873079",
+            "extra": "mean: 5.275463036199994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2696284499871861,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027037480508944955",
+            "extra": "mean: 3.7088074349999944 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19831135708330838,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03535851907349901",
+            "extra": "mean: 5.042575547399997 sec\nrounds: 5"
           }
         ]
       }
