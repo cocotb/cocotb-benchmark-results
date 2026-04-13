@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776096933487,
+  "lastUpdate": 1776102786894,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36986,6 +36986,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08808657805609028",
             "extra": "mean: 5.101447237800005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "455140+mvanhorn@users.noreply.github.com",
+            "name": "Matt Van Horn",
+            "username": "mvanhorn"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "d8d0006b2681fa2bbe30260042c07343ae0249ef",
+          "message": "Add coverage documentation\n\nAdd documentation about using the coverage module's sitecustomize.py\nsubprocess support as an alternative to COCOTB_USER_COVERAGE. This\napproach automatically records coverage in all subprocesses and works\nwell for users who regularly collect coverage across their environment.\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2026-04-13T11:48:19-06:00",
+          "tree_id": "b7e02ba2db4576d7bf232208bff2671735bb3888",
+          "url": "https://github.com/cocotb/cocotb/commit/d8d0006b2681fa2bbe30260042c07343ae0249ef"
+        },
+        "date": 1776102785167,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18129852744439517,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03657070856625842",
+            "extra": "mean: 5.515764601599995 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26283363446117086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009434043073397637",
+            "extra": "mean: 3.8046880950000057 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19637197513175117,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10122133231309863",
+            "extra": "mean: 5.09237634000001 sec\nrounds: 5"
           }
         ]
       }
