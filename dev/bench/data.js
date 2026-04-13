@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776037023231,
+  "lastUpdate": 1776058385699,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36806,6 +36806,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.040970373681982065",
             "extra": "mean: 4.441598089200033 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "61518da7165b86d9dafe735ed29c82491e36892b",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.21.0 to 1.22.0\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.21.0 to 1.22.0.\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/a7bc2366eda11037936ea57d811a43b3418d3073...a60cea5bc7b49e15c1f58f411161f99e0df48372)\n\n---\nupdated-dependencies:\n- dependency-name: benchmark-action/github-action-benchmark\n  dependency-version: 1.22.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-12T23:23:53-06:00",
+          "tree_id": "090605016850877d966790255a491530487c61f3",
+          "url": "https://github.com/cocotb/cocotb/commit/61518da7165b86d9dafe735ed29c82491e36892b"
+        },
+        "date": 1776058384441,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1814787031959188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02236873360809962",
+            "extra": "mean: 5.5102884381999955 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26170086140347626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02079935879406994",
+            "extra": "mean: 3.821156700199981 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19387357741961442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08852090571497635",
+            "extra": "mean: 5.158000452199985 sec\nrounds: 5"
           }
         ]
       }
