@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776104962131,
+  "lastUpdate": 1776106757654,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37076,6 +37076,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1562889022668527",
             "extra": "mean: 5.131357037199973 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "9675d405055bf3a73eee2f1e1a138e24ec7a3963",
+          "message": "Fix indentation in Makefile.inc for language detection\n\nThese were accidentally tabs instead of spaces which makes make very sad.",
+          "timestamp": "2026-04-13T12:55:09-06:00",
+          "tree_id": "0475ebf1ce14bfd47f50846380280b61aab3d9a1",
+          "url": "https://github.com/cocotb/cocotb/commit/9675d405055bf3a73eee2f1e1a138e24ec7a3963"
+        },
+        "date": 1776106755849,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1828278346935472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021832725811923064",
+            "extra": "mean: 5.469626666400018 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2620225564607976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036959294581494",
+            "extra": "mean: 3.816465320800023 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19555293854827874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06957883464978903",
+            "extra": "mean: 5.113704797399999 sec\nrounds: 5"
           }
         ]
       }
