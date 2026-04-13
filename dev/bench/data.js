@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776058676893,
+  "lastUpdate": 1776096604961,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -36896,6 +36896,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03535851907349901",
             "extra": "mean: 5.042575547399997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "fe2daa5bfe7af5d91f9a3cbbb7d095e1dbe436e6",
+          "message": "Add support for SIM_CMD_PREFIX and SIM_CMD_SUFFIX to Runners",
+          "timestamp": "2026-04-13T10:06:06-06:00",
+          "tree_id": "bd3b72840a33d98ff158b489ce6f36fa5ef84e98",
+          "url": "https://github.com/cocotb/cocotb/commit/fe2daa5bfe7af5d91f9a3cbbb7d095e1dbe436e6"
+        },
+        "date": 1776096603335,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.2001921782210726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01613822472229026",
+            "extra": "mean: 4.995200156600015 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2968874422975677,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022878127797584937",
+            "extra": "mean: 3.3682798850000153 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.23626091523467413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027400452119572576",
+            "extra": "mean: 4.232608677600001 sec\nrounds: 5"
           }
         ]
       }
