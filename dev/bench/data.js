@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776199277590,
+  "lastUpdate": 1776221370009,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37301,6 +37301,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07173460538702871",
             "extra": "mean: 4.334095475200047 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "57548482+AlanVek@users.noreply.github.com",
+            "name": "Alan Vekselman",
+            "username": "AlanVek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95a2c0271e056e6b7ff08e4d916792018d7ea86d",
+          "message": "Support Edge triggers in 1-bit LogicArray (#5483)\n\nCo-authored-by: Alan Vekselman <alanvek98@gmail.com>\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2026-04-14T20:45:15-06:00",
+          "tree_id": "99339a2461c1d7e3ef8e63b096d38ffed1431e9e",
+          "url": "https://github.com/cocotb/cocotb/commit/95a2c0271e056e6b7ff08e4d916792018d7ea86d"
+        },
+        "date": 1776221368496,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18209444829094615,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03431425121471238",
+            "extra": "mean: 5.49165561819998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2631296211959138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037336964316548524",
+            "extra": "mean: 3.800408313800017 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19934747342737177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0621249927324314",
+            "extra": "mean: 5.016366562400049 sec\nrounds: 5"
           }
         ]
       }
