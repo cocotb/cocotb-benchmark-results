@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776694045640,
+  "lastUpdate": 1776701114594,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37481,6 +37481,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04407053748751244",
             "extra": "mean: 4.957941824600004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ccb45ad83b2dd0542ea4de003894b745b98d8924",
+          "message": "Bump the updates group with 4 updates\n\nBumps the updates group with 4 updates: [nox](https://github.com/wntrblm/nox), [clang-format](https://github.com/ssciwr/clang-format-wheel), [ruff](https://github.com/astral-sh/ruff) and [build](https://github.com/pypa/build).\n\n\nUpdates `nox` from 2026.2.9 to 2026.4.10\n- [Release notes](https://github.com/wntrblm/nox/releases)\n- [Changelog](https://github.com/wntrblm/nox/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/wntrblm/nox/compare/2026.02.09...2026.04.10)\n\nUpdates `clang-format` from 22.1.2 to 22.1.3\n- [Release notes](https://github.com/ssciwr/clang-format-wheel/releases)\n- [Commits](https://github.com/ssciwr/clang-format-wheel/compare/v22.1.2...v22.1.3)\n\nUpdates `ruff` from 0.15.9 to 0.15.10\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.9...0.15.10)\n\nUpdates `build` from 1.4.2 to 1.4.3\n- [Release notes](https://github.com/pypa/build/releases)\n- [Changelog](https://github.com/pypa/build/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pypa/build/compare/1.4.2...1.4.3)\n\n---\nupdated-dependencies:\n- dependency-name: nox\n  dependency-version: 2026.4.10\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: updates\n- dependency-name: clang-format\n  dependency-version: 22.1.3\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: ruff\n  dependency-version: 0.15.10\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: build\n  dependency-version: 1.4.3\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-20T10:00:57-06:00",
+          "tree_id": "609c34a9bbb42452508896c3799a67e70f1c039d",
+          "url": "https://github.com/cocotb/cocotb/commit/ccb45ad83b2dd0542ea4de003894b745b98d8924"
+        },
+        "date": 1776701112833,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18164258957153295,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06278517120501174",
+            "extra": "mean: 5.505316800200035 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2618544628383682,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013743183300421435",
+            "extra": "mean: 3.8189152446000434 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19728920907435563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04804333425446308",
+            "extra": "mean: 5.068700942600026 sec\nrounds: 5"
           }
         ]
       }
