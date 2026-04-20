@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776521536004,
+  "lastUpdate": 1776693633249,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37391,6 +37391,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.08084680417594303",
             "extra": "mean: 5.093493703199977 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "97a193b430e62490e8ecc40d9fa8008a8729e52f",
+          "message": "Bump actions/create-github-app-token from 3.0.0 to 3.1.1\n\nBumps [actions/create-github-app-token](https://github.com/actions/create-github-app-token) from 3.0.0 to 3.1.1.\n- [Release notes](https://github.com/actions/create-github-app-token/releases)\n- [Commits](https://github.com/actions/create-github-app-token/compare/f8d387b68d61c58ab83c6c016672934102569859...1b10c78c7865c340bc4f6099eb2f838309f1e8c3)\n\n---\nupdated-dependencies:\n- dependency-name: actions/create-github-app-token\n  dependency-version: 3.1.1\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-20T07:56:14-06:00",
+          "tree_id": "744f913126a89973c06b712c4590e5cec6b327c0",
+          "url": "https://github.com/cocotb/cocotb/commit/97a193b430e62490e8ecc40d9fa8008a8729e52f"
+        },
+        "date": 1776693631856,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1914152959839141,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03412596120908519",
+            "extra": "mean: 5.224242894799988 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2708797532585029,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03217541522923551",
+            "extra": "mean: 3.6916749515999867 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19772501650166854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028603947769413902",
+            "extra": "mean: 5.057528974800016 sec\nrounds: 5"
           }
         ]
       }
