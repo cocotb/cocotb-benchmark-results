@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776693633249,
+  "lastUpdate": 1776694045640,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37436,6 +37436,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028603947769413902",
             "extra": "mean: 5.057528974800016 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "dd8ed334eaf4043623e14aa71312b2056748bdd4",
+          "message": "Bump pypa/gh-action-pypi-publish from 1.13.0 to 1.14.0\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.13.0 to 1.14.0.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e...cef221092ed1bacb1cc03d23a2d87d1d172e277b)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-version: 1.14.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-20T08:02:57-06:00",
+          "tree_id": "361a590d6a17231c4e08a43bca91a47766571674",
+          "url": "https://github.com/cocotb/cocotb/commit/dd8ed334eaf4043623e14aa71312b2056748bdd4"
+        },
+        "date": 1776694044143,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18230065896094855,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017012892604430473",
+            "extra": "mean: 5.485443693400003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2638916989535712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019932875156007553",
+            "extra": "mean: 3.7894333318000237 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.20169659818077387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04407053748751244",
+            "extra": "mean: 4.957941824600004 sec\nrounds: 5"
           }
         ]
       }
