@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776706017642,
+  "lastUpdate": 1776709014908,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37616,6 +37616,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12840811162953739",
             "extra": "mean: 3.909598839599994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "eabec75da8a6d32856cd291242824d17bc806fb5",
+          "message": "Bump actions/upload-artifact from 7.0.0 to 7.0.1\n\nBumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 7.0.0 to 7.0.1.\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/bbbca2ddaa5d8feaa63e36b76fdaad77386f024f...043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)\n\n---\nupdated-dependencies:\n- dependency-name: actions/upload-artifact\n  dependency-version: 7.0.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-04-20T12:12:52-06:00",
+          "tree_id": "9cd9a65880aead14af804e5b95e84be3b0886c6b",
+          "url": "https://github.com/cocotb/cocotb/commit/eabec75da8a6d32856cd291242824d17bc806fb5"
+        },
+        "date": 1776709013181,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1985760623845819,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04793663415814274",
+            "extra": "mean: 5.035853707599972 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2941093113435188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01549916797748963",
+            "extra": "mean: 3.4000963636000052 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.2253649748176321,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030767910411419144",
+            "extra": "mean: 4.437246740799947 sec\nrounds: 5"
           }
         ]
       }
