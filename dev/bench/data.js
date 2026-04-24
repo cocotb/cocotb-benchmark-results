@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777054483656,
+  "lastUpdate": 1777054750302,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37796,6 +37796,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.049495147864411504",
             "extra": "mean: 4.508094515799996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "0d9970bb3e519f0b6e05bf8cea0577bf13b31f4e",
+          "message": "Split Examples into its own docs section\n\nAlso rewrites the matrix_multiplier example docs. They were out of date\nand could use more detail.",
+          "timestamp": "2026-04-24T12:11:06-06:00",
+          "tree_id": "0cd91c7c57443153e70c7a96640a371dbcdac16f",
+          "url": "https://github.com/cocotb/cocotb/commit/0d9970bb3e519f0b6e05bf8cea0577bf13b31f4e"
+        },
+        "date": 1777054748867,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17945560869480087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02037214910857403",
+            "extra": "mean: 5.57240872699997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25838550555533446,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024252526321448302",
+            "extra": "mean: 3.8701861307999934 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19343883004016688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10457945054372346",
+            "extra": "mean: 5.169592887800002 sec\nrounds: 5"
           }
         ]
       }
