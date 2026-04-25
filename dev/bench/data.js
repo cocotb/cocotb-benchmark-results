@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777064220196,
+  "lastUpdate": 1777129102079,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -37931,6 +37931,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033569159646200386",
             "extra": "mean: 4.984256265199974 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "af0150dd99df824c8d30e696126d974fb289f8ac",
+          "message": "Use Python 3.11 for type checking in pre-commit\n\nPython 3.11 is out lowest supported version for type checking.",
+          "timestamp": "2026-04-25T08:54:10-06:00",
+          "tree_id": "212f42140976e48d1755bd03316fd12a261fe96c",
+          "url": "https://github.com/cocotb/cocotb/commit/af0150dd99df824c8d30e696126d974fb289f8ac"
+        },
+        "date": 1777129100359,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18792799764479307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11387106175423775",
+            "extra": "mean: 5.321186904199993 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2695291290220098,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042583732640609356",
+            "extra": "mean: 3.710174123399997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19771594018988467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.40175516060432553",
+            "extra": "mean: 5.057761144800002 sec\nrounds: 5"
           }
         ]
       }
