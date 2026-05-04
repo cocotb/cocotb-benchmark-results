@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777327127286,
+  "lastUpdate": 1777905254199,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38021,6 +38021,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.3223854516198365",
             "extra": "mean: 5.090993338200008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b5c6a3484ec7b3f071d1933bc284cf2817601578",
+          "message": "Bump the updates group with 4 updates\n\nBumps the updates group with 4 updates: [prek](https://github.com/j178/prek), [clang-format](https://github.com/ssciwr/clang-format-wheel), [ruff](https://github.com/astral-sh/ruff) and [build](https://github.com/pypa/build).\n\n\nUpdates `prek` from 0.3.9 to 0.3.11\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.3.9...v0.3.11)\n\nUpdates `clang-format` from 22.1.3 to 22.1.4\n- [Release notes](https://github.com/ssciwr/clang-format-wheel/releases)\n- [Commits](https://github.com/ssciwr/clang-format-wheel/compare/v22.1.3...v22.1.4)\n\nUpdates `ruff` from 0.15.11 to 0.15.12\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.11...0.15.12)\n\nUpdates `build` from 1.4.3 to 1.4.4\n- [Release notes](https://github.com/pypa/build/releases)\n- [Changelog](https://github.com/pypa/build/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pypa/build/compare/1.4.3...1.4.4)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.3.11\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: clang-format\n  dependency-version: 22.1.4\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: ruff\n  dependency-version: 0.15.12\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: build\n  dependency-version: 1.4.4\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-04T10:30:03-04:00",
+          "tree_id": "4eaccee33ed84ced8413494796fff55d7bda841e",
+          "url": "https://github.com/cocotb/cocotb/commit/b5c6a3484ec7b3f071d1933bc284cf2817601578"
+        },
+        "date": 1777905252704,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18126993246307244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018004570865105738",
+            "extra": "mean: 5.516634702800014 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2624029093897806,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05248372256767719",
+            "extra": "mean: 3.8109333556000022 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19713930182882386,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05392861380149484",
+            "extra": "mean: 5.072555247599996 sec\nrounds: 5"
           }
         ]
       }
