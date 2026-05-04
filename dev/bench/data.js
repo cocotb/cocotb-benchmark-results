@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777905254199,
+  "lastUpdate": 1777907773552,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38066,6 +38066,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05392861380149484",
             "extra": "mean: 5.072555247599996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1c4a1956fc7487deee0a245ae781248733709876",
+          "message": "Bump hendrikmuhs/ccache-action from 1.2.22 to 1.2.23\n\nBumps [hendrikmuhs/ccache-action](https://github.com/hendrikmuhs/ccache-action) from 1.2.22 to 1.2.23.\n- [Release notes](https://github.com/hendrikmuhs/ccache-action/releases)\n- [Commits](https://github.com/hendrikmuhs/ccache-action/compare/33522472633dbd32578e909b315f5ee43ba878ce...d62db5f07c26379fc4b4e0916f098a92573c3b03)\n\n---\nupdated-dependencies:\n- dependency-name: hendrikmuhs/ccache-action\n  dependency-version: 1.2.23\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-04T11:12:20-04:00",
+          "tree_id": "ca7382b8f36801579796a855e8b7000ee2ab2240",
+          "url": "https://github.com/cocotb/cocotb/commit/1c4a1956fc7487deee0a245ae781248733709876"
+        },
+        "date": 1777907771204,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1917773184950796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01051156102856819",
+            "extra": "mean: 5.2143809697999135 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2731859072766873,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026311541494586053",
+            "extra": "mean: 3.660510931799945 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.20689703342894494,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037564062372585014",
+            "extra": "mean: 4.8333220802000145 sec\nrounds: 5"
           }
         ]
       }
