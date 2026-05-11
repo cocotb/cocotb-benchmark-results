@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777907773552,
+  "lastUpdate": 1778506093992,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38111,6 +38111,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.037564062372585014",
             "extra": "mean: 4.8333220802000145 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6bead6000b682405b769d45fb9e87f6b17c134b9",
+          "message": "Bump sorenlouv/backport-github-action from 11.0.0 to 12.0.0\n\nBumps [sorenlouv/backport-github-action](https://github.com/sorenlouv/backport-github-action) from 11.0.0 to 12.0.0.\n- [Release notes](https://github.com/sorenlouv/backport-github-action/releases)\n- [Commits](https://github.com/sorenlouv/backport-github-action/compare/9460b7102fea25466026ce806c9ebf873ac48721...85813678d776774a19ec5af56bd3a04305946f8a)\n\n---\nupdated-dependencies:\n- dependency-name: sorenlouv/backport-github-action\n  dependency-version: 12.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-11T07:24:08-06:00",
+          "tree_id": "857b35d34193a43a250625c520f920be392d11bd",
+          "url": "https://github.com/cocotb/cocotb/commit/6bead6000b682405b769d45fb9e87f6b17c134b9"
+        },
+        "date": 1778506092323,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18234279780187548,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037380315864361455",
+            "extra": "mean: 5.484176024800002 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2627141146667176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027762672657359686",
+            "extra": "mean: 3.806419009000001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.2014240712696936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04393525630576202",
+            "extra": "mean: 4.964649923399998 sec\nrounds: 5"
           }
         ]
       }
