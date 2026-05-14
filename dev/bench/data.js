@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778696047536,
+  "lastUpdate": 1778720166397,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38201,6 +38201,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09865769417375692",
             "extra": "mean: 3.9517112805999886 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a2b34322354c2f72436660e67b2b2d5c0663552a",
+          "message": "Fix mypy 2.0 issues",
+          "timestamp": "2026-05-13T18:52:29-06:00",
+          "tree_id": "b733cca2f938fb3db6ab401172a89c62ac069b7f",
+          "url": "https://github.com/cocotb/cocotb/commit/a2b34322354c2f72436660e67b2b2d5c0663552a"
+        },
+        "date": 1778720164836,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19996135889911598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0390138509049418",
+            "extra": "mean: 5.000966214200003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.296156543454468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02335715926879007",
+            "extra": "mean: 3.3765926234000063 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.23043600272525094,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03878523111111673",
+            "extra": "mean: 4.339599663999991 sec\nrounds: 5"
           }
         ]
       }
