@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779114715278,
+  "lastUpdate": 1779132653411,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38291,6 +38291,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026484830554076435",
             "extra": "mean: 4.950229336999991 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "b964194fcb3514d7d591202e8ce03f97033fc5e8",
+          "message": "Bump the updates group with 2 updates\n\nBumps the updates group with 2 updates: [prek](https://github.com/j178/prek) and [clang-format](https://github.com/ssciwr/clang-format-wheel).\n\n\nUpdates `prek` from 0.3.11 to 0.3.13\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.3.11...v0.3.13)\n\nUpdates `clang-format` from 22.1.4 to 22.1.5\n- [Release notes](https://github.com/ssciwr/clang-format-wheel/releases)\n- [Commits](https://github.com/ssciwr/clang-format-wheel/compare/v22.1.4...v22.1.5)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.3.13\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: clang-format\n  dependency-version: 22.1.5\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-18T13:26:50-06:00",
+          "tree_id": "61d75ee7fa5bb517eb1e9b9ae19b96257c8c0568",
+          "url": "https://github.com/cocotb/cocotb/commit/b964194fcb3514d7d591202e8ce03f97033fc5e8"
+        },
+        "date": 1779132651989,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.190266162523459,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032421672513331445",
+            "extra": "mean: 5.255795285600004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26412162826759844,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061350959044541735",
+            "extra": "mean: 3.7861344660000213 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19792956205968476,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06590415657698906",
+            "extra": "mean: 5.052302392799993 sec\nrounds: 5"
           }
         ]
       }
