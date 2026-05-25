@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779720743744,
+  "lastUpdate": 1779741103029,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38741,6 +38741,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.8122033690468116",
             "extra": "mean: 17.96854186500002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "da0c7bc9f6ec1cd1a2c90debff2d55f513860fff",
+          "message": "Revert \"Move commercial sim module load into noxfile\"\n\nThis reverts commit 6159a0913da233e18d50faed21e8f86e1238d6a2.",
+          "timestamp": "2026-05-25T22:26:06+02:00",
+          "tree_id": "7826ad6d91b12e0f95dd52fb6ff66c4ad05e3fe4",
+          "url": "https://github.com/cocotb/cocotb/commit/da0c7bc9f6ec1cd1a2c90debff2d55f513860fff"
+        },
+        "date": 1779741101786,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19126257620517778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02992364342233645",
+            "extra": "mean: 5.228414360200008 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2688219047098897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029391312405458343",
+            "extra": "mean: 3.719934955000008 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.050203164979919945,
+            "unit": "iter/sec",
+            "range": "stddev: 0.33407512825427055",
+            "extra": "mean: 19.919062879800027 sec\nrounds: 5"
           }
         ]
       }
