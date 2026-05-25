@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779712362197,
+  "lastUpdate": 1779720417964,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38651,6 +38651,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.11080213150938162",
             "extra": "mean: 5.142875298000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20d1de0870c7f80999629a05e896fb2cfdb63345",
+          "message": "chore(xunit): refactor xUnit reporter class (#5219)\n\n* chore(xunit): refactor XUnit reporter class\n\n- Fix/close all related issues/PRs with JUnit XML tests report\n- Based on pytest JUnit XML plugin\n- Compatible with XUnit version 1.x (`xunit1`) and 2.x (`xunit2`)\n- Automatically detect environment: GitHub Actions, GitLab CI, Jenkins\n- New environment variable `COCOTB_ATTACHMENTS`\n- Attach files (logs, waveforms, ...) to generated JUnit XML file\n- Move invalid XML element attributes to properties\n- Add `attachment` properties to test cases\n- Report attachments in `system-out`\n- Report random seed in `system-err`\n- Report exception in `failure` with message, type and traceback\n- Group test cases in test suites based on name of Python module\n- Removed `COCOTB_RESULT_TESTPACKAGE` environment variable,\n  the `package` attribute is invalid in XUnit\n- Removed `COCOTB_RESULT_TESTSUITE` environment variable,\n  test cases are grouped in test suites based on name of Python module\n- Unit tests for XUnit reporter class\n- Hit `100%` code coverage for `src/cocotb/_xunit_reporter.py` file\n\nCo-authored-by: Kaleb Barrett <dev.ktbarrett@gmail.com>",
+          "timestamp": "2026-05-25T08:41:05-06:00",
+          "tree_id": "f4c92e4e2a7736c6d258f618f6c0f6b1d4130788",
+          "url": "https://github.com/cocotb/cocotb/commit/20d1de0870c7f80999629a05e896fb2cfdb63345"
+        },
+        "date": 1779720415924,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19041036216846952,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033401910556132695",
+            "extra": "mean: 5.251815019999958 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.27064495909543645,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028090469863450467",
+            "extra": "mean: 3.694877611400011 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.048836642366534865,
+            "unit": "iter/sec",
+            "range": "stddev: 0.29423017130277557",
+            "extra": "mean: 20.47642818060003 sec\nrounds: 5"
           }
         ]
       }
