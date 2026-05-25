@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779706108627,
+  "lastUpdate": 1779706368756,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38561,6 +38561,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05275847017112811",
             "extra": "mean: 4.816976726599978 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "a289762ff336f6f5c417d62babb5ef248ad85fd3",
+          "message": "Bump codecov/codecov-action from 6.0.0 to 6.0.1\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 6.0.0 to 6.0.1.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/57e3a136b779b570ffcdbf80b3bdc90e7fab3de2...e79a6962e0d4c0c17b229090214935d2e33f8354)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 6.0.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-25T12:46:35+02:00",
+          "tree_id": "a17e4097d27157c317a6e621727a0947506e9b3c",
+          "url": "https://github.com/cocotb/cocotb/commit/a289762ff336f6f5c417d62babb5ef248ad85fd3"
+        },
+        "date": 1779706366878,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17991470348977878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02440686314680658",
+            "extra": "mean: 5.558189411999956 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26035843317733365,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012313655910085918",
+            "extra": "mean: 3.840858879800089 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19668851341686827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0309363517458123",
+            "extra": "mean: 5.084180985600142 sec\nrounds: 5"
           }
         ]
       }
