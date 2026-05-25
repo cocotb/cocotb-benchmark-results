@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779706368756,
+  "lastUpdate": 1779712362197,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38606,6 +38606,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0309363517458123",
             "extra": "mean: 5.084180985600142 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "6159a0913da233e18d50faed21e8f86e1238d6a2",
+          "message": "Move commercial sim module load into noxfile\n\nThis is necessary since some simulator's modulefiles modify the\nenvironment in such a way to break cocotb builds, so we move it into nox\nto ensure cocotb is built before the modulefile is loaded.",
+          "timestamp": "2026-05-25T14:28:36+02:00",
+          "tree_id": "a174eb5eb43051c5fb63f88bb4536d2d320060da",
+          "url": "https://github.com/cocotb/cocotb/commit/6159a0913da233e18d50faed21e8f86e1238d6a2"
+        },
+        "date": 1779712360173,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17831369171975836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05912098899000439",
+            "extra": "mean: 5.60809431040002 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2571535005263992,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010181533023513817",
+            "extra": "mean: 3.888727930799996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.19444375802557126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11080213150938162",
+            "extra": "mean: 5.142875298000002 sec\nrounds: 5"
           }
         ]
       }
