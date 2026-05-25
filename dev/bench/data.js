@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779665374317,
+  "lastUpdate": 1779706108627,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38516,6 +38516,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04674115183245531",
             "extra": "mean: 4.3261351411999955 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "8cbfd5da2c23eb90732a6860a0046a918066b26f",
+          "message": "Bump actions/create-github-app-token from 3.1.1 to 3.2.0\n\nBumps [actions/create-github-app-token](https://github.com/actions/create-github-app-token) from 3.1.1 to 3.2.0.\n- [Release notes](https://github.com/actions/create-github-app-token/releases)\n- [Changelog](https://github.com/actions/create-github-app-token/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/create-github-app-token/compare/1b10c78c7865c340bc4f6099eb2f838309f1e8c3...bcd2ba49218906704ab6c1aa796996da409d3eb1)\n\n---\nupdated-dependencies:\n- dependency-name: actions/create-github-app-token\n  dependency-version: 3.2.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-25T12:44:35+02:00",
+          "tree_id": "623ef050a23a32ad95e0a859de494f790f475cbd",
+          "url": "https://github.com/cocotb/cocotb/commit/8cbfd5da2c23eb90732a6860a0046a918066b26f"
+        },
+        "date": 1779706107224,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19006061166822782,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04868235412427049",
+            "extra": "mean: 5.261479436600007 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2713922442871737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027836997998222965",
+            "extra": "mean: 3.6847036753999873 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.2075990931153702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05275847017112811",
+            "extra": "mean: 4.816976726599978 sec\nrounds: 5"
           }
         ]
       }
