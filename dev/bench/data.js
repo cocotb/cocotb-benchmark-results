@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779744341639,
+  "lastUpdate": 1779791244794,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38831,6 +38831,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.4462112349711783",
             "extra": "mean: 17.083046729600007 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "6d5df03f6dde04840008bb4b6d05694978dd895f",
+          "message": "Docs: Remove outdated and duplicated development docs\n\nThe users are instructed to use uv further up the page, let's avoid\ngiving them conflicting instructions further down.",
+          "timestamp": "2026-05-26T12:21:42+02:00",
+          "tree_id": "7436487c00c6ea5569be36fe28971d275f766aa1",
+          "url": "https://github.com/cocotb/cocotb/commit/6d5df03f6dde04840008bb4b6d05694978dd895f"
+        },
+        "date": 1779791243188,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.3402916472679995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027187241533164652",
+            "extra": "mean: 2.938655732599989 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.5072856507711004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0066826986331768945",
+            "extra": "mean: 1.9712759438000034 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.06787080521775206,
+            "unit": "iter/sec",
+            "range": "stddev: 0.6625418161126989",
+            "extra": "mean: 14.733875586000021 sec\nrounds: 5"
           }
         ]
       }
