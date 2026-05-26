@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779807080010,
+  "lastUpdate": 1779823610045,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38921,6 +38921,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.5490994321262305",
             "extra": "mean: 20.67057993279999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "145194907+MdSaifAliMolla@users.noreply.github.com",
+            "name": "Saif",
+            "username": "MdSaifAliMolla"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5dcae3ba3af60b599f938cd670d6c53e8973c7dc",
+          "message": "Consolidate test run environment variables in Makefiles\n\nReduces repetition and prevents inconsistency between simulators.",
+          "timestamp": "2026-05-26T13:21:24-06:00",
+          "tree_id": "5102eb81469e996aa09232667f516e859ca79d87",
+          "url": "https://github.com/cocotb/cocotb/commit/5dcae3ba3af60b599f938cd670d6c53e8973c7dc"
+        },
+        "date": 1779823607703,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19782229823462263,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043749709195008826",
+            "extra": "mean: 5.055041868000001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2940694775097082,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015230558601113081",
+            "extra": "mean: 3.400556931199998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05803313314838288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3322837463630211",
+            "extra": "mean: 17.231535603000015 sec\nrounds: 5"
           }
         ]
       }
