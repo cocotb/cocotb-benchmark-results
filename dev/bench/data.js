@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779862075879,
+  "lastUpdate": 1779874830064,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39011,6 +39011,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.35640324752536",
             "extra": "mean: 17.19060388160002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "534cc52ef154bfc427cd48bf5aedd1289137434d",
+          "message": "Do not include C/C++ source files in wheel\n\n... and fix the \"Package would be ignored\" warning during wheel build.\n\nWhen include_package_data is enabled, setuptools includes all files\ntracked by version control (or listed in MANIFEST.in) as package\ndata. For pyproject.toml-based projects, setuptools enables this by\ndefault. It then warns about every file that lives in a directory\nwhich Python would treat as an importable package but that is not\nlisted in packages:\n\n  Package 'cocotb._vendor' is absent from the `packages` configuration.\n  Package 'cocotb_tools.makefiles' is absent from the `packages` configuration.\n  Package 'cocotb_tools.makefiles.simulators' is absent from the `packages` configuration.\n  (and more)\n\nDisable include_package_data explicitly and rely solely on the\npackage_data entries already in setup.py, which cover all files that\nbelong in the wheel.\n\nThis removes the following files from the wheel, saving ~200 KiB on\na Linux wheel.\n\n```\n - cocotb/_vendor/README.md\n - cocotb/_vendor/fli/acc_user.h\n - cocotb/_vendor/fli/acc_vhdl.h\n - cocotb/_vendor/fli/mti.h\n - cocotb/_vendor/tcl/license.terms\n - cocotb/_vendor/tcl/tcl.h\n - cocotb/_vendor/tcl/tclDecls.h\n - cocotb/_vendor/tcl/tclPlatDecls.h\n - cocotb/_vendor/vhpi/vhpi_user.h\n - cocotb/_vendor/vpi/sv_vpi_user.h\n - cocotb/_vendor/vpi/vpi_compatibility.h\n - cocotb/_vendor/vpi/vpi_user.h\n - cocotb/share/lib/gpi/GpiCbHdl.cpp\n - cocotb/share/lib/gpi/GpiCommon.cpp\n - cocotb/share/lib/gpi/dynload.cpp\n - cocotb/share/lib/gpi/fli/FliCbHdl.cpp\n - cocotb/share/lib/gpi/fli/FliImpl.cpp\n - cocotb/share/lib/gpi/fli/FliImpl.hpp\n - cocotb/share/lib/gpi/fli/FliObjHdl.cpp\n - cocotb/share/lib/gpi/gpi_priv.hpp\n - cocotb/share/lib/gpi/logging.cpp\n - cocotb/share/lib/gpi/logging.hpp\n - cocotb/share/lib/gpi/vhpi/VhpiCbHdl.cpp\n - cocotb/share/lib/gpi/vhpi/VhpiImpl.cpp\n - cocotb/share/lib/gpi/vhpi/VhpiImpl.hpp\n - cocotb/share/lib/gpi/vhpi/VhpiIterator.cpp\n - cocotb/share/lib/gpi/vhpi/VhpiObj.cpp\n - cocotb/share/lib/gpi/vhpi/VhpiSignal.cpp\n - cocotb/share/lib/gpi/vpi/VpiCbHdl.cpp\n - cocotb/share/lib/gpi/vpi/VpiImpl.cpp\n - cocotb/share/lib/gpi/vpi/VpiImpl.hpp\n - cocotb/share/lib/gpi/vpi/VpiIterator.cpp\n - cocotb/share/lib/gpi/vpi/VpiObj.cpp\n - cocotb/share/lib/gpi/vpi/VpiSignal.cpp\n - cocotb/share/lib/pygpi/bind.cpp\n - cocotb/share/lib/pygpi/embed.cpp\n - cocotb/share/lib/pygpi/logging.cpp\n - cocotb/share/lib/pygpi/pygpi_priv.hpp\n - cocotb/share/lib/utils.hpp\n```\n\n```\n/tmp/build-env-es0w0lmb/lib/python3.9/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'cocotb._vendor' is absent from the `packages` configuration.\n!!\n\n********************************************************************************\nPython recognizes 'cocotb._vendor' as an importable package[^1],\nbut it is absent from setuptools' `packages` configuration.\n\nThis leads to an ambiguous overall configuration. If you want to distribute this\npackage, please make sure that 'cocotb._vendor' is explicitly added\nto the `packages` configuration field.\n\nAlternatively, you can also rely on setuptools' discovery methods\n(for example by using `find_namespace_packages(...)`/`find_namespace:`\ninstead of `find_packages(...)`/`find:`).\n\nYou can read more about \"package discovery\" on setuptools documentation page:\n\n- https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n\nIf you don't want 'cocotb._vendor' to be distributed and are\nalready explicitly excluding 'cocotb._vendor' via\n`find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\nyou can try to use `exclude_package_data`, or `include-package-data=False` in\n\n    ********************************************************************************\n    ############################\n    # Package would be ignored #\n    ############################\n    Python recognizes 'cocotb_tools.makefiles' as an importable package[^1],\n    but it is absent from setuptools' `packages` configuration.\n\n    This leads to an ambiguous overall configuration. If you want to distribute this\n    package, please make sure that 'cocotb_tools.makefiles' is explicitly added\n    to the `packages` configuration field.\n\n    Alternatively, you can also rely on setuptools' discovery methods\n    (for example by using `find_namespace_packages(...)`/`find_namespace:`\n    instead of `find_packages(...)`/`find:`).\n\n    You can read more about \"package discovery\" on setuptools documentation page:\n\n    - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n\n    If you don't want 'cocotb_tools.makefiles' to be distributed and are\n    already explicitly excluding 'cocotb_tools.makefiles' via\n    `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\n    you can try to use `exclude_package_data`, or `include-package-data=False` in\n    combination with a more fine grained `package-data` configuration.\n\n    You can read more about \"package data files\" on setuptools documentation page:\n\n    - https://setuptools.pypa.io/en/latest/userguide/datafiles.html\n\n    [^1]: For Python, any directory (with suitable naming) can be imported,\n        even if it does not contain any `.py` files.\n        On the other hand, currently there is no concept of package data\n        directory, all directories are treated like packages.\n    ********************************************************************************\n```",
+          "timestamp": "2026-05-27T11:34:27+02:00",
+          "tree_id": "92625c8f96fb117d25bc1c7405f7e6ebb6832618",
+          "url": "https://github.com/cocotb/cocotb/commit/534cc52ef154bfc427cd48bf5aedd1289137434d"
+        },
+        "date": 1779874828098,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18136107488706696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028453228813813448",
+            "extra": "mean: 5.51386233579999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2612271157523924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020128520987303174",
+            "extra": "mean: 3.828086518199984 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05075540500441933,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4373351420601623",
+            "extra": "mean: 19.702335148600014 sec\nrounds: 5"
           }
         ]
       }
