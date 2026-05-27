@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779874830064,
+  "lastUpdate": 1779906898936,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39056,6 +39056,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.4373351420601623",
             "extra": "mean: 19.702335148600014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "committer": {
+            "email": "mail@philipp-wagner.com",
+            "name": "Philipp Wagner",
+            "username": "imphil"
+          },
+          "distinct": true,
+          "id": "d70b169cf19979af32c51621b8735f140b9678cb",
+          "message": "Cleanups to regression-tests.yml\n\nNo functional change intended.",
+          "timestamp": "2026-05-27T20:29:24+02:00",
+          "tree_id": "8dfd21d3416d66fdb73a982691578a67fbd3c22a",
+          "url": "https://github.com/cocotb/cocotb/commit/d70b169cf19979af32c51621b8735f140b9678cb"
+        },
+        "date": 1779906897103,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1977634718234724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016274039120430957",
+            "extra": "mean: 5.05654553280001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2947167629492072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017832242689499348",
+            "extra": "mean: 3.393088299400006 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05777519887875625,
+            "unit": "iter/sec",
+            "range": "stddev: 0.40602001760302653",
+            "extra": "mean: 17.308464867399994 sec\nrounds: 5"
           }
         ]
       }
