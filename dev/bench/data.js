@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779907290419,
+  "lastUpdate": 1779907646937,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39146,6 +39146,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.44550934487941984",
             "extra": "mean: 19.91235178979999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "4aca0513dd94af0502e2ee3667d44846e73867fe",
+          "message": "Bump prek from 0.4.0 to 0.4.1 in the updates group\n\nBumps the updates group with 1 update: [prek](https://github.com/j178/prek).\n\n\nUpdates `prek` from 0.4.0 to 0.4.1\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.4.0...v0.4.1)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.4.1\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-27T12:36:02-06:00",
+          "tree_id": "99ae41ac3e5bea69819fce777af9a7e5b2111d05",
+          "url": "https://github.com/cocotb/cocotb/commit/4aca0513dd94af0502e2ee3667d44846e73867fe"
+        },
+        "date": 1779907645535,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17788971078445306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028277616714378697",
+            "extra": "mean: 5.621460598200019 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25922833620098545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027871575623159874",
+            "extra": "mean: 3.8576029714000013 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05056882365459765,
+            "unit": "iter/sec",
+            "range": "stddev: 0.32271696274266665",
+            "extra": "mean: 19.775029904400025 sec\nrounds: 5"
           }
         ]
       }
