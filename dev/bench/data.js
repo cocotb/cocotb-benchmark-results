@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779823610045,
+  "lastUpdate": 1779862075879,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -38966,6 +38966,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.3322837463630211",
             "extra": "mean: 17.231535603000015 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80cd4a87f8e1d7fe22eb571e76cb052b963b06eb",
+          "message": "Add option to fail nox fast (#5578)\n\nIt's not always easy to see which test failed because there are many\nways this can go unreported.",
+          "timestamp": "2026-05-27T00:02:43-06:00",
+          "tree_id": "a37a9d964e185da79b60a893099f7a7c7ffaa51a",
+          "url": "https://github.com/cocotb/cocotb/commit/80cd4a87f8e1d7fe22eb571e76cb052b963b06eb"
+        },
+        "date": 1779862073838,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19925077067682592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035850162110395926",
+            "extra": "mean: 5.01880116499999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.29531030732973557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01601823020430686",
+            "extra": "mean: 3.3862685289999943 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05817131305493875,
+            "unit": "iter/sec",
+            "range": "stddev: 0.35640324752536",
+            "extra": "mean: 17.19060388160002 sec\nrounds: 5"
           }
         ]
       }
