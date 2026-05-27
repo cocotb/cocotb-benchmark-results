@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779906898936,
+  "lastUpdate": 1779907290419,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39101,6 +39101,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.40602001760302653",
             "extra": "mean: 17.308464867399994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c3e2417173b67fe3d7e26a1b23f66c7379e30522",
+          "message": "Bump actions/stale from 10.2.0 to 10.3.0\n\nBumps [actions/stale](https://github.com/actions/stale) from 10.2.0 to 10.3.0.\n- [Release notes](https://github.com/actions/stale/releases)\n- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/stale/compare/b5d41d4e1d5dceea10e7104786b73624c18a190f...eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899)\n\n---\nupdated-dependencies:\n- dependency-name: actions/stale\n  dependency-version: 10.3.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-05-27T12:33:01-06:00",
+          "tree_id": "5fc67bd797e7ae010846c32f2906eb079bd9017b",
+          "url": "https://github.com/cocotb/cocotb/commit/c3e2417173b67fe3d7e26a1b23f66c7379e30522"
+        },
+        "date": 1779907288928,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17914059428511922,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0294125743192408",
+            "extra": "mean: 5.5822076731999974 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25951840916766533,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024236609195518188",
+            "extra": "mean: 3.853291191199992 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.050220085028441754,
+            "unit": "iter/sec",
+            "range": "stddev: 0.44550934487941984",
+            "extra": "mean: 19.91235178979999 sec\nrounds: 5"
           }
         ]
       }
