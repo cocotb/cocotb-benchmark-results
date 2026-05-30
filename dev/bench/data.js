@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779907646937,
+  "lastUpdate": 1780161624342,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39191,6 +39191,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.32271696274266665",
             "extra": "mean: 19.775029904400025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a1a7d211bd5691cd19ea656938fe465c8b19283c",
+          "message": "Move pytest plugin into a private module and co-locate all documentation",
+          "timestamp": "2026-05-30T11:14:23-06:00",
+          "tree_id": "2afd49ba87eb3263efa7732a7df8df2bd68433ec",
+          "url": "https://github.com/cocotb/cocotb/commit/a1a7d211bd5691cd19ea656938fe465c8b19283c"
+        },
+        "date": 1780161622969,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18042290675109743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03534255889449041",
+            "extra": "mean: 5.542533473200001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2620431170593663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026599160179653462",
+            "extra": "mean: 3.8161658707999893 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.049728202541556465,
+            "unit": "iter/sec",
+            "range": "stddev: 0.28974894863956263",
+            "extra": "mean: 20.109313204400017 sec\nrounds: 5"
           }
         ]
       }
