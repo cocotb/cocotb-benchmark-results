@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780359450717,
+  "lastUpdate": 1780519183323,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39326,6 +39326,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.412578401289577",
             "extra": "mean: 20.076110296800003 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurenhill886@outlook.com",
+            "name": "ztysth",
+            "username": "ztysth"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "f8bbc7e5dbd6ef7329b1e52e22f4d02d417f383b",
+          "message": "Add IPython support interaction test\n\nAdd a simulator-required pytest that runs the existing sample_module design with cocotb_tools.ipython_support and drives the embedded IPython prompt with pexpect.\n\nThe test checks DUT access, cocotb imports, top-level await with Timer, and clean shell exit.\n\nCloses #5472",
+          "timestamp": "2026-06-03T14:34:49-06:00",
+          "tree_id": "5dffb5f43e69fa4e4f9ac269214c4414bb37482c",
+          "url": "https://github.com/cocotb/cocotb/commit/f8bbc7e5dbd6ef7329b1e52e22f4d02d417f383b"
+        },
+        "date": 1780519182064,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.2461380023551488,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05358192135901681",
+            "extra": "mean: 4.062761501399995 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.34914379927671574,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021936093158853115",
+            "extra": "mean: 2.8641493907999918 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.0600190109388888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.37618884716373546",
+            "extra": "mean: 16.661387522999963 sec\nrounds: 5"
           }
         ]
       }
