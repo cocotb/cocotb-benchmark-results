@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780895280625,
+  "lastUpdate": 1780942930918,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39416,6 +39416,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.8049600976750512",
             "extra": "mean: 20.758219342400025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lnf33@cornell.edu",
+            "name": "luddefell",
+            "username": "luddefell"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "6dbdcac2f52a1bf355115f4b15306ed5b3dda927",
+          "message": "Fix LogicArray equality list values\n\n  Fixes #5596\n\n  Catch TypeError as well as ValueError when normalizing list and tuple\n  operands in LogicArray equality. Unsupported values should compare\n  unequal instead of leaking an exception",
+          "timestamp": "2026-06-08T14:16:14-04:00",
+          "tree_id": "20a3dfaca8e174ce13224b8f6ad4657f588a430d",
+          "url": "https://github.com/cocotb/cocotb/commit/6dbdcac2f52a1bf355115f4b15306ed5b3dda927"
+        },
+        "date": 1780942928966,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17935969261545778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032453914213269715",
+            "extra": "mean: 5.575388680800051 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26275229027708197,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018359644295951254",
+            "extra": "mean: 3.805865969599972 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.050737659964478696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3876432948181538",
+            "extra": "mean: 19.709225862999936 sec\nrounds: 5"
           }
         ]
       }
