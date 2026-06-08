@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780942930918,
+  "lastUpdate": 1780952771870,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39461,6 +39461,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.3876432948181538",
             "extra": "mean: 19.709225862999936 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8c195723f308d837053dd1e9d7fb4063fbb74662",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.15.15 → v0.15.16](https://github.com/astral-sh/ruff-pre-commit/compare/v0.15.15...v0.15.16)\n- [github.com/astral-sh/uv-pre-commit: 0.11.17 → 0.11.19](https://github.com/astral-sh/uv-pre-commit/compare/0.11.17...0.11.19)",
+          "timestamp": "2026-06-08T17:00:31-04:00",
+          "tree_id": "cb868fc4cdf0ddf95d6ad045d4d53c5ed0909d78",
+          "url": "https://github.com/cocotb/cocotb/commit/8c195723f308d837053dd1e9d7fb4063fbb74662"
+        },
+        "date": 1780952770507,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.190070398307197,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02202207293851702",
+            "extra": "mean: 5.261208525400008 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2690499054051451,
+            "unit": "iter/sec",
+            "range": "stddev: 0.056476868390749856",
+            "extra": "mean: 3.7167825741999936 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.04951711127837046,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4235546178257867",
+            "extra": "mean: 20.195039132599995 sec\nrounds: 5"
           }
         ]
       }
