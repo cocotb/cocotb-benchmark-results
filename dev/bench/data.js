@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780519183323,
+  "lastUpdate": 1780895280625,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39371,6 +39371,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.37618884716373546",
             "extra": "mean: 16.661387522999963 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5166411fd36544bc6b1b2e7b165b30d4174a6521",
+          "message": "Bump the updates group with 2 updates\n\nBumps the updates group with 2 updates: [prek](https://github.com/j178/prek) and [ruff](https://github.com/astral-sh/ruff).\n\n\nUpdates `prek` from 0.4.1 to 0.4.3\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.4.1...v0.4.3)\n\nUpdates `ruff` from 0.15.14 to 0.15.15\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.14...0.15.15)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.4.3\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: ruff\n  dependency-version: 0.15.15\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-06-08T01:02:18-04:00",
+          "tree_id": "2cb3ea039e8c421e752e91ca6b2c19dba2e7a03c",
+          "url": "https://github.com/cocotb/cocotb/commit/5166411fd36544bc6b1b2e7b165b30d4174a6521"
+        },
+        "date": 1780895279173,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.19082485687309014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042679947210330874",
+            "extra": "mean: 5.240407441600018 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2686915627539826,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01833419625228751",
+            "extra": "mean: 3.721739490999994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.048173688865375576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.8049600976750512",
+            "extra": "mean: 20.758219342400025 sec\nrounds: 5"
           }
         ]
       }
