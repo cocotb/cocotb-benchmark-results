@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780952771870,
+  "lastUpdate": 1781122039023,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39506,6 +39506,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.4235546178257867",
             "extra": "mean: 20.195039132599995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "7cf07157ee8222305a4da0f426f1e712a879c8e6",
+          "message": "Remove PackedObject\n\nWe are not going to differentiate between LogicArrayObject and\nPackedObject now that we are pivoting towards supporting indexing into\npacked objects.",
+          "timestamp": "2026-06-10T16:01:30-04:00",
+          "tree_id": "dcc1a1e671391b9a28b7414e88ac03133bf1fe70",
+          "url": "https://github.com/cocotb/cocotb/commit/7cf07157ee8222305a4da0f426f1e712a879c8e6"
+        },
+        "date": 1781122037691,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17920609071783405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031611531543615255",
+            "extra": "mean: 5.580167482000002 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2582541459036171,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03243795022897872",
+            "extra": "mean: 3.872154681200004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.04978456784494497,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3209116314963184",
+            "extra": "mean: 20.08654575679998 sec\nrounds: 5"
           }
         ]
       }
