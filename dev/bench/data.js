@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781124382578,
+  "lastUpdate": 1781135954726,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39596,6 +39596,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.28208082526521744",
             "extra": "mean: 16.930319642999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1762578117@qq.com",
+            "name": "Dragon-Git",
+            "username": "Dragon-Git"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "ffd3d24517cb2a11f31e367e52f8e020db6a0c40",
+          "message": "Fix memory leak in VPI callback cleanup\n\nSeveral simulators do not automatically clean up fired callback object\nhandles, even if they are one-shot callbacks.",
+          "timestamp": "2026-06-10T19:53:29-04:00",
+          "tree_id": "5d89fb64987a0a438996ae7bc9ec2172d689b522",
+          "url": "https://github.com/cocotb/cocotb/commit/ffd3d24517cb2a11f31e367e52f8e020db6a0c40"
+        },
+        "date": 1781135953015,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17842444802955432,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03244186256505749",
+            "extra": "mean: 5.604613106800025 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25805086627040813,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01979549931446124",
+            "extra": "mean: 3.8752049720000286 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.05067268805781279,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2530331963120083",
+            "extra": "mean: 19.73449679360001 sec\nrounds: 5"
           }
         ]
       }
