@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781135954726,
+  "lastUpdate": 1781227867162,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -39641,6 +39641,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.2530331963120083",
             "extra": "mean: 19.73449679360001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "51a872be9efb15fc6023999cfca0a50a3928d551",
+          "message": "Add workflow dispatch to release test\n\nThis allows us to test release tests on PRs without having to push up a\nNOCOMMIT that enables the release test to run on a PR. The PyPI upload\nis conditioned on it being a tag ref, so there's no danger here.",
+          "timestamp": "2026-06-11T21:25:04-04:00",
+          "tree_id": "5ab811f60dfe1ebe0661efc6636a92b5566a7ed8",
+          "url": "https://github.com/cocotb/cocotb/commit/51a872be9efb15fc6023999cfca0a50a3928d551"
+        },
+        "date": 1781227865784,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18945793244189893,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043382602093323286",
+            "extra": "mean: 5.278216578799993 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26955927819735265,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0237191011001953",
+            "extra": "mean: 3.70975915460001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.0495676422773032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4017275054847029",
+            "extra": "mean: 20.174451599000008 sec\nrounds: 5"
           }
         ]
       }
