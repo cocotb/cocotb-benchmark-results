@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781699580284,
+  "lastUpdate": 1781704288449,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40416,6 +40416,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.09045673068018208",
             "extra": "mean: 2.4430600415999835 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tymoteusz.blazejczyk@tymonx.com",
+            "name": "Tymoteusz Blazejczyk",
+            "username": "tymonx"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "440b32cfdb900358c86579ddd8bbce67174a857a",
+          "message": "perf(xunit): improve performance of the XUnitReporter.add_testcase method, part 2",
+          "timestamp": "2026-06-17T09:42:11-04:00",
+          "tree_id": "b301e77fb3b67603b03d2cb8360fcd8394a68f44",
+          "url": "https://github.com/cocotb/cocotb/commit/440b32cfdb900358c86579ddd8bbce67174a857a"
+        },
+        "date": 1781704286627,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.198515267572618,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012839361599559694",
+            "extra": "mean: 5.037395925400017 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2938837217014715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01848779939252185",
+            "extra": "mean: 3.4027063295999938 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.0488559129522188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010959086456252046",
+            "extra": "mean: 953.4198049999986 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.621054943199375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016238932357825271",
+            "extra": "mean: 276.1626144000047 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.13034233135636997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05279498298099643",
+            "extra": "mean: 7.67210460020001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04765726062853649,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15206242576413215",
+            "extra": "mean: 20.98316157520003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.05581798560415005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026397172462539923",
+            "extra": "mean: 17.915372422999987 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.41938401049324675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016389582622175644",
+            "extra": "mean: 2.3844495140000164 sec\nrounds: 5"
           }
         ]
       }
