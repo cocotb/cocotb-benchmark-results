@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781810001276,
+  "lastUpdate": 1781836603107,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40576,6 +40576,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024056820391056277",
             "extra": "mean: 2.2843379118000255 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b0bea76a1705f40d19114d4bb9e3744eab9f807",
+          "message": "Remove `wait()`, improve `gather()` and `select()` (#5623)\n\n`asyncio.wait()` has a quirky interface which makes it unsuitable to be used to implement `asyncio.gather()`. It also has inferior semantics, so there isn't much point in providing it in cocotb as it is. The version that cocotb adds is resultantly quite a bit different. Because our version is different and `gather` and `select` provide *all* of the functionality of `wait`, we can just remove `wait`.\n\nThis commit also improves behavior when children are cancelled by other tasks (likely by them awaiting other cancelled objects). Previously, these cancellations were ignored, but now they cause shutdown and are propagated.\n\nSome other small improvements include:\n* `return_exceptions` on `select` was missing the 's'.\n* `select` now actually returns the first finishing child rather then the first in the list marked as complete by the time the scheduler switches back to the parent task.\n* adds tests for more scenarios.\n* `return_exceptions=True` on tasks that are cancelled actually returns the `CancelledError` thrown into the task instead of a new empty instance.\n\nThis changes stuff introduced in 2.1, so no newsfrags.",
+          "timestamp": "2026-06-18T22:26:27-04:00",
+          "tree_id": "a9b6add78df364c3883246bc39fd1c785c0d8a53",
+          "url": "https://github.com/cocotb/cocotb/commit/6b0bea76a1705f40d19114d4bb9e3744eab9f807"
+        },
+        "date": 1781836601695,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17895520122804737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03265641723475372",
+            "extra": "mean: 5.587990698999988 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25692547100726615,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025672849895134894",
+            "extra": "mean: 3.892179300399994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9653174124463962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006897662494400913",
+            "extra": "mean: 1.0359286874000417 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.2390746857866906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001208455221919602",
+            "extra": "mean: 308.7301457999956 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.0960725029161847,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10545124187490558",
+            "extra": "mean: 10.4088055338 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04111844412832947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1474533917718637",
+            "extra": "mean: 24.319986351600004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.05002252108942227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07925356483225961",
+            "extra": "mean: 19.990995620000035 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3906251287231801,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02983285198440307",
+            "extra": "mean: 2.559999156400045 sec\nrounds: 5"
           }
         ]
       }
