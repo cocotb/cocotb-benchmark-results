@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781912364102,
+  "lastUpdate": 1781988560599,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40736,6 +40736,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.016651915925837955",
             "extra": "mean: 1.793630707599982 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "63abc1d01da4faf6e82cff6edc2f1ffca479568e",
+          "message": "Fix test expectation for memory leak test Questa",
+          "timestamp": "2026-06-20T16:38:49-04:00",
+          "tree_id": "89a2efe54f66e889a13103f161c94167bf2d7ee4",
+          "url": "https://github.com/cocotb/cocotb/commit/63abc1d01da4faf6e82cff6edc2f1ffca479568e"
+        },
+        "date": 1781988559222,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17832186010360662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04871659561115913",
+            "extra": "mean: 5.607837420599981 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2567755185978625,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029830846991470317",
+            "extra": "mean: 3.894452265000018 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9558081877919598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0045835992693017335",
+            "extra": "mean: 1.0462350216000231 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.203946115370199,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005593201944459666",
+            "extra": "mean: 312.1151118000171 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09521270950760413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14098555591848827",
+            "extra": "mean: 10.502799522999975 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04000016110240887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3355438607929021",
+            "extra": "mean: 24.999899311399986 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04949890334635152,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18208310954366874",
+            "extra": "mean: 20.202467779999985 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.39728062682238613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043814201695040494",
+            "extra": "mean: 2.517112419999967 sec\nrounds: 5"
           }
         ]
       }
