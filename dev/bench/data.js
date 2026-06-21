@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781988560599,
+  "lastUpdate": 1782034443996,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40816,6 +40816,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.043814201695040494",
             "extra": "mean: 2.517112419999967 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "dfe884052596392a86b5601c535a69a27b7e286e",
+          "message": "In concurrent waiters wait until all children have finished before returning\n\nThis is new behavior over First/Combine. This ensures that all\npossibly-stateful child clean-up code has run before returning.",
+          "timestamp": "2026-06-21T05:23:26-04:00",
+          "tree_id": "d56a3baceeb6898f615bb843b9b977233093e735",
+          "url": "https://github.com/cocotb/cocotb/commit/dfe884052596392a86b5601c535a69a27b7e286e"
+        },
+        "date": 1782034442250,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17833717038013092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03409581574224816",
+            "extra": "mean: 5.607355986800007 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25474238195255566,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027185791348770205",
+            "extra": "mean: 3.925534464799989 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9516243437795058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010715125781298181",
+            "extra": "mean: 1.0508348242000238 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.09325471180614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025754443665273836",
+            "extra": "mean: 323.2840787999976 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09396222216531112,
+            "unit": "iter/sec",
+            "range": "stddev: 0.17346691355456842",
+            "extra": "mean: 10.642575036599965 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04148400876610906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07080300175593231",
+            "extra": "mean: 24.105674204199953 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.05035733342731314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1691489324713401",
+            "extra": "mean: 19.858080878000056 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3955709563691839,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032860130742193516",
+            "extra": "mean: 2.5279914611999628 sec\nrounds: 5"
           }
         ]
       }
