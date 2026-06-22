@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782034443996,
+  "lastUpdate": 1782144715755,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40896,6 +40896,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.032860130742193516",
             "extra": "mean: 2.5279914611999628 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "57d1074e92c71844f24d7ccec5981ed18af33673",
+          "message": "Bump ruff from 0.15.16 to 0.15.17 in the updates group\n\nBumps the updates group with 1 update: [ruff](https://github.com/astral-sh/ruff).\n\n\nUpdates `ruff` from 0.15.16 to 0.15.17\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.15.16...0.15.17)\n\n---\nupdated-dependencies:\n- dependency-name: ruff\n  dependency-version: 0.15.17\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-06-22T12:01:18-04:00",
+          "tree_id": "c03784807bfafd08a2273045e5958ab7ccf672be",
+          "url": "https://github.com/cocotb/cocotb/commit/57d1074e92c71844f24d7ccec5981ed18af33673"
+        },
+        "date": 1782144713948,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18985617114607733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021425634628225124",
+            "extra": "mean: 5.267145091799989 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.26818662041677777,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030209735876139444",
+            "extra": "mean: 3.7287467899999682 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9485708254169858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004626799706388986",
+            "extra": "mean: 1.0542175377999912 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.188838438920976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004733614987409726",
+            "extra": "mean: 313.59381139998277 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.10690343024457939,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10354989684872054",
+            "extra": "mean: 9.354236788400021 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03725847132243925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12933880556003996",
+            "extra": "mean: 26.839533789400026 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04633343951824974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.16267235925050827",
+            "extra": "mean: 21.582684350599994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.43034510562547434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020022491762781907",
+            "extra": "mean: 2.3237164473999883 sec\nrounds: 5"
           }
         ]
       }
