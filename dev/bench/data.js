@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782145355445,
+  "lastUpdate": 1782168931436,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -41056,6 +41056,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029563727478688823",
             "extra": "mean: 2.5065082187999908 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "de45dc818ea53583e7c363ffdb7916f219f19802",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.15.17 → v0.15.18](https://github.com/astral-sh/ruff-pre-commit/compare/v0.15.17...v0.15.18)\n- [github.com/astral-sh/uv-pre-commit: 0.11.21 → 0.11.23](https://github.com/astral-sh/uv-pre-commit/compare/0.11.21...0.11.23)",
+          "timestamp": "2026-06-22T18:44:36-04:00",
+          "tree_id": "c1cd9652888735699f664932135543b955dc6c73",
+          "url": "https://github.com/cocotb/cocotb/commit/de45dc818ea53583e7c363ffdb7916f219f19802"
+        },
+        "date": 1782168929942,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18811931620262662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.059980514104210375",
+            "extra": "mean: 5.315775222799994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.267539896713463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03356927307543564",
+            "extra": "mean: 3.7377602828000134 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9174709592187815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026777008788270877",
+            "extra": "mean: 1.0899527554000088 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.090536901483443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034627230352659755",
+            "extra": "mean: 323.5683740000013 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09881834419914573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07804565019845931",
+            "extra": "mean: 10.119578587400019 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.035152923209737105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.45116748534536466",
+            "extra": "mean: 28.44713635999999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.0449636597611932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1977064243360521",
+            "extra": "mean: 22.240182523199998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4105282711892191,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04286742842069099",
+            "extra": "mean: 2.4358858333999707 sec\nrounds: 5"
           }
         ]
       }
