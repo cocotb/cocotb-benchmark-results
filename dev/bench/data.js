@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782144715755,
+  "lastUpdate": 1782145355445,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -40976,6 +40976,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020022491762781907",
             "extra": "mean: 2.3237164473999883 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "1e3d5eb87f010a561924ad4c9d882c19603ae22d",
+          "message": "Bump ghcr.io/devcontainers/features/docker-in-docker from 3.0.1 to 3.1.0\n\nBumps ghcr.io/devcontainers/features/docker-in-docker from 3.0.1 to 3.1.0.\n\n---\nupdated-dependencies:\n- dependency-name: ghcr.io/devcontainers/features/docker-in-docker\n  dependency-version: 3.1.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-06-22T12:04:35-04:00",
+          "tree_id": "1fd9ddbf14d0374a4b57086423b770f6d9728a73",
+          "url": "https://github.com/cocotb/cocotb/commit/1e3d5eb87f010a561924ad4c9d882c19603ae22d"
+        },
+        "date": 1782145353657,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.179762923402507,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03750625402574708",
+            "extra": "mean: 5.562882384599971 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.256840134735682,
+            "unit": "iter/sec",
+            "range": "stddev: 0.054737270314661496",
+            "extra": "mean: 3.8934724942 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9668009489311471,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009406507664915366",
+            "extra": "mean: 1.0343390757999942 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.2193687671238136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002061852424395148",
+            "extra": "mean: 310.6198985999981 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09320372478863936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.21724552721443124",
+            "extra": "mean: 10.7291849362 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04026660741721862,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0633511813287784",
+            "extra": "mean: 24.834473628200044 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04987022700010928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15412692481012627",
+            "extra": "mean: 20.052044278800032 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.39896138879558807,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029563727478688823",
+            "extra": "mean: 2.5065082187999908 sec\nrounds: 5"
           }
         ]
       }
