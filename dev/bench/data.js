@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782168931436,
+  "lastUpdate": 1782277730376,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -41136,6 +41136,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04286742842069099",
             "extra": "mean: 2.4358858333999707 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "869c45921d7595668acafe44922e3bb5257d649d",
+          "message": "Ensure the scheduling waiters in gather/select takes priority\n\nThis avoids a race between already scheduled Tasks and gather/selects\nwaiter Tasks. Also includes a test for that case.",
+          "timestamp": "2026-06-23T23:00:05-06:00",
+          "tree_id": "544dc30030ea0528a2b5286ecf986e666ac2d153",
+          "url": "https://github.com/cocotb/cocotb/commit/869c45921d7595668acafe44922e3bb5257d649d"
+        },
+        "date": 1782277729089,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.2420111121717713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06135832296646873",
+            "extra": "mean: 4.132041669600005 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.3470367986291321,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014408362394772334",
+            "extra": "mean: 2.8815387991999954 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.2011192261485806,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0052367750654827155",
+            "extra": "mean: 832.5568172000089 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 4.099201452355663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0014264986406258087",
+            "extra": "mean: 243.94995259999632 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.12718700522595974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.040903464706029416",
+            "extra": "mean: 7.862438448199998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04348625817848982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03226454210239813",
+            "extra": "mean: 22.99577020159999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.055719758279346755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04927556943840107",
+            "extra": "mean: 17.946955099599972 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.5559271473292848,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007282881027204229",
+            "extra": "mean: 1.7987968474000127 sec\nrounds: 5"
           }
         ]
       }
