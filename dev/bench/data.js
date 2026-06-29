@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782710315536,
+  "lastUpdate": 1782769306135,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -41536,6 +41536,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.022971809368328554",
             "extra": "mean: 2.452408677599942 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "8866ab4184eb074757fa3f2d1c9a56023a392931",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.15.18 → v0.15.20](https://github.com/astral-sh/ruff-pre-commit/compare/v0.15.18...v0.15.20)\n- [github.com/henryiii/validate-pyproject-schema-store: 2026.06.14 → 2026.06.26](https://github.com/henryiii/validate-pyproject-schema-store/compare/2026.06.14...2026.06.26)\n- [github.com/astral-sh/uv-pre-commit: 0.11.23 → 0.11.25](https://github.com/astral-sh/uv-pre-commit/compare/0.11.23...0.11.25)",
+          "timestamp": "2026-06-29T15:32:28-06:00",
+          "tree_id": "e5c8df52a21e1822967f85b62824b419349fb303",
+          "url": "https://github.com/cocotb/cocotb/commit/8866ab4184eb074757fa3f2d1c9a56023a392931"
+        },
+        "date": 1782769304053,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1979007715005748,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011096877675313841",
+            "extra": "mean: 5.0530374006000045 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2944207107666559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011289123111708793",
+            "extra": "mean: 3.3965001898000082 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.0545378519257442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0068950150436429564",
+            "extra": "mean: 948.2826986000077 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.624645137545211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002793392387298655",
+            "extra": "mean: 275.8890765999922 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.13007883794301564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09214229559811667",
+            "extra": "mean: 7.687645552599998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04699995347647571,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1292127604749803",
+            "extra": "mean: 21.276616805599975 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.056039225478080906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.057185723641852045",
+            "extra": "mean: 17.844643487999996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4269606695885982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006927741771977383",
+            "extra": "mean: 2.3421361058000003 sec\nrounds: 5"
           }
         ]
       }
