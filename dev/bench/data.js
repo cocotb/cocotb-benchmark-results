@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782930943547,
+  "lastUpdate": 1782996533052,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -41696,6 +41696,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03296628133202821",
             "extra": "mean: 2.442448678999972 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "332b310c2c8f4192cef1ade217a933f0ede3c639",
+          "message": "Support any Awaitable in cocotb.start_soon\n\nPassing an Awaitable that isn't a Coroutine to Task automatically wraps\nthe Awaitable in a waiter coroutine.\n\nThis not only improves functionality, but reduces duplication as the\nsame \"conditionally wrap the Awaitable\" is present in both TaskManager\nand _wait().\n\nAdd overloads to functions to make it very obvious what's supported.",
+          "timestamp": "2026-07-02T06:37:50-06:00",
+          "tree_id": "67f8a71ba9df1314d51adde4c17e2741c4a049aa",
+          "url": "https://github.com/cocotb/cocotb/commit/332b310c2c8f4192cef1ade217a933f0ede3c639"
+        },
+        "date": 1782996530547,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18926922057009266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024979379266478544",
+            "extra": "mean: 5.28347925239998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.261995045515968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043645253520946364",
+            "extra": "mean: 3.816866071000004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9081568887196086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009624542623789697",
+            "extra": "mean: 1.1011313269999845 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.0973309598501864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004657797544463595",
+            "extra": "mean: 322.8586202000088 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.10415354820612996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09433376397090383",
+            "extra": "mean: 9.601209149600004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03521808175460485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.5589779969784128",
+            "extra": "mean: 28.394505043399977 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.045492888492507405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15818495722125755",
+            "extra": "mean: 21.981457610999975 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4387510937200421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02758481399938054",
+            "extra": "mean: 2.279196597600003 sec\nrounds: 5"
           }
         ]
       }
