@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783115143983,
+  "lastUpdate": 1783116865350,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -42016,6 +42016,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06848567372203687",
             "extra": "mean: 2.910999191800056 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "5c7911eab57d313a04e51649284ca0140507f733",
+          "message": "Fix GeneratorExit seen during GC\n\nIf a child of a TaskManager dies while we are still in the block, the\nparent Task is cancelled. If the parent Task squashes the\nCancelledError, the coroutine is close()d. This throws a GeneratorExit\ninto the coroutine. Before this commit this exception was held until\nafter `await NullTrigger` was run, which causes the coroutine runtime to\nemit a RuntimeError.\n\nThis was done during GC, so that's why we were seeing it only during\nshutdown. Now we close() the coroutines immediately, so this would throw\nRuntimeError into the scheduler internals, which isn't handled\ngracefully.",
+          "timestamp": "2026-07-03T16:03:21-06:00",
+          "tree_id": "f7de2fc18bc7560a397b307c444742cc4d6ba82a",
+          "url": "https://github.com/cocotb/cocotb/commit/5c7911eab57d313a04e51649284ca0140507f733"
+        },
+        "date": 1783116863906,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1914757085699128,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006461138232171055",
+            "extra": "mean: 5.222594591599977 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2687209585813147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01877834179833756",
+            "extra": "mean: 3.7213323637999793 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9514092333693891,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007465318894336336",
+            "extra": "mean: 1.0510724143999823 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.1969850906273685,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0014862699820008055",
+            "extra": "mean: 312.7947023999923 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.10071256407330238,
+            "unit": "iter/sec",
+            "range": "stddev: 0.17758383577316228",
+            "extra": "mean: 9.929247747799991 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03573694003574728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3309349978712955",
+            "extra": "mean: 27.982250270999998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.044817424539208964,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2704596821884067",
+            "extra": "mean: 22.312750236799978 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.430130191986305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03028022207825131",
+            "extra": "mean: 2.3248774873999993 sec\nrounds: 5"
           }
         ]
       }
