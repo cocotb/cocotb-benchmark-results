@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783357183850,
+  "lastUpdate": 1783383624279,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -42416,6 +42416,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02311860778258633",
             "extra": "mean: 2.3727671858000123 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "cf833ee4048b06b18cb78bdc52e64b3046584913",
+          "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/henryiii/validate-pyproject-schema-store: 2026.06.26 → 2026.07.06](https://github.com/henryiii/validate-pyproject-schema-store/compare/2026.06.26...2026.07.06)\n- [github.com/astral-sh/uv-pre-commit: 0.11.25 → 0.11.26](https://github.com/astral-sh/uv-pre-commit/compare/0.11.25...0.11.26)",
+          "timestamp": "2026-07-06T18:09:49-06:00",
+          "tree_id": "be3ecca846a94c1b0fb9da07016ab890fa81d2de",
+          "url": "https://github.com/cocotb/cocotb/commit/cf833ee4048b06b18cb78bdc52e64b3046584913"
+        },
+        "date": 1783383622414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17775699248989915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03342717318283482",
+            "extra": "mean: 5.625657736400012 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2569100688096345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013974180325213484",
+            "extra": "mean: 3.892412643199987 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9741824150068361,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006740458197184988",
+            "extra": "mean: 1.0265017974000101 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.2245249421873337,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003105644572851959",
+            "extra": "mean: 310.12320199999976 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09648631530354315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11072232208230541",
+            "extra": "mean: 10.364164045999985 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04036283609528011,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18087244574627248",
+            "extra": "mean: 24.775265980800008 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04962116254288549,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09831823819265262",
+            "extra": "mean: 20.15269189099997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.41171492111549685,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015952122755360815",
+            "extra": "mean: 2.4288650926000175 sec\nrounds: 5"
           }
         ]
       }
