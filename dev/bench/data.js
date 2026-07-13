@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783956659241,
+  "lastUpdate": 1783960822952,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -42816,6 +42816,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05473268715983132",
             "extra": "mean: 2.685052560999998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "a4900081f2e89ad23c6db3070ce31da6b15cba48",
+          "message": "Bump the updates group with 2 updates\n\nBumps the updates group with 2 updates: [prek](https://github.com/j178/prek) and [sphinx-argparse](https://github.com/sphinx-doc/sphinx-argparse).\n\n\nUpdates `prek` from 0.4.5 to 0.4.8\n- [Release notes](https://github.com/j178/prek/releases)\n- [Changelog](https://github.com/j178/prek/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/j178/prek/compare/v0.4.5...v0.4.8)\n\nUpdates `sphinx-argparse` from 0.5.2 to 0.6.0\n- [Release notes](https://github.com/sphinx-doc/sphinx-argparse/releases)\n- [Changelog](https://github.com/sphinx-doc/sphinx-argparse/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/sphinx-doc/sphinx-argparse/compare/v0.5.2...v0.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: prek\n  dependency-version: 0.4.8\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: updates\n- dependency-name: sphinx-argparse\n  dependency-version: 0.6.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: updates\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-07-13T10:29:07-06:00",
+          "tree_id": "e1b0e5e3d630a2c726f054827934b580a064611e",
+          "url": "https://github.com/cocotb/cocotb/commit/a4900081f2e89ad23c6db3070ce31da6b15cba48"
+        },
+        "date": 1783960821463,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18976709494390326,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02802611766559114",
+            "extra": "mean: 5.269617476599978 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2699101015596225,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029932441523914124",
+            "extra": "mean: 3.7049372891999837 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9374288444635318,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0054300554633563425",
+            "extra": "mean: 1.0667476320000333 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.181624666729106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00128122124406168",
+            "extra": "mean: 314.3048299999691 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.10016549333393047,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13921297802624574",
+            "extra": "mean: 9.983478009400027 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.034112350770033835,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4439763724041246",
+            "extra": "mean: 29.314895556199986 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04448759971410007,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04625108869505061",
+            "extra": "mean: 22.478173837799932 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4343911821632162,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008092916361165669",
+            "extra": "mean: 2.302072512199993 sec\nrounds: 5"
           }
         ]
       }
