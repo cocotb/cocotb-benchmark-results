@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784301608037,
+  "lastUpdate": 1784305524213,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -43136,6 +43136,85 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030167818968119108",
             "extra": "mean: 2.513412482799981 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sumanth@hudson-trading.com",
+            "name": "Sumanth Kadiyala"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "709a75c99f74fa2fef948cd6325e63a854bf97ec",
+          "message": "Resolved Verilator hanging when st:fatal is triggered in waves enabled simulations",
+          "timestamp": "2026-07-17T10:13:58-06:00",
+          "tree_id": "ecf7593d90eb9337d7ffde2bded9d42834c5cbc3",
+          "url": "https://github.com/cocotb/cocotb/commit/709a75c99f74fa2fef948cd6325e63a854bf97ec"
+        },
+        "date": 1784305522716,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.18930249190622758,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032223552335194534",
+            "extra": "mean: 5.2825506411999985 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2690746683830512,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017870054084072724",
+            "extra": "mean: 3.7164405181999998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9238996792794327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007906501060868846",
+            "extra": "mean: 1.0823685974000115 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.0956413227157493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003798419560143891",
+            "extra": "mean: 323.0348402000004 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09737499722725182,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1131206971136294",
+            "extra": "mean: 10.269576672400001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03412436836214743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15559268820801345",
+            "extra": "mean: 29.304571718000012 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04383017369163711,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09268676139945083",
+            "extra": "mean: 22.815332812400015 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.35755733139523915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04368710470145359",
+            "extra": "mean: 2.796754288599982 sec\nrounds: 5"
           }
         ]
       }
