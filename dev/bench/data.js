@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784561306253,
+  "lastUpdate": 1784597191192,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -43375,6 +43375,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07844982101255174",
             "extra": "mean: 2.420491622799909 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bhrugu.setlur@gmail.com",
+            "name": "bhrugusetlur-art",
+            "username": "bhrugusetlur-art"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "13695c920bc80c84f26474ba565a2b06fb3d39a2",
+          "message": "Add xfail regression test for single-element vector discovery\n\nA single-element vector (e.g. `logic [0:0]`) should be discovered as a\nLogicArrayObject, but Icarus reports vpiVector=0 for these, so cocotb\nrepresents them as scalar LogicObjects. Add a test pinning the expected\nbehavior, marked xfail for Icarus until the upstream issue is resolved.\n\nRefs cocotb/cocotb#5686, steveicarus/iverilog#1441",
+          "timestamp": "2026-07-20T19:15:46-06:00",
+          "tree_id": "e69509bfb8e623ebe7014ad04db1df225dd8ffbe",
+          "url": "https://github.com/cocotb/cocotb/commit/13695c920bc80c84f26474ba565a2b06fb3d39a2"
+        },
+        "date": 1784597188997,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17867824986348893,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022293380267750636",
+            "extra": "mean: 5.596652086999984 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25501638106114044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022439467475697927",
+            "extra": "mean: 3.92131672419996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9338834534443676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010354466145788895",
+            "extra": "mean: 1.0707974280000143 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.094197114944716,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002880003837549145",
+            "extra": "mean: 323.1856158000028 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.08876100791610236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13162627409641534",
+            "extra": "mean: 11.266208253800006 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.039009809066281896,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3224757625973969",
+            "extra": "mean: 25.634578172399962 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04762228684119053,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2945732600652481",
+            "extra": "mean: 20.998571600199966 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3633274483972973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10504345142748432",
+            "extra": "mean: 2.7523381578000228 sec\nrounds: 5"
           }
         ]
       }
