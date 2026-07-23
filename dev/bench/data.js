@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784663344128,
+  "lastUpdate": 1784828854821,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -43535,6 +43535,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01994845538000069",
             "extra": "mean: 2.3856068626000253 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "87562264+aishasalim@users.noreply.github.com",
+            "name": "Aisha",
+            "username": "aishasalim"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "e175588b2ad8bd1b0625fada494d7678f0389be4",
+          "message": "docs: Add how-to guide on separating cocotb and simulator logs\n\ncocotb's log output and the simulator's own output share standard output,\nbecause cocotb logs through the Python logging module onto the root logger's\nstdout handler while the simulator writes to stdout directly. The latter never\npasses through the logging machinery, so redirecting only the cocotb side\nrequires attaching a handler to cocotb's own loggers and disabling\npropagation.\n\nDocuments that recipe, including the four top-level logger names cocotb uses\n(cocotb, gpi, pygpi, and test), why propagate must be set to False, and the\nfact that start-up messages emitted before the test module is imported still\nreach standard output.\n\nFollow-on documentation action from #23.\n\nFixes #2835",
+          "timestamp": "2026-07-23T11:35:37-06:00",
+          "tree_id": "9e04b4a53727093f691c058367e230b442a5f27a",
+          "url": "https://github.com/cocotb/cocotb/commit/e175588b2ad8bd1b0625fada494d7678f0389be4"
+        },
+        "date": 1784828852896,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17724541440405306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013791208785604732",
+            "extra": "mean: 5.641894902399986 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.254389857668002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039740830339859666",
+            "extra": "mean: 3.9309743287999934 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9321727745748704,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003965657652929154",
+            "extra": "mean: 1.0727625042 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.0917599859796905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0058470030474522",
+            "extra": "mean: 323.4403720000046 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.08977064457853252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07850209475878223",
+            "extra": "mean: 11.13949893859999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03885302382823646,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18140510303002644",
+            "extra": "mean: 25.738022461799982 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.047478917525226344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.19037689651870113",
+            "extra": "mean: 21.06197976119997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3595257682544305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037846400603362244",
+            "extra": "mean: 2.7814418000000387 sec\nrounds: 5"
           }
         ]
       }
