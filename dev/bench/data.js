@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785171305765,
+  "lastUpdate": 1785181009028,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -43935,6 +43935,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04196225426680842",
             "extra": "mean: 1.6112009473999933 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcf01174b5f3da803a551d02481c9d257304ecca",
+          "message": "Bump actions/checkout from 7.0.0 to 7.0.1 (#5704)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 7.0.0 to 7.0.1.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0...3d3c42e5aac5ba805825da76410c181273ba90b1)",
+          "timestamp": "2026-07-27T13:27:03-06:00",
+          "tree_id": "9d0e00f39e95d74be27b22b15e2d6156c597865d",
+          "url": "https://github.com/cocotb/cocotb/commit/fcf01174b5f3da803a551d02481c9d257304ecca"
+        },
+        "date": 1785181007004,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.21451702896337227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01515643255760433",
+            "extra": "mean: 4.661634578999997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.32063386495575835,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012591767547873589",
+            "extra": "mean: 3.118822149799996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.0679619323636604,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006052611304209605",
+            "extra": "mean: 936.3629635999814 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.7359495281287174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018122371542737535",
+            "extra": "mean: 267.6695690000088 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.12476043975383845,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2127933102678364",
+            "extra": "mean: 8.015361295399998 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.0426564581778778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05795680612564366",
+            "extra": "mean: 23.443109032400002 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.0532049980122116,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1222009216421021",
+            "extra": "mean: 18.79522671479999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.495226612059244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02147724447617719",
+            "extra": "mean: 2.019277590600018 sec\nrounds: 5"
           }
         ]
       }
