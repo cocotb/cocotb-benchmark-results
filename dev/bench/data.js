@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785417942791,
+  "lastUpdate": 1785625722107,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -44254,6 +44254,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012556329232064662",
             "extra": "mean: 2.3143980330000202 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "87562264+aishasalim@users.noreply.github.com",
+            "name": "Aisha",
+            "username": "aishasalim"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "82d0eed5521349b74d6397ccbf138f15130bc9a2",
+          "message": "tests: Trim First and Combine tests to the wrapper behavior\n\nFirst and Combine are implemented in terms of select and gather, so most of\ntheir tests duplicated the select and gather tests in test_waiters.py.\n\ntest_first_combine.py now covers only what the wrappers add on top: argument\nchecking, the deprecated Task arguments, what awaiting them returns, and\nnesting.\n\nTests that exercised select and gather rather than First and Combine moved to\ntest_waiters.py, including the trigger prime/unprime checks, which are\nrewritten against select and gather. The Event repr test moved to\ntest_synchronization_primitives.py alongside the other Event tests; the\nEvent.is_set test that lived here is already covered there by\ntest_internalevent.\n\nFixes #5662",
+          "timestamp": "2026-08-01T16:58:37-06:00",
+          "tree_id": "2a332e5696270e0595b1d6fa7f21c163b1228183",
+          "url": "https://github.com/cocotb/cocotb/commit/82d0eed5521349b74d6397ccbf138f15130bc9a2"
+        },
+        "date": 1785625720510,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.21142764010721415,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02274182686469072",
+            "extra": "mean: 4.7297505638000015 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.3169204201228317,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009758754344170813",
+            "extra": "mean: 3.155366257600002 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.0256412372912915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032333273261179333",
+            "extra": "mean: 974.9997988000075 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.508761723636945,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018805664428220804",
+            "extra": "mean: 285.0008290000005 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.1115521538926923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.2965663624845872",
+            "extra": "mean: 8.964416778200007 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.041507133698063206,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06161108544173285",
+            "extra": "mean: 24.09224417360001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.05044987881009109,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0819717309861004",
+            "extra": "mean: 19.82165316520003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4639048522656723,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017043817341259503",
+            "extra": "mean: 2.155614443599984 sec\nrounds: 5"
           }
         ]
       }
