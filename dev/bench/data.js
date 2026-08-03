@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785625722107,
+  "lastUpdate": 1785730646062,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -44334,6 +44334,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017043817341259503",
             "extra": "mean: 2.155614443599984 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ziaurrehman1145@gmail.com",
+            "name": "Zia Cheema",
+            "username": "ZiaCheemaGit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48285c9cf50bed2b4edb26c1203e91fab5730477",
+          "message": "Add cocotb.tops to expose all top-level design units (#5371)\n\n* Added cocotb.tops in python and also added tests for it\n* Make VPI support multiple tops via envar DUT\n* Icarus only multiple tops",
+          "timestamp": "2026-08-02T22:07:45-06:00",
+          "tree_id": "0af7f3556af951f619321b4f3274b22a9b9fb503",
+          "url": "https://github.com/cocotb/cocotb/commit/48285c9cf50bed2b4edb26c1203e91fab5730477"
+        },
+        "date": 1785730644474,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.2191095233045809,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019615527259550753",
+            "extra": "mean: 4.563927596199983 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.32611396757042327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012262828942382335",
+            "extra": "mean: 3.0664126637999742 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 1.0656749408141022,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004333846506895382",
+            "extra": "mean: 938.3724451999115 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.7283268306784487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0014212084152925052",
+            "extra": "mean: 268.2168289999481 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.11297339544605807,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06321860914937713",
+            "extra": "mean: 8.851641539600132 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04227847162053936,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09095505456538808",
+            "extra": "mean: 23.652699865200155 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.05211109231293096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.16778945269600792",
+            "extra": "mean: 19.18977238079997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.4687162624332536,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008027993841792832",
+            "extra": "mean: 2.1334868878000632 sec\nrounds: 5"
           }
         ]
       }
