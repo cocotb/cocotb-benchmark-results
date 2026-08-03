@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785733129151,
+  "lastUpdate": 1785733774295,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -44494,6 +44494,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009050692372144007",
             "extra": "mean: 1.8224036259999594 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "20b20e30e5a22f9652bbe9a69270737d604d2844",
+          "message": "Bump actions/stale from 10.4.0 to 11.0.0\n\nBumps [actions/stale](https://github.com/actions/stale) from 10.4.0 to 11.0.0.\n- [Release notes](https://github.com/actions/stale/releases)\n- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/stale/compare/1e223db275d687790206a7acac4d1a11bd6fe629...4391f3da665fdf50b6810c1a66712fb9ba21aa93)\n\n---\nupdated-dependencies:\n- dependency-name: actions/stale\n  dependency-version: 11.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-08-02T22:49:58-06:00",
+          "tree_id": "a08941a928a16ea1a9240dcd7a31aab2fb8d5ea6",
+          "url": "https://github.com/cocotb/cocotb/commit/20b20e30e5a22f9652bbe9a69270737d604d2844"
+        },
+        "date": 1785733772509,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17798494843543072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02856565600436016",
+            "extra": "mean: 5.618452620800008 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25580803046878153,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032243776047763226",
+            "extra": "mean: 3.909181420799996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9256442722580951,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011223712593433813",
+            "extra": "mean: 1.0803286207999918 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.0737339767253595,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005360266762956841",
+            "extra": "mean: 325.33719820000897 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.091337095862749,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14985065700769712",
+            "extra": "mean: 10.948454081599948 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.0397026153976133,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14080507030393657",
+            "extra": "mean: 25.18725756440001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.049042758693262634,
+            "unit": "iter/sec",
+            "range": "stddev: 0.21126224925022327",
+            "extra": "mean: 20.39037009020003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3962592302542716,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11671652367193268",
+            "extra": "mean: 2.5236005212000236 sec\nrounds: 5"
           }
         ]
       }
