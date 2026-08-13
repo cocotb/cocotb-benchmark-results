@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786658721445,
+  "lastUpdate": 1786659955077,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -45134,6 +45134,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.025966224705590856",
             "extra": "mean: 2.6132511538000243 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30356521+Ritarka@users.noreply.github.com",
+            "name": "Ritarka Samanta",
+            "username": "Ritarka"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1bd8e3a436748ea1a0c46f4dee7305e23a5edee5",
+          "message": "Ensure children Tasks are cancelled before parents",
+          "timestamp": "2026-08-13T16:15:00-06:00",
+          "tree_id": "51a307e1c29d09a2ae5c9e13404ee5bd78f2fb96",
+          "url": "https://github.com/cocotb/cocotb/commit/1bd8e3a436748ea1a0c46f4dee7305e23a5edee5"
+        },
+        "date": 1786659953446,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1891137989701633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022706123301537564",
+            "extra": "mean: 5.287821435799993 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2675718963844698,
+            "unit": "iter/sec",
+            "range": "stddev: 0.039215956641402865",
+            "extra": "mean: 3.7373132735999888 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.8879586126156255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012318464572895425",
+            "extra": "mean: 1.126178614399987 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.066057709913053,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0017972598268687573",
+            "extra": "mean: 326.1517214000378 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.10085998892874823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1319258389725867",
+            "extra": "mean: 9.914734382000006 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.035950551637247696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15973877592229566",
+            "extra": "mean: 27.815984858600018 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04465112199975869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.23393776194783994",
+            "extra": "mean: 22.39585379299997 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3989091161010227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0747262910609777",
+            "extra": "mean: 2.506836669400036 sec\nrounds: 5"
           }
         ]
       }
