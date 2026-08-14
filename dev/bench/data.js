@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786695808999,
+  "lastUpdate": 1786712406948,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -45294,6 +45294,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014082955109901932",
             "extra": "mean: 1.95194951200001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5b06043c796d0fa222c3545968549dad1ec60f0",
+          "message": "Add --coverage-per-instance option to Verilator harness",
+          "timestamp": "2026-08-14T06:49:21-06:00",
+          "tree_id": "03f85efcb988ef3eff8d9614feca8780df3d8501",
+          "url": "https://github.com/cocotb/cocotb/commit/f5b06043c796d0fa222c3545968549dad1ec60f0"
+        },
+        "date": 1786712404843,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17888641447889458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028971561036646432",
+            "extra": "mean: 5.590139435199996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25540332534232674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08093794001122788",
+            "extra": "mean: 3.9153758027999914 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9309278854101374,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00734215022811083",
+            "extra": "mean: 1.074197062600001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.19055947246497,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008094936361981516",
+            "extra": "mean: 313.4246544000064 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09402960438704902,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1762965287108539",
+            "extra": "mean: 10.63494849860001 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04019751484208509,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10383423035725942",
+            "extra": "mean: 24.87715979279999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04877312665721331,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15161356093866685",
+            "extra": "mean: 20.50309398919999 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3884376102218966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04246686283453522",
+            "extra": "mean: 2.5744160031999628 sec\nrounds: 5"
           }
         ]
       }
