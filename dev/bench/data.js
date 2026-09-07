@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788796320911,
+  "lastUpdate": 1788797473921,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -47804,6 +47804,156 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014824022090266582",
             "extra": "mean: 2.281024901599994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "3d83d214a282ce8d1592ac551adfe2a8128228b2",
+          "message": "Bump hendrikmuhs/ccache-action from 1.2.23 to 1.2.24\n\nBumps [hendrikmuhs/ccache-action](https://github.com/hendrikmuhs/ccache-action) from 1.2.23 to 1.2.24.\n- [Release notes](https://github.com/hendrikmuhs/ccache-action/releases)\n- [Commits](https://github.com/hendrikmuhs/ccache-action/compare/d62db5f07c26379fc4b4e0916f098a92573c3b03...f09c25b45002a07be2955cbe52e8cee55643f89d)\n\n---\nupdated-dependencies:\n- dependency-name: hendrikmuhs/ccache-action\n  dependency-version: 1.2.24\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-09-07T09:33:59-06:00",
+          "tree_id": "eb8e3102f1586d9c18d24fde15de1d2a6b32c23c",
+          "url": "https://github.com/cocotb/cocotb/commit/3d83d214a282ce8d1592ac551adfe2a8128228b2"
+        },
+        "date": 1788797472131,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17791339428525077,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02562105837638512",
+            "extra": "mean: 5.620712279799955 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.25441635167646376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02679273398279066",
+            "extra": "mean: 3.930564971199965 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_flat_2d",
+            "value": 1.785315885460962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0028608979986227525",
+            "extra": "mean: 560.1249661999191 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_read_flat_2d",
+            "value": 1.5989375374732482,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008121169345893929",
+            "extra": "mean: 625.4153002000749 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_indexed_2d",
+            "value": 3.121350875511744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025034997095506554",
+            "extra": "mean: 320.3741071999957 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_read_indexed_3d",
+            "value": 1.2298391681147756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006244605229181118",
+            "extra": "mean: 813.1144510000468 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_element_2d",
+            "value": 1.2580574775815798,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005240602516633194",
+            "extra": "mean: 794.8762419999639 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_3d",
+            "value": 0.08893759248852305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03651530636153784",
+            "extra": "mean: 11.243839326199941 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_bit_3d",
+            "value": 0.7674153610630268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006534906740703147",
+            "extra": "mean: 1.3030752975999804 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_middle_3d",
+            "value": 0.7599819046180841,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015650635481977336",
+            "extra": "mean: 1.3158208029999514 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_2d",
+            "value": 0.7859041108825304,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0033070806975819224",
+            "extra": "mean: 1.272419861599974 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_3d",
+            "value": 0.3058719741840307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02054457138590929",
+            "extra": "mean: 3.2693416997999973 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.9239654497038127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008226148253465416",
+            "extra": "mean: 1.082291551400067 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.077674050224747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0022919726354184624",
+            "extra": "mean: 324.9206978000075 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09296357193646607,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09343683729266536",
+            "extra": "mean: 10.756901646199958 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04030274852781986,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11022115112271903",
+            "extra": "mean: 24.81220354759994 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.048364260451593255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3107062053966269",
+            "extra": "mean: 20.676424919199963 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3883295803314168,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07004183643111173",
+            "extra": "mean: 2.5751321832000484 sec\nrounds: 5"
           }
         ]
       }
