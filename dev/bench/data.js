@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791381353331,
+  "lastUpdate": 1791472792598,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -52604,6 +52604,156 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026036760915494984",
             "extra": "mean: 2.229745499199953 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f622ed090a46b919548e744725a7d1f23ea93ffe",
+          "message": "Split out a bootstrapping library\n\nThe primary goal of this change is to move us away from loading into a GPI Impl, then into libgpi. This means we can remove the runtime dependency GPI Impl -> libgpi.\n\nAfter this change, we no longer load from the simulator into a GPI Impl library, but instead load into a bootstrapping library. This bootstrapping library has an environment variable, similar to `GPI_USERS`, called `COCOTB_BOOTSTRAP` used to be to load libraries at runtime. Unlike `GPI_USERS`, it loads libgpi rather than assume it's already loaded due to starting up in a GPI Impl. `GPI_EXTRA` has been replaced with `GPI_IMPL` because that variable now takes *all* GPI Impl, instead of there being an implicitly loaded one due to starting up in a GPI Impl.\n\nWe still need a centralized bootstrapper similar to `GPI_USERS` because:\n1. We need to preload `libpython` before entering the PyGPI and later than simulator startup (due to Python scripts running before the simulator starts and simulators monkeying with LD_LIBRARY_PATH and LD_PRELOAD).\n2. Downstream users of the GPI that need to load in the simulator need to be loaded somehow and\n   a. We can't assume that simulators support loading more than 1 VPI extension library.\n   b. We don't want to force users to make their GPI user libraries look like VPI extensions to be able to be loaded.",
+          "timestamp": "2026-10-08T09:06:28-06:00",
+          "tree_id": "ac98099b95861d2b74220ef9bed8913f3f48b35f",
+          "url": "https://github.com/cocotb/cocotb/commit/f622ed090a46b919548e744725a7d1f23ea93ffe"
+        },
+        "date": 1791472792270,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.17751800137447074,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026526650995599768",
+            "extra": "mean: 5.633231516 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2551616501969416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02472117560990167",
+            "extra": "mean: 3.9190842324000075 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_flat_2d",
+            "value": 1.764411229414073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003923736828932896",
+            "extra": "mean: 566.761298799986 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_read_flat_2d",
+            "value": 1.6319332979093948,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009074884845871298",
+            "extra": "mean: 612.7701427999909 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_indexed_2d",
+            "value": 3.040607385212054,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0028915495872846855",
+            "extra": "mean: 328.88165860001664 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_read_indexed_3d",
+            "value": 1.235710508736869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04524453930989433",
+            "extra": "mean: 809.2510284000014 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_element_2d",
+            "value": 1.2404593578987186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004128619627791705",
+            "extra": "mean: 806.1529736000011 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_3d",
+            "value": 0.08968752597980274,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010295225114922826",
+            "extra": "mean: 11.149822554199966 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_bit_3d",
+            "value": 0.7540504379913263,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005302143537738294",
+            "extra": "mean: 1.3261712341999896 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_middle_3d",
+            "value": 0.7542717562032559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01520845743621759",
+            "extra": "mean: 1.3257821094000064 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_2d",
+            "value": 0.7731515364067252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007379045461451651",
+            "extra": "mean: 1.2934075054000005 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_3d",
+            "value": 0.4300762587653822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009278294461899782",
+            "extra": "mean: 2.3251690360000223 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.902393629712009,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011270097304701776",
+            "extra": "mean: 1.1081638511999927 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 3.0046352291345815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003290920316284106",
+            "extra": "mean: 332.81910240000343 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.08844965751456675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11342442368941683",
+            "extra": "mean: 11.305866275799996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.03860066796166273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09538675605961094",
+            "extra": "mean: 25.906287450599983 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04734735521725981,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09867666563711966",
+            "extra": "mean: 21.120503889 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.37017466149466915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0404341276101796",
+            "extra": "mean: 2.701427472 sec\nrounds: 5"
           }
         ]
       }
