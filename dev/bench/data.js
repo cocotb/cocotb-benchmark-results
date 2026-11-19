@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795063021274,
+  "lastUpdate": 1795068916072,
   "repoUrl": "https://github.com/cocotb/cocotb",
   "entries": {
     "Benchmark": [
@@ -63254,6 +63254,156 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06527814916217695",
             "extra": "mean: 2.5611241736000236 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ktbarrett@hudson-trading.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "committer": {
+            "email": "dev.ktbarrett@gmail.com",
+            "name": "Kaleb Barrett",
+            "username": "ktbarrett"
+          },
+          "distinct": true,
+          "id": "c1faa6f710c8b389a659fd5d712422ea0739136a",
+          "message": "Split `PackedObject` into `PackedArrayObject`, `PackedStructObject`, and `PackedUnionObject`\n\n`PackedObject` becomes the abstract base class of three concrete handle\ntypes so Python sees the real kind of a packed Verilog object on\nsimulators that report packed structs and unions distinctly from\nvectors. Left so `isinstance(handle, PackedObject)` keeps working.\n\nSimulators that flatten packed structs and unions into plain vectors\n(e.g. Icarus and Verilator) keep presenting them as `PackedArrayObject`.\n\n`PackedStructObject` and `PackedEnumObject` have some backwards\ncompatibility shims which throw for `__len__` and `range`. On simulators\nthat could differentiate packed objects, getting the range via VPI often\nfailed.\n\nFor the VPI: `m_indexable` is now set manually with logic after\ndifferentiating whether the object is a scalar logic, packed or unpacked\nvector, or packed or unpacked  struct or union. It used to use\n`vpiVector` property, but this is true for all apcked objects, even\nnon-indexable objects like structs or unions. It basically means \"is it\nmulti-bit?\"\n\nLike prior commits, we determine if a packed object is a struct/union or\narray by either 1. looking at the type for vpiStruct or vpiUnion, and\nthen 2. trying to get the range. If getting a range fails we assume it's\na struct or union, even if the vpiType didn't tell us so.",
+          "timestamp": "2026-11-18T23:02:24-07:00",
+          "tree_id": "751fd60992186cf9dc787d2a9aadfd5c7bb71a31",
+          "url": "https://github.com/cocotb/cocotb/commit/c1faa6f710c8b389a659fd5d712422ea0739136a"
+        },
+        "date": 1795068915621,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_icarus",
+            "value": 0.1776366713725894,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07361985191831502",
+            "extra": "mean: 5.629468241399996 sec\nrounds: 5"
+          },
+          {
+            "name": "test_matrix_multiplier.py::test_matrix_multiplier_nvc",
+            "value": 0.2557060598863196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024219029851875143",
+            "extra": "mean: 3.9107403259999955 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_flat_2d",
+            "value": 1.7580144611133166,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00218739037970463",
+            "extra": "mean: 568.8235348000035 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_read_flat_2d",
+            "value": 1.626716424304305,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006910085216809243",
+            "extra": "mean: 614.7352943999863 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_indexed_2d",
+            "value": 3.1109694325855144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003927746997246781",
+            "extra": "mean: 321.44320980000884 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_write_read_indexed_3d",
+            "value": 1.3758884627762413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00902935052520462",
+            "extra": "mean: 726.8030999999951 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_element_2d",
+            "value": 1.4216702524408062,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011249052745093168",
+            "extra": "mean: 703.3979914000042 msec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_3d",
+            "value": 0.09046393178779905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017814228553680856",
+            "extra": "mean: 11.054129311400004 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_bit_3d",
+            "value": 0.8377790730519928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.11243314948536148",
+            "extra": "mean: 1.1936321067999984 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_value_change_middle_3d",
+            "value": 0.8578185682798608,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08612415784806884",
+            "extra": "mean: 1.1657476731999963 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_2d",
+            "value": 0.9017383239981169,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018070992063990519",
+            "extra": "mean: 1.1089691692000088 sec\nrounds: 5"
+          },
+          {
+            "name": "test_packed_array/test_packed_array.py::test_packed_array_edge_storm_3d",
+            "value": 0.5037806696933589,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1737923213567059",
+            "extra": "mean: 1.984990810800025 sec\nrounds: 5"
+          },
+          {
+            "name": "test_parameterize_perf/test_parameterize_perf.py::test_parameterize_perf_icarus",
+            "value": 0.8951536220699409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008838256860883565",
+            "extra": "mean: 1.117126686799986 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_typical",
+            "value": 2.9845009897393884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0017227778499685476",
+            "extra": "mean: 335.06438879999223 msec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_churn_random",
+            "value": 0.09047130200422691,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06288343343829479",
+            "extra": "mean: 11.0532287902 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_resident_bulk",
+            "value": 0.04261483072186992,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08638874347486136",
+            "extra": "mean: 23.4660089706 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_completion_storm",
+            "value": 0.04856993209418592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07868721588501616",
+            "extra": "mean: 20.58886963360003 sec\nrounds: 5"
+          },
+          {
+            "name": "test_task_churn_perf/test_task_churn_perf.py::test_task_churn_fanout",
+            "value": 0.3953419093498545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036184879930034636",
+            "extra": "mean: 2.529456089399969 sec\nrounds: 5"
           }
         ]
       }
